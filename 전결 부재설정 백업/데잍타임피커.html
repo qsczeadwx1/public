@@ -1,0 +1,77 @@
+<link rel="stylesheet" href="js/jquery.datetimepicker.min.css" />
+<script src="js/jquery.datetimepicker.full.min.js"></script>
+<script>
+function  on_submit_func()
+{
+	var frm = document.list_form;
+
+	if (frm.absent_type[0].checked == false && frm.absent_type[1].checked == false)
+	{
+		alert("<?=mecho('부재중 결재방식','select')?>");
+		return;
+	}
+	if (frm.absent_type[0].checked == true && !frm.select_absent_acc_no.value)
+	{
+		alert("<?=mecho('대결자','input')?>");
+		return;
+	}
+	frm.submit();
+
+}
+</script>
+
+<div class="tbw-wrap mt20">
+
+	<table class="tbw">
+		<caption></caption>	
+		<tbody>
+			<tr>
+				<th><?=mecho("부재설정기간")?></td>
+				<td>
+					<input class="datetimepicker" id="srt_dt" name="srt_dt" type="text" value="<?=$DATA['srt_dt']?>"style="" autocomplete="off" readonly />&nbsp;~&nbsp;
+					<input class="datetimepicker" id="end_dt" name="end_dt" type="text" value="<?=$DATA['end_dt']?>" style="" autocomplete="off" readonly />
+					&nbsp;<?=$DATA['absent']?>
+				</td>
+			</tr>
+			<tr>
+				<th><?=mecho("부재중 결재방식")?></td>
+				<td><?=$DATA['absent_type']?> </td>
+			</tr>
+			<tr>
+				<th><?=mecho("대결자 지정")?></td>
+				<td><?=$this->module->oUX->showAddressBox(2,'select_absent_acc_no','absent_acc_no',$DATA['absent_acc_no'],'300');?> </td>
+			</tr>
+			<tr>
+				<th><?=mecho("설정/해제")?></td>
+				<td><?=$DATA['useyn']?> </td>
+			</tr>
+		</tbody>
+	</table>
+
+</div>
+
+<script>
+jQuery.datetimepicker.setLocale('kr');
+
+$(document).ready(function(){
+	$('#srt_dt').datetimepicker({
+		format: 'Y-m-d',
+		timepicker: false,
+	});
+
+	$('#end_dt').datetimepicker({
+		format: 'Y-m-d',
+		timepicker: false,
+		// 끝나는 날짜는 시작날짜보다 빠르게 설정 불가
+		onShow:function( ct ){
+		this.setOptions({
+			minDate:jQuery('#srt_dt').val()?jQuery('#srt_dt').val():false
+		})
+		},
+	});
+});
+
+
+
+
+</script>

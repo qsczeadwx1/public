@@ -1,0 +1,61 @@
+Oct 20 13:37:42 localhost qmail: 1697776662.624526 new msg 667573
+Oct 20 13:37:42 localhost qmail: 1697776662.624554 info msg 667573: bytes 1334 from <admin@hjncs.com> qp 19663 uid 500
+Oct 20 13:37:42 localhost qmail: 1697776662.625417 starting delivery 980: msg 667573 to remote qsczeadwx12@daum.net
+Oct 20 13:37:42 localhost qmail: 1697776662.625437 status: local 0/10 remote 1/20
+Oct 20 13:37:43 localhost qmail: 1697776663.499026 delivery 980: failure: 121.53.85.32_failed_after_I_sent_the_message./Remote_host_said:_554_5.7.1_DAS41_211.194.193.34:_Your_mail_is_blocked_automatically_by_anti-spam_system._(E04)/
+Oct 20 13:37:43 localhost qmail: 1697776663.499224 status: local 0/10 remote 0/20
+Oct 20 13:37:43 localhost qmail: 1697776663.501969 bounce msg 667573 qp 19665
+Oct 20 13:37:43 localhost qmail: 1697776663.502032 end msg 667573
+Oct 20 13:37:43 localhost qmail: 1697776663.502323 new msg 667586
+Oct 20 13:37:43 localhost qmail: 1697776663.502389 info msg 667586: bytes 1969 from <> qp 19665 uid 508
+Oct 20 13:37:43 localhost qmail: 1697776663.503346 starting delivery 981: msg 667586 to local admin@hjncs.com
+Oct 20 13:37:43 localhost qmail: 1697776663.503383 status: local 1/10 remote 0/20
+Oct 20 13:37:43 localhost qmail: 1697776663.683336 delivery 981: success: PHP_Notice:__Undefined_index:_SERVER_NAME_in_/home/anymate/gwhjncscom/config/config.custom.inc.php_on_line_94//Notice:_Undefined_index:_SERVER_NAME_in_/home/anymat
+e/gwhjncscom/config/config.custom.inc.php_on_line_94/PHP_Notice:__Undefined_property:_stdClass::$message_id_in_/home/anymate/gwhjncscom/m/mail/class/class.mailParser.inc.php_on_line_1028//Notice:_Undefined_property:_stdClass::$message_id
+_in_/home/anymate/gwhjncscom/m/mail/class/class.mailParser.inc.php_on_line_1028/[2023/10/20_13:37:43]_catched_smart_rule_100/[2023/10/20_13:37:43]_catch_or_not_?:_Y/did_1+0+1/
+Oct 20 13:37:43 localhost qmail: 1697776663.683466 status: local 0/10 remote 0/20
+Oct 20 13:37:43 localhost qmail: 1697776663.683531 end msg 667586
+Oct 20 13:37:44 localhost pop3: 1697776664.940586 tcpserver: status: 1/255
+Oct 20 13:37:44 localhost pop3: 1697776664.940887 tcpserver: pid 19671 from 223.62.148.161
+Oct 20 13:37:44 localhost pop3: 1697776664.940908 tcpserver: ok 19671 0:192.168.100.1:110 :223.62.148.161::13110
+Oct 20 13:37:45 localhost pop3: 1697776665.166055 tcpserver: end 19671 status 256
+Oct 20 13:37:45 localhost pop3: 1697776665.166095 tcpserver: status: 0/255
+Oct 20 13:37:52 localhost pop3: 1697776672.919485 tcpserver: status: 1/255
+Oct 20 13:37:52 localhost pop3: 1697776672.919741 tcpserver: pid 19674 from 192.168.50.35
+Oct 20 13:37:52 localhost pop3: 1697776672.919793 tcpserver: ok 19674 0:192.168.100.1:110 :192.168.50.35::55785
+Oct 20 13:37:53 localhost pop3: 1697776673.014303 tcpserver: end 19674 status 256
+Oct 20 13:37:53 localhost pop3: 1697776673.014324 tcpserver: status: 0/255
+Oct 20 13:37:53 localhost pop3: 1697776673.026265 tcpserver: status: 1/255
+Oct 20 13:37:53 localhost pop3: 1697776673.026428 tcpserver: pid 19676 from 192.168.50.35
+Oct 20 13:37:53 localhost pop3: 1697776673.026444 tcpserver: ok 19676 0:192.168.100.1:110 :192.168.50.35::55786
+Oct 20 13:37:53 localhost pop3: 1697776673.084995 tcpserver: end 19676 status 256
+Oct 20 13:37:53 localhost pop3: 1697776673.085016 tcpserver: status: 0/255
+Oct 20 13:37:54 localhost pop3: 1697776674.069900 tcpserver: status: 1/255
+Oct 20 13:37:54 localhost pop3: 1697776674.070182 tcpserver: pid 19678 from 46.183.220.63
+Oct 20 13:37:54 localhost pop3: 1697776674.070212 tcpserver: ok 19678 0:192.168.100.1:110 :46.183.220.63::62436
+Oct 20 13:37:54 localhost pop3: 1697776674.528481 tcpserver: end 19678 status 256
+Oct 20 13:37:54 localhost pop3: 1697776674.528532 tcpserver: status: 0/255
+Oct 20 13:37:56 localhost pop3: 1697776676.604477 tcpserver: status: 1/255
+Oct 20 13:37:56 localhost pop3: 1697776676.604764 tcpserver: pid 19681 from 46.183.220.63
+Oct 20 13:37:56 localhost pop3: 1697776676.604796 tcpserver: ok 19681 0:192.168.100.1:110 :46.183.220.63::62658
+Oct 20 13:37:57 localhost pop3: 1697776677.069335 tcpserver: end 19681 status 256
+Oct 20 13:37:57 localhost pop3: 1697776677.069374 tcpserver: status: 0/255
+Oct 20 13:38:01 localhost qmail: 1697776681.636287 new msg 667573
+Oct 20 13:38:01 localhost qmail: 1697776681.636305 info msg 667573: bytes 550 from <root@hjncs.com> qp 19730 uid 500
+Oct 20 13:38:01 localhost qmail: 1697776681.636854 starting delivery 982: msg 667573 to local anymate@hjncs.com
+Oct 20 13:38:01 localhost qmail: 1697776681.636872 status: local 1/10 remote 0/20
+Oct 20 13:38:01 localhost qmail: 1697776681.639549 delivery 982: success: did_0+0+0/
+Oct 20 13:38:01 localhost qmail: 1697776681.639594 status: local 0/10 remote 0/20
+Oct 20 13:38:01 localhost qmail: 1697776681.639616 end msg 667573
+Oct 20 13:38:01 localhost qmail: 1697776681.645822 new msg 667573
+Oct 20 13:38:01 localhost qmail: 1697776681.645837 info msg 667573: bytes 682 from <root@hjncs.com> qp 19734 uid 500
+Oct 20 13:38:01 localhost qmail: 1697776681.646256 starting delivery 983: msg 667573 to local anymate@hjncs.com
+Oct 20 13:38:01 localhost qmail: 1697776681.646270 status: local 1/10 remote 0/20
+Oct 20 13:38:01 localhost qmail: 1697776681.647631 delivery 983: success: did_0+0+0/
+Oct 20 13:38:01 localhost qmail: 1697776681.647674 status: local 0/10 remote 0/20
+Oct 20 13:38:01 localhost qmail: 1697776681.647694 end msg 667573
+Oct 20 13:38:04 localhost qmail: 1697776684.708664 new msg 667573
+Oct 20 13:38:04 localhost qmail: 1697776684.708724 info msg 667573: bytes 561 from <root@hjncs.com> qp 19739 uid 500
+Oct 20 13:38:04 localhost qmail: 1697776684.709560 starting delivery 984: msg 667573 to local anymate@hjncs.com
+Oct 20 13:38:04 localhost qmail: 1697776684.709598 status: local 1/10 remote 0/20
+Oct 20 13:38:04 localhost qmail: 1697776684.713170 delivery 984: success: did_0+0+0/

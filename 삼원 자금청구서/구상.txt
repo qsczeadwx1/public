@@ -1,0 +1,156 @@
+삼원에서
+현재
+
+SAM-5.html 자금청구서에서
+작성을 하고,
+
+SAM-3.html
+일일자금계획서에서
+왼쪽은 전일 이월잔액 나오는 부분은 erp연동부분이라 건드릴필요없고,
+
+오른쪽 금일지출내역에
+일일자금계획서에 작성한 목록이 쭉 나오고
+원화 외화 구분되서 나오면서 합계가 적용이 되는 식.
+
+이걸 수정, 삭제하는 기능을 넣고 싶음.
+
+일단 자금청구서에서 똑같은 양식으로
+수정, 삭제 양식을 만들고, 각 수정, 삭제 사유를 넣음.
+
+그렇게[ 수정, 삭제하면 업데이트 ,삭제가 이루어지고,
+일일자금계획서쪽에도 숫자가 바뀌거나, 삭제가 되거나 해야되는데,
+단 현재를 기준으로 자금청구서의 지급월일이 2일이전까지만 허용
+1일전부터는 수정/삭제 불가함.
+
+예) 자금청구서의 지급월일 2023-12-10 이라면,
+2023-12-8 일까지만 수정이 가능하고, 2023-12-9 부터는 수정할 수 없음.
+
+* 수정
+-------------------------------
+T_DCS_RELATION 에서 
+t_dcs_id 를 가져와서 type=102고, 년도따라 달라질수 있으니 이건 생각좀해보고,
+
+C_FUNDS_BILL에 있는 dcs_id로 검색해서 전부다 지우고,
+현재 dcs_id로 해서 다시 insert
+
+*삭제
+----------------------------------
+T_DCS_RELATION에서
+t_dcs_id 를 가져와서
+해당하는 C_FUNDS_BILL에 있는 dcs_id 삭제
+
+
+
+
+#0-59/2 * * * * /usr/local/gwsamwonchemcom/bg_proc/smtpRelay > /dev/null 2>&1
+0 1 * * * /root/backup.sh > /dev/null
+1 0 * * * rdate -s time.bora.net
+
+[anymate@localhost ~]$ crontab -l
+0-59/1  * * * * /usr/local/gwsamwonchemcom/bg_proc/mailLocal > /dev/null 2>&1
+#0-59/1  * * * * /usr/local/gwsamwonchemcom/bg_proc/mailSent > /dev/null 2>&1
+#0-59/1  * * * * /usr/local/gwsamwonchemcom/bg_proc/mailExpunge > /dev/null 2>&1
+0-59/10 * * * * /usr/local/gwsamwonchemcom/bg_proc/mailPop > /dev/null 2>&1
+30 5 * * * /usr/local/gwsamwonchemcom/bg_proc/aweClean > /dev/null 2>&1
+0-59/2 3-5 * * * /usr/local/gwsamwonchemcom/bg_proc/mailTrash > /dev/null 2>&1
+05 * * * * /usr/bin/find /usr/local/gwsamwonchemcom/data/com/*/mail/mailuser/*/backuptmp -type f -da                                                                            ystart -mtime +1 -print0 | /usr/bin/xargs -0 /bin/rm -f > /dev/null 2>&1
+30 * * * * /usr/bin/find /usr/local/gwsamwonchemcom/data/tmp -type f -daystart -mtime +3 -print0 | /                                                                            usr/bin/xargs -0 /bin/rm -f > /dev/null 2>&1
+1 23 * * * /usr/local/gwsamwonchemcom/bg_proc/paperExpire > /dev/null 2>&1
+* * * * * /usr/local/gwsamwonchemcom/bg_proc/anyRpc
+* * * * * cd /usr/local/gwsamwonchemcom/bin/ && ./sessionctl gw.samwonchem.com >> /tmp/auth.log
+1 0 * * * /usr/local/gwsamwonchemcom/bg_proc/expireDcs > /dev/null 2>&1
+0-59/1 * * * * /usr/local/gwsamwonchemcom/bg_proc/scheduleLocal > /dev/null 2>&1
+0-59/10 * * * * /usr/local/gwsamwonchemcom/bg_proc/scheduleReport > /dev/null 2>&1
+30 4 * * * /usr/local/gwsamwonchemcom/bg_proc/statisticLoad > /dev/null 2>&1
+1 0 * * * /usr/local/gwsamwonchemcom/bg_proc/getBirthday > /dev/null 2>&1
+0,30 * * * * /usr/local/gwsamwonchemcom/bg_proc/systemMonitor > /dev/null 2>&1
+0-59/1 * * * * /usr/local/gwsamwonchemcom/bg_proc/pushSend > /dev/null 2>&1
+0-59/2 * * * * /usr/local/gwsamwonchemcom/bg_proc/tamsSecom > /dev/null 2>&1
+
+# dcs sync template
+0-59/2 * * * * /usr/local/gwsamwonchemcom/bg_proc/dcsSyncTemplate > /dev/null 2>&1
+
+
+
+0-59/2 * * * * /usr/local/gwsamwonchemcom/bg_proc/dcsSyncTemplate > /dev/null 2>&1
+이거 개발서버에 받아서 똑같이 넣어서 크론탭 설정 해놓기
+
+그룹웨어 ssl 인증서
+적용의 경우에는
+
+
+
+* 기존 인증서들 백업폴더 생성 및 이동
+----------------------------------------
+/usr/local/apache2/conf/ssl
+[root@group ssl]# mkdir ssl20201022
+[root@group ssl]# mkdir ssl20210615
+[root@group ssl]# mkdir ssl20220616
+[root@group ssl]# mkdir ssl20230614
+
+
+* SSL 인증서 파일 업로드
+---------------------------------
+/usr/local/apache2/conf/ssl
+cert_wildcard.inje.ac.kr.crt
+prv_wildcard.inje.ac.kr.key
+rootca_wildcard.inje.ac.kr.crt
+
+
+
+- 기존 경로
+[root@group extra]# vi /usr/local/apache2/conf/extra/httpd-ssl.conf
+SSLCertificateFile "/usr/local/apache2/conf/ssl/ekp.inje.ac.kr.crt"
+SSLCertificateKeyFile "/usr/local/apache2/conf/ssl/ekp.inje.ac.kr.key"
+SSLCACertificatePath "/usr/local/apache2/conf/"
+SSLCACertificateFile "/usr/local/apache2/conf/ssl/ROOTCA.crt"
+
+
+- 경로 수정
+[root@group extra]# vi /usr/local/apache2/conf/extra/httpd-ssl.conf
+SSLCertificateFile "/usr/local/apache2/conf/ssl/cert_wildcard.inje.ac.kr.crt"
+SSLCertificateKeyFile "/usr/local/apache2/conf/ssl/prv_wildcard.inje.ac.kr.key"
+SSLCACertificateFile "/usr/local/apache2/conf/ssl/rootca_wildcard.inje.ac.kr.crt"
+
+
+* 아파치 재실행
+----------------------------------------
+/etc/init.d/httpd stop
+/etc/init.d/httpd start
+
+
+-rw-rw-r-- 1 anymate anymate 2418 12월 18 11:32 cert_wildcard.inje.ac.kr.crt
+-rw-rw-r-- 1 anymate anymate 1751 12월 18 11:32 prv_wildcard.inje.ac.kr.key
+-rw-rw-r-- 1 anymate anymate 1517 12월 18 11:32 rootca_wildcard.inje.ac.kr.crt
+
+
+-rw-rw-r-- 1 root root 1517  6월  2  2023 ROOTCA.crt
+-rw-rw-r-- 1 root root 2635  6월 13  2023 ekp.inje.ac.kr.crt
+-rw-rw-r-- 1 root root 1929  6월 13  2023 ekp.inje.ac.kr.key
+
+
+
+
+
+SSLCertificateFile "/usr/local/apache2/conf/ssl/ssl20230614/ekp.inje.ac.kr.crt"
+SSLCertificateKeyFile "/usr/local/apache2/conf/ssl/ssl20230614/ekp.inje.ac.kr.key"
+
+SSLCACertificateFile "/usr/local/apache2/conf/ssl/ssl20230614/ROOTCA.crt"
+
+
+수정 작성하면,
+작성칸따라서
+
+수정, 삭제사유는 필수 입력으로 하고,
+
+작성한 문서에서 관련문서 작성으로 와서
+작성하도록 안내문구 쓰고,
+
+
+
+$this->drafter_acc_no = $row['acc_no'];
+기안자번호
+
+
+
+강남아이텍

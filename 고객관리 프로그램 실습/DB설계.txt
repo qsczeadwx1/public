@@ -1,0 +1,45 @@
+상호(업체)
+사업자번호
+법인번호
+업태
+업종
+대표자명
+대표전화
+FAX
+휴대폰
+이메일
+홈페이지
+주소
+비고
+
+작성자
+
+cpn_code
+
+고객 추가할 때,
+업체명 추가해야되고,
+사업자 번호 추가,
+법인번호 추가,
+업태
+
+CUSTNAME
+
+https://m.blog.naver.com/iamjslee/221767797700 업태, 업종 정리
+
+C_CUSTOMER_CPN
+cpn_no int11 autoincrement
+cpn_name int11
+bus_regi_num int11
+corporate_regi_num int11
+bus_type varchar50
+bus_category varchar50
+ceo_name varchar 30
+ceo_tel_num 
+fax_num null가능
+phone_num
+email 
+homepage_url null가능
+cpn_addr 
+comment null가능
+
+

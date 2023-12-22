@@ -1,0 +1,70 @@
+세션만료 자동 로그아웃
+http://bms.anymate.co.kr/view.php?id=39384
+
+
+카운텍
+결재라인에 참조자인 사람한테도, 의견을 달았을때 다 가는거죠
+모바일로 알림이가서 
+확인을 했을 때는 그대로 남아있ㄲ는거고
+
+방화벽
+
+firewall
+
+iptables 
+
+나중에
+
+approval_type 
+A는 결재
+B는 협의
+C는 
+
+approval
+C가 결재 완료
+
+select COUNT(*) FROM T_DCS_PROCESSOR_2023 WHERE acc_no = 89 AND approval_type = 'A' AND approval = 'C' AND cpn_code = 'CA'
+select COUNT(*) FROM T_DCS_PROCESSOR_2023 WHERE acc_no = 240 AND approval_type = 'A' AND approval = 'C' AND cpn_code = 'CC'
+
+acc_no = CA는 89
+CC는 240
+
+CA는 신생
+CC는 한야
+
+603
+305
+
+
+DEF 는 모임?????
+
+대동병우너
+
+사용자들이
+
+엣지나 크롬으로 이용할때
+
+
+
+크롬, 엣지 첨부파일 다운로드가 안될 때의 조치 방법
+
+- 크롬
+
+그룹웨어 접속 > 상단 인터넷 주소창 좌측 버튼 혹은 주의요함 클릭 > 사이트설정
+> 하단 안전하지 않은 콘텐츠 허용으로 설정
+
+* 위 방법은 꼭 그룹웨어 사이트에 접속한 화면에서 사이트설정으로 들어가서 설정해 주셔야 합니다.
+
+- 엣지
+
+그룹웨어 접속 > 상단 인터넷 주소창 좌측 자물쇠 클릭 > 이 사이트에 대한 사용 권한
+> 하단 비보안 콘텐츠 허용으로 설정
+
+* 위 방법은 꼭 그룹웨어 사이트에 접속한 화면에서 사이트설정으로 들어가서 설정해 주셔야 합니다.
+
+혹은
+
+우측 상단 ... 클릭 > 설정 > 쿠키 및 사이트 권한 >
+하단 비보안 콘텐츠 클릭 > 허용란에 추가 클릭 후 그룹웨어 주소 입력
+
+dlguddnr1968@naver.com

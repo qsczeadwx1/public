@@ -1,0 +1,149 @@
+오라클 DB조회 및 다른거 테스트 해볼때 이런식으로 하면됨
+무언가 테스트 해볼때,
+안쓰는 어떠한 파일을 하나 생성을 하고,
+그 파일이름이 mode안에 들어갈거고,
+test할 함수를 하나 작성함
+event안에는 함수이름이 들어가게됨
+
+	function test2()
+	{
+		$this->db->debug=true;
+
+		//$sql ="SELECT acc_level FROM " . T_ACCOUNT . " WHERE acc_id = 'ww6376'";
+		//$sql ="update " . T_ACCOUNT . " set acc_level = '2001' WHERE acc_id = 'ww6376'";
+		//$sql ="SELECT * FROM T_DCS_TRANSFER WHERE trans_no = 89 ORDER BY trans_no desc";
+		$sql = "SELECT acc_cnt FROM TOP.T_PRODUCT";
+		
+		$this->db->que = $sql;
+		$this->db->query();
+		
+		while($row = $this->db->getRow())
+		{
+			$row['name'] = $this->iconvData($row['name']);
+			print_r($row);
+		}
+		exit;
+		
+
+	}
+    함수는 이런식으로 작성을 해서
+    데이터를 조회함
+
+그런다음에 아래와 같은 url로 쳐서 체크해보면됨
+http://gw.dbeway.co.kr/erp/?mode=test&event=test2
+
+오라클이라고 테이블명이 다르다거나 그런건 없으니,
+기존 다른 db에 이름들보면서 진행하면 됨
+
+
+김정원
+
+admin에서 기안문서를 찾는데,
+임명우 대리 문서가 다 안보인다
+
+임경태
+
+
+분 어떻게할지 생각하셈
+
+/^[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*.[a-zA-Z]{2,3}$/i;
+/^[0-9a-zA-Z*]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*.[a-zA-Z]{2,3}$/i;
+
+admin 공석으로 해가지고
+admin 
+
+정안철강 정혜란
+
+양식명은 합성의뢰서인데,
+미리보기나 문서열었을때 상단에 제일 크게 뜨는 이름은 합성 및 회수 검토의뢰서/결과보고서
+로 하고싶으신건지
+
+문서 작성했을때, 문서함에 제목으로 뜨는게 합성 및 회수 검토의뢰서/결과보고서 로 뜨도록 하고싶으신건지
+
+부분부분 빨간색으로 표시해놓으신게 있는데, 그냥 강ㅈ
+
+
+12
+dcs_tem_id=52
+dcs_tem_id=12
+
+89
+
+협조문
+19081
+18848
+
+
+18859, 18866, 18918, 18926, 18983, 19002, 19015, 19053
+
+
+
+
+서진산업
+
+전표관련해서
+
+
+
+
+
+// daterangepicker 출력 및 설정
+$(function() {
+    $('#srt_dt').daterangepicker({
+    singleDatePicker: true,		// 달력 하나만 출력
+	showDropdowns: true,		// 년, 월 선택하는 select box 출력
+    timePicker: true,			// 시간/분 선택하는 select box 출력
+    timePicker24Hour: true,		// 24시간 단위로 출력
+	isCustomDate: function() {	// 년, 월 위치 및 확인, 취소 위치 변경
+		$(".yearselect").css("float", "left");
+		$(".monthselect").css("float", "right");
+		$(".cancelBtn").css("float", "right");
+	},
+    timePickerIncrement: 10,
+    startDate: "<?=$DATA['edit']['srt_dt']?>",
+    locale: {
+      format: 'YYYY-MM-DD HH:mm',
+		"applyLabel": "확인",
+        "cancelLabel": "취소",
+        "fromLabel": "부터",
+        "toLabel": "까지",
+        "weekLabel": "주",
+        "daysOfWeek": ["월", "화", "수", "목", "금", "토", "일"],
+        "monthNames": ["1월", "2월" ,"3월", "4월", "5월", 
+			"6월", "7월", "8월", "9월", "10월", "11월", "12월"],
+		"firstDay": 1
+    },
+	isCustomDate: function() {
+		$(".yearselect").css("float", "left");
+		$(".monthselect").css("float", "right");
+		$(".cancelBtn").css("float", "right");
+	},
+	});
+
+	$('#end_dt').daterangepicker({
+    singleDatePicker: true,
+	showDropdowns: true,
+    timePicker: true,
+    timePicker24Hour: true,
+	isCustomDate: function() {
+		$(".yearselect").css("float", "left");
+		$(".monthselect").css("float", "right");
+		$(".cancelBtn").css("float", "right");
+	},
+    timePickerIncrement: 10,
+    startDate: "<?=$DATA['edit']['end_dt']?>",
+    locale: {
+      format: 'YYYY-MM-DD HH:mm',
+		"applyLabel": "확인",
+        "cancelLabel": "취소",
+        "fromLabel": "부터",
+        "toLabel": "까지",
+        "weekLabel": "주",
+        "daysOfWeek": ["월", "화", "수", "목", "금", "토", "일"],
+        "monthNames": ["1월", "2월" ,"3월", "4월", "5월", 
+			"6월", "7월", "8월", "9월", "10월", "11월", "12월"],
+		"firstDay": 1
+    },
+	
+  });
+});

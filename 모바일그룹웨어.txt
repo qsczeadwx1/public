@@ -1,0 +1,12 @@
+모바일로 로그인 두개계정
+http://bms.anymate.co.kr/view.php?id=50318
+
+--------------------------------------------------------------
+[강남제비스코] (nest) 스마트폰 접속 안되는 현상-이강식
+http://bms.anymate.co.kr/view.php?id=50345
+
+[root@nest tmp]# more top_mobile_double_check.log | more
+이거는 휴대폰 하나로 여러개 접속 시도하고 싶을떄 확인하면 좋음
+
+일단 로그인 실패시에 메세지가 중요함
+그걸로 이슈 검색하면 좋음

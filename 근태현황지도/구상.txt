@@ -1,0 +1,200 @@
+작업위치
+timebook/html/tamsMap.html
+timebook/class/class.CustomTamsMap.inc.php
+
+참고
+tams/class/class.TripMap.inc.php
+tams/class/class.TeamTimeBook.inc.php
+timebook/class/class.CustomTeamTimeBook.inc.php
+
+
+지도 url
+
+오늘 출퇴근부 받아서 출근한 사람들
+사진 + 부서 + 이름 사이드바에 나오게
+
+Path:polyline > 직출하는사람한테만 쓰고있는건데, 체크해보셈
+
+로그인된 유저 부서를 체크
+
+T_TAMS_AREA
+AR_NO = 출근지 검색할때 출근지 value값
+AR_POS_X = x좌표
+AR_POS_Y = y좌표
+AR_ADDR = 주소
+
+
+
+기본으로 페이지 처음 접속했을 때
+기본적으로 그사람이 속한 곳으로 할까?
+s_dept 가 없으면 기본으로 어케 설정하지???
+
+기본적으로 본사에 오늘 직출제외 출근한사람 띄우고,
+옆에 사이드바에 사진 + 부서 + 이름,
+
+만약에 부서선택할때, 밸류가 2글자면 앞에 두글자 포함하는 모든 사람 다가져오게 
+
+파견간사람은 젤마지막에 파견이라고 하면서 메모띄워주던가 하면될듯?
+
+
+
+
+
+
+
+
+
+
+html/_include_/maincontainer.header.html
+
+<div class="account">
+			<div class="user">
+				<?=$DIV_WELLCOM?>
+				<!--span class="profile"><img src="/imgs/common/profile_thumb.jpg" alt=""></span>
+				<span class="name"><?=$DIV_WELLCOM?></span-->
+			</div>
+
+사진가져오는 로직알아야됨
+
+
+class/class.Frame.inc.php 에
+$this->oUser->getThunailPic();
+
+사진저장장소
+"/data/com/".$this->cpn_code."/setup/pictures/".$this->id.".gif"
+
+출근한사람 acc_no받아서 아이디 받아와서 적용해야할듯?
+
+"/images/namecard/photo.gif"; 없으면 기본이미지 적용시키고
+
+if(file_exists(ANYMATE_BASE_PATH."/".$pic_path))
+		{
+			$picture = $pic_path;
+		}
+		else
+		{
+			$picture = "/images/namecard/photo.gif";
+		}
+
+dept_no
+name
+dtm_s
+
+
+------------------------------------------
+
+동원금속 박석민?
+
+그룹웨어에서 애니메이트 다운로드 받으면 
+http
+오전에 
+
+
+
+
+조직자체가
+
+따로있었는데,
+
+합쳐짐
+
+문서함이 섞이는데,
+계정을 두개만드는게 어떤가
+
+소속자체를 
+
+
+
+
+
+동양대 
+두개의 계정을
+
+엠젠솔루션
+전자우편 메일 발송할때
+
+
+
+문서함관리 > 재정지원사업단 > 대학혁신지원사업단
+지역혁신사업단
+
+특성화사업단 > 운영
+
+대학혁신지원사업단 > 밑에 특성화사업단 넣을수 있는지
+
+
+개인 일정은 
+
+부서 일정은 
+
+사내일정은 따로 안보이게 불가능하고
+
+베트남것도 구축되어있는데,
+베트남 주소가 
+
+김태환
+kimm604@엠젠
+
+김경식
+kks@MUSEMVINA
+
+저희끼리는
+
+
+
+
+
+손원달
+
+
+
+Array ( [save_time] => 10000000 [ref_view] => none [recv_view] => none [rundoc_view] => none [attach_file_view] => [sel_template] => 
+   VPN 계정 신청서
+ [dcs_lin_id] => 20 [emergency_delay] => 3시간 [emergency_alarm] => 1시간 [dcs_tem_id] => 37 [title] => VPN 계정 신청서 [content] =>
+
+
+[help_words] =>
+
+
+[drafter] => admin [acc_no] => 2 [emp_serial] => 9999 [dept_name] => 그룹웨어 [dept_no] => 01 [dept_fullname] => 그룹웨어 [ptn_name] => [phone_inter] => [docnum] => 그룹-VPN신청-2311-## [secure] => 
+일반
+ [doc_level] => 
+일반
+ [run_dt_yy] => 
+2023
+ [run_dt_mm] => 
+11
+ [run_dt_dd] => 
+28
+ [reg_dt] => 2023년 11월 28일 [keep_month] => 
+1개월
+ [head_docnum] => [foot_docnum] => [cpn_name] => 디비밸리(주) [cpn_zip] => 123700 [cpn_address] => 울산 [cpn_phone] => 052)258-3455 [cpn_fax] => 052-222-3453 [cpn_serial_no] => 000000-0-00000 [dcs_box_select] => [anyedms_cateogory] => N [anyedms_dcs_draft] => N [anyedms_use] => N [reject_dcs_id] => [reject_sel_year] => [user_template] => [template] => /usr/local/gwmkkimcom-3800/dcs/template/draw/custom/ASIA-73.html [template_header] => ) 1
+
+
+
+
+
+ Array ( [map_api_key] => 4170cbc7ad1df75d97b054083b68c7ed [srt_gps] => Array ( [0] => Array ( [ar_no] => 2 [ar_nm] => 대구사무소 [ar_pos_x] => 35.838231949571686 [ar_pos_y] => 128.48902584360332 [ar_net] => 221.164.171.189/32 [ar_active] => 1 [cpn_code] => CA [ar_type_cd] => 1 [ar_addr] => 대구광역시 달서구 성서공단로11길 32(호림동) 대구기계부품연구원 연구1동 507호 [yn_pc] => 1 [yn_mobile] => 1 [yn_beacon] => 1 [yn_gps] => 1 [gps_distance] => 30 ) [1] => Array ( [ar_no] => 3 [ar_nm] => 부산사무소 [ar_pos_x] => 35.1784175 [ar_pos_y] => 129.1251115 [ar_net] => 222.97.196.154/32 [ar_active] => 1 [cpn_code] => CA [ar_type_cd] => 1 [ar_addr] => 부산광역시 해운대구 센텀동로71(우동) 벽산e-센텀클래스원2차 1001호 [yn_pc] => 1 [yn_mobile] => 1 [yn_beacon] => 1 [yn_gps] => 1 [gps_distance] => 30 ) [2] => Array ( [ar_no] => 1 [ar_nm] => 본사 [ar_pos_x] => 35.5636808 [ar_pos_y] => 129.27973980000002 [ar_net] => 222.96.148.101/32 172.16.1.0/24 [ar_active] => 1 [cpn_code] => CA [ar_type_cd] => 1 [ar_addr] => 울산 중구 종가6길 7, 807호 [yn_pc] => 1 [yn_mobile] => 1 [yn_beacon] => 1 [yn_gps] => 0 [gps_distance] => 0 ) [3] => Array ( [ar_no] => 6 [ar_nm] => 서울사무소 [ar_pos_x] => 37.4862522 [ar_pos_y] => 126.89214560000005 [ar_net] => 218.38.151.142/32 [ar_active] => 1 [cpn_code] => CA [ar_type_cd] => 1 [ar_addr] => 경기도 광명시 새빛공원로67, B동 1607호 [yn_pc] => 1 [yn_mobile] => 1 [yn_beacon] => 1 [yn_gps] => 0 [gps_distance] => 0 ) ) 
+
+
+ [tamsList] => Array ( [0] => Array ( [name] => 이수재 [idx] => 177416 [dt_work] => 2023-11-29 [dtm_s] => 1701211215 [dtm_e] => [ip_s] => 222.97.196.154 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 3 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 135 [dept_no] => 0302 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) 
+ 
+
+ 
+ 
+ 
+ [1] => Array ( [name] => 이정훈 [idx] => 177459 [dt_work] => 2023-11-29 [dtm_s] => 1701217182 [dtm_e] => [ip_s] => 118.235.42.231 [ip_e] => [work_type_cd] => 100 [place_cd_s] => [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 105 [dept_no] => 0309 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 1 [beacon_s] => 40011-20590 [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) 
+ 
+ 
+ 
+ [2] => Array ( [name] => 김성식 [idx] => 177417 [dt_work] => 2023-11-29 [dtm_s] => 1701211582 [dtm_e] => [ip_s] => 223.39.244.2 [ip_e] => [work_type_cd] => 100 [place_cd_s] => [place_cd_e] => [loc_s] => 35.5166735:129.2431503 [loc_e] => [acc_no] => 107 [dept_no] => 0804 [cpn_code] => CA [memo1] => 히코 11:00 도착(예정) [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 1 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 1 ) [3] => Array ( [name] => 배성호 [idx] => 177408 [dt_work] => 2023-11-29 [dtm_s] => 1701205227 [dtm_e] => [ip_s] => 223.39.249.195 [ip_e] => [work_type_cd] => 100 [place_cd_s] => [place_cd_e] => [loc_s] => 35.549866:129.137736 [loc_e] => [acc_no] => 102 [dept_no] => 03 [cpn_code] => CA [memo1] => 일흥 포천 10:00 도착(예정) [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 1 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 2 ) [4] => Array ( [name] => 김차종 [idx] => 177451 [dt_work] => 2023-11-29 [dtm_s] => 1701215769 [dtm_e] => [ip_s] => 223.39.233.231 [ip_e] => [work_type_cd] => 100 [place_cd_s] => [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 100 [dept_no] => [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 1 [beacon_s] => 40011-20590 [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [5] => Array ( [name] => 강봉진 [idx] => 177406 [dt_work] => 2023-11-29 [dtm_s] => 1701203535 [dtm_e] => [ip_s] => 223.39.181.65 [ip_e] => [work_type_cd] => 100 [place_cd_s] => [place_cd_e] => [loc_s] => 36.272919:128.410508 [loc_e] => [acc_no] => 111 [dept_no] => 0308 [cpn_code] => CA [memo1] => 창성 10:00 도착(예정) [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 1 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 2 ) [6] => Array ( [name] => 김영규 [idx] => 177424 [dt_work] => 2023-11-29 [dtm_s] => 1701213778 [dtm_e] => [ip_s] => 223.38.45.170 [ip_e] => [work_type_cd] => 100 [place_cd_s] => [place_cd_e] => [loc_s] => 35.3804976:129.248368 [loc_e] => [acc_no] => 293 [dept_no] => 0806 [cpn_code] => CA [memo1] => 한주라이트메탈 09:00 도착(예정) [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 1 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 1 ) [7] => Array ( [name] => 엄주용 [idx] => 177449 [dt_work] => 2023-11-29 [dtm_s] => 1701215697 [dtm_e] => [ip_s] => 221.164.171.189 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 2 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 327 [dept_no] => 0307 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [8] => Array ( [name] => 노준민 [idx] => 177462 [dt_work] => 2023-11-29 [dtm_s] => 1701218616 [dtm_e] => [ip_s] => 221.164.171.189 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 2 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 116 [dept_no] => 0307 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 0 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [9] => Array ( [name] => 권한상 [idx] => 177425 [dt_work] => 2023-11-29 [dtm_s] => 1701212485 [dtm_e] => [ip_s] => 106.101.196.160 [ip_e] => [work_type_cd] => 100 [place_cd_s] => [place_cd_e] => [loc_s] => 35.185585:129.1016206 [loc_e] => [acc_no] => 174 [dept_no] => 0805 [cpn_code] => CA [memo1] => 울산본사 09:30 도착(예정) [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 1 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 2 ) [10] => Array ( [name] => 김진우 [idx] => 177436 [dt_work] => 2023-11-29 [dtm_s] => 1701214805 [dtm_e] => [ip_s] => 222.97.196.154 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 3 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 115 [dept_no] => 0801 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 0 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [11] => Array ( [name] => 박준형 [idx] => 177411 [dt_work] => 2023-11-29 [dtm_s] => 1701210715 [dtm_e] => [ip_s] => 183.103.158.167 [ip_e] => [work_type_cd] => 100 [place_cd_s] => [place_cd_e] => [loc_s] => 35.1667539:129.1817685 [loc_e] => [acc_no] => 147 [dept_no] => 0310 [cpn_code] => CA [memo1] => KECD 구미산단 10:00 도착(예정) [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 1 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 1 ) [12] => Array ( [name] => 문주원 [idx] => 177445 [dt_work] => 2023-11-29 [dtm_s] => 1701215496 [dtm_e] => [ip_s] => 222.96.148.101 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 1 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 342 [dept_no] => 01 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 0 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [13] => Array ( [name] => 안문모 [idx] => 177422 [dt_work] => 2023-11-29 [dtm_s] => 1701211908 [dtm_e] => [ip_s] => 223.39.211.9 [ip_e] => [work_type_cd] => 100 [place_cd_s] => [place_cd_e] => [loc_s] => 35.5689081:129.2293367 [loc_e] => [acc_no] => 175 [dept_no] => 0801 [cpn_code] => CA [memo1] => 히코 11:00 도착(예정) [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 1 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 1 ) [14] => Array ( [name] => 공나원 [idx] => 177423 [dt_work] => 2023-11-29 [dtm_s] => 1701211909 [dtm_e] => [ip_s] => 222.96.148.101 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 1 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 388 [dept_no] => 0308 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [15] => Array ( [name] => 배성빈 [idx] => 177419 [dt_work] => 2023-11-29 [dtm_s] => 1701211734 [dtm_e] => [ip_s] => 222.96.148.101 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 1 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 392 [dept_no] => 0308 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [16] => Array ( [name] => 최우정 [idx] => 177455 [dt_work] => 2023-11-29 [dtm_s] => 1701215871 [dtm_e] => [ip_s] => 211.234.180.138 [ip_e] => [work_type_cd] => 100 [place_cd_s] => [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 332 [dept_no] => 01 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 1 [beacon_s] => 40011-20590 [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [17] => Array ( [name] => 우지인 [idx] => 177456 [dt_work] => 2023-11-29 [dtm_s] => 1701215989 [dtm_e] => [ip_s] => 222.96.148.101 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 1 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 129 [dept_no] => 01 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [18] => Array ( [name] => 강성욱 [idx] => 177439 [dt_work] => 2023-11-29 [dtm_s] => 1701214980 [dtm_e] => [ip_s] => 222.96.148.101 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 1 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 396 [dept_no] => 0309 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 0 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [19] => Array ( [name] => 정재현 [idx] => 177440 [dt_work] => 2023-11-29 [dtm_s] => 1701215159 [dtm_e] => [ip_s] => 222.96.148.101 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 1 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 395 [dept_no] => 0309 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [20] => Array ( [name] => 김동윤 [idx] => 177430 [dt_work] => 2023-11-29 [dtm_s] => 1701213733 [dtm_e] => [ip_s] => 222.96.148.101 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 1 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 389 [dept_no] => 0805 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [21] => Array ( [name] => 류혜진 [idx] => 177413 [dt_work] => 2023-11-29 [dtm_s] => 1701210900 [dtm_e] => [ip_s] => 223.62.202.159 [ip_e] => [work_type_cd] => 100 [place_cd_s] => [place_cd_e] => [loc_s] => 37.240753:127.390663 [loc_e] => [acc_no] => 300 [dept_no] => 0308 [cpn_code] => CA [memo1] => 창성 인천공장 10:00 도착(예정) [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 1 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 2 ) [22] => Array ( [name] => 관리자 [idx] => 177421 [dt_work] => 2023-11-29 [dtm_s] => 1701211839 [dtm_e] => [ip_s] => 222.96.148.101 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 1 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 2 [dept_no] => 01 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [23] => Array ( [name] => 오정임 [idx] => 177435 [dt_work] => 2023-11-29 [dtm_s] => 1701214493 [dtm_e] => [ip_s] => 223.39.174.71 [ip_e] => [work_type_cd] => 100 [place_cd_s] => [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 106 [dept_no] => 0309 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 1 [beacon_s] => 40011-20590 [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [24] => Array ( [name] => 김무년 [idx] => 177432 [dt_work] => 2023-11-29 [dtm_s] => 1701213819 [dtm_e] => [ip_s] => 223.39.181.176 [ip_e] => [work_type_cd] => 100 [place_cd_s] => [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 387 [dept_no] => 0309 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 1 [beacon_s] => 40011-20590 [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [25] => Array ( [name] => 이준엽 [idx] => 177450 [dt_work] => 2023-11-29 [dtm_s] => 1701215743 [dtm_e] => [ip_s] => 221.164.171.189 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 2 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 227 [dept_no] => 0806 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 0 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [26] => Array ( [name] => 이영규 [idx] => 177420 [dt_work] => 2023-11-29 [dtm_s] => 1701211743 [dtm_e] => [ip_s] => 222.96.148.101 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 1 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 374 [dept_no] => 0308 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [27] => Array ( [name] => 김재훈 [idx] => 177426 [dt_work] => 2023-11-29 [dtm_s] => 1701212594 [dtm_e] => [ip_s] => 106.101.194.156 [ip_e] => [work_type_cd] => 100 [place_cd_s] => [place_cd_e] => [loc_s] => 35.1947496:129.1077967 [loc_e] => [acc_no] => 254 [dept_no] => 0805 [cpn_code] => CA [memo1] => 한주라이트메탈 원산공장 09:30 도착(예정) [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 1 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 2 ) [28] => Array ( [name] => 한슬기 [idx] => 177460 [dt_work] => 2023-11-29 [dtm_s] => 1701217616 [dtm_e] => [ip_s] => 222.97.196.154 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 3 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 352 [dept_no] => 0310 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [29] => Array ( [name] => 하종호 [idx] => 177412 [dt_work] => 2023-11-29 [dtm_s] => 1701210792 [dtm_e] => [ip_s] => 218.38.151.142 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 6 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 226 [dept_no] => 0302 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 0 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [30] => Array ( [name] => 김세열 [idx] => 177433 [dt_work] => 2023-11-29 [dtm_s] => 1701213875 [dtm_e] => [ip_s] => 221.164.171.189 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 2 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 356 [dept_no] => 0307 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [31] => Array ( [name] => 장재훈 [idx] => 177415 [dt_work] => 2023-11-29 [dtm_s] => 1701210983 [dtm_e] => [ip_s] => 223.62.147.213 [ip_e] => [work_type_cd] => 100 [place_cd_s] => [place_cd_e] => [loc_s] => 35.8735995:128.7373839 [loc_e] => [acc_no] => 297 [dept_no] => 0310 [cpn_code] => CA [memo1] => KEC 구미산단 09:00 도착(예정) [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 1 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 1 ) [32] => Array ( [name] => 유영창 [idx] => 177453 [dt_work] => 2023-11-29 [dtm_s] => 1701215834 [dtm_e] => [ip_s] => 222.97.196.154 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 3 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 353 [dept_no] => 0310 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 0 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [33] => Array ( [name] => 김민구 [idx] => 177428 [dt_work] => 2023-11-29 [dtm_s] => 1701212842 [dtm_e] => [ip_s] => 118.235.41.230 [ip_e] => [work_type_cd] => 100 [place_cd_s] => [place_cd_e] => [loc_s] => 35.166901:129.181304 [loc_e] => [acc_no] => 284 [dept_no] => 0310 [cpn_code] => CA [memo1] => KEC 10:00 도착(예정) [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 1 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 1 ) [34] => Array ( [name] => 이승목 [idx] => 177443 [dt_work] => 2023-11-29 [dtm_s] => 1701215331 [dtm_e] => [ip_s] => 222.97.196.154 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 3 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 351 [dept_no] => 0310 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 0 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [35] => Array ( [name] => 문성훈 [idx] => 177427 [dt_work] => 2023-11-29 [dtm_s] => 1701212639 [dtm_e] => [ip_s] => 222.96.148.101 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 1 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 165 [dept_no] => 0302 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [36] => Array ( [name] => 이종훈 [idx] => 177429 [dt_work] => 2023-11-29 [dtm_s] => 1701213338 [dtm_e] => [ip_s] => 106.101.196.100 [ip_e] => [work_type_cd] => 100 [place_cd_s] => [place_cd_e] => [loc_s] => 35.1636842:129.1405645 [loc_e] => [acc_no] => 148 [dept_no] => 0804 [cpn_code] => CA [memo1] => 울산본사 09:30 도착(예정) [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 1 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 2 ) [37] => Array ( [name] => 남해정 [idx] => 177452 [dt_work] => 2023-11-29 [dtm_s] => 1701215830 [dtm_e] => [ip_s] => 221.164.171.189 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 2 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 211 [dept_no] => 0307 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [38] => Array ( [name] => 김현준 [idx] => 177414 [dt_work] => 2023-11-29 [dtm_s] => 1701210942 [dtm_e] => [ip_s] => 223.62.204.195 [ip_e] => [work_type_cd] => 100 [place_cd_s] => [place_cd_e] => [loc_s] => 37.241791:127.391155 [loc_e] => [acc_no] => 369 [dept_no] => 0308 [cpn_code] => CA [memo1] => 창성 인천 10:00 도착(예정) [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 1 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 2 ) [39] => Array ( [name] => 염성우 [idx] => 177447 [dt_work] => 2023-11-29 [dtm_s] => 1701215641 [dtm_e] => [ip_s] => 222.96.148.101 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 1 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 340 [dept_no] => 0805 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [40] => Array ( [name] => 박채연 [idx] => 177444 [dt_work] => 2023-11-29 [dtm_s] => 1701215341 [dtm_e] => [ip_s] => 218.38.151.142 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 6 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 394 [dept_no] => 0302 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [41] => Array ( [name] => 허혜민 [idx] => 177448 [dt_work] => 2023-11-29 [dtm_s] => 1701215661 [dtm_e] => [ip_s] => 222.96.148.101 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 1 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 390 [dept_no] => 0309 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 0 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [42] => Array ( [name] => 이재봉 [idx] => 177441 [dt_work] => 2023-11-29 [dtm_s] => 1701215160 [dtm_e] => [ip_s] => 222.97.196.154 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 3 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 137 [dept_no] => 0804 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [43] => Array ( [name] => 김민규 [idx] => 177437 [dt_work] => 2023-11-29 [dtm_s] => 1701214833 [dtm_e] => [ip_s] => 221.164.171.189 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 2 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 397 [dept_no] => 0307 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 0 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [44] => Array ( [name] => 이영채 [idx] => 177442 [dt_work] => 2023-11-29 [dtm_s] => 1701215239 [dtm_e] => [ip_s] => 222.97.196.154 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 3 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 391 [dept_no] => 0310 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) [45] => Array ( [name] => 이종선 [idx] => 177418 [dt_work] => 2023-11-29 [dtm_s] => 1701211701 [dtm_e] => [ip_s] => 222.96.148.101 [ip_e] => [work_type_cd] => 100 [place_cd_s] => 1 [place_cd_e] => [loc_s] => [loc_e] => [acc_no] => 139 [dept_no] => 0308 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 1 [beacon_s] => 40011-20590 [beacon_e] => [yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => [outside_cnt] => 0 ) ) ) 1
+
+
+
+
+
+_doQuery: [Error message: Could not execute statement] [Last executed query: select u.name , m.* , (select count(*) from T_TAMS_OUTSIDE WHERE tams_idx = idx) outside_cnt from T_TAMS m , V_USER u WHERE m.acc_no = u.acc_no AND dt_work='2023-11-30' AND m.cpn_code='CA' AND work_type_cd = 100 AND dept_no = ] [Native code: 936] [Native message: ORA-00936: missing expression] MDB2 Error: unknown error
+Err Query:select u.name , m.* , (select count(*) from T_TAMS_OUTSIDE WHERE tams_idx = idx) outside_cnt from T_TAMS m , V_USER u WHERE m.acc_no = u.acc_no AND dt_work='2023-11-30' AND m.cpn_code='CA' AND work_type_cd = 100 AND dept_no =
+[09:40:36] SELECT * FROM T_TAMS_AREA WHERE cpn_code = 'CA' AND ar_active = 1 AND AR_NO = 1
+[09:40:36] select u.name , m.* , (select count(*) from T_TAMS_OUTSIDE WHERE tams_idx = idx) outside_cnt from T_TAMS m , V_USER u WHERE m.acc_no = u.acc_no AND dt_work='2023-11-30' AND m.cpn_code='CA' AND work_type_cd = 100 AND dept_no =
+

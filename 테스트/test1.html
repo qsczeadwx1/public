@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select Option Based on Input Value</title>
+</head>
+<body>
+    <select id="sday_dt_yy" name="sday_dt_yy">
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023" selected>2023</option>
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+        <option value="2026">2026</option>
+        <option value="2027">2027</option>
+        <option value="2028">2028</option>
+    </select>
+
+    <input id="test" type="date">
+    
+    <script>
+        // Get references to the select and input elements
+        var selectElement = document.getElementById('sday_dt_yy');
+        var inputElement = document.getElementById('test');
+        
+        // Add an event listener to the input element
+        inputElement.addEventListener('change', function() {
+            // Get the selected year from the input element's value
+            var selectedYear = new Date(this.value).getFullYear();
+            
+            // Find the corresponding option in the select element
+            var optionToSelect = selectElement.querySelector('option[value="' + selectedYear + '"]');
+            
+            // Check if the option exists and then select it
+            if (optionToSelect) {
+                optionToSelect.selected = true;
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+발신메일 주소도 안되게 막을수도있잖아요?
+설정부탁드리고
+
+smtp인증 로그 
+
+
+4 bgkim
+5 hjkang
+7 gjjungg
+12 bhkim
+27 jyahn
+36 brson
+
+38 hmkang 21129688
+
+40 jypark
+42 kskim
+44 ymkim
+47 dhshin
+49 dykim
+63 smjang
+66 bkkim
+67 dhkim
+68 dhkim92
+73 ghjung
+74 jgson
+77 jhpark
+78 jhseong
+79 jhyoon
+80 jhyoon0332
+81 jkyang
+82 kbkim
+83 lok9668
+85 msseo
+93 smbaek
+97 yjlee
+100 yhmoon zxzx
+106 demo3 1526+48
+107 demo4
+109 costapproval2
+141 bepark
+185 test                                        1
+
+
+bgkim, hjkang, gjjungg, bhkim, jyahn, brson, hmkang, jypark, kskim, ymkim, dhshin, dykim, smjang, bkkim, dhkim, dhkim92, ghjung, jgson, jhpark, jhseong, jhyoon, jhyoon0332, jkyang, kbkim, lok9668, msseo, smbaek, yjlee, yhmoon, demo3, demo4, costapproval2, bepark, test

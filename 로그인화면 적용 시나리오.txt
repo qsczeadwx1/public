@@ -1,0 +1,12 @@
+일단 접속해서
+data/com/CB/custom/image 폴더
+data/com/CB/custom/login 폴더 생성하고
+각각 모바일, 웹버전 로고 삽입,
+include 폴더 삽입
+
+data/com/CC/custom/image 폴더
+data/com/CC/custom/login 폴더 생성하고
+각각 모바일, 웹버전 로고 삽입,
+include 폴더 삽입
+
+그 다음 잘보고 design/login/login.custom.html 에 복붙하면 될듯?

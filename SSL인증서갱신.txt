@@ -1,0 +1,290 @@
+ssl 보안인증서 갱신 요청
+http://bms.anymate.co.kr/view.php?id=49903
+
+http://bms.anymate.co.kr/view.php?id=49664
+
+
+46231
+[한국섬유개발연구원] SSL 인증서 갱신
+- SSL 인증서 만료일 도래에 따른 갱신
+( 만료일 : 12월 10일 )
+
+
+
+대학혁신지원사업단
+> 감사, 기로ㅗㄱ물, 물품, 민원업무, 일반서무, 예산편성및 집행, 정보공시및, 업무계획, 규정및, 국회요구
+
+
+
+본부 > 재정지원사업단 > 특성화사업단 
+
+
+
+* 확인
+-----------------------------------------
+대학혁신지원사업단 이라는 부서에
+특성화사업단이 합쳐짐.
+
+합쳐지기는 하지만 기존 특성화사업단 인원들은 그대로 원래하던 업무를 할거기 때문에,
+부서가 합쳐졌을 때 문서함에 문서들이 섞여버리면 곤란함.
+
+
+그래서 원래 쓰던 대학혁신지원사업단 부서의 문서함들은 그대로 사용하면서,
+특성화사업단 인원들을 대학혁신지원사업단 부서에 추가했을때,
+이 인원들은 어떻게 해야 문서함을 분리해서 쓸 수 있을까....
+
+그게 안되면 
+
+
+http://bms.anymate.co.kr/view.php?id=32581
+
+
+for($i = 0; $i < 110; $i++){
+echo 'demo'.$1.'@mkkim.com';
+}
+
+
+
+* 인증서 갱신방법
+-----------------
+ 1) 가비아에서 갱신요청 알림 수신됨 ( helpdesk@anymate.co.kr )
+
+ 2) 가비아 접속해서 갱신
+
+ 3) CSR는 보유로 선택 후 서버내 /usr/local/apache2/conf 에 있는 server.csr 파일내용 복사 붙여넣기
+
+ 4) 인증은 도메인/메일/HTTP 인증중 편한것으로 선택
+
+ 5) 관리자에게 결제요청
+
+ 6) 도메인 / 메일 / HTTP 인증중 가능한 환경에 맞게 인증방식 선택 후 진행
+
+ 7) 인증 완료 후 인증서 다운로드
+
+ 8) 인증서 업로드
+
+
+
+
+ * 가비아 사용자 정보
+---------------------------------------------------
+ - http://www.gabia.com
+ - 아이디 : dbvalley_anymate
+ - 암호 : dbwlqhtn03)#
+
+
+ 디에스시는 csr 보유로ㅗ 신청ㅎ했고,
+ 한국섬유개발연구원은 csr 새로 발급 신청했음.
+
+ 결제되면 둘 다 admin계정으로 인증하기로 했음.
+
+
+
+ -----BEGIN CERTIFICATE REQUEST-----
+MIICpjCCAY4CAQAwYTELMAkGA1UEBhMCS1IxDjAMBgNVBAgMBWRhZWd1MQ4wDAYD
+VQQHDAVkYWVndTEMMAoGA1UECgwDZHNjMQswCQYDVQQLDAJpdDEXMBUGA1UEAwwO
+Z3cuZ29kc2MuY28ua3IwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDy
+n2yVHXX9DCMcXgUAsWWjsaKXuKZlTeyQ73d9xg/HDu1saAbAWxIXkgcUogXBcPPR
+fhFnO7g5inGMMTtE7hsHwfEtG6bLOz8ZjN5I2ZRpVaeG77KuFAr29j5WsbKnMvq/
+O8Wxc/CGCYUY0phyGDlwj9CFWHlYBryJoaf8Gu1pnqaiBJayrHLlvU4f+u7hQpe7
+fTvyZfkPCIgXeJaIca2WE1rcKo4kOwFaiNZMstJ3MYw47fF4ScS6TVQihi0+CAlM
+v8X29ebASpTBsBhzytFxfppbq+7Uf9100Jjf4G6Ce5Yr5AftgLn6hxXgOQp5C+oX
+76K+iCqISR8zQ8S0RWADAgMBAAGgADANBgkqhkiG9w0BAQsFAAOCAQEAqfCCltvb
+1RHxv3hxddds1o+pYN7ikcWQXKRE3v0vljWKz+ZLPJHWbpLNdPQPxNTFy+QlS7aA
+1QFsoKOVHlTW1GCD9NaNS3Wr3Tqgl/fde3cdAcOFPXfKJohPGfOu3dWAW9DD0SJE
+rT3fZg4vARUQQFSlmcU8rrKNv8A/NLwi1zrQndWTGhNRCPOGF12fLRieXqCsZ9yD
+4xmRNG33e4ymFY4a+7WwbvrUJlq+iwLDMX0D8qwugJ24MMHvd5k4VYQXhd8aM33k
+20E6VXJarr3J0/IXK2U94vLP+JnhAP5IFcDx8KEuFu9uhXoR2HiezEY1KhA5r88j
+738OcxYzH3z8bg==
+-----END CERTIFICATE REQUEST-----
+
+
+
+* 갱신완료
+----------------
+ - DNS 인증방식으로 되지 않아서 HTTP 인증으로 변경
+  ( http://gw.textile.or.kr/.well-known/pki-validation/532E0A8B6E8AD14B0E03BAE306556A34.txt )
+
+ - SSL 다운로드 후 갱신완료
+
+
+dsc
+
+
+디에스시
+
+[root@localhost extra]# pwd
+/usr/local/apache2/conf/extra
+[root@localhost extra]# cat httpd-ssl.conf
+
+SSLCertificateFile "/usr/local/apache2/conf/gw_godsc.co.kr_cert.crt"
+SSLCertificateKeyFile "/usr/local/apache2/conf/server.key"
+
+
+
+
+
+
+
+
+
+
+
+* 인증서 교체작업
+------------------------------
+- 디에스시
+
+갱신신청 할 때, CSR을 보유로 선택 했기 때문에 server.key 파일은 유지
+
+[root@localhost extra]# pwd
+/usr/local/apache2/conf/extra
+[root@localhost extra]# cat httpd-ssl.conf
+
+SSLCertificateFile "/usr/local/apache2/conf/gw_godsc.co.kr_cert.crt"
+SSLCertificateKeyFile "/usr/local/apache2/conf/server.key"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+섬유
+
+[root@Groupware extra]# pwd
+/usr/local/apache2/conf/extra
+[root@Groupware extra]# cat httpd-ssl.conf
+
+SSLCertificateFile "/usr/local/apache2/conf/ssl_20221206/gw_textile.or.kr_cert.crt"
+SSLCertificateKeyFile "/usr/local/apache2/conf/ssl_20221206/gw_textile.or.kr.key"
+SSLCertificateChainFile "/usr/local/apache2/conf/ssl_20221206/gw_textile.or.kr_chain_cert.crt"
+#SSLCACertificatePath "/usr/local/apache2/conf/ssl_20221206/gw_textile.or.kr_root_cert.crt"
+
+
+
+SSLCertificateFile "/usr/local/apache2/conf/gw_textile.or.kr_cert.crt"
+SSLCertificateKeyFile "/usr/local/apache2/conf/gw_textile.or.kr.key"
+SSLCertificateChainFile "/usr/local/apache2/conf/gw_textile.or.kr_chain_cert.crt"
+#SSLCACertificatePath "/usr/local/apache2/conf/gw_textile.or.kr_root_cert.crt"
+
+
+경로 수정 후 파일 업로드
+/usr/local/apache2/conf/
+
+
+
+
+
+
+이재준
+192.168.1.138 
+
+
+151
+
+
+
+-----BEGIN CERTIFICATE REQUEST-----
+MIICyTCCAbECAQAwgYMxCzAJBgNVBAYTAktSMQ4wDAYDVQQIDAVEYWVndTESMBAG
+A1UEBwwJRGFsc2VvLWd1MREwDwYDVQQKDAhkYnZhbGxleTEZMBcGA1UEAwwQZ3cu
+dGV4dGlsZS5vci5rcjEiMCAGCSqGSIb3DQEJARYTYWRtaW5AdGV4dGlsZS5vci5r
+cjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMgG04HmSanXj0CWCO8Q
+/rcbX4vnyu5OnKxDhW8tah+4j1i8FtDGi6AM/7QjYuK4kQ79VoEAsgGpDFaZzmZq
+vCRYo7q2CVKRM3KkBw+SiEVxD8mm7tLULXHo9rJUohRzoBIO8XRAOvQQxhUjrxqa
+51j0GAkO/Iu8asQl3WqPz16RkEcjZfb3pC74pUSZP89rReeFWFS+a6LL/Nnv3/YN
+cJiqqeWz2zaeQZ+H2Ah5cKczHMQCJDhfz1MTi7/JQgHJj52wrF4LZwcbbi+w84ed
+wxDIhn90BMHfTUjqD1HPzvHI7FNGYN4GeJ57f2/e1M6oCQV1HxUx7FZ8NX3tzBRi
+3gcCAwEAAaAAMA0GCSqGSIb3DQEBCwUAA4IBAQAcd5PGHxpu9omUesEBMGi09AYK
+UCQZyV5IWP6lEXpw7hxIOn33V9e9SaUco7tmpHQVqcJURWpQZOkThXQemIPl+lKw
+Yzmt8yZIWmnIIK8tAhZgndVUTEUyidsVABvWq6Hl6Bt5iI/F0DkuPT87LMwvwQxv
+1GlP1CMZ2jcZ/pYo360+fFx3us4yT0/GxRgJz20EEO3VYXoh7K02Cj7Ef1M5o36n
+ezH/yZpjMssUG7sVCzhUJpN0u5grig717QiTO2mwzo9PyQmnULovxWIYU6oS5BwG
+rvsouDwOTO/hSHPIUOj7xla38XFGeT3P2Y4gFU0RGUjSku3KtnNheJ9EjjVt
+-----END CERTIFICATE REQUEST-----
+
+
+
+
+
+
+https://smart.learningfactory.co.kr/
+
+
+
+
+ssl 인증받을때 사용했던 메모장 일단 저장
+
+- 한국섬유 개발연구원 
+
+[root@Groupware pki-validation]# cat 0106D248470FA63B9BDBBA0E13A71761.txt
+417BC981494334DF87C24A429F5CD4FE8C14D1660EBA407F7D0CCA0FD11514C4
+comodoca.com
+
+
+[root@Groupware pki-validation]# cat 532E0A8B6E8AD14B0E03BAE306556A34.txt
+E3F822DF5149BEB5C59AB6833163C636F59F6B6321BF8820AF9435B1AE21714B
+comodoca.com
+
+
+- 디에스시
+
+[root@localhost pki-validation]# cat C1DD59BAC16656CD119B2CAF6F20BAA9.txt
+009F30D489761FB0A2D5E835A0502DAF3E1F7A5B2AD9E877A711A4A3169A0B23
+comodoca.com
+
+
+
+DWMIC_14.html
+DWMIC_88.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------
+- openssl 설치
+cd /usr/local/
+mkdir openssl
+cd /usr/local/openssl/
+
+[root@localhost openssl]# wget --no-check-certificate http://www.openssl.org/source/openssl-1.0.1e.tar.gz
+--2023-12-18 14:29:15--  http://www.openssl.org/source/openssl-1.0.1e.tar.gz
+Resolving www.openssl.org... 104.76.66.64, 2600:1410:1000:29a::c1e, 2600:1410:1000:29c::c1e
+Connecting to www.openssl.org|104.76.66.64|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.openssl.org/source/openssl-1.0.1e.tar.gz [following]
+--2023-12-18 14:29:16--  https://www.openssl.org/source/openssl-1.0.1e.tar.gz
+Connecting to www.openssl.org|104.76.66.64|:443... connected.
+WARNING: cannot verify www.openssl.org's certificate, issued by `/C=US/O=Let\'s Encrypt/CN=R3':
+  Issued certificate has expired.
+HTTP request sent, awaiting response... 200 OK
+Length: 4459777 (4.3M) [application/x-gzip]
+Saving to: `openssl-1.0.1e.tar.gz'
+
+100%[===============================================================================================================================>] 4,459,777   23.2M/s   in 0.2s
+
+2023-12-18 14:29:16 (23.2 MB/s) - `openssl-1.0.1e.tar.gz' saved [4459777/4459777]
+

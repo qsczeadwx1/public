@@ -1,0 +1,175 @@
+Nov 23 13:22:09 gw qmail: 1700720529.033100 starting delivery 125177: msg 3147986 to remote mkkim@dbvalley.com
+Nov 23 13:22:09 gw qmail: 1700720529.033120 status: local 0/10 remote 1/20
+Nov 23 13:22:09 gw qmail: 1700720529.051764 new msg 3148022
+Nov 23 13:22:09 gw qmail: 1700720529.051838 info msg 3148022: bytes 1003 from <admin-cb@evamvn.co.kr> qp 19049 uid 500
+Nov 23 13:22:09 gw qmail: 1700720529.053435 starting delivery 125178: msg 3148022 to remote alsrb2688@naver.com
+Nov 23 13:22:09 gw qmail: 1700720529.053476 status: local 0/10 remote 2/20
+Nov 23 13:22:09 gw qmail: 1700720529.073959 new msg 3148026
+Nov 23 13:22:09 gw qmail: 1700720529.074028 info msg 3148026: bytes 1003 from <admin-cb@evamvn.co.kr> qp 19051 uid 500
+Nov 23 13:22:09 gw qmail: 1700720529.075282 starting delivery 125179: msg 3148026 to remote qsczeadwx1@gmail.com
+Nov 23 13:22:09 gw qmail: 1700720529.075323 status: local 0/10 remote 3/20
+
+
+
+
+
+
+Nov 23 13:22:11 gw qmail: 1700720531.464201 delivery 125178: success: 125.209.238.100_accepted_message./Remote_host_said:_250_2.0.0_OK_AmWVpkfFT2mR0XehL1cRzw_-_nsmtp/
+Nov 23 13:22:11 gw qmail: 1700720531.464374 status: local 0/10 remote 2/20
+Nov 23 13:22:11 gw qmail: 1700720531.464460 end msg 3148022
+Nov 23 13:22:12 gw qmail: 1700720532.358655 delivery 125177: failure: 222.96.148.100_does_not_like_recipient./Remote_host_said:_553_https://www.spamhaus.org/query/ip/116.104.85.190/Giving_up_on_222.96.148.100./
+Nov 23 13:22:12 gw qmail: 1700720532.358937 status: local 0/10 remote 1/20
+Nov 23 13:22:12 gw qmail: 1700720532.369814 bounce msg 3147986 qp 19053
+Nov 23 13:22:12 gw qmail: 1700720532.369915 end msg 3147986
+Nov 23 13:22:12 gw qmail: 1700720532.370262 new msg 3148052
+Nov 23 13:22:12 gw qmail: 1700720532.370317 info msg 3148052: bytes 1636 from <> qp 19053 uid 508
+Nov 23 13:22:12 gw qmail: 1700720532.371218 starting delivery 125180: msg 3148052 to local admin-cb@evamvn.co.kr
+Nov 23 13:22:12 gw qmail: 1700720532.371246 status: local 1/10 remote 1/20
+Nov 23 13:22:12 gw qmail: 1700720532.448910 delivery 125179: success: 64.233.187.27_accepted_message./Remote_host_said:_250_2.0.0_OK__1700720533_4-20020a170902c14400b001cf650128f7si517653plj.226_-_gsmtp/
+Nov 23 13:22:12 gw qmail: 1700720532.448968 status: local 1/10 remote 0/20
+Nov 23 13:22:12 gw qmail: 1700720532.448988 end msg 3148026
+Nov 23 13:22:12 gw qmail: 1700720532.551324 delivery 125180: success: PHP_Notice:__Undefined_property:_stdClass::$message_id_in_/home/anymate/gwevamvncokr/m/mail/class/class.mailParser.inc.php_on_line_1030//Notice:_Undefined_property:_st
+dClass::$message_id_in_/home/anymate/gwevamvncokr/m/mail/class/class.mailParser.inc.php_on_line_1030/[2023/11/23_15:22:12]_catched_smart_rule_100/[2023/11/23_15:22:12]_catch_or_not_?:_Y/did_1+0+1/
+Nov 23 13:22:12 gw qmail: 1700720532.551441 status: local 0/10 remote 0/20
+Nov 23 13:22:12 gw qmail: 1700720532.551467 end msg 3148052
+Nov 23 13:23:01 gw qmail: 1700720581.173899 new msg 3147986
+Nov 23 13:23:01 gw qmail: 1700720581.173977 info msg 3147986: bytes 558 from <root@evamvn.co.kr> qp 19100 uid 500
+Nov 23 13:23:01 gw qmail: 1700720581.175099 starting delivery 125181: msg 3147986 to local anymate@evamvn.co.kr
+Nov 23 13:23:01 gw qmail: 1700720581.175143 status: local 1/10 remote 0/20
+Nov 23 13:23:01 gw qmail: 1700720581.178632 delivery 125181: success: did_0+0+0/
+Nov 23 13:23:01 gw qmail: 1700720581.178807 status: local 0/10 remote 0/20
+Nov 23 13:23:01 gw qmail: 1700720581.178900 end msg 3147986
+Nov 23 13:23:04 gw qmail: 1700720584.843219 new msg 3147986
+Nov 23 13:23:04 gw qmail: 1700720584.843254 info msg 3147986: bytes 569 from <root@evamvn.co.kr> qp 19104 uid 500
+Nov 23 13:23:04 gw qmail: 1700720584.844399 starting delivery 125182: msg 3147986 to local anymate@evamvn.co.kr
+Nov 23 13:23:04 gw qmail: 1700720584.844460 status: local 1/10 remote 0/20
+Nov 23 13:23:04 gw qmail: 1700720584.849631 delivery 125182: success: did_0+0+0/
+Nov 23 13:23:04 gw qmail: 1700720584.849794 status: local 0/10 remote 0/20
+Nov 23 13:23:04 gw qmail: 1700720584.849857 end msg 3147986
+Nov 23 13:25:01 gw qmail: 1700720701.624272 new msg 3147986
+Nov 23 13:25:01 gw qmail: 1700720701.624311 info msg 3147986: bytes 558 from <root@evamvn.co.kr> qp 19193 uid 500
+Nov 23 13:25:01 gw qmail: 1700720701.625185 starting delivery 125183: msg 3147986 to local anymate@evamvn.co.kr
+Nov 23 13:25:01 gw qmail: 1700720701.625204 status: local 1/10 remote 0/20
+Nov 23 13:25:01 gw qmail: 1700720701.628078 delivery 125183: success: did_0+0+0/
+Nov 23 13:25:01 gw qmail: 1700720701.628239 status: local 0/10 remote 0/20
+Nov 23 13:25:01 gw qmail: 1700720701.628272 end msg 3147986
+Nov 23 13:25:05 gw qmail: 1700720705.592808 new msg 3147986
+Nov 23 13:25:05 gw qmail: 1700720705.592869 info msg 3147986: bytes 569 from <root@evamvn.co.kr> qp 19197 uid 500
+Nov 23 13:25:05 gw qmail: 1700720705.594001 starting delivery 125184: msg 3147986 to local anymate@evamvn.co.kr
+Nov 23 13:25:05 gw qmail: 1700720705.594056 status: local 1/10 remote 0/20
+Nov 23 13:25:05 gw qmail: 1700720705.599318 delivery 125184: success: did_0+0+0/
+Nov 23 13:25:05 gw qmail: 1700720705.599425 status: local 0/10 remote 0/20
+Nov 23 13:25:05 gw qmail: 1700720705.599494 end msg 3147986
+Nov 23 13:27:01 gw qmail: 1700720821.733926 new msg 3147986
+Nov 23 13:27:01 gw qmail: 1700720821.733973 info msg 3147986: bytes 558 from <root@evamvn.co.kr> qp 19286 uid 500
+Nov 23 13:27:01 gw qmail: 1700720821.734914 starting delivery 125185: msg 3147986 to local anymate@evamvn.co.kr
+Nov 23 13:27:01 gw qmail: 1700720821.734959 status: local 1/10 remote 0/20
+Nov 23 13:27:01 gw qmail: 1700720821.739055 delivery 125185: success: did_0+0+0/
+Nov 23 13:27:01 gw qmail: 1700720821.739140 status: local 0/10 remote 0/20
+
+
+
+
+
+
+
+
+
+Nov 23 13:27:05 gw qmail: 1700720825.148980 starting delivery 125186: msg 3147986 to local anymate@evamvn.co.kr
+Nov 23 13:27:05 gw qmail: 1700720825.149157 status: local 1/10 remote 0/20
+Nov 23 13:27:05 gw qmail: 1700720825.154240 delivery 125186: success: did_0+0+0/
+Nov 23 13:27:05 gw qmail: 1700720825.154388 status: local 0/10 remote 0/20
+Nov 23 13:27:05 gw qmail: 1700720825.154448 end msg 3147986
+Nov 23 13:27:21 gw qmail: 1700720841.798781 new msg 3147986
+Nov 23 13:27:21 gw qmail: 1700720841.798864 info msg 3147986: bytes 516411 from <cen2009@naver.com> qp 19309 uid 502
+Nov 23 13:27:21 gw qmail: 1700720841.800102 starting delivery 125187: msg 3147986 to local jshwang@evamvn.co.kr
+Nov 23 13:27:21 gw qmail: 1700720841.800156 status: local 1/10 remote 0/20
+Nov 23 13:27:22 gw qmail: 1700720842.115464 delivery 125187: success: PHP_Notice:__Undefined_offset:_2_in_/home/anymate/gwevamvncokr/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/home/anymate/gwevamvn
+cokr/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwevamvncokr/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/gwevamvncokr/m/mail
+/class/class.mailParser.inc.php_on_line_218/[2023/11/23_15:27:21]_found_in_white_list/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:2
+1]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:2
+Nov 23 13:27:22 gw qmail: 1700720842.115464+1]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15
+:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21
+]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass
+_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass
+Nov 23 13:27:22 gw qmail: 1700720842.115464+_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]
+_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_
+rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/
+[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/
+Nov 23 13:27:22 gw qmail: 1700720842.115464+[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_r
+ules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[
+2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[2023/11/23_15:27:21]_pass_rules/[/Error_report_too_long,_sorry./
+Nov 23 13:27:22 gw qmail: 1700720842.115549 status: local 0/10 remote 0/20
+Nov 23 13:27:22 gw qmail: 1700720842.115579 end msg 3147986
+Nov 23 13:27:22 gw qmail: 1700720842.132771 new msg 3148022
+Nov 23 13:27:22 gw qmail: 1700720842.132846 info msg 3148022: bytes 516441 from <cen2009@naver.com> qp 19310 uid 502
+Nov 23 13:27:22 gw qmail: 1700720842.133664 starting delivery 125188: msg 3148022 to local nguyengiang@evamvn.co.kr
+Nov 23 13:27:22 gw qmail: 1700720842.133699 status: local 1/10 remote 0/20
+Nov 23 13:27:22 gw qmail: 1700720842.384166 delivery 125188: success: PHP_Notice:__Undefined_offset:_2_in_/home/anymate/gwevamvncokr/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/home/anymate/gwevamvn
+cokr/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwevamvncokr/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/gwevamvncokr/m/mail
+/class/class.mailParser.inc.php_on_line_218/[2023/11/23_15:27:22]_pass_rules/[2023/11/23_15:27:22]_catch_or_not_?:_N/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/home/anymate/gwevamvncokr/m/mail/class/class.mailLoad.inc.php_on_line_1906//
+Notice:_Undefined_index:_HTTP_HOST_in_/home/anymate/gwevamvncokr/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Nov 23 13:27:22 gw qmail: 1700720842.384255 status: local 0/10 remote 0/20
+Nov 23 13:27:22 gw qmail: 1700720842.384283 end msg 3148022
+Nov 23 13:27:22 gw qmail: 1700720842.413217 new msg 3148026
+Nov 23 13:27:22 gw qmail: 1700720842.413243 info msg 3148026: bytes 516422 from <cen2009@naver.com> qp 19311 uid 502
+Nov 23 13:27:22 gw qmail: 1700720842.413844 starting delivery 125189: msg 3148026 to local tranhang@evamvn.co.kr
+Nov 23 13:27:22 gw qmail: 1700720842.413882 status: local 1/10 remote 0/20
+Nov 23 13:27:22 gw qmail: 1700720842.627244 new msg 3148052
+Nov 23 13:27:22 gw qmail: 1700720842.627278 info msg 3148052: bytes 516407 from <cen2009@naver.com> qp 19312 uid 502
+Nov 23 13:27:22 gw qmail: 1700720842.627791 starting delivery 125190: msg 3148052 to local huyhoan@evamvn.co.kr
+Nov 23 13:27:22 gw qmail: 1700720842.627806 status: local 2/10 remote 0/20
+Nov 23 13:27:22 gw qmail: 1700720842.647521 delivery 125189: success: PHP_Notice:__Undefined_offset:_2_in_/home/anymate/gwevamvncokr/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/home/anymate/gwevamvn
+cokr/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwevamvncokr/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/gwevamvncokr/m/mail
+/class/class.mailParser.inc.php_on_line_218/[2023/11/23_15:27:22]_catch_or_not_?:_N/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/home/anymate/gwevamvncokr/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOS
+T_in_/home/anymate/gwevamvncokr/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Nov 23 13:27:22 gw qmail: 1700720842.647617 status: local 1/10 remote 0/20
+Nov 23 13:27:22 gw qmail: 1700720842.647656 end msg 3148026
+Nov 23 13:27:22 gw qmail: 1700720842.828154 delivery 125190: success: PHP_Notice:__Undefined_offset:_2_in_/home/anymate/gwevamvncokr/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/home/anymate/gwevamvn
+cokr/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwevamvncokr/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/gwevamvncokr/m/mail
+/class/class.mailParser.inc.php_on_line_218/[2023/11/23_15:27:22]_catch_or_not_?:_N/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/home/anymate/gwevamvncokr/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOS
+T_in_/home/anymate/gwevamvncokr/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Nov 23 13:27:22 gw qmail: 1700720842.828217 status: local 0/10 remote 0/20
+Nov 23 13:27:22 gw qmail: 1700720842.828244 end msg 3148052
+Nov 23 13:29:01 gw qmail: 1700720941.450466 new msg 3147986
+Nov 23 13:29:01 gw qmail: 1700720941.450519 info msg 3147986: bytes 558 from <root@evamvn.co.kr> qp 19423 uid 500
+Nov 23 13:29:01 gw qmail: 1700720941.451430 starting delivery 125191: msg 3147986 to local anymate@evamvn.co.kr
+Nov 23 13:29:01 gw qmail: 1700720941.451463 status: local 1/10 remote 0/20
+Nov 23 13:29:01 gw qmail: 1700720941.455804 delivery 125191: success: did_0+0+0/
+Nov 23 13:29:01 gw qmail: 1700720941.455985 status: local 0/10 remote 0/20
+
+
+
+
+
+[root@gw log]# nslookup
+> set type=txt
+> evamvn.co.kr
+Server:         1.1.1.1
+Address:        1.1.1.1#53
+
+Non-authoritative answer:
+evamvn.co.kr    text = "v=spf1 ip4:116.104.85.190 ~all"
+
+Authoritative answers can be found from:
+> set type=ptr
+> 116.104.85.190
+Server:         1.1.1.1
+Address:        1.1.1.1#53
+
+Non-authoritative answer:
+190.85.104.116.in-addr.arpa     name = gw.evamvn.co.kr.
+
+Authoritative answers can be found from:
+
+퇴사자가 있어서 , 정리를 다했는데,
+
+nguyengiang 관리자인데,
+전산담당자인데,
+
+퇴사자 정리를 다했는데,
+원복이 됐다.
+
+
+
+데이터를 복원시켰나, 

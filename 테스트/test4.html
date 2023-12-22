@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>_DATA_SITE_NAME_</title>
+<!--//DATA_SCRIPT-->
+<link rel="icon" type="image/png" href="/data/com/CB/custom/login/include/images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="/data/com/CB/custom/login/include/fonts/icon-font.min.css">
+<link rel="stylesheet" type="text/css" href="/data/com/CB/custom/login/include/fonts/fontawesome-5.15.3/css/all.css">
+<link rel="stylesheet" type="text/css" href="/data/com/CB/custom/login/include/css/util.css">
+<link rel="stylesheet" type="text/css" href="/data/com/CB/custom/login/include/css/main.css">
+
+<style>
+	select::-ms-expand {display:none; outline:none;}
+	select::-ms-value {background: transparent; color:white;}
+	select {
+		-moz-appearance:none; /* Firefox */
+		-webkit-appearance:none; /* Safari and Chrome */
+		appearance:none;
+		outline:none;
+		border-radius:10px;
+		user-select:none;
+	}
+	select option {
+		background: black;
+		color: white;
+		text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+	}
+</style>
+</head>
+
+<body>
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100 loginBG">
+				<form id="form1" class="login100-form validate-form" autocomplete="off">
+					<div class="login100-form-box">
+						<span class="login100-form-title p-b-60" style="">
+							<img src="/data/com/CB/custom/login/include/images/logo.png" width="160px">
+						</span>
+						<input type="hidden" id="sel_cpn_code" name="sel_cpn_code" value="CB">
+						<div class="wrap-input100 validate-input login-box id-icon">
+							<input class="input100" type="text" name="id" id="id" placeholder="ID" title="ID를 입력하세요">
+							<span class="focus-input100"></span>
+							<span class="label-input100"></span>
+						</div>
+						<div class="wrap-input100 validate-input login-box pw-icon">
+							<input class="input100" type="password" name="pass" id="pass" placeholder="Password" title="비밀번호를 입력하세요">
+							<span class="focus-input100"></span>
+							<span class="label-input100"></span>
+						</div>
+						<!--Html 디자인 용도 -->
+						<div class="wrap-input100 login-box lang-icon">
+							_DATA_SEL_LANG_
+						</div>
+						<!-- 실제 JSP 코딩 -->
+						<div class="flex-sb-m w-full p-b-15 login-box">
+							<div class="contact100-form-checkbox">
+								<input class="input-checkbox100" id="saveid" type="checkbox" name="saveid" value="save" tabindex="3" checked>
+								<label class="label-checkbox100" for="saveid">
+									Remember me
+								</label>
+							</div>
+						</div>
+						<div class="container-login100-form-btn login-box">
+							<button type="button" class="login100-form-btn" id="btn_login">
+								Login
+							</button>
+						</div>
+						
+						<div class="mobile_hidden text-center" style="text-align:center!important; bottom: 100px; position: fixed;">
+						</div> 
+					</div>
+				</form>
+			</div>
+			<div class="loginTxt">
+				<p><b><!--//DATA_ADDRESS-->  &nbsp | &nbsp © HDC. ALL RIGHTS RESERVED. </b></p>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>

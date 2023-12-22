@@ -1,0 +1,652 @@
+<?
+// 달력기본 정의
+$this->module->oUX->_calendar_return = 1;
+
+// 작성일자
+$this->module->oUX->_calendar_input_style = "margin-right:2px;margin-left:1px;width:62px";
+$calendar_options = "changeMonth: true,changeYear: true,";
+
+if (!$DATA[0]["input_dt"]) $DATA[0]["input_dt"] = '';
+$this->module->oUX->addCalendar("input_dt","",$DATA[0]["input_dt"],"",$calendar_options);
+$input_dt = $this->module->oUX->showCalendar(0,1);
+
+if (!$DATA[0]["gather_dt"]) $DATA[0]["gather_dt"] = '';
+$this->module->oUX->addCalendar("gather_dt","",$DATA[0]["gather_dt"],"",$calendar_options);
+$gather_dt = $this->module->oUX->showCalendar(1,1);
+
+ if(!$DATA[0]['tem_gubun']) $DATA[0]['tem_gubun'] = '선택필요';
+
+$colName = array('','배합변경','공정변경','원료변경');
+
+$list1 = $list2 = $list3 = $list4 = '';
+
+$type = array(""=>선택필요,"신제품(개발,개량)"=>"신제품(개발,개량)", "설계변경"=>"설계변경");
+
+for ($i=1; $i<=20; $i++)
+{
+	$disOpt = 'none';
+	if ($DATA[0]["itemA{$i}_2"] || $i<=6)
+	{
+		$disOpt = '';
+	}
+	$list1 .= "
+	<tr height=24 class='itemA_LINE_{$i}' style='display:$disOpt'>
+		<td class='default'>
+			<select id='itemA{$i}_1' name='itemA{$i}_1' style='width:100%;'>
+				<option value='선택필요'" . (($DATA[0]["itemA{$i}_1"] == '선택필요') ? 'selected' : '') . ">선택필요</option>
+				<option value='추가'" . (($DATA[0]["itemA{$i}_1"] == '추가') ? 'selected' : '') . ">추가</option>
+				<option value='삭제'" . (($DATA[0]["itemA{$i}_1"] == '삭제') ? 'selected' : '') . ">삭제</option>
+				<option value='변경'" . (($DATA[0]["itemA{$i}_1"] == '변경') ? 'selected' : '') . ">변경</option>
+			</select>
+		</td>
+		<td class='default'><input type='text' id='itemA{$i}_2' name='itemA{$i}_2' style='width:100%' class='input02' value='" . $DATA[0]["itemA{$i}_2"] . "'></td>
+		<td class='default'><input type='text' id='itemA{$i}_3' name='itemA{$i}_3' style='width:100%' class='input02' value='" . $DATA[0]["itemA{$i}_3"] . "'></td>
+		<td class='default'><input type='text' id='itemA{$i}_4' name='itemA{$i}_4' style='width:100%' class='input02' value='" . $DATA[0]["itemA{$i}_4"] . "'></td>
+		<td class='default'>
+			<select id='itemA{$i}_5' name='itemA{$i}_5' style='width:100%;'>
+				<option value='선택필요'" . (($DATA[0]["itemA{$i}_5"] == '선택필요') ? 'selected' : '') . ">선택필요</option>
+				<option value='Yes'" . (($DATA[0]["itemA{$i}_5"] == 'Yes') ? 'selected' : '') . ">Yes</option>
+				<option value='No'" . (($DATA[0]["itemA{$i}_5"] == 'No') ? 'selected' : '') . ">No</option>
+			</select>
+		</td>
+	</tr>";
+}
+
+for ($i=1; $i<=9; $i++)
+{
+	$disOpt = 'none';
+	if ($DATA[0]["itemB{$i}_1"] || $i<=2)
+	{
+		$disOpt = '';
+	}
+	$list2 .= "
+	<tr height=24 class='itemB_LINE_{$i}' style='display:$disOpt'>
+		<td class='default'><input type='text' id='itemB{$i}_1' name='itemB{$i}_1' style='width:100%' class='input02' value='" . $DATA[0]["itemB{$i}_1"] . "'></td>
+		<td class='default' colspan='2'><input type='text' id='itemB{$i}_2' name='itemB{$i}_2' style='width:100%' class='input02' value='" . $DATA[0]["itemB{$i}_2"] . "'></td>
+		<td class='default'><input type='text' id='itemB{$i}_3' name='itemB{$i}_3' style='width:100%' class='input02' value='" . $DATA[0]["itemB{$i}_3"] . "'></td>
+	</tr>";
+}
+
+for ($i=1; $i<=9; $i++)
+{
+	$disOpt = 'none';
+	if ($DATA[0]["itemC{$i}_1"] || $i<=2)
+	{
+		$disOpt = '';
+	}
+	$list3 .= "
+	<tr height=24 class='itemC_LINE_{$i}' style='display:$disOpt'>
+		<td class='default'><input type='text' id='itemC{$i}_1' name='itemC{$i}_1' style='width:100%' class='input02' value='" . $DATA[0]["itemC{$i}_1"] . "'></td>
+		<td class='default'><input type='text' id='itemC{$i}_2' name='itemC{$i}_2' style='width:100%' class='input02' value='" . $DATA[0]["itemC{$i}_2"] . "'></td>
+		<td class='default'><input type='text' id='itemC{$i}_3' name='itemC{$i}_3' style='width:100%' class='input02' value='" . $DATA[0]["itemC{$i}_3"] . "'></td>
+		<td class='default'><input type='text' id='itemC{$i}_4' name='itemC{$i}_4' style='width:100%' class='input02' value='" . $DATA[0]["itemC{$i}_4"] . "'></td>
+	</tr>";
+}
+
+for ($i=1; $i<=9; $i++)
+{
+	$disOpt = 'none';
+	if ($DATA[0]["itemD{$i}_1"] || $i<=2)
+	{
+		$disOpt = '';
+	}
+	$list4 .= "
+	<tr height=24 class='itemD_LINE_{$i}' style='display:$disOpt'>
+		<td class='default'><input type='text' id='itemD{$i}_1' name='itemD{$i}_1' style='width:100%' class='input02' value='" . $DATA[0]["itemD{$i}_1"] . "'></td>
+		<td class='default' colspan='2'><input type='text' id='itemD{$i}_2' name='itemD{$i}_2' style='width:100%' class='input02' value='" . $DATA[0]["itemD{$i}_2"] . "'></td>
+		<td class='default'><input type='text' id='itemD{$i}_3' name='itemD{$i}_3' style='width:100%' class='input02' value='" . $DATA[0]["itemD{$i}_3"] . "'></td>
+	</tr>";
+}
+
+echo '<script>$("#doc_level").val("6").attr("selected", "selected");</script>';
+?>
+<style>
+.centerPaper {width:750px; }
+.boxshadow {	display:inline-block; padding:7px 10px 4px; color:black; border:1px solid 000000; background:white; width:95%;	}
+#contens_SUB_dcs_box { width:100%; }
+</style>
+
+<script>
+function fn_table_class_add_rows(kind , max_rows , total_cols, default_rows )
+{
+	var table_current_rows = fn_tables_class_rows_count(kind,max_rows) + 1;
+
+	if (table_current_rows < max_rows)
+	{
+		var obj = $(".item" + kind + "_LINE_" + table_current_rows );
+		obj.css("display","");
+	}
+	
+ }
+function fn_tables_class_rows_count(kind, max_rows)
+{
+	for (row=1;row<=max_rows; row++)
+	{
+		var obj = $(".item" + kind + "_LINE_" + row);
+
+		if (obj.css("display") == 'none')
+		{
+			return table_current_rows = row - 1;
+			break;
+		}
+	}
+}
+
+function fn_table_class_del_rows(kind, max_rows , total_cols ,default_rows )
+{
+	var table_current_rows = fn_tables_class_rows_count(kind,max_rows);
+	if (table_current_rows > 1)
+	{
+		var obj = $(".item" + kind + "_LINE_" + table_current_rows);
+		
+		for (col=1; col<=total_cols; col++)
+		{
+			objCurr = document.getElementById("item" + kind + table_current_rows +"_" + col);
+			// 현재행을 삭제
+			objCurr.value = "";
+		}
+		obj.css("display","none");
+		
+		
+	}
+}
+
+function setName(){
+}
+
+function setForm()
+{
+
+	var form = document.getElementById('draw_form');
+
+	var tem_gubun = document.getElementById("tem_gubun");
+
+
+	var new_product = document.getElementById("new_product");
+	var change_product = document.getElementById("change_product");
+
+	if(form.tem_gubun.value == "신제품(개발,개량)")
+	{
+		new_product.style.display = '';
+
+		change_product.style.display = 'none';
+
+	}
+	else
+	{
+		new_product.style.display = 'none';
+
+		change_product.style.display = '';
+
+	}
+	
+}
+
+function use_function(){
+	var form = document.getElementById('draw_form');
+	form.title.value = "<?=mecho("생산사전검토서")?>";
+}
+</script>
+
+<input type="hidden" id="title"  name="title" value="생산사전검토서">
+
+<div><font size='1.8px;' color='#ff0000;'><b><?=mecho('※ 본 문서는 보안관리를 요하는 자료로서 첨부파일을 포함하여 비관련 업무자 등에 대한 회람, 전송, 무단복사 등을 금하여 주시기 바랍니다.<br>※ 결재 시 협의자 지정 : 생산기술팀 / 생산관리팀 / 품질경영팀 / 환경안전팀 / 해당생산팀 / 연구기획팀')?></b></font></div>
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="dcs_part_write">
+<col width="15%"></col>
+<col width="35%"></col>
+<col width="15%"></col>
+<col width="35%"></col>
+<tr>
+    <th><?=mecho("문서번호")?></th>
+    <td class="default" colspan="3"><?=$DATA['docnum']?></td>
+   
+</tr>
+<tr>
+    <th><?=mecho("기안자")?></th>
+    <td class="default"><?=$DATA['drafter']?></td>
+	 <th><?=mecho("기안일시")?></th>
+    <td class="default"><?=$DATA['reg_dt']?></td>    
+</tr>
+<tr>
+    <th><?=mecho("직위")?></th>
+    <td class="default"><?=mecho($DATA['ptn_name'])?> </td>
+    <th><?=mecho("부서")?></th>
+    <td class="default"><?=mecho($DATA['dept_name'])?></td>
+</tr>
+</table>
+<br>
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="dcs_part_write" style="margin-top:2px;">
+<col width="15%"></col>
+<col width="*"></col>
+<tr>
+	<!--
+	<th><?=mecho('양식분류')?></th>
+	
+	<td class='default' colspan='3'>
+		<input type="radio" name="tem_gubun" id="tem_gubun" onChange="setForm();" value="신제품(개발,개량)" <?=($DATA[0]['tem_gubun'] == '신제품(개발,개량)') ? 'checked':''?>> 신제품(개발,개량)&nbsp;&nbsp;
+		<input type="radio" name="tem_gubun" id="tem_gubun" onChange="setForm();" value="설계변경" <?=($DATA[0]['tem_gubun'] == '설계변경') ? 'checked':''?>> 설계변경
+	</td>
+	-->
+	<th style="background-color:yellow"><?=mecho('양식분류')?></th>
+	
+	<td class='default' colspan='3'  style="background-color:#fdfbe7;">
+		<?=Form::SELECT("tem_gubun", $type, $DATA[0]["tem_gubun"], "onchange='setForm()'")?>
+	</td>
+</tr>
+</table>
+<br><br>
+<b>1. 기본정보</b>
+<table id = "new_product" cellpadding="0" cellspacing="0" border="0" width="100%" class="dcs_part_write" style="margin-top:2px;">
+<col width="15%"></col>
+<col width="35%"></col>
+<col width="15%"></col>
+<col width="35%"></col>
+<tr>
+	<th><?=mecho('개발 테마명')?></th>
+	<td class='default' colspan='3'>
+		<input type='text' class='input02' style='width:100%;' id='dev_nm' name='dev_nm' value="<?=$DATA[0]['dev_nm']?>">
+	</td>
+</tr>
+<tr>
+	<th><?=mecho('요청구분')?></th>
+	<td class='default'>
+		<input type='checkbox' id='gubun1' name='gubun1' value='연구소 자체발의' <?=($DATA[0]['gubun1']=="연구소 자체발의")?"checked":""?>>연구소 자체발의&nbsp;
+		<input type='checkbox' id='gubun2' name='gubun2' value='고객(영업)요구' <?=($DATA[0]['gubun2']=="고객(영업)요구")?"checked":""?>>고객(영업)요구&nbsp;
+	</td>
+	<th><?=mecho('유형구분')?></th>
+	<td class='default'>
+		<input type='checkbox' id='gubun3' name='gubun3' value='개발 신제품' <?=($DATA[0]['gubun3']=="개발 신제품")?"checked":""?>>개발 신제품&nbsp;
+		<input type='checkbox' id='gubun4' name='gubun4' value='개량 신제품' <?=($DATA[0]['gubun4']=="개량 신제품")?"checked":""?>>개량 신제품&nbsp;
+	</td>
+</tr>
+<tr>
+	<th><?=mecho('개발근거')?></th>
+	<td class='default'>
+		<input type='text' class='input02' style='width:100%;' id='dev_reason' name='dev_reason' value="<?=$DATA[0]['dev_reason']?>">
+	</td>
+	<th><?=mecho('영업담당자')?></th>
+	<td class='default'>
+		<input type='text' class='input02' style='width:100%;' id='biz_nm' name='biz_nm' value="<?=$DATA[0]['biz_nm']?>">
+	</td>
+</tr>
+<tr>
+	<th><?=mecho('Base 제품')?></th>
+	<td class='default'">
+		<input type='text' class='input02' style='width:60%;' id='base_item' name='base_item' value="<?=$DATA[0]['base_item']?>">&nbsp;
+		<input type='checkbox' id='gubun5' name='gubun5' value='신규제품' <?=($DATA[0]['gubun5']=="신규제품")?"checked":""?>>신규제품&nbsp;
+	<th><?=mecho('신제품명')?></th>
+	<td class='default'>
+		<input type='text' class='input02' style='width:100%;' id='new_item' name='new_item' value="<?=$DATA[0]['new_item']?>">
+	</td>
+</tr>
+</table>
+<br>
+
+<table id = "change_product" cellpadding="0" cellspacing="0" border="0" width="100%" class="dcs_part_write" style="margin-top:2px;display:none;">
+<col width="15%"></col>
+<col width="35%"></col>
+<col width="15%"></col>
+<col width="35%"></col>
+<tr>
+	<th><?=mecho('설계변경명')?></th>
+	<td class='default'>
+		<input type='text' class='input02' style='width:100%;' id='product_nm' name='product_nm' value="<?=$DATA[0]['product_nm']?>">
+	</td>
+	<th><?=mecho('설변번호')?></th>
+	<td class='default'>
+		<input type='text' class='input02' style='width:100%;' id='product_number' name='product_number' value="<?=$DATA[0]['product_number']?>">
+	</td>
+</tr>
+<tr>
+	<th><?=mecho('요청부서')?></th>
+	<td class='default'>
+		<input type='text' class='input02' style='width:100%;' id='req_dept_name' name='req_dept_name' value="<?=$DATA[0]['req_dept_name']?>">
+	</td>
+	<th><?=mecho('요청자')?></th>
+	<td class='default'>
+		<input type='text' class='input02' style='width:100%;' id='req_emp' name='req_emp' value="<?=$DATA[0]['req_emp']?>">
+	</td>
+</tr>
+<tr>
+	<th><?=mecho("목적")?></th>
+	<td class='default' colspan='3'>
+		<input type='checkbox' id='purpose1' name='purpose1' value='성능개선' <?=($DATA[0]['purpose1']=="성능개선")?"checked":""?>>성능개선&nbsp;
+		<input type='checkbox' id='purpose2' name='purpose2' value='사양추가' <?=($DATA[0]['purpose2']=="사양추가")?"checked":""?>>사양추가&nbsp;
+		<input type='checkbox' id='purpose3' name='purpose3' value='품질개선' <?=($DATA[0]['purpose3']=="품질개선")?"checked":""?>>품질개선&nbsp;
+		<input type='checkbox' id='purpose4' name='purpose4' value='원가절감' <?=($DATA[0]['purpose4']=="원가절감")?"checked":""?>>원가절감&nbsp;
+		<input type='checkbox' id='purpose5' name='purpose5' value='규격변경' <?=($DATA[0]['purpose5']=="규격변경")?"checked":""?>>규격변경&nbsp;
+		<input type='checkbox' id='purpose6' name='purpose6' value='법규/인증대응' <?=($DATA[0]['purpose6']=="법규/인증대응")?"checked":""?>>법규/인증대응&nbsp;
+		<input type='checkbox' id='purpose7' name='purpose7' value='오류수정' <?=($DATA[0]['purpose7']=="오류수정")?"checked":""?>>오류수정
+	</td>
+</tr>
+<tr>
+	<th><?=mecho('요청사유')?></th>
+	<td class='default' colspan="3">
+		<input type='text' class='input02' style='width:100%;' id='req_reason' name='req_reason' value="<?=$DATA[0]['req_reason']?>">
+	</td>
+</tr>
+<tr>
+	<th><?=mecho('대상제품')?></th>
+	<td class='default' colspan="3">
+		<input type='text' class='input02' style='width:100%;' id='req_item' name='req_item' value="<?=$DATA[0]['req_item']?>">
+	</td>
+</tr>
+</table>
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="dcs_part_write" style="margin-top:2px">
+<col width="15%"></col>
+<col width="12%"></col>
+<col width="20%"></col>
+<col width="20%"></col>
+<col width="20%"></col>
+<col width="*"></col>
+<br>
+<b>2.변경정보 (핵심사항만 기재, 상세내용은 첨부자료 참조)</b>
+<tr>
+	<th><?=mecho('변경항목')?></th>
+	<td class='default' colspan='5'>
+		<input type='checkbox' id='product_relation1' name='product_relation1' value='규격변경' <?=($DATA[0]['product_relation1']=="규격변경")?"checked":""?>>규격변경
+		<input type='checkbox' id='product_relation2' name='product_relation2' value='원료변경' <?=($DATA[0]['product_relation2']=="원료변경")?"checked":""?>>원료변경&nbsp;&nbsp;
+		<input type='checkbox' id='product_relation3' name='product_relation3' value='신규원료' <?=($DATA[0]['product_relation3']=="신규원료")?"checked":""?>>신규원료&nbsp;&nbsp;
+		<input type='checkbox' id='product_relation4' name='product_relation4' value='배합변경' <?=($DATA[0]['product_relation4']=="배합변경")?"checked":""?>>배합변경&nbsp;&nbsp;	
+		<input type='checkbox' id='product_relation5' name='product_relation5' value='공정변경' <?=($DATA[0]['product_relation5']=="공정변경")?"checked":""?>>공정변경	
+	</td>
+</tr>
+
+<tr>
+	<th rowspan="20"><?=mecho("규격변경")?>
+		<br>
+		<img src="/design/image/dcs/plus.gif" width="9" height="9" onclick="fn_table_class_add_rows('A' , 20 , 5, 6)" style='cursor:hand' title='줄 추가'> 
+		<img src="/design/image/dcs/minus.gif" width="9" height="9" onclick="fn_table_class_del_rows('A' , 20 , 5, 6)" style='cursor:hand' title='줄 삭제'>
+	</th>
+	<th><?=mecho("유형")?></th>
+	<th><?=mecho("측정항목")?></th>
+	<th><?=mecho("기존규격")?></th>
+	<th><?=mecho("변경규격")?></th>
+	<th><?=mecho("검사여부")?></th>
+</tr>
+<?=$list1?>
+
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="dcs_part_write" style="margin-top:15px">
+<col width="15%"></col>
+<col width="42%"></col>
+<col width="42%"></col>
+<tr>
+	<th><?=mecho('구분')?></th>
+	<th><?=mecho('변경 전')?></th>
+	<th><?=mecho('변경 후')?></th>
+</tr>
+<tr>
+	<th><?=mecho('원료변경')?></th>
+	<td class='default'><textarea id='before_1' name='before_1' style='width:100%;height:45px' class='input02'><?=$DATA[0]['before_1']?></textarea></td>
+	<td class='default'><textarea id='after_1' name='after_1' style='width:100%;height:45px' class='input02'><?=$DATA[0]['after_1']?></textarea></td>
+</tr>
+<tr>
+	<th><?=mecho('배합변경')?></th>
+	<td class='default'><textarea id='before_2' name='before_2' style='width:100%;height:45px' class='input02'><?=$DATA[0]['before_2']?></textarea></td>
+	<td class='default'><textarea id='after_2' name='after_2' style='width:100%;height:45px' class='input02'><?=$DATA[0]['after_2']?></textarea></td>
+</tr>
+<tr>
+	<th><?=mecho('공정변경')?></th>
+	<td class='default'><textarea id='before_3' name='before_3' style='width:100%;height:45px' class='input02'><?=$DATA[0]['before_3']?></textarea></td>
+	<td class='default'><textarea id='after_3' name='after_3' style='width:100%;height:45px' class='input02'><?=$DATA[0]['after_3']?></textarea></td>
+</tr>
+<tr>
+	<th><?=mecho('보관조건')?></th>
+	<td class='default'><textarea id='before_4' name='before_4' style='width:100%;height:45px' class='input02'><?=$DATA[0]['before_4']?></textarea></td>
+	<td class='default'><textarea id='after_4' name='after_4' style='width:100%;height:45px' class='input02'><?=$DATA[0]['after_4']?></textarea></td>
+</tr>
+<tr>
+	<th><?=mecho('보증기간')?></th>
+	<td class='default'><textarea id='before_5' name='before_5' style='width:100%;height:45px' class='input02'><?=$DATA[0]['before_5']?></textarea></td>
+	<td class='default'><textarea id='after_5' name='after_5' style='width:100%;height:45px' class='input02'><?=$DATA[0]['after_5']?></textarea></td>
+</tr>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="dcs_part_write" style="margin-top:15px">
+<col width="6%"></col>
+<col width="9%"></col>
+<col width="22%"></col>
+<col width="13%"></col>
+<col width="25%"></col>
+<col width="25%"></col>
+<tr>
+	<th colspan='2'>
+		<?=mecho('신규 유/무')?>
+	</th>
+	<td class='default'>
+		<label><input type="radio" id="new_check" name="new_check"  value="예" <?=($DATA[0]['new_check'] == '예') ? 'checked':''?>> 예</label>&nbsp;&nbsp;&nbsp;&nbsp;
+		<label><input type="radio" id="new_check" name="new_check"  value="아니오" <?=($DATA[0]['new_check'] == '아니오') ? 'checked':''?>> 아니오</label>
+	</td>
+	<th >
+		<?=mecho('위험/유해성')?>
+	</th>
+	<td class='default' colspan='2'>
+		※ 첨부문서 참조 (법규 검토 의뢰 및 검토서)
+	</td>
+</tr>
+<tr>
+	<th rowspan='30'>
+		<?=mecho('신규<br>원료<br>검토')?>
+	</th>
+</tr>
+<tr>
+	<th rowspan='2'>
+		<?=mecho('검사<br>항목')?>
+		<br>
+		<img src="/design/image/dcs/plus.gif" width="9" height="9" onclick="fn_table_class_add_rows('C' , 9 , 4, 2)" style='cursor:hand' title='줄 추가'> 
+		<img src="/design/image/dcs/minus.gif" width="9" height="9" onclick="fn_table_class_del_rows('C' , 9 , 4, 2)" style='cursor:hand' title='줄 삭제'>
+	</th>
+</tr>
+<tr> 
+	<td class='default' colspan="4">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" class="dcs_part_write" style="margin-top:1px">
+			<tr>
+				<th>
+					<?=mecho('원료명')?>
+				</th>
+				<th>
+					<?=mecho('항목')?>		
+				</th>
+				<th>
+					<?=mecho('단위')?>
+				</th>
+				<th>
+					<?=mecho('규격')?>
+				</th>
+			</tr>
+			<tr>
+				<td>
+					<?=$list3?>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+
+
+<tr>
+	<th rowspan='2'>
+		<?=mecho('보관조건<br>보증기간')?>
+		<br>
+		<img src="/design/image/dcs/plus.gif" width="9" height="9" onclick="fn_table_class_add_rows('D' , 9 , 3, 2)" style='cursor:hand' title='줄 추가'> 
+		<img src="/design/image/dcs/minus.gif" width="9" height="9" onclick="fn_table_class_del_rows('D' , 9 , 3, 2)" style='cursor:hand' title='줄 삭제'>
+	</th>
+</tr>
+<tr>
+	<td class='default' colspan="4">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" class="dcs_part_write" style="margin-top:1px">
+			<tr>
+				<th>
+					<?=mecho('원료명')?>
+				</th>
+				<th colspan="2">
+					<?=mecho('보관조건')?>		
+				</th>
+				<th>
+					<?=mecho('보증기간')?>
+				</th>
+			</tr>
+			<tr>
+				<?=$list4?>
+			</tr>
+		</table>
+	</td>
+</tr>
+</table>
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="dcs_part_write" style="margin-top:15px">
+<col width="15%"></col>
+<col width="20%"></col>
+
+<col width="23%"></col>
+<col width="20%"></col>
+<col width="23%"></col>
+<tr>
+	<th><?=mecho('폐수발생량')?></th>
+	<td class='default' colspan='4'><input type='text' class='input02' style='width:100%;' id='water' name='water' value="<?=$DATA[0]['water']?>"></td>
+</tr>
+<tr>
+	<th rowspan="2"><?=mecho('라벨/포장사양')?></th>
+	<th><?=mecho('품명표기')?></th>
+	<td class='default'><input type='text' class='input02' style='width:100%;' id='item1' name='item1' value="<?=$DATA[0]['item1']?>"></td>
+	<th><?=mecho('포장용기')?></th>
+	<td class='default'><input type='text' class='input02' style='width:100%;' id='item2' name='item2' value="<?=$DATA[0]['item2']?>"></td>
+</tr>
+<tr>
+	<th><?=mecho('라벨사양')?></th>
+	<td class='default'><input type='text' class='input02' style='width:100%;' id='item3' name='item3' value="<?=$DATA[0]['item3']?>"></td>
+	<th><?=mecho('포장단위')?></th>
+	<td class='default'><input type='text' class='input02' style='width:100%;' id='item4' name='item4' value="<?=$DATA[0]['item4']?>"></td>
+</tr>
+<tr>
+	<th><?=mecho('인증 요구사항')?></th>
+	<td class='default' colspan='4'><input type='text' class='input02' style='width:100%;' id='item5' name='item5' value="<?=$DATA[0]['item5']?>"></td>
+</tr>
+<tr>
+	<th><?=mecho('특기사항')?></th>
+	<td class='editor' colspan='5' style='height:80px;'>
+		<?=$this->module->oUX->showEditor("content",$DATA['content'],'100%','300px','draw_form');?>
+	</td>
+</tr>
+</table>
+<br><br>
+<b>3.사전검토 결과</b>
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="dcs_part_write" style="margin-top:2px">
+<col width="15%"></col>
+<col width="20%"></col>
+<col width="*"></col>
+<tr>
+	<th colspan="2"><?=mecho('검토항목')?></th>
+	<th><?=mecho('검토결과')?></th>
+</tr>
+<tr>
+	<th rowspan="3"><?=mecho('생산기술')?></th>
+	<td class='default'>제조공정 검토</td>
+	<td class='default'><textarea id='review_1' name='review_1' style='width:100%;height:45px' class='input02'><?=$DATA[0]['review_1']?></textarea></td>
+</tr>
+<tr>
+	<td class='default'>안정성 검토</td>
+	<td class='default'><textarea id='review_2' name='review_2' style='width:100%;height:45px' class='input02'><?=$DATA[0]['review_2']?></textarea></td>
+</tr>
+<tr>
+	<td class='default'>규격 적절성 검토</td>
+	<td class='default'><textarea id='review_3' name='review_3' style='width:100%;height:45px' class='input02'><?=$DATA[0]['review_3']?></textarea></td>
+</tr>
+<tr>
+	<th><?=mecho('생산관리')?></th>
+	<td class='default'>포장사양검토<br>(적용)</td>
+	<td class='default'><textarea id='review_4' name='review_4' style='width:100%;height:45px' class='input02'><?=$DATA[0]['review_4']?></textarea></td>
+</tr>
+<tr>
+	<th rowspan="7"><?=mecho('품질')?></th>
+	<td class='default'>제품법규검토<br>(화평법 등)</td>
+	<td class='default'><textarea id='review_5' name='review_5' style='width:100%;height:45px' class='input02'><?=$DATA[0]['review_5']?></textarea></td>
+</tr>
+<tr>
+	<td class='default'>원료법규검토<br>(화평법 등)</td>
+	<td class='default'><textarea id='review_6' name='review_6' style='width:100%;height:45px' class='input02'><?=$DATA[0]['review_6']?></textarea></td>
+</tr>
+<tr>
+	<td class='default'>인증검토</td>
+	<td class='default'><textarea id='review_7' name='review_7' style='width:100%;height:45px' class='input02'><?=$DATA[0]['review_7']?></textarea></td>
+</tr>
+<tr>
+	<td class='default'>제품검사항목검토</td>
+	<td class='default'><textarea id='review_8' name='review_8' style='width:100%;height:45px' class='input02'><?=$DATA[0]['review_8']?></textarea></td>
+</tr>
+<tr>
+	<td class='default'>원료검사항목검토</td>
+	<td class='default'><textarea id='review_9' name='review_9' style='width:100%;height:45px' class='input02'><?=$DATA[0]['review_9']?></textarea></td>
+</tr>
+<tr>
+	<td class='default'>검사방법/설비검토</td>
+	<td class='default'><textarea id='review_10' name='review_10' style='width:100%;height:45px' class='input02'><?=$DATA[0]['review_10']?></textarea></td>
+</tr>
+<tr>
+	<td class='default'>포장사양검토<br>(기술직)</td>
+	<td class='default'><textarea id='review_11' name='review_11' style='width:100%;height:45px' class='input02'><?=$DATA[0]['review_11']?></textarea></td>
+</tr>
+<tr>
+	<th rowspan="2"><?=mecho('환경안전')?></th>
+	<td class='default'>취급법규검토<br>(화관법 등)</td>
+	<td class='default'><textarea id='review_12' name='review_12' style='width:100%;height:45px' class='input02'><?=$DATA[0]['review_12']?></textarea></td>
+</tr>
+<tr>
+	<td class='default'>폐수처리검토</td>
+	<td class='default'><textarea id='review_13' name='review_13' style='width:100%;height:45px' class='input02'><?=$DATA[0]['review_13']?></textarea></td>
+</tr>
+</table>
+<br><br>
+<!--
+<?=mecho('◎협의자(팀장) : 생산기술, 생산관리, 해당생산, 연구기획, 품질경영')?><br>
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="dcs_part_write" style="margin-top:2px">
+<col width="10%"></col>
+<col width="40%"></col>
+<col width="10%"></col>
+<col width="40%"></col>
+<tr>
+	<th><?=mecho('회의')?></th>
+	<td class='default' colspan='3'>
+		<input type='checkbox' id='conference1' name='conference1' value='문서대체' <?=($DATA[0]['conference1']=="문서대체")?"checked":""?>>문서대체&nbsp;
+		<input type='text' class='input02' style='width:25%;' id='conference1_nm' name='conference1_nm' value="<?=$DATA[0]['conference1_nm']?>"><br>
+		<input type='checkbox' id='conference2' name='conference2' value='회의소집요청' <?=($DATA[0]['conference2']=="회의소집요청")?"checked":""?>>회의소집요청&nbsp;
+		<input type='text' class='input02' style='width:25%;' id='conference2_nm' name='conference2_nm' value="<?=$DATA[0]['conference2_nm']?>">
+		(<input type='text' class='input02' style='width:55%;' id='conference_etc' name='conference_etc' value="<?=$DATA[0]['conference_etc']?>" placeholder="※ 사유 간단히 기재">)
+	</td>
+</tr>
+<tr>
+	<th><?=mecho('소집일시')?></th>
+	<td class='default'><?=$gather_dt?></td>
+	<th><?=mecho('회의장소')?></th>
+	<td class='default'><input type='text' class='input02' style='width:100%;' id='conference_location' name='conference_location' value="<?=$DATA[0]['conference_location']?>"></td>
+</tr>
+</table>
+-->
+<b>4. 회의 소집 요청</b>
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="dcs_part_write" style="margin-top:2px">
+<col width="10%"></col>
+<col width="40%"></col>
+<col width="10%"></col>
+<col width="40%"></col>
+<tr>
+	<th><?=mecho('요청팀')?></th>
+	<td class='default' >
+		<input type='text' class='input02' style='width:100%;' id='conference1_team' name='conference1_team' value="<?=$DATA[0]['conference1_team']?>">
+	</td>
+	<th><?=mecho('요청자')?></th>
+	<td class='default' >
+		<input type='text' class='input02' style='width:100%;' id='conference1_nm' name='conference1_nm' value="<?=$DATA[0]['conference1_nm']?>">
+	</td>
+</tr>
+<tr>
+	<th><?=mecho('요청사유')?></th>
+	<td class='default' colspan="3">
+		<input type='text' class='input02' style='width:100%;' id='conference1_reason' name='conference1_reason' value="<?=$DATA[0]['conference1_reason']?>">
+	</td>
+</tr>
+</table>
+<br>
+<div style="color:red;">※ 첨부파일 : 1.합성그래프 / 2.배합표 / 3.COA(Certificate Of Analysis, 시험성적서)<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.MSDS / 5.화학물질확인명세서 / 6.법규검토 의뢰 및 검토서(신규대체원자재,신규개량제품)</div>

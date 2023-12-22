@@ -1,0 +1,188 @@
+http://bms.anymate.co.kr/view.php?id=49951
+0049951: [한중엔시에스] 전자우편 > 승인메일 설정 > 본문 이미지 포함 체크
+
+본문에 첨부된 이미지의 경우 ( 붙여넣기 또는 캡쳐화면 등 ) 제한없이 사용하기 위해서 승인메일 첨부파일로 체크하지 않고 있습니다.
+
+-------------------------------------------------------------------------------
+http://bms.anymate.co.kr/view.php?id=49968
+[신라공업] 포워딩 설정 해제 후에도 메일이 포워딩되고 있습니다.
+
+-----------------------------------------------------------------------------------
+
+메일이 반송되어 왔을때,,,
+
+반송되어 온 메일 내용을 확인하고,
+거기서 문제를 찾아서, 해결하면됨
+
+Spamhaus에서 ip가 블록당해서 반송되어 왔을때는,
+안내 된 주소로 가서
+해제 등록 신청하고, 메일인증하면
+몇시간내에 해제 됨
+------------------------------------------------
+스팸장비를 쓰는 업체가 있고, 안쓰는 업체가 있음.
+스팸장비를 쓴다면, 메일을 보내면 바로 발신지로 보내지 않고,
+스팸장비로 보냄. 그 이후에 문제가 없다면 스팸장비에서 발신지로 감.
+발신지 쪽에서도 스팸장비를 사용한다면,
+한번더 스팸장비를 거쳐서 발신지로 도착함.
+젤 많이 쓰는 스팸장비 업체는
+스팸스나이퍼, 이럴 경우에 로그를 봤을때 250 [Sniper] 같이 전송됨.
+로그를 잘보자..
+--------------------------------------------------
+
+
+-----------------------------------------------------
+0049905: [에이엘티] 모바일 앱 전자우편 회신/전달 이상
+http://bms.anymate.co.kr/view.php?id=49905
+
+---------------------------------------------------
+http://bms.anymate.co.kr/view.php?id=49991
+0049991: [대신통신기술(주)] 메일로그 확인 부탁드립니다.
+메일 발송 에러 - CNAME_lookup_failed_temporarily._(4.4.3)
+
+-----------------------------------------------
+http://bms.anymate.co.kr/view.php?id=50038
+0050038: [성림첨단산업] 고객사 메일전송 실패 원인분석 해주시기 바랍니다.
+지메일 정책관련, SPF레코드
+보통 반송
+spf레코드
+set type=txt는 일단 메일도메인으로 확인해야됨,
+
+[root@newbms ~]# nslookup
+> set type=txt
+> sgtech.co.kr
+Server: 168.126.63.1
+Address: 168.126.63.1#53
+
+Non-authoritative answer:
+sgtech.co.kr text = "v=spf1 ip4:118.41.254.34 ~all v=spf1 ip4:118.41.254.35 ~all"
+
+Authoritative answers can be found from:
+
+"v=spf1 ip4:118.41.254.34 ~all v=spf1 ip4:118.41.254.35 ~all" 요런식으로 작성되면 안됨
+v=spf1 ip4:118.41.254.34 ip4:118.41.254.35 ~all
+v=spf1 ip4:118.41.254.34 ip4:118.41.254.35 -all
+-랑 ~이랑 차이가 있으니, 보통은 ~로 자주씀
+요런식으로 작성되어야함
+
+ptr레코드는
+반송되어온 메일 ip로 확인하면됨
+
+whois 명령어로 정보알수있음
+
+-------------------------------------------------
+
+수신일이 9월 21일인것부터 열람권한이 없다고 나옴
+
+-----------------------------------------
+0050090: [한국코스틱(주)] 이메일주소 변경시....
+http://bms.anymate.co.kr/view.php?id=50090
+이메일 주소를 변경하고, 기존 메일을 새주소로 포워딩을 하면, 기존 메일로 오는 것들도 받을 수 있음.
+그렇게하고 기존 원래 받을 메일도 그대로 남아있음.
+
+----------------------------------------------
+0050092: [한중엔시에스] 전자메일 속도 지연 이슈
+http://bms.anymate.co.kr/view.php?id=50092
+중국에서 그룹웨어 사용할때, 사용자분 가속모드(중국) 사용 중인것만 체크하고,
+ - 중국/베트남 등 동남아쪽은 자체 인터넷망이 느려서 원래 느릴수밖에 없음.
+ - 문제가 있는게 아니고 인터넷망이 느려서 그런거니 어쩔수 없음.
+ ( 네이버나 다음이나 이런 사이트는 빠른데.. 그룹웨어만 느리다고 말하면.. 
+ 그룹웨어 서버와 포탈사이트 서버와 성능이나 회선자체가 다름. 비싼거. 따라서 비교할수 없음; )
+
+--------------------------------------------------
+0050167: [한국코스틱(주)] 아웃룩 메일계정설정
+http://bms.anymate.co.kr/view.php?id=50167
+
+--------------------------------------------------
+0050166: [유니크] 메일 수신자 다수일 시, 수신자 메일내역이 다 보이는지 확인 요청의 건
+http://bms.anymate.co.kr/view.php?id=50166
+전자우편에 수신자 표기는 표준기능으로 발송자가 설정한 그룹명(배포선명)으로 표기할수는 없습니다. (전자우편 국제표준규약)
+
+---------------------------------------------------
+0050219: [신생공업(주)] 도메일 예외처리 문의
+http://bms.anymate.co.kr/view.php?id=50219
+스팸장비 사용하고 있으면, 스팸장비 체크하라고 답변
+---------------------------------------------
+[에이엘티] 서버 수신 메일 긴급 점검 부탁 드립니다
+대량 메일 수신
+http://bms.anymate.co.kr/view.php?id=50217
+
+--------------------------------------
+https://support.google.com/a/answer/3726730?hl=en
+지메일 메일 오류 코드모음
+
+
+
+일단 지메일 
+
+
+
+[한국코스틱(주)] 외부로 이메일보낼때 에러메시지
+http://bms.anymate.co.kr/view.php?id=49373
+
+
+
+
+Failed to launch 'warning:%20copy(/usr/local/gwmkkimcom/data/com/CA/mail/mailuser/demo1/writefiles/311/1701228512.6006.dat):%20failed%20to%20open%20stream:%20No%20such%20file%20or%20directory%20in%20/home/anymate/gwmkkimcom/m/mail/class/class.mailSend.inc.php%20on%20line%20923./?mode=sent&folder_no=' because the scheme does not have a registered handler.
+
+
+
+Failed to launch 'warning:%20copy(/usr/local/gwmkkimcom/data/com/CA/mail/mailuser/demo1/writefiles/314/1701228616.9434.dat):%20failed%20to%20open%20stream:%20No%20such%20file%20or%20directory%20in%20/home/anymate/gwmkkimcom/m/mail/class/class.mailSend.inc.php%20on%20line%20923MDB2%20Error:%20syntax%20error' because the scheme does not have a registered handler.
+
+
+Not Found
+The requested URL /mail/MDB2 Error: syntax error was not found on this server.
+
+Apache Server at gw.mkkim.com Port 80
+
+---------------------------------
+http://bms.anymate.co.kr/view.php?id=43650
+메일 큐 스탯 체크
+
+
+
+
+https://gw.sjtech87.co.kr/board/?mode=view&menu_no=6&comenu_no=23&num=4054&page=1&flag=&dept=&type=list&sel_search=&sch_txt=&order_idx=&sort=&opt=&searchUse=N&search_detail_title=&search_detail_dept=&search_detail_writer=&search_detail_body=&search_sdate=2023-12-07&search_edate=2023-12-07&active=1
+
+https://gw.sjtech87.co.kr/board/?mode=list&menu_no=6&comenu_no=23&dept=&type=&event=&opt=&order_idx=6&sort=desc&page=1&searchUse=N&active=1&folder_no=0&flag=&sel_search1=s&sch_txt1=&sel_move=&sel_search=s&sch_txt=&search_sdate=2023-12-07&search_edate=2023-12-07&search_detail_title=&search_detail_dept=&search_detail_writer=&search_detail_body=
+
+게시글 작성자 장은지
+eunjijang
+acc_no = 1291
+
+
+
+[교육]2024년 삼성전자 상생협력아카데미 교육 안내 건
+
+
+
+
+2024년 삼성전자 상생협력 아카데미에서 아래와 같은 교육 과정을 실시하오니, 관련 직무 교육이 필요한 사원은 참고하시기 바랍니다.
+
+-    아     래    -
+
+
+
+
+
+
+
+
+
+ 1. 신청 및 수강 기간 : 교육마다 상이(첨부파일 참고)
+
+
+
+ 2. 수강 신청 방법 : 삼성전자 교육센터(www.partnerseducenter.com) 로그인 → 교육신청 메뉴 → 집합/비대면/온라인 교육 중 선택 → 필요 교육 수강신청
+
+
+
+ 3. 기타
+
+   - 그룹웨어 교육신청서, 교육결과보고서 개인 별로 상신(수료증이 있는 경우 교육결과보고서에 첨부 바람)
+
+   - 교육 상세 내용은 첨부파일 참고
+
+
+   https://gw.sjtech87.co.kr/editor/?mode=image&fileno=NOTQ3jNzAxcOTgwwMjUxONDg3TNjc4QNjI=4MzM3
+
+   https://gw.sjtech87.co.kr/editor/?mode=image&fileno=NMTQ2jMzAwcMzQzwMTg2ONzM5TODU1QODUw5NjM2

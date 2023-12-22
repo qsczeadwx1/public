@@ -1,0 +1,320 @@
+Dec  5 14:56:01 localhost qmail: 1701755761.705641 new msg 525602
+Dec  5 14:56:01 localhost qmail: 1701755761.705660 info msg 525602: bytes 21386746 from <jkim34@y-poong.co.kr> qp 26802 uid 500
+Dec  5 14:56:01 localhost qmail: 1701755761.706473 starting <b>delivery 2855334</b>: msg 525602 to remote kjs3134@nts.go.kr
+Dec  5 14:56:01 localhost qmail: 1701755761.706487 status: local 0/10 remote 1/40
+Dec  5 14:56:01 localhost qmail: 1701755761.897193 new msg 525605
+Dec  5 14:56:01 localhost qmail: 1701755761.897212 info msg 525605: bytes 21386746 from <jkim34@y-poong.co.kr> qp 26804 uid 500
+Dec  5 14:56:01 localhost qmail: 1701755761.917825 starting <b>delivery 2855335</b>: msg 525605 to remote yjh0530@nts.go.kr
+Dec  5 14:56:01 localhost qmail: 1701755761.917844 status: local 0/10 remote 2/40
+Dec  5 14:56:02 localhost qmail: 1701755762.069906 new msg 525611
+Dec  5 14:56:02 localhost qmail: 1701755762.069925 info msg 525611: bytes 21386746 from <jkim34@y-poong.co.kr> qp 26805 uid 500
+Dec  5 14:56:02 localhost qmail: 1701755762.090653 starting <b>delivery 2855336</b>: msg 525611 to remote gmst1223@nts.go.kr
+Dec  5 14:56:02 localhost qmail: 1701755762.090670 status: local 0/10 remote 3/40
+
+
+Dec  5 14:56:02 localhost qmail: 1701755762.090677 <b>delivery 2855334: success</b>: 116.67.121.86_accepted_message./Remote_host_said:_250_OK/
+Dec  5 14:56:02 localhost qmail: 1701755762.090749 status: local 0/10 remote 2/40
+Dec  5 14:56:02 localhost qmail: 1701755762.090776 end msg 525602
+
+
+Dec  5 14:56:02 localhost qmail: 1701755762.247645 new msg 525614
+Dec  5 14:56:02 localhost qmail: 1701755762.247658 info msg 525614: bytes 21386746 from <jkim34@y-poong.co.kr> qp 26808 uid 500
+Dec  5 14:56:02 localhost qmail: 1701755762.268315 starting <b>delivery 2855338</b>: msg 525614 to remote ovo5959@nts.go.kr
+Dec  5 14:56:02 localhost qmail: 1701755762.268332 status: local 0/10 remote 3/40
+
+Dec  5 14:56:02 localhost qmail: 1701755762.342110 <b>delivery 2855335: success</b>: 116.67.121.86_accepted_message./Remote_host_said:_250_OK/
+Dec  5 14:56:02 localhost qmail: 1701755762.342174 status: local 0/10 remote 2/40
+Dec  5 14:56:02 localhost qmail: 1701755762.342199 end msg 525605
+Dec  5 14:56:02 localhost qmail: 1701755762.742898 <b>delivery 2855336: success</b>: 116.67.121.86_accepted_message./Remote_host_said:_250_OK/
+Dec  5 14:56:02 localhost qmail: 1701755762.743013 status: local 0/10 remote 1/40
+Dec  5 14:56:02 localhost qmail: 1701755762.743021 end msg 525611
+
+Dec  5 14:56:02 localhost qmail: 1701755762.796058 <b>delivery 2855338: success</b>: 116.67.121.86_accepted_message./Remote_host_said:_250_OK/
+Dec  5 14:56:02 localhost qmail: 1701755762.796123 status: local 0/10 remote 0/40
+Dec  5 14:56:02 localhost qmail: 1701755762.796146 end msg 525614
+
+
+
+
+
+
+Dec  5 15:03:43 localhost qmail: 1701756223.336576 info msg 525388: bytes 6706150 from <jkim34@y-poong.co.kr> qp 1361 uid 500
+Dec  5 15:03:43 localhost qmail: 1701756223.337318 starting <b>delivery 2855562</b>: msg 525388 to remote kjs3134@nts.go.kr
+Dec  5 15:03:43 localhost qmail: 1701756223.337331 status: local 0/10 remote 2/40
+Dec  5 15:03:43 localhost pop3: 1701756223.378801 tcpserver: end 1359 status 256
+Dec  5 15:03:43 localhost pop3: 1701756223.378822 tcpserver: status: 2/255
+Dec  5 15:03:43 localhost qmail: 1701756223.387265 new msg 525605
+Dec  5 15:03:43 localhost qmail: 1701756223.387290 info msg 525605: bytes 6706150 from <jkim34@y-poong.co.kr> qp 1364 uid 500
+Dec  5 15:03:43 localhost qmail: 1701756223.387981 starting <b>delivery 2855563</b>: msg 525605 to remote yjh0530@nts.go.kr
+Dec  5 15:03:43 localhost qmail: 1701756223.387995 status: local 0/10 remote 3/40
+Dec  5 15:03:43 localhost qmail: 1701756223.441565 new msg 525608
+Dec  5 15:03:43 localhost qmail: 1701756223.441586 info msg 525608: bytes 6706150 from <jkim34@y-poong.co.kr> qp 1367 uid 500
+Dec  5 15:03:43 localhost qmail: 1701756223.442303 starting <b>delivery 2855564</b>: msg 525608 to remote gmst1223@nts.go.kr
+Dec  5 15:03:43 localhost qmail: 1701756223.442314 status: local 0/10 remote 4/40
+Dec  5 15:03:43 localhost qmail: 1701756223.490057 new msg 525611
+Dec  5 15:03:43 localhost qmail: 1701756223.490085 info msg 525611: bytes 6706150 from <jkim34@y-poong.co.kr> qp 1369 uid 500
+Dec  5 15:03:43 localhost qmail: 1701756223.490872 starting <b>delivery 2855565</b>: msg 525611 to remote ovo5959@nts.go.kr
+Dec  5 15:03:43 localhost qmail: 1701756223.490887 status: local 0/10 remote 5/40
+
+
+Dec  5 15:03:43 localhost qmail: 1701756223.548678 <b>delivery 2855562: success</b>: 116.67.121.86_accepted_message./Remote_host_said:_250_OK/
+Dec  5 15:03:43 localhost qmail: 1701756223.548728 status: local 0/10 remote 4/40
+Dec  5 15:03:43 localhost qmail: 1701756223.548747 end msg 525388
+Dec  5 15:03:43 localhost qmail: 1701756223.672481 <b>delivery 2855563: success</b>: 116.67.121.86_accepted_message./Remote_host_said:_250_OK/
+Dec  5 15:03:43 localhost qmail: 1701756223.672541 status: local 0/10 remote 3/40
+Dec  5 15:03:43 localhost qmail: 1701756223.672562 end msg 525605
+Dec  5 15:03:43 localhost qmail: 1701756223.721895 <b>delivery 2855564: success</b>: 116.67.121.86_accepted_message./Remote_host_said:_250_OK/
+Dec  5 15:03:43 localhost qmail: 1701756223.721948 status: local 0/10 remote 2/40
+Dec  5 15:03:43 localhost qmail: 1701756223.721968 end msg 525608
+Dec  5 15:03:43 localhost qmail: 1701756223.730017 <b>delivery 2855565: success</b>: 116.67.121.86_accepted_message./Remote_host_said:_250_OK/
+Dec  5 15:03:43 localhost qmail: 1701756223.730143 status: local 0/10 remote 1/40
+Dec  5 15:03:43 localhost qmail: 1701756223.730198 end msg 525611
+
+
+효원NV
+
+
+
+top - 09:32:56 up  1:16,  1 user,  load average: 0.04, 0.06, 0.09
+Tasks: 311 total,   1 running, 310 sleeping,   0 stopped,   0 zombie
+Cpu(s):  0.0%us,  0.0%sy,  0.0%ni, 99.8%id,  0.1%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  16364780k total,  2269624k used, 14095156k free,    70920k buffers
+Swap: 16777212k total,        0k used, 16777212k free,  1505192k cached
+
+root      8698  8623  0 09:33 pts/0    00:00:00 grep apache
+
+
+
+박정교 park97@myeco.co.kr acc_no 951
+채동명 coehdaud@myeco.co.kr acc_no 7816
+
+정승권 jsk0462@myeco.co.kr acc_no 4126
+
+
+
+else if ($this->flag == 'cc')		// 회람문서
+			{
+				$my_docnum = $row["docnum"];
+				$read_yn = ($row['state'] == 'C') ? 0:1;
+				$my_title			= $this->oUX->linkToViewPage(IO::read_text($row["title"] ,3),$link, $read_yn , $my_icons);
+			}
+
+
+            young7881 김진영 6988
+            realisshoman 이승호 7813
+
+
+            우윤경 1535
+
+
+2023 89건
+2022 69건
+2021 32건
+2020 35건
+2019 38건
+2018 15건
+
+	function __default()
+	{
+		$DATA = $this->test();
+		echo $_SERVER['REQUEST_SCHEME'];
+		print_r($DATA);
+		exit;
+	}
+	function test()
+	{
+		$arr = array();
+
+		$WHERE = '';
+
+		$sql = "SELECT C.dcs_id FROM T_DCS_CIR_2023 as C JOIN T_DCS_2023 as T ON C.dcs_id = T.dcs_id WHERE T.acc_no = 4126 AND C.acc_no = 1535";
+		
+		$this->db->que = $sql;
+		$this->db->query();
+		while ($row = $this->db->getRow())
+		{
+			$arr[] = $row;
+		}
+
+		return $arr;
+	}
+
+
+
+    Array ( [0] => Array ( [dcs_id] => 373 ) [1] => Array ( [dcs_id] => 373 ) [2] => Array ( [dcs_id] => 644 ) [3] => Array ( [dcs_id] => 644 ) [4] => Array ( [dcs_id] => 644 ) [5] => Array ( [dcs_id] => 2027 ) [6] => Array ( [dcs_id] => 2145 ) [7] => Array ( [dcs_id] => 2740 ) [8] => Array ( [dcs_id] => 3840 ) [9] => Array ( [dcs_id] => 3840 ) [10] => Array ( [dcs_id] => 4729 ) [11] => Array ( [dcs_id] => 4793 ) [12] => Array ( [dcs_id] => 5626 ) [13] => Array ( [dcs_id] => 5782 ) [14] => Array ( [dcs_id] => 6037 ) [15] => Array ( [dcs_id] => 6155 ) [16] => Array ( [dcs_id] => 6319 ) [17] => Array ( [dcs_id] => 7755 ) [18] => Array ( [dcs_id] => 8101 ) [19] => Array ( [dcs_id] => 8101 ) [20] => Array ( [dcs_id] => 8596 ) [21] => Array ( [dcs_id] => 8688 ) [22] => Array ( [dcs_id] => 9847 ) [23] => Array ( [dcs_id] => 10166 ) [24] => Array ( [dcs_id] => 10969 ) [25] => Array ( [dcs_id] => 10995 ) [26] => Array ( [dcs_id] => 11015 ) [27] => Array ( [dcs_id] => 11259 ) [28] => Array ( [dcs_id] => 11259 ) [29] => Array ( [dcs_id] => 12391 ) [30] => Array ( [dcs_id] => 12391 ) [31] => Array ( [dcs_id] => 12729 ) [32] => Array ( [dcs_id] => 12729 ) [33] => Array ( [dcs_id] => 13335 ) [34] => Array ( [dcs_id] => 13580 ) [35] => Array ( [dcs_id] => 13580 ) [36] => Array ( [dcs_id] => 14235 ) [37] => Array ( [dcs_id] => 14332 ) [38] => Array ( [dcs_id] => 14466 ) [39] => Array ( [dcs_id] => 14466 ) [40] => Array ( [dcs_id] => 14467 ) [41] => Array ( [dcs_id] => 14467 ) [42] => Array ( [dcs_id] => 14758 ) [43] => Array ( [dcs_id] => 14758 ) [44] => Array ( [dcs_id] => 14768 ) [45] => Array ( [dcs_id] => 14768 ) [46] => Array ( [dcs_id] => 15025 ) [47] => Array ( [dcs_id] => 15079 ) [48] => Array ( [dcs_id] => 15801 ) [49] => Array ( [dcs_id] => 16582 ) [50] => Array ( [dcs_id] => 17483 ) [51] => Array ( [dcs_id] => 17483 ) [52] => Array ( [dcs_id] => 17484 ) [53] => Array ( [dcs_id] => 17484 ) [54] => Array ( [dcs_id] => 17954 ) [55] => Array ( [dcs_id] => 19113 ) [56] => Array ( [dcs_id] => 19572 ) [57] => Array ( [dcs_id] => 19572 ) [58] => Array ( [dcs_id] => 19573 ) [59] => Array ( [dcs_id] => 19573 ) [60] => Array ( [dcs_id] => 20393 ) [61] => Array ( [dcs_id] => 22198 ) [62] => Array ( [dcs_id] => 22688 ) [63] => Array ( [dcs_id] => 22688 ) [64] => Array ( [dcs_id] => 22692 ) [65] => Array ( [dcs_id] => 22692 ) [66] => Array ( [dcs_id] => 22795 ) [67] => Array ( [dcs_id] => 23291 ) [68] => Array ( [dcs_id] => 23292 ) [69] => Array ( [dcs_id] => 25428 ) [70] => Array ( [dcs_id] => 25434 ) [71] => Array ( [dcs_id] => 25866 ) [72] => Array ( [dcs_id] => 25867 ) [73] => Array ( [dcs_id] => 26304 ) [74] => Array ( [dcs_id] => 26407 ) [75] => Array ( [dcs_id] => 26407 ) [76] => Array ( [dcs_id] => 26868 ) [77] => Array ( [dcs_id] => 27871 ) [78] => Array ( [dcs_id] => 28031 ) [79] => Array ( [dcs_id] => 28616 ) [80] => Array ( [dcs_id] => 28658 ) [81] => Array ( [dcs_id] => 29005 ) [82] => Array ( [dcs_id] => 30742 ) [83] => Array ( [dcs_id] => 32159 ) [84] => Array ( [dcs_id] => 33777 ) [85] => Array ( [dcs_id] => 35471 ) [86] => Array ( [dcs_id] => 37023 ) [87] => Array ( [dcs_id] => 37261 ) [88] => Array ( [dcs_id] => 37701 ) [89] => Array ( [dcs_id] => 39217 ) [90] => Array ( [dcs_id] => 41789 ) [91] => Array ( [dcs_id] => 43410 ) [92] => Array ( [dcs_id] => 43983 ) [93] => Array ( [dcs_id] => 44197 ) [94] => Array ( [dcs_id] => 44197 ) [95] => Array ( [dcs_id] => 44262 ) [96] => Array ( [dcs_id] => 48762 ) [97] => Array ( [dcs_id] => 49620 ) [98] => Array ( [dcs_id] => 50104 ) [99] => Array ( [dcs_id] => 51818 ) [100] => Array ( [dcs_id] => 53290 ) [101] => Array ( [dcs_id] => 53290 ) [102] => Array ( [dcs_id] => 53341 ) [103] => Array ( [dcs_id] => 53341 ) [104] => Array ( [dcs_id] => 53368 ) [105] => Array ( [dcs_id] => 53368 ) [106] => Array ( [dcs_id] => 55598 ) [107] => Array ( [dcs_id] => 55631 ) [108] => Array ( [dcs_id] => 55631 ) [109] => Array ( [dcs_id] => 57150 ) [110] => Array ( [dcs_id] => 58156 ) [111] => Array ( [dcs_id] => 58687 ) [112] => Array ( [dcs_id] => 60342 ) [113] => Array ( [dcs_id] => 61099 ) [114] => Array ( [dcs_id] => 61099 ) [115] => Array ( [dcs_id] => 61438 ) [116] => Array ( [dcs_id] => 62655 ) [117] => Array ( [dcs_id] => 62824 ) [118] => Array ( [dcs_id] => 62824 ) [119] => Array ( [dcs_id] => 62827 ) [120] => Array ( [dcs_id] => 62827 ) [121] => Array ( [dcs_id] => 63390 ) [122] => Array ( [dcs_id] => 64851 ) [123] => Array ( [dcs_id] => 64852 ) [124] => Array ( [dcs_id] => 64853 ) [125] => Array ( [dcs_id] => 64857 ) [126] => Array ( [dcs_id] => 64858 ) [127] => Array ( [dcs_id] => 65874 ) [128] => Array ( [dcs_id] => 66579 ) [129] => Array ( [dcs_id] => 67378 ) [130] => Array ( [dcs_id] => 69970 ) [131] => Array ( [dcs_id] => 69970 ) [132] => Array ( [dcs_id] => 70924 ) [133] => Array ( [dcs_id] => 71642 ) [134] => Array ( [dcs_id] => 71933 ) [135] => Array ( [dcs_id] => 71953 ) [136] => Array ( [dcs_id] => 72432 ) [137] => Array ( [dcs_id] => 72432 ) [138] => Array ( [dcs_id] => 72481 ) [139] => Array ( [dcs_id] => 72530 ) [140] => Array ( [dcs_id] => 73266 ) [141] => Array ( [dcs_id] => 75159 ) [142] => Array ( [dcs_id] => 75159 ) [143] => Array ( [dcs_id] => 75701 ) [144] => Array ( [dcs_id] => 75701 ) [145] => Array ( [dcs_id] => 78442 ) [146] => Array ( [dcs_id] => 79350 ) [147] => Array ( [dcs_id] => 79350 ) [148] => Array ( [dcs_id] => 79403 ) [149] => Array ( [dcs_id] => 79403 ) [150] => Array ( [dcs_id] => 79417 ) [151] => Array ( [dcs_id] => 79417 ) [152] => Array ( [dcs_id] => 79818 ) [153] => Array ( [dcs_id] => 79818 ) [154] => Array ( [dcs_id] => 79821 ) [155] => Array ( [dcs_id] => 79821 ) [156] => Array ( [dcs_id] => 79839 ) [157] => Array ( [dcs_id] => 79840 ) [158] => Array ( [dcs_id] => 79840 ) [159] => Array ( [dcs_id] => 80515 ) [160] => Array ( [dcs_id] => 80638 ) [161] => Array ( [dcs_id] => 81518 ) [162] => Array ( [dcs_id] => 82156 ) [163] => Array ( [dcs_id] => 82156 ) [164] => Array ( [dcs_id] => 82166 ) [165] => Array ( [dcs_id] => 82166 ) [166] => Array ( [dcs_id] => 82426 ) [167] => Array ( [dcs_id] => 82935 ) [168] => Array ( [dcs_id] => 83096 ) [169] => Array ( [dcs_id] => 83859 ) [170] => Array ( [dcs_id] => 84237 ) [171] => Array ( [dcs_id] => 84238 ) [172] => Array ( [dcs_id] => 85274 ) [173] => Array ( [dcs_id] => 85274 ) [174] => Array ( [dcs_id] => 86898 ) [175] => Array ( [dcs_id] => 86898 ) [176] => Array ( [dcs_id] => 87293 ) [177] => Array ( [dcs_id] => 87571 ) [178] => Array ( [dcs_id] => 90262 ) [179] => Array ( [dcs_id] => 90489 ) [180] => Array ( [dcs_id] => 90489 ) [181] => Array ( [dcs_id] => 90765 ) [182] => Array ( [dcs_id] => 90765 ) [183] => Array ( [dcs_id] => 90947 ) [184] => Array ( [dcs_id] => 90947 ) [185] => Array ( [dcs_id] => 90952 ) [186] => Array ( [dcs_id] => 90952 ) [187] => Array ( [dcs_id] => 91741 ) [188] => Array ( [dcs_id] => 91944 ) [189] => Array ( [dcs_id] => 92148 ) [190] => Array ( [dcs_id] => 93227 ) [191] => Array ( [dcs_id] => 93510 ) [192] => Array ( [dcs_id] => 93618 ) [193] => Array ( [dcs_id] => 93618 ) [194] => Array ( [dcs_id] => 94252 ) [195] => Array ( [dcs_id] => 95239 ) [196] => Array ( [dcs_id] => 95629 ) [197] => Array ( [dcs_id] => 95922 ) [198] => Array ( [dcs_id] => 95922 ) [199] => Array ( [dcs_id] => 96506 ) [200] => Array ( [dcs_id] => 96684 ) [201] => Array ( [dcs_id] => 99289 ) [202] => Array ( [dcs_id] => 99289 ) [203] => Array ( [dcs_id] => 99294 ) [204] => Array ( [dcs_id] => 99893 ) [205] => Array ( [dcs_id] => 101478 ) [206] => Array ( [dcs_id] => 102074 ) [207] => Array ( [dcs_id] => 102074 ) [208] => Array ( [dcs_id] => 102475 ) [209] => Array ( [dcs_id] => 102475 ) [210] => Array ( [dcs_id] => 105118 ) [211] => Array ( [dcs_id] => 105548 ) [212] => Array ( [dcs_id] => 106298 ) [213] => Array ( [dcs_id] => 106466 ) [214] => Array ( [dcs_id] => 106466 ) [215] => Array ( [dcs_id] => 107079 ) [216] => Array ( [dcs_id] => 109589 ) [217] => Array ( [dcs_id] => 109645 ) [218] => Array ( [dcs_id] => 110218 ) [219] => Array ( [dcs_id] => 111061 ) [220] => Array ( [dcs_id] => 111401 ) [221] => Array ( [dcs_id] => 112556 ) [222] => Array ( [dcs_id] => 112556 ) [223] => Array ( [dcs_id] => 114451 ) [224] => Array ( [dcs_id] => 115009 ) [225] => Array ( [dcs_id] => 115009 ) [226] => Array ( [dcs_id] => 115043 ) [227] => Array ( [dcs_id] => 115171 ) [228] => Array ( [dcs_id] => 115786 ) [229] => Array ( [dcs_id] => 116275 ) [230] => Array ( [dcs_id] => 116275 ) [231] => Array ( [dcs_id] => 116765 ) [232] => Array ( [dcs_id] => 116765 ) [233] => Array ( [dcs_id] => 116928 ) [234] => Array ( [dcs_id] => 116928 ) [235] => Array ( [dcs_id] => 117301 ) [236] => Array ( [dcs_id] => 117528 ) [237] => Array ( [dcs_id] => 117529 ) [238] => Array ( [dcs_id] => 117529 ) [239] => Array ( [dcs_id] => 120014 ) [240] => Array ( [dcs_id] => 120553 ) [241] => Array ( [dcs_id] => 120553 ) [242] => Array ( [dcs_id] => 120633 ) [243] => Array ( [dcs_id] => 121223 ) [244] => Array ( [dcs_id] => 121725 ) [245] => Array ( [dcs_id] => 122067 ) [246] => Array ( [dcs_id] => 125135 ) [247] => Array ( [dcs_id] => 125135 ) [248] => Array ( [dcs_id] => 126348 ) [249] => Array ( [dcs_id] => 127349 ) [250] => Array ( [dcs_id] => 127888 ) [251] => Array ( [dcs_id] => 127962 ) [252] => Array ( [dcs_id] => 127962 ) [253] => Array ( [dcs_id] => 128149 ) [254] => Array ( [dcs_id] => 128421 ) [255] => Array ( [dcs_id] => 128734 ) [256] => Array ( [dcs_id] => 128734 ) [257] => Array ( [dcs_id] => 129729 ) [258] => Array ( [dcs_id] => 131166 ) [259] => Array ( [dcs_id] => 131472 ) [260] => Array ( [dcs_id] => 131472 ) [261] => Array ( [dcs_id] => 132120 ) [262] => Array ( [dcs_id] => 133778 ) [263] => Array ( [dcs_id] => 135032 ) [264] => Array ( [dcs_id] => 138111 ) [265] => Array ( [dcs_id] => 138113 ) [266] => Array ( [dcs_id] => 138636 ) [267] => Array ( [dcs_id] => 140536 ) [268] => Array ( [dcs_id] => 152628 ) )
+
+
+SELECT C.dcs_id FROM T_DCS_CIR_2023 as C JOIN T_DCS_2023 as T ON C.dcs_id = T.dcs_id WHERE T.acc_no = 4126 AND C.acc_no = 1535 AND C.cir_reg_dt >= '2023-10-25 16:50:00' AND C.cir_reg_dt <= '2023-10-25 17:00:00'
+
+Array ( [0] => Array ( [dcs_id] => 373 ) [1] => Array ( [dcs_id] => 644 ) [2] => Array ( [dcs_id] => 2027 ) [3] => Array ( [dcs_id] => 2145 ) [4] => Array ( [dcs_id] => 2740 ) [5] => Array ( [dcs_id] => 3840 ) [6] => Array ( [dcs_id] => 4729 ) [7] => Array ( [dcs_id] => 4793 ) [8] => Array ( [dcs_id] => 5626 ) [9] => Array ( [dcs_id] => 5782 ) [10] => Array ( [dcs_id] => 6037 ) [11] => Array ( [dcs_id] => 6155 ) [12] => Array ( [dcs_id] => 6319 ) [13] => Array ( [dcs_id] => 7755 ) [14] => Array ( [dcs_id] => 8101 ) [15] => Array ( [dcs_id] => 8596 ) [16] => Array ( [dcs_id] => 8688 ) [17] => Array ( [dcs_id] => 9847 ) [18] => Array ( [dcs_id] => 10166 ) [19] => Array ( [dcs_id] => 10969 ) [20] => Array ( [dcs_id] => 10995 ) [21] => Array ( [dcs_id] => 11015 ) [22] => Array ( [dcs_id] => 11259 ) [23] => Array ( [dcs_id] => 12391 ) [24] => Array ( [dcs_id] => 12729 ) [25] => Array ( [dcs_id] => 13335 ) [26] => Array ( [dcs_id] => 13580 ) [27] => Array ( [dcs_id] => 14235 ) [28] => Array ( [dcs_id] => 14332 ) [29] => Array ( [dcs_id] => 14466 ) [30] => Array ( [dcs_id] => 14467 ) [31] => Array ( [dcs_id] => 14758 ) [32] => Array ( [dcs_id] => 14768 ) [33] => Array ( [dcs_id] => 15025 ) [34] => Array ( [dcs_id] => 15079 ) [35] => Array ( [dcs_id] => 15801 ) [36] => Array ( [dcs_id] => 16582 ) [37] => Array ( [dcs_id] => 17483 ) [38] => Array ( [dcs_id] => 17484 ) [39] => Array ( [dcs_id] => 17954 ) [40] => Array ( [dcs_id] => 19113 ) [41] => Array ( [dcs_id] => 19572 ) [42] => Array ( [dcs_id] => 19573 ) [43] => Array ( [dcs_id] => 20393 ) [44] => Array ( [dcs_id] => 22198 ) [45] => Array ( [dcs_id] => 22688 ) [46] => Array ( [dcs_id] => 22692 ) [47] => Array ( [dcs_id] => 22795 ) [48] => Array ( [dcs_id] => 23291 ) [49] => Array ( [dcs_id] => 23292 ) [50] => Array ( [dcs_id] => 25428 ) [51] => Array ( [dcs_id] => 25434 ) [52] => Array ( [dcs_id] => 25866 ) [53] => Array ( [dcs_id] => 25867 ) [54] => Array ( [dcs_id] => 26304 ) [55] => Array ( [dcs_id] => 26407 ) [56] => Array ( [dcs_id] => 26868 ) [57] => Array ( [dcs_id] => 27871 ) [58] => Array ( [dcs_id] => 28031 ) [59] => Array ( [dcs_id] => 28616 ) [60] => Array ( [dcs_id] => 28658 ) [61] => Array ( [dcs_id] => 29005 ) [62] => Array ( [dcs_id] => 30742 ) [63] => Array ( [dcs_id] => 32159 ) [64] => Array ( [dcs_id] => 33777 ) [65] => Array ( [dcs_id] => 35471 ) [66] => Array ( [dcs_id] => 37023 ) [67] => Array ( [dcs_id] => 37261 ) [68] => Array ( [dcs_id] => 37701 ) [69] => Array ( [dcs_id] => 39217 ) [70] => Array ( [dcs_id] => 41789 ) [71] => Array ( [dcs_id] => 43410 ) [72] => Array ( [dcs_id] => 43983 ) [73] => Array ( [dcs_id] => 44197 ) [74] => Array ( [dcs_id] => 44262 ) [75] => Array ( [dcs_id] => 48762 ) [76] => Array ( [dcs_id] => 49620 ) [77] => Array ( [dcs_id] => 50104 ) [78] => Array ( [dcs_id] => 51818 ) [79] => Array ( [dcs_id] => 53290 ) [80] => Array ( [dcs_id] => 53341 ) [81] => Array ( [dcs_id] => 53368 ) [82] => Array ( [dcs_id] => 55598 ) [83] => Array ( [dcs_id] => 55631 ) [84] => Array ( [dcs_id] => 57150 ) [85] => Array ( [dcs_id] => 58156 ) [86] => Array ( [dcs_id] => 58687 ) [87] => Array ( [dcs_id] => 60342 ) [88] => Array ( [dcs_id] => 61099 ) [89] => Array ( [dcs_id] => 61438 ) [90] => Array ( [dcs_id] => 62655 ) [91] => Array ( [dcs_id] => 62824 ) [92] => Array ( [dcs_id] => 62827 ) [93] => Array ( [dcs_id] => 63390 ) [94] => Array ( [dcs_id] => 64851 ) [95] => Array ( [dcs_id] => 64852 ) [96] => Array ( [dcs_id] => 64853 ) [97] => Array ( [dcs_id] => 64857 ) [98] => Array ( [dcs_id] => 64858 ) [99] => Array ( [dcs_id] => 65874 ) [100] => Array ( [dcs_id] => 66579 ) [101] => Array ( [dcs_id] => 67378 ) [102] => Array ( [dcs_id] => 69970 ) [103] => Array ( [dcs_id] => 70924 ) [104] => Array ( [dcs_id] => 71642 ) [105] => Array ( [dcs_id] => 71933 ) [106] => Array ( [dcs_id] => 71953 ) [107] => Array ( [dcs_id] => 72432 ) [108] => Array ( [dcs_id] => 72481 ) [109] => Array ( [dcs_id] => 72530 ) [110] => Array ( [dcs_id] => 73266 ) [111] => Array ( [dcs_id] => 75159 ) [112] => Array ( [dcs_id] => 75701 ) [113] => Array ( [dcs_id] => 78442 ) [114] => Array ( [dcs_id] => 79350 ) [115] => Array ( [dcs_id] => 79403 ) [116] => Array ( [dcs_id] => 79417 ) [117] => Array ( [dcs_id] => 79818 ) [118] => Array ( [dcs_id] => 79821 ) [119] => Array ( [dcs_id] => 79839 ) [120] => Array ( [dcs_id] => 79840 ) [121] => Array ( [dcs_id] => 80515 ) [122] => Array ( [dcs_id] => 80638 ) [123] => Array ( [dcs_id] => 81518 ) [124] => Array ( [dcs_id] => 82156 ) [125] => Array ( [dcs_id] => 82166 ) [126] => Array ( [dcs_id] => 82426 ) [127] => Array ( [dcs_id] => 82935 ) [128] => Array ( [dcs_id] => 83096 ) [129] => Array ( [dcs_id] => 83859 ) [130] => Array ( [dcs_id] => 85274 ) [131] => Array ( [dcs_id] => 86898 ) [132] => Array ( [dcs_id] => 87293 ) [133] => Array ( [dcs_id] => 90262 ) [134] => Array ( [dcs_id] => 90489 ) [135] => Array ( [dcs_id] => 90765 ) [136] => Array ( [dcs_id] => 90947 ) [137] => Array ( [dcs_id] => 90952 ) [138] => Array ( [dcs_id] => 91741 ) [139] => Array ( [dcs_id] => 91944 ) [140] => Array ( [dcs_id] => 92148 ) [141] => Array ( [dcs_id] => 93227 ) [142] => Array ( [dcs_id] => 93510 ) [143] => Array ( [dcs_id] => 93618 ) [144] => Array ( [dcs_id] => 94252 ) [145] => Array ( [dcs_id] => 95239 ) [146] => Array ( [dcs_id] => 95629 ) [147] => Array ( [dcs_id] => 95922 ) [148] => Array ( [dcs_id] => 96506 ) [149] => Array ( [dcs_id] => 96684 ) [150] => Array ( [dcs_id] => 99289 ) [151] => Array ( [dcs_id] => 99294 ) [152] => Array ( [dcs_id] => 99893 ) [153] => Array ( [dcs_id] => 101478 ) [154] => Array ( [dcs_id] => 102074 ) [155] => Array ( [dcs_id] => 102475 ) [156] => Array ( [dcs_id] => 105118 ) [157] => Array ( [dcs_id] => 105548 ) [158] => Array ( [dcs_id] => 106298 ) [159] => Array ( [dcs_id] => 106466 ) [160] => Array ( [dcs_id] => 107079 ) [161] => Array ( [dcs_id] => 109645 ) [162] => Array ( [dcs_id] => 110218 ) [163] => Array ( [dcs_id] => 111061 ) [164] => Array ( [dcs_id] => 111401 ) [165] => Array ( [dcs_id] => 112556 ) [166] => Array ( [dcs_id] => 114451 ) [167] => Array ( [dcs_id] => 115009 ) [168] => Array ( [dcs_id] => 115043 ) [169] => Array ( [dcs_id] => 115171 ) [170] => Array ( [dcs_id] => 115786 ) [171] => Array ( [dcs_id] => 116275 ) [172] => Array ( [dcs_id] => 116765 ) [173] => Array ( [dcs_id] => 116928 ) [174] => Array ( [dcs_id] => 117301 ) [175] => Array ( [dcs_id] => 117528 ) [176] => Array ( [dcs_id] => 117529 ) [177] => Array ( [dcs_id] => 120014 ) [178] => Array ( [dcs_id] => 120553 ) [179] => Array ( [dcs_id] => 120633 ) [180] => Array ( [dcs_id] => 121223 ) [181] => Array ( [dcs_id] => 121725 ) [182] => Array ( [dcs_id] => 122067 ) [183] => Array ( [dcs_id] => 125135 ) [184] => Array ( [dcs_id] => 126348 ) [185] => Array ( [dcs_id] => 127349 ) [186] => Array ( [dcs_id] => 127888 ) [187] => Array ( [dcs_id] => 127962 ) [188] => Array ( [dcs_id] => 128149 ) [189] => Array ( [dcs_id] => 128421 ) [190] => Array ( [dcs_id] => 128734 ) [191] => Array ( [dcs_id] => 129729 ) [192] => Array ( [dcs_id] => 131166 ) [193] => Array ( [dcs_id] => 131472 ) [194] => Array ( [dcs_id] => 132120 ) [195] => Array ( [dcs_id] => 133778 ) [196] => Array ( [dcs_id] => 135032 ) ) 
+    
+    
+2023 갯수 197개.
+
+
+
+
+
+
+
+<?php
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+'*  파 일 명 : class.erpTest.inc.php
+'*  작 성 자 : NOHMIN(nohmin@dbvalley.com)
+'*  작 성 일 : 2023-11-24
+'*  버     전 : V3.0
+'*  비     고 : T.O.P
+'* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+require_once M_CLASS."/class.Object.DB.Console.inc.php";
+require_once ANYMATE_LIB."/class.io.inc.php";
+
+# * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+# CLASS
+# * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+class erpTest extends Object_Console 
+{
+	var $cpn_code;
+
+	function __construct($company_code = '')
+	{
+		parent::__construct();
+		$this->cpn_code = (empty($this->oUser->cpn_code)) ? DFT_CPN_CODE : $this->oUser->cpn_code;
+	}
+
+		function __default()
+	{
+		$DATA = $this->test();
+		echo $_SERVER['REQUEST_SCHEME'];
+		echo '<br>';
+		for($i=0; $i < count($DATA); $i++) {
+			echo $DATA[$i]['dcs_id'].'<br>';
+		}
+
+		exit;
+	}
+	function test()
+	{
+		$arr = array();
+
+		$WHERE = '';
+
+		$sql = "SELECT C.dcs_id FROM T_DCS_CIR_2023 as C JOIN T_DCS_2023 as T ON C.dcs_id = T.dcs_id WHERE T.acc_no = 4126 AND T.dcs_box_id != '2' AND C.acc_no = 1535 AND C.cir_reg_dt >= '2023-10-25 16:50:00' AND C.cir_reg_dt <= '2023-10-25 17:00:00'";
+		
+		$this->db->que = $sql;
+		$this->db->query();
+		while ($row = $this->db->getRow())
+		{
+			$arr[] = $row;
+		}
+
+		return $arr;
+	}
+}
+?>
+
+
+
+
+원본
+
+<?php
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+'*  파 일 명 : class.erpTest.inc.php
+'*  작 성 자 : NOHMIN(nohmin@dbvalley.com)
+'*  작 성 일 : 2023-11-24
+'*  버     전 : V3.0
+'*  비     고 : T.O.P
+'* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+require_once M_CLASS."/class.Object.DB.Console.inc.php";
+require_once ANYMATE_LIB."/class.io.inc.php";
+
+# * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+# CLASS
+# * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+class erpTest extends Object_Console 
+{
+	var $cpn_code;
+
+	function __construct($company_code = '')
+	{
+		parent::__construct();
+		$this->cpn_code = (empty($this->oUser->cpn_code)) ? DFT_CPN_CODE : $this->oUser->cpn_code;
+	}
+
+	function __default()
+	{
+		echo $_SERVER['REQUEST_SCHEME'];
+		exit;
+	}
+}
+?>
+
+
+
+
+
+
+
+
+
+<?php
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+'*  파 일 명 : class.erpTest.inc.php
+'*  작 성 자 : NOHMIN(nohmin@dbvalley.com)
+'*  작 성 일 : 2023-11-24
+'*  버     전 : V3.0
+'*  비     고 : T.O.P
+'* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+require_once M_CLASS."/class.Object.DB.Console.inc.php";
+require_once ANYMATE_LIB."/class.io.inc.php";
+
+# * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+# CLASS
+# * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+class erpTest extends Object_Console 
+{
+	var $cpn_code;
+
+	function __construct($company_code = '')
+	{
+		parent::__construct();
+		$this->cpn_code = (empty($this->oUser->cpn_code)) ? DFT_CPN_CODE : $this->oUser->cpn_code;
+	}
+
+		function __default()
+	{
+		$this->test();
+		echo $_SERVER['REQUEST_SCHEME'];
+
+		exit;
+	}
+	function test()
+	{
+		$arr = array();
+
+		$WHERE = '';
+
+		$sql = "DELETE C FROM T_DCS_CIR_2023 as C JOIN T_DCS_2023 as T ON C.dcs_id = T.dcs_id WHERE T.acc_no = 4126 AND T.dcs_box_id != '2' AND C.acc_no = 1535 AND C.cir_reg_dt >= '2023-10-25 16:50:00' AND C.cir_reg_dt <= '2023-10-25 17:00:00'";
+		
+		$this->db->que = $sql;
+		$this->db->query();
+
+	}
+}
+?>
+
+
+안녕하세요 디비밸리입니다.
+
+최종 결재완료된 문서에 대해서는 추가적인 수정 및 관련문서 추가가 불가능합니다.
+또한, 추가 기능개발로 채택하기 적합하지 않는것 판단됩니다. ( 문서 정합성 위배 )
+
+필요하신 경우 헬프데스크로 접수해주시면 조치해 드리겠습니다.
+
+아세아텍
+조직도 상에 
+기획조정실 실장님
+실장님 결재권한이

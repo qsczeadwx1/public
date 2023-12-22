@@ -1,0 +1,95 @@
+Nov 28 15:27:30 localhost qmail: 1701152850.350642 info msg 1507665: bytes 1278941 from <danbee_hong_External@bat.com> qp 1784 uid 502
+Nov 28 15:27:30 localhost qmail: 1701152850.386943 starting delivery 235379: msg 1507665 to local dutyb1@daegugrand.co.kr
+Nov 28 15:27:30 localhost qmail: 1701152850.386951 status: local 1/10 remote 0/20
+Nov 28 15:27:30 localhost qmail: 1701152850.872275 delivery 235379: success: PHP_Notice:__Undefined_offset:_3_in_/home/anymate/gwdaegugrandcokr/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_3_in_/home/anyma
+te/gwdaegugrandcokr/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwdaegugrandcokr/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/
+gwdaegugrandcokr/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/11/28_15:27:30]_found_in_white_list/[2023/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pass_ru
+les/[2023/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pass_rules/[20
+Nov 28 15:27:30 localhost qmail: 1701152850.872275+23/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pa
+ss_rules/[2023/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pass_rul
+es/[2023/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pass_rules/[20
+23/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pass_rules/[2023/11/28_15:27:30]_pass_rules/[2023/11/2
+Nov 28 15:27:30 localhost qmail: 1701152850.872275+8_15:27:30]_catch_or_not_?:_Y/did_1+0+1/
+Nov 28 15:27:30 localhost qmail: 1701152850.872321 status: local 0/10 remote 0/20
+Nov 28 15:27:30 localhost qmail: 1701152850.872326 end msg 1507665
+Nov 28 15:27:37 localhost qmail: 1701152857.712068 new msg 1507667
+Nov 28 15:27:37 localhost qmail: 1701152857.712084 info msg 1507667: bytes 1278944 from <danbee_hong_External@bat.com> qp 1789 uid 502
+Nov 28 15:27:37 localhost qmail: 1701152857.752361 starting delivery 235380: msg 1507667 to local enffl9510@daegugrand.co.kr
+Nov 28 15:27:37 localhost qmail: 1701152857.752369 status: local 1/10 remote 0/20
+Nov 28 15:27:38 localhost qmail: 1701152858.132328 delivery 235380: success: PHP_Notice:__Undefined_offset:_3_in_/home/anymate/gwdaegugrandcokr/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_3_in_/home/anyma
+te/gwdaegugrandcokr/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwdaegugrandcokr/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/
+gwdaegugrandcokr/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/11/28_15:27:38]_catch_or_not_?:_N/did_1+0+1/
+Nov 28 15:27:38 localhost qmail: 1701152858.132381 status: local 0/10 remote 0/20
+Nov 28 15:27:38 localhost qmail: 1701152858.132404 end msg 1507667
+Nov 28 15:28:01 localhost qmail: 1701152881.381869 new msg 1507665
+Nov 28 15:28:01 localhost qmail: 1701152881.381889 info msg 1507665: bytes 541 from <anonymous@daegugrand.co.kr> qp 1869 uid 500
+Nov 28 15:28:01 localhost qmail: 1701152881.422286 starting delivery 235381: msg 1507665 to local anymate@daegugrand.co.kr
+Nov 28 15:28:01 localhost qmail: 1701152881.422296 status: local 1/10 remote 0/20
+Nov 28 15:28:01 localhost qmail: 1701152881.423251 delivery 235381: success: did_0+0+0/
+Nov 28 15:28:01 localhost qmail: 1701152881.423297 status: local 0/10 remote 0/20
+Nov 28 15:28:01 localhost qmail: 1701152881.423320 end msg 1507665
+Nov 28 15:29:01 localhost qmail: 1701152941.247170 new msg 1507665
+Nov 28 15:29:01 localhost qmail: 1701152941.247190 info msg 1507665: bytes 541 from <anonymous@daegugrand.co.kr> qp 1913 uid 500
+Nov 28 15:29:01 localhost qmail: 1701152941.296321 starting delivery 235382: msg 1507665 to local anymate@daegugrand.co.kr
+Nov 28 15:29:01 localhost qmail: 1701152941.296337 status: local 1/10 remote 0/20
+Nov 28 15:29:01 localhost qmail: 1701152941.296517 delivery 235382: success: did_0+0+0/
+Nov 28 15:29:01 localhost qmail: 1701152941.296554 status: local 0/10 remote 0/20
+Nov 28 15:29:01 localhost qmail: 1701152941.296570 end msg 1507665
+Nov 28 15:29:11 localhost qmail: 1701152951.256243 new msg 1507665
+Nov 28 15:29:11 localhost qmail: 1701152951.256267 info msg 1507665: bytes 552 from <anonymous@daegugrand.co.kr> qp 1918 uid 500
+Nov 28 15:29:11 localhost qmail: 1701152951.291493 starting delivery 235383: msg 1507665 to local anymate@daegugrand.co.kr
+Nov 28 15:29:11 localhost qmail: 1701152951.291501 status: local 1/10 remote 0/20
+Nov 28 15:29:11 localhost qmail: 1701152951.292500 delivery 235383: success: did_0+0+0/
+Nov 28 15:29:11 localhost qmail: 1701152951.292541 status: local 0/10 remote 0/20
+Nov 28 15:29:11 localhost qmail: 1701152951.292565 end msg 1507665
+Nov 28 15:30:14 localhost qmail: 1701153014.666215 new msg 1507665
+Nov 28 15:30:14 localhost qmail: 1701153014.666241 info msg 1507665: bytes 1283428 from <danbee_hong_External@bat.com> qp 2121 uid 502
+Nov 28 15:30:14 localhost qmail: 1701153014.704078 starting delivery 235384: msg 1507665 to local dutyb1@daegugrand.co.kr
+Nov 28 15:30:14 localhost qmail: 1701153014.704087 status: local 1/10 remote 0/20
+Nov 28 15:30:15 localhost qmail: 1701153015.178743 delivery 235384: success: PHP_Notice:__Undefined_offset:_3_in_/home/anymate/gwdaegugrandcokr/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_3_in_/home/anyma
+te/gwdaegugrandcokr/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwdaegugrandcokr/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/
+gwdaegugrandcokr/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/11/28_15:30:15]_found_in_white_list/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_ru
+les/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[20
+Nov 28 15:30:15 localhost qmail: 1701153015.178743+23/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pa
+ss_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rul
+es/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[20
+23/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/2
+Nov 28 15:30:15 localhost qmail: 1701153015.178743+8_15:30:15]_catch_or_not_?:_Y/did_1+0+1/
+Nov 28 15:30:15 localhost qmail: 1701153015.178842 status: local 0/10 remote 0/20
+Nov 28 15:30:15 localhost qmail: 1701153015.178875 end msg 1507665
+
+
+Nov 28 15:30:21 localhost qmail: 1701153021.999682 info msg 1507667: bytes 1283431 from <danbee_hong_External@bat.com> qp 2204 uid 502
+Nov 28 15:30:22 localhost qmail: 1701153022.035896 starting delivery 235385: msg 1507667 to local enffl9510@daegugrand.co.kr
+Nov 28 15:30:22 localhost qmail: 1701153022.035904 status: local 1/10 remote 0/20
+Nov 28 15:30:22 localhost qmail: 1701153022.443938 delivery 235385: success: PHP_Notice:__Undefined_offset:_3_in_/home/anymate/gwdaegugrandcokr/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_3_in_/home/anyma
+te/gwdaegugrandcokr/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwdaegugrandcokr/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/
+gwdaegugrandcokr/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/11/28_15:30:22]_catch_or_not_?:_N/did_1+0+1/
+Nov 28 15:30:22 localhost qmail: 1701153022.443989 status: local 0/10 remote 0/20
+Nov 28 15:30:22 localhost qmail: 1701153022.444017 end msg 1507667
+
+
+
+Nov 28 15:30:14 localhost qmail: 1701153014.666241 info msg 1507665: bytes 1283428 from <danbee_hong_External@bat.com> qp 2121 uid 502
+Nov 28 15:30:14 localhost qmail: 1701153014.704078 starting delivery 235384: msg 1507665 to local dutyb1@daegugrand.co.kr
+Nov 28 15:30:14 localhost qmail: 1701153014.704087 status: local 1/10 remote 0/20
+Nov 28 15:30:15 localhost qmail: 1701153015.178743 delivery 235384: success: PHP_Notice:__Undefined_offset:_3_in_/home/anymate/gwdaegugrandcokr/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_3_in_/home/anyma
+te/gwdaegugrandcokr/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwdaegugrandcokr/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/
+gwdaegugrandcokr/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/11/28_15:30:15]_found_in_white_list/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_ru
+les/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[20
+Nov 28 15:30:15 localhost qmail: 1701153015.178743+23/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pa
+ss_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rul
+es/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[20
+23/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/28_15:30:15]_pass_rules/[2023/11/2
+Nov 28 15:30:15 localhost qmail: 1701153015.178743+8_15:30:15]_catch_or_not_?:_Y/did_1+0+1/
+Nov 28 15:30:15 localhost qmail: 1701153015.178842 status: local 0/10 remote 0/20
+Nov 28 15:30:15 localhost qmail: 1701153015.178875 end msg 1507665
+Nov 28 15:30:21 localhost qmail: 1701153021.999652 new msg 1507667
+Nov 28 15:30:21 localhost qmail: 1701153021.999682 info msg 1507667: bytes 1283431 from <danbee_hong_External@bat.com> qp 2204 uid 502
+Nov 28 15:30:22 localhost qmail: 1701153022.035896 starting delivery 235385: msg 1507667 to local enffl9510@daegugrand.co.kr
+Nov 28 15:30:22 localhost qmail: 1701153022.035904 status: local 1/10 remote 0/20
+Nov 28 15:30:22 localhost qmail: 1701153022.443938 delivery 235385: success: PHP_Notice:__Undefined_offset:_3_in_/home/anymate/gwdaegugrandcokr/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_3_in_/home/anyma
+te/gwdaegugrandcokr/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwdaegugrandcokr/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/
+gwdaegugrandcokr/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/11/28_15:30:22]_catch_or_not_?:_N/did_1+0+1/
+Nov 28 15:30:22 localhost qmail: 1701153022.443989 status: local 0/10 remote 0/20
+Nov 28 15:30:22 localhost qmail: 1701153022.444017 end msg 1507667

@@ -1,0 +1,127 @@
+Oct 27 17:01:01 localhost qmail: 1698393661.518617 end msg 136034445
+Oct 27 17:01:50 localhost qmail: 1698393710.114309 new msg 136034445
+Oct 27 17:01:50 localhost qmail: 1698393710.114350 info msg 136034445: bytes 2393268 from <msbae@sgtech.co.kr> qp 45587 uid 1001
+Oct 27 17:01:50 localhost qmail: 1698393710.115478 starting delivery 202678: msg 136034445 to remote manalarva@gmail.com
+Oct 27 17:01:50 localhost qmail: 1698393710.115502 status: local 0/10 remote 1/20
+Oct 27 17:01:50 localhost qmail: 1698393710.139475 new msg 136034446
+Oct 27 17:01:50 localhost qmail: 1698393710.139516 info msg 136034446: bytes 2393268 from <msbae@sgtech.co.kr> qp 45589 uid 1001
+Oct 27 17:01:50 localhost qmail: 1698393710.140773 starting delivery 202679: msg 136034446 to local town1911@sgtech.co.kr
+Oct 27 17:01:50 localhost qmail: 1698393710.140803 status: local 1/10 remote 1/20
+Oct 27 17:01:50 localhost qmail: 1698393710.392783 delivery 202679: success: [2023/10/27_17:01:50]_catched_smart_rule_100/[2023/10/27_17:01:50]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/home/anymate/gwsgtechcokr/m/mai
+l/class/class.mailLoad.inc.php_on_line_1918//Notice:_Undefined_index:_HTTP_HOST_in_/home/anymate/gwsgtechcokr/m/mail/class/class.mailLoad.inc.php_on_line_1918/did_1+0+1/
+Oct 27 17:01:50 localhost qmail: 1698393710.392854 status: local 0/10 remote 1/20
+Oct 27 17:01:50 localhost qmail: 1698393710.392872 end msg 136034446
+Oct 27 17:01:50 localhost qmail: 1698393710.453515 delivery 202678: success: 64.233.188.26_accepted_message./Remote_host_said:_250_OK./
+Oct 27 17:01:50 localhost qmail: 1698393710.453628 status: local 0/10 remote 0/20
+Oct 27 17:01:50 localhost qmail: 1698393710.453656 end msg 136034445
+Oct 27 17:02:01 localhost qmail: 1698393721.633149 new msg 136034445
+Oct 27 17:02:01 localhost qmail: 1698393721.633191 info msg 136034445: bytes 6823 from <libraman@sgtech.co.kr> qp 45597 uid 1001
+Oct 27 17:02:01 localhost qmail: 1698393721.634320 starting delivery 202680: msg 136034445 to local jw2939@sgtech.co.kr
+Oct 27 17:02:01 localhost qmail: 1698393721.634344 status: local 1/10 remote 0/20
+Oct 27 17:02:01 localhost qmail: 1698393721.643623 new msg 136034446
+Oct 27 17:02:01 localhost qmail: 1698393721.643650 info msg 136034446: bytes 6823 from <libraman@sgtech.co.kr> qp 45600 uid 1001
+Oct 27 17:02:01 localhost qmail: 1698393721.644750 starting delivery 202681: msg 136034446 to local jgjung@sgtech.co.kr
+Oct 27 17:02:01 localhost qmail: 1698393721.644772 status: local 2/10 remote 0/20
+Oct 27 17:02:01 localhost qmail: 1698393721.654566 new msg 135606472
+Oct 27 17:02:01 localhost qmail: 1698393721.654599 info msg 135606472: bytes 6823 from <libraman@sgtech.co.kr> qp 45605 uid 1001
+Oct 27 17:02:01 localhost qmail: 1698393721.656313 starting delivery 202682: msg 135606472 to local dslee@sgtech.co.kr
+Oct 27 17:02:01 localhost qmail: 1698393721.656337 status: local 3/10 remote 0/20
+Oct 27 17:02:01 localhost qmail: 1698393721.666809 new msg 136019192
+Oct 27 17:02:01 localhost qmail: 1698393721.666844 info msg 136019192: bytes 6823 from <libraman@sgtech.co.kr> qp 45610 uid 1001
+Oct 27 17:02:01 localhost qmail: 1698393721.667853 starting delivery 202683: msg 136019192 to local scna@sgtech.co.kr
+Oct 27 17:02:01 localhost qmail: 1698393721.667877 status: local 4/10 remote 0/20
+Oct 27 17:02:01 localhost qmail: 1698393721.679462 new msg 136019194
+Oct 27 17:02:01 localhost qmail: 1698393721.679502 info msg 136019194: bytes 6823 from <libraman@sgtech.co.kr> qp 45613 uid 1001
+Oct 27 17:02:01 localhost qmail: 1698393721.680632 starting delivery 202684: msg 136019194 to local ishwang@sgtech.co.kr
+Oct 27 17:02:01 localhost qmail: 1698393721.680667 status: local 5/10 remote 0/20
+Oct 27 17:02:01 localhost qmail: 1698393721.692280 new msg 136019197
+Oct 27 17:02:01 localhost qmail: 1698393721.692328 info msg 136019197: bytes 6823 from <libraman@sgtech.co.kr> qp 45620 uid 1001
+Oct 27 17:02:01 localhost qmail: 1698393721.694075 starting delivery 202685: msg 136019197 to local gdpark@sgtech.co.kr
+Oct 27 17:02:01 localhost qmail: 1698393721.694112 status: local 6/10 remote 0/20
+Oct 27 17:02:01 localhost qmail: 1698393721.774046 delivery 202680: success: [2023/10/27_17:02:01]_catched_smart_rule_100/[2023/10/27_17:02:01]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/home/anymate/gwsgtechcokr/m/mai
+l/class/class.mailLoad.inc.php_on_line_1918//Notice:_Undefined_index:_HTTP_HOST_in_/home/anymate/gwsgtechcokr/m/mail/class/class.mailLoad.inc.php_on_line_1918/did_1+0+1/
+Oct 27 17:02:01 localhost qmail: 1698393721.774210 status: local 5/10 remote 0/20
+Oct 27 17:02:01 localhost qmail: 1698393721.774257 end msg 136034445
+Oct 27 17:02:01 localhost qmail: 1698393721.824765 delivery 202684: success: [2023/10/27_17:02:01]_catched_smart_rule_100/[2023/10/27_17:02:01]_pass_rules/[2023/10/27_17:02:01]_pass_rules/[2023/10/27_17:02:01]_pass_rules/[2023/10/27_17:0
+2:01]_pass_rules/[2023/10/27_17:02:01]_pass_rules/[2023/10/27_17:02:01]_pass_rules/[2023/10/27_17:02:01]_pass_rules/[2023/10/27_17:02:01]_pass_rules/[2023/10/27_17:02:01]_pass_rules/[2023/10/27_17:02:01]_pass_rules/[2023/10/27_17:02:01]_
+pass_rules/[2023/10/27_17:02:01]_pass_rules/[2023/10/27_17:02:01]_pass_rules/[2023/10/27_17:02:01]_pass_rules/[2023/10/27_17:02:01]_pass_rules/[2023/10/27_17:02:01]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/home/anyma
+te/gwsgtechcokr/m/mail/class/class.mailLoad.inc.php_on_line_1918//Notice:_Undefined_index:_HTTP_HOST_in_/home/anymate/gwsgtechcokr/m/mail/c
+Oct 27 17:02:01 localhost qmail: 1698393721.824765+lass/class.mailLoad.inc.php_on_line_1918/did_1+0+1/
+Oct 27 17:02:01 localhost qmail: 1698393721.824926 status: local 4/10 remote 0/20
+Oct 27 17:02:01 localhost qmail: 1698393721.824961 end msg 136019194
+Oct 27 17:02:01 localhost qmail: 1698393721.825172 delivery 202682: success: [2023/10/27_17:02:01]_catched_smart_rule_100/[2023/10/27_17:02:01]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/home/anymate/gwsgtechcokr/m/mai
+l/class/class.mailLoad.inc.php_on_line_1918//Notice:_Undefined_index:_HTTP_HOST_in_/home/anymate/gwsgtechcokr/m/mail/class/class.mailLoad.inc.php_on_line_1918/did_1+0+1/
+Oct 27 17:02:01 localhost qmail: 1698393721.825273 status: local 3/10 remote 0/20
+Oct 27 17:02:01 localhost qmail: 1698393721.825305 end msg 135606472
+Oct 27 17:02:01 localhost qmail: 1698393721.825590 delivery 202685: success: [2023/10/27_17:02:01]_catched_smart_rule_100/[2023/10/27_17:02:01]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/home/anymate/gwsgtechcokr/m/mai
+l/class/class.mailLoad.inc.php_on_line_1918//Notice:_Undefined_index:_HTTP_HOST_in_/home/anymate/gwsgtechcokr/m/mail/class/class.mailLoad.inc.php_on_line_1918/did_1+0+1/
+Oct 27 17:02:01 localhost qmail: 1698393721.825707 status: local 2/10 remote 0/20
+Oct 27 17:02:01 localhost qmail: 1698393721.825734 end msg 136019197
+Oct 27 17:02:01 localhost qmail: 1698393721.851265 delivery 202681: success: [2023/10/27_17:02:01]_catched_smart_rule_100/[2023/10/27_17:02:01]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/home/anymate/gwsgtechcokr/m/mai
+l/class/class.mailLoad.inc.php_on_line_1918//Notice:_Undefined_index:_HTTP_HOST_in_/home/anymate/gwsgtechcokr/m/mail/class/class.mailLoad.inc.php_on_line_1918/did_1+0+1/
+
+
+Oct 30 08:58:11 localhost qmail: 1698623891.481144 new msg 136034445
+Oct 30 08:58:11 localhost qmail: 1698623891.481186 info msg 136034445: bytes 973 from <admin@sgtech.co.kr> qp 64018 uid 1001
+Oct 30 08:58:11 localhost qmail: 1698623891.482263 starting delivery 207167: msg 136034445 to remote qsczeadwx1@gmail.com
+Oct 30 08:58:11 localhost qmail: 1698623891.482282 status: local 0/10 remote 1/20
+Oct 30 08:58:11 localhost qmail: 1698623891.559071 delivery 207167: success: 64.233.189.26_accepted_message./Remote_host_said:_250_OK./
+Oct 30 08:58:11 localhost qmail: 1698623891.559209 status: local 0/10 remote 0/20
+Oct 30 08:58:11 localhost qmail: 1698623891.559242 end msg 136034445
+Oct 30 08:58:46 localhost pop3: 1698623926.093092 tcpserver: status: 1/255
+Oct 30 08:58:46 localhost pop3: 1698623926.093358 tcpserver: pid 64031 from 211.228.181.65
+Oct 30 08:58:46 localhost pop3: 1698623926.093391 tcpserver: ok 64031 0:192.168.1.15:110 :211.228.181.65::53824
+Oct 30 08:58:46 localhost pop3: 1698623926.226920 tcpserver: end 64031 status 256
+Oct 30 08:58:46 localhost pop3: 1698623926.226943 tcpserver: status: 0/255
+Oct 30 08:59:01 localhost qmail: 1698623941.397976 new msg 136034445
+Oct 30 08:59:01 localhost qmail: 1698623941.398019 info msg 136034445: bytes 674 from <anymate@sgtech.co.kr> qp 64078 uid 1001
+Oct 30 08:59:01 localhost qmail: 1698623941.398893 starting delivery 207168: msg 136034445 to local anymate@sgtech.co.kr
+Oct 30 08:59:01 localhost qmail: 1698623941.398920 status: local 1/10 remote 0/20
+Oct 30 08:59:01 localhost qmail: 1698623941.400505 delivery 207168: success: did_0+0+0/
+Oct 30 08:59:01 localhost qmail: 1698623941.400578 status: local 0/10 remote 0/20
+Oct 30 08:59:01 localhost qmail: 1698623941.400595 end msg 136034445
+Oct 30 08:59:09 localhost qmail: 1698623949.328650 new msg 136034445
+Oct 30 08:59:09 localhost qmail: 1698623949.328692 info msg 136034445: bytes 685 from <anymate@sgtech.co.kr> qp 64086 uid 1001
+Oct 30 08:59:09 localhost qmail: 1698623949.329947 starting delivery 207169: msg 136034445 to local anymate@sgtech.co.kr
+Oct 30 08:59:09 localhost qmail: 1698623949.329967 status: local 1/10 remote 0/20
+Oct 30 08:59:09 localhost qmail: 1698623949.333766 delivery 207169: success: did_0+0+0/
+Oct 30 08:59:09 localhost qmail: 1698623949.333919 status: local 0/10 remote 0/20
+Oct 30 08:59:09 localhost qmail: 1698623949.333953 end msg 136034445
+Oct 30 09:01:01 localhost qmail: 1698624061.859789 new msg 136034445
+Oct 30 09:01:01 localhost qmail: 1698624061.859820 info msg 136034445: bytes 674 from <anymate@sgtech.co.kr> qp 64276 uid 1001
+Oct 30 09:01:01 localhost qmail: 1698624061.860885 starting delivery 207170: msg 136034445 to local anymate@sgtech.co.kr
+Oct 30 09:01:01 localhost qmail: 1698624061.860923 status: local 1/10 remote 0/20
+Oct 30 09:01:01 localhost qmail: 1698624061.864321 delivery 207170: success: did_0+0+0/
+Oct 30 09:01:01 localhost qmail: 1698624061.864395 status: local 0/10 remote 0/20
+Oct 30 09:01:01 localhost qmail: 1698624061.864409 end msg 136034445
+Oct 30 09:01:47 localhost pop3: 1698624107.612763 tcpserver: status: 1/255
+Oct 30 09:01:47 localhost pop3: 1698624107.613049 tcpserver: pid 64288 from 211.228.181.65
+Oct 30 09:01:47 localhost pop3: 1698624107.613102 tcpserver: ok 64288 0:192.168.1.15:110 :211.228.181.65::53857
+Oct 30 09:01:47 localhost pop3: 1698624107.759480 tcpserver: end 64288 status 256
+Oct 30 09:01:47 localhost pop3: 1698624107.759519 tcpserver: status: 0/255
+Oct 30 09:02:01 localhost qmail: 1698624121.271024 new msg 136034445
+Oct 30 09:02:01 localhost qmail: 1698624121.271078 info msg 136034445: bytes 674 from <anymate@sgtech.co.kr> qp 64344 uid 1001
+Oct 30 09:02:01 localhost qmail: 1698624121.272287 starting delivery 207171: msg 136034445 to local anymate@sgtech.co.kr
+Oct 30 09:02:01 localhost qmail: 1698624121.272309 status: local 1/10 remote 0/20
+Oct 30 09:02:01 localhost qmail: 1698624121.274212 delivery 207171: success: did_0+0+0/
+Oct 30 09:02:01 localhost qmail: 1698624121.274291 status: local 0/10 remote 0/20
+Oct 30 09:02:01 localhost qmail: 1698624121.274311 end msg 136034445
+Oct 30 09:02:08 localhost qmail: 1698624128.783754 new msg 136034445
+Oct 30 09:02:08 localhost qmail: 1698624128.783800 info msg 136034445: bytes 685 from <anymate@sgtech.co.kr> qp 64356 uid 1001
+Oct 30 09:02:08 localhost qmail: 1698624128.785021 starting delivery 207172: msg 136034445 to local anymate@sgtech.co.kr
+Oct 30 09:02:08 localhost qmail: 1698624128.785074 status: local 1/10 remote 0/20
+Oct 30 09:02:08 localhost qmail: 1698624128.788750 delivery 207172: success: did_0+0+0/
+Oct 30 09:02:08 localhost qmail: 1698624128.788899 status: local 0/10 remote 0/20
+Oct 30 09:02:08 localhost qmail: 1698624128.788929 end msg 136034445
+Oct 30 09:03:30 localhost qmail: 1698624210.684392 new msg 136034445
+Oct 30 09:03:30 localhost qmail: 1698624210.684442 info msg 136034445: bytes 58948 from <info01@mirae-r.com> qp 64426 uid 1003
+Oct 30 09:03:30 localhost qmail: 1698624210.685677 starting delivery 207173: msg 136034445 to local bclim@sgtech.co.kr
+Oct 30 09:03:30 localhost qmail: 1698624210.685724 status: local 1/10 remote 0/20
+Oct 30 09:03:31 localhost qmail: 1698624211.022811 delivery 207173: success: PHP_Notice:__Undefined_offset:_1_in_/home/anymate/gwsgtechcokr/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_1_in_/home/anymate/g
+wsgtechcokr/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwsgtechcokr/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/gwsgtechcokr
+/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/10/30_09:03:30]_catch_or_not_?:_N/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/home/anymate/gwsgtechcokr/m/mail/class/class.mailLoad.inc.php_on_line_1918//Notice:_Undefined_index:_H
+TTP_HOST_in_/home/anymate/gwsgtechcokr/m/mail/class/class.mailLoad.inc.php_on_line_1918/did_1+0+1/
+Oct 30 09:03:31 localhost qmail: 1698624211.022959 status: local 0/10 remote 0/20
+
+
+SPF

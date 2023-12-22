@@ -1,0 +1,1333 @@
+Sep 25 15:10:35 localhost qmail: 1695622235.458401 info msg 131483: bytes 82102 from <poclick0429@dsnw.net> qp 85126 uid 500
+Sep 25 15:10:35 localhost qmail: 1695622235.459203 starting delivery 3279869: msg 131483 to local jong1452@dsnw.net
+Sep 25 15:10:35 localhost qmail: 1695622235.459233 status: local 3/10 remote 4/20
+Sep 25 15:10:35 localhost qmail: 1695622235.492360 new msg 131486
+Sep 25 15:10:35 localhost qmail: 1695622235.492420 info msg 131486: bytes 82102 from <poclick0429@dsnw.net> qp 85130 uid 500
+Sep 25 15:10:35 localhost qmail: 1695622235.493270 starting delivery 3279870: msg 131486 to local jhcheon12@dsnw.net
+Sep 25 15:10:35 localhost qmail: 1695622235.493300 status: local 4/10 remote 4/20
+Sep 25 15:10:35 localhost qmail: 1695622235.525095 new msg 131489
+Sep 25 15:10:35 localhost qmail: 1695622235.525127 info msg 131489: bytes 82102 from <poclick0429@dsnw.net> qp 85136 uid 500
+Sep 25 15:10:35 localhost qmail: 1695622235.525798 starting delivery 3279871: msg 131489 to local jlchoi12@dsnw.net
+Sep 25 15:10:35 localhost qmail: 1695622235.525821 status: local 5/10 remote 4/20
+Sep 25 15:10:35 localhost qmail: 1695622235.532299 delivery 3279863: success: PHP_Notice:__Undefined_property:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030//Notice:_Undefined_propert
+y:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030/[2023/09/25_15:10:35]_pass_rules/[2023/09/25_15:10:35]_catch_or_not_?:_N/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwds
+nwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Sep 25 15:10:35 localhost qmail: 1695622235.532348 status: local 4/10 remote 4/20
+Sep 25 15:10:35 localhost qmail: 1695622235.532367 end msg 131090
+Sep 25 15:10:35 localhost qmail: 1695622235.573102 delivery 3279867: success: 173.37.147.230_accepted_message./Remote_host_said:_250_[Sniper]_OK_1695622233_snipe-queue_1363/
+Sep 25 15:10:35 localhost qmail: 1695622235.573262 status: local 4/10 remote 3/20
+Sep 25 15:10:35 localhost qmail: 1695622235.573330 end msg 131477
+Sep 25 15:10:35 localhost qmail: 1695622235.594450 delivery 3279866: success: [2023/09/25_15:10:35]_found_in_white_list/[2023/09/25_15:10:35]_pass_rules/[2023/09/25_15:10:35]_pass_rules/[2023/09/25_15:10:35]_catch_or_not_?:_Y/PHP_Notice:
+__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Sep 25 15:10:35 localhost qmail: 1695622235.594504 status: local 3/10 remote 3/20
+Sep 25 15:10:35 localhost qmail: 1695622235.594525 end msg 131474
+Sep 25 15:10:35 localhost qmail: 1695622235.649507 delivery 3279864: success: 173.37.147.230_accepted_message./Remote_host_said:_250_[Sniper]_OK_1695622234_snipe-queue_1370/
+Sep 25 15:10:35 localhost qmail: 1695622235.649617 status: local 3/10 remote 2/20
+Sep 25 15:10:35 localhost qmail: 1695622235.649650 end msg 131444
+Sep 25 15:10:35 localhost qmail: 1695622235.784579 delivery 3279869: success: [2023/09/25_15:10:35]_catched_smart_rule_100/[2023/09/25_15:10:35]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/
+class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Sep 25 15:10:35 localhost qmail: 1695622235.784641 status: local 2/10 remote 2/20
+Sep 25 15:10:35 localhost qmail: 1695622235.784667 end msg 131483
+Sep 25 15:10:35 localhost qmail: 1695622235.826777 delivery 3279870: success: [2023/09/25_15:10:35]_catched_smart_rule_100/[2023/09/25_15:10:35]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/
+class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Sep 25 15:10:35 localhost qmail: 1695622235.826849 status: local 1/10 remote 2/20
+Sep 25 15:10:35 localhost qmail: 1695622235.826870 end msg 131486
+Sep 25 15:10:35 localhost qmail: 1695622235.887468 delivery 3279865: success: 173.37.147.230_accepted_message./Remote_host_said:_250_[Sniper]_OK_1695622234_snipe-queue_1379/
+Sep 25 15:10:35 localhost qmail: 1695622235.887548 status: local 1/10 remote 1/20
+Sep 25 15:10:35 localhost qmail: 1695622235.887587 end msg 131471
+Sep 25 15:10:35 localhost qmail: 1695622235.892551 delivery 3279871: success: [2023/09/25_15:10:35]_catched_smart_rule_100/[2023/09/25_15:10:35]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/
+class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+
+
+
+
+
+
+Sep 25 15:10:35 localhost qmail: 1695622235.532348 status: local 4/10 remote 4/20
+Sep 25 15:10:35 localhost qmail: 1695622235.532367 end msg 131090
+Sep 25 15:10:35 localhost qmail: 1695622235.573102 delivery 3279867: success: 173.37.147.230_accepted_message./Remote_host_said:_250_[Sniper]_OK_1695622233_snipe-queue_1363/
+Sep 25 15:10:35 localhost qmail: 1695622235.573262 status: local 4/10 remote 3/20
+Sep 25 15:10:35 localhost qmail: 1695622235.573330 end msg 131477
+Sep 25 15:10:35 localhost qmail: 1695622235.594450 delivery 3279866: success: [2023/09/25_15:10:35]_found_in_white_list/[2023/09/25_15:10:35]_pass_rules/[2023/09/25_15:10:35]_pass_rules/[2023/09/25_15:10:35]_catch_or_not_?:_Y/PHP_Notice:
+__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Sep 25 15:10:35 localhost qmail: 1695622235.594504 status: local 3/10 remote 3/20
+Sep 25 15:10:35 localhost qmail: 1695622235.594525 end msg 131474
+Sep 25 15:10:35 localhost qmail: 1695622235.649507 delivery 3279864: success: 173.37.147.230_accepted_message./Remote_host_said:_250_[Sniper]_OK_1695622234_snipe-queue_1370/
+Sep 25 15:10:35 localhost qmail: 1695622235.649617 status: local 3/10 remote 2/20
+Sep 25 15:10:35 localhost qmail: 1695622235.649650 end msg 131444
+Sep 25 15:10:35 localhost qmail: 1695622235.784579 delivery 3279869: success: [2023/09/25_15:10:35]_catched_smart_rule_100/[2023/09/25_15:10:35]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/
+class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Sep 25 15:10:35 localhost qmail: 1695622235.784641 status: local 2/10 remote 2/20
+Sep 25 15:10:35 localhost qmail: 1695622235.784667 end msg 131483
+Sep 25 15:10:35 localhost qmail: 1695622235.826777 delivery 3279870: success: [2023/09/25_15:10:35]_catched_smart_rule_100/[2023/09/25_15:10:35]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/
+class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Sep 25 15:10:35 localhost qmail: 1695622235.826849 status: local 1/10 remote 2/20
+Sep 25 15:10:35 localhost qmail: 1695622235.826870 end msg 131486
+Sep 25 15:10:35 localhost qmail: 1695622235.887468 delivery 3279865: success: 173.37.147.230_accepted_message./Remote_host_said:_250_[Sniper]_OK_1695622234_snipe-queue_1379/
+Sep 25 15:10:35 localhost qmail: 1695622235.887548 status: local 1/10 remote 1/20
+Sep 25 15:10:35 localhost qmail: 1695622235.887587 end msg 131471
+Sep 25 15:10:35 localhost qmail: 1695622235.892551 delivery 3279871: success: [2023/09/25_15:10:35]_catched_smart_rule_100/[2023/09/25_15:10:35]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/
+class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Sep 25 15:10:35 localhost qmail: 1695622235.892596 status: local 0/10 remote 1/20
+Sep 25 15:10:35 localhost qmail: 1695622235.892615 end msg 131489
+Sep 25 15:10:36 localhost qmail: 1695622236.038197 delivery 3279868: success: 173.37.147.230_accepted_message./Remote_host_said:_250_[Sniper]_OK_1695622234_snipe-queue_1387/
+Sep 25 15:10:36 localhost qmail: 1695622236.038324 status: local 0/10 remote 0/20
+Sep 25 15:10:36 localhost qmail: 1695622236.038375 end msg 131480
+Sep 25 15:10:37 localhost qmail: 1695622237.799663 new msg 131090
+Sep 25 15:10:37 localhost qmail: 1695622237.799714 info msg 131090: bytes 134998 from <hometaxadmin@hometax.go.kr> qp 85148 uid 502
+Sep 25 15:10:37 localhost qmail: 1695622237.800561 starting delivery 3279872: msg 131090 to local ds04@dsnw.net
+Sep 25 15:10:37 localhost qmail: 1695622237.800607 status: local 1/10 remote 0/20
+Sep 25 15:10:38 localhost qmail: 1695622238.087814 delivery 3279872: success: [2023/09/25_15:10:37]_found_in_white_list/[2023/09/25_15:10:37]_pass_rules/[2023/09/25_15:10:37]_pass_rules/[2023/09/25_15:10:37]_pass_rules/[2023/09/25_15:10:
+38]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_
+on_line_1906/did_1+0+1/
+Sep 25 15:10:38 localhost qmail: 1695622238.087877 status: local 0/10 remote 0/20
+Sep 25 15:10:38 localhost qmail: 1695622238.087901 end msg 131090
+Sep 25 15:10:38 localhost qmail: 1695622238.815169 new msg 131090
+Sep 25 15:10:38 localhost qmail: 1695622238.815224 info msg 131090: bytes 836445 from <skn91111146@partner.sk.com> qp 85159 uid 502
+Sep 25 15:10:38 localhost qmail: 1695622238.816114 starting delivery 3279873: msg 131090 to local nhyun400@dsnw.net
+Sep 25 15:10:38 localhost qmail: 1695622238.816144 status: local 1/10 remote 0/20
+Sep 25 15:10:38 localhost qmail: 1695622238.830184 new msg 131470
+Sep 25 15:10:38 localhost qmail: 1695622238.830250 info msg 131470: bytes 836445 from <skn91111146@partner.sk.com> qp 85162 uid 502
+Sep 25 15:10:38 localhost qmail: 1695622238.831090 starting delivery 3279874: msg 131470 to local nayss@dsnw.net
+Sep 25 15:10:38 localhost qmail: 1695622238.831122 status: local 2/10 remote 0/20
+Sep 25 15:10:38 localhost qmail: 1695622238.831420 new msg 131444
+Sep 25 15:10:38 localhost qmail: 1695622238.831443 info msg 131444: bytes 836445 from <skn91111146@partner.sk.com> qp 85160 uid 502
+Sep 25 15:10:38 localhost qmail: 1695622238.831982 starting delivery 3279875: msg 131444 to local mwlee@dsnw.net
+Sep 25 15:10:38 localhost qmail: 1695622238.832023 status: local 3/10 remote 0/20
+Sep 25 15:10:38 localhost qmail: 1695622238.832114 new msg 131461
+Sep 25 15:10:38 localhost qmail: 1695622238.832184 info msg 131461: bytes 836445 from <skn91111146@partner.sk.com> qp 85161 uid 502
+Sep 25 15:10:38 localhost qmail: 1695622238.833206 starting delivery 3279876: msg 131461 to local alienfour@dsnw.net
+Sep 25 15:10:38 localhost qmail: 1695622238.833238 status: local 4/10 remote 0/20
+Sep 25 15:10:39 localhost qmail: 1695622239.366549 delivery 3279873: success: PHP_Notice:__Undefined_offset:_2_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/data/ANYMATE/gwd
+snwnet/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/cla
+ss/class.mailParser.inc.php_on_line_218/[2023/09/25_15:10:39]_found_in_white_list/[2023/09/25_15:10:39]_pass_rules/[2023/09/25_15:10:39]_pass_rules/[2023/09/25_15:10:39]_pass_rules/[2023/09/25_15:10:39]_pass_rules/[2023/09/25_15:10:39]_c
+atch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notic
+Sep 25 15:10:39 localhost qmail: 1695622239.366549+e:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Sep 25 15:10:39 localhost qmail: 1695622239.366633 status: local 3/10 remote 0/20
+Sep 25 15:10:39 localhost qmail: 1695622239.366665 end msg 131090
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sep 25 15:30:09 localhost qmail: 1695623409.121055 delivery 3280103: success: 210.222.17.203_accepted_message./Remote_host_said:_250_[Sniper]_OK_1695623407_snipe-queue_9295/
+Sep 25 15:30:09 localhost qmail: 1695623409.121190 status: local 1/10 remote 3/20
+Sep 25 15:30:09 localhost qmail: 1695623409.121247 end msg 131477
+Sep 25 15:30:09 localhost qmail: 1695623409.251349 delivery 3280101: success: [2023/09/25_15:30:09]_found_in_white_list/[2023/09/25_15:30:09]_pass_rules/[2023/09/25_15:30:09]_pass_rules/[2023/09/25_15:30:09]_catch_or_not_?:_Y/PHP_Notice:
+__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Sep 25 15:30:09 localhost qmail: 1695623409.251504 status: local 0/10 remote 3/20
+Sep 25 15:30:09 localhost qmail: 1695623409.251566 end msg 131471
+Sep 25 15:30:09 localhost qmail: 1695623409.467480 delivery 3280102: success: 173.37.147.230_accepted_message./Remote_host_said:_250_[Sniper]_OK_1695623407_snipe-queue_9303/
+Sep 25 15:30:09 localhost qmail: 1695623409.467636 status: local 0/10 remote 2/20
+Sep 25 15:30:09 localhost qmail: 1695623409.467664 end msg 131474
+Sep 25 15:30:09 localhost qmail: 1695623409.531581 delivery 3280099: success: 173.37.147.230_accepted_message./Remote_host_said:_250_[Sniper]_OK_1695623407_snipe-queue_9310/
+Sep 25 15:30:09 localhost qmail: 1695623409.531717 status: local 0/10 remote 1/20
+Sep 25 15:30:09 localhost qmail: 1695623409.531778 end msg 131090
+Sep 25 15:30:09 localhost qmail: 1695623409.560276 delivery 3280100: success: 173.37.147.230_accepted_message./Remote_host_said:_250_[Sniper]_OK_1695623407_snipe-queue_9317/
+Sep 25 15:30:09 localhost qmail: 1695623409.560410 status: local 0/10 remote 0/20
+Sep 25 15:30:09 localhost qmail: 1695623409.560469 end msg 131444
+Sep 25 15:30:12 localhost pop3: 1695623412.294578 tcpserver: end 94983 status 256
+Sep 25 15:30:12 localhost pop3: 1695623412.294622 tcpserver: status: 1/255
+Sep 25 15:30:13 localhost qmail: 1695623413.893287 new msg 131090
+Sep 25 15:30:13 localhost qmail: 1695623413.893315 info msg 131090: bytes 67519 from <edue2022@daum.net> qp 95072 uid 502
+Sep 25 15:30:13 localhost qmail: 1695623413.893791 starting delivery 3280104: msg 131090 to local sunga0703@dsnw.net
+Sep 25 15:30:13 localhost qmail: 1695623413.893802 status: local 1/10 remote 0/20
+Sep 25 15:30:14 localhost qmail: 1695623414.206323 delivery 3280104: success: [2023/09/25_15:30:14]_found_in_white_list/[2023/09/25_15:30:14]_pass_rules/[2023/09/25_15:30:14]_pass_rules/[2023/09/25_15:30:14]_catch_or_not_?:_Y/did_1+0+1/
+Sep 25 15:30:14 localhost qmail: 1695623414.206380 status: local 0/10 remote 0/20
+Sep 25 15:30:14 localhost qmail: 1695623414.206403 end msg 131090
+Sep 25 15:30:16 localhost qmail: 1695623416.726890 new msg 131090
+Sep 25 15:30:16 localhost qmail: 1695623416.726934 info msg 131090: bytes 1259944 from <sochun007@dsnw.net> qp 95089 uid 500
+Sep 25 15:30:16 localhost qmail: 1695623416.727722 starting delivery 3280105: msg 131090 to remote pole@hongseok.co.kr
+Sep 25 15:30:16 localhost qmail: 1695623416.727761 status: local 0/10 remote 1/20
+Sep 25 15:30:16 localhost qmail: 1695623416.855668 delivery 3280105: success: 121.254.168.55_accepted_message./Remote_host_said:_250_[Sniper]_OK_1695623415_snipe-queue_9360/
+Sep 25 15:30:16 localhost qmail: 1695623416.855725 status: local 0/10 remote 0/20
+Sep 25 15:30:16 localhost qmail: 1695623416.855773 end msg 131090
+Sep 25 15:30:20 localhost qmail: 1695623420.164936 new msg 131090
+Sep 25 15:30:20 localhost qmail: 1695623420.164987 info msg 131090: bytes 7593 from <smileedi@smileedi.com> qp 95100 uid 502
+Sep 25 15:30:20 localhost qmail: 1695623420.165767 starting delivery 3280106: msg 131090 to local ds10@dsnw.net
+Sep 25 15:30:20 localhost qmail: 1695623420.165796 status: local 1/10 remote 0/20
+Sep 25 15:30:20 localhost qmail: 1695623420.448917 delivery 3280106: success: [2023/09/25_15:30:20]_found_in_white_list/[2023/09/25_15:30:20]_pass_rules/[2023/09/25_15:30:20]_pass_rules/[2023/09/25_15:30:20]_pass_rules/[2023/09/25_15:30:
+20]_pass_rules/[2023/09/25_15:30:20]_pass_rules/[2023/09/25_15:30:20]_pass_rules/[2023/09/25_15:30:20]_pass_rules/[2023/09/25_15:30:20]_pass_rules/[2023/09/25_15:30:20]_pass_rules/[2023/09/25_15:30:20]_pass_rules/[2023/09/25_15:30:20]_pa
+ss_rules/[2023/09/25_15:30:20]_catched/[2023/09/25_15:30:20]_folder_no:0/[2023/09/25_15:30:20]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:
+_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+
+
+
+
+
+
+Oct  4 10:12:21 localhost qmail: 1696381941.109013 end msg 131474
+Oct  4 10:12:21 localhost qmail: 1696381941.262800 delivery 3311152: success: [2023/10/04_10:12:21]_found_in_white_list/[2023/10/04_10:12:21]_pass_rules/[2023/10/04_10:12:21]_pass_rules/[2023/10/04_10:12:21]_catch_or_not_?:_Y/PHP_Notice:
+__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct  4 10:12:21 localhost qmail: 1696381941.262867 status: local 0/10 remote 3/20
+Oct  4 10:12:21 localhost qmail: 1696381941.262887 end msg 131464
+Oct  4 10:12:21 localhost qmail: 1696381941.547017 delivery 3311150: success: 173.37.147.230_accepted_message./Remote_host_said:_250_[Sniper]_OK_1696381941_snipe-queue_4457/
+Oct  4 10:12:21 localhost qmail: 1696381941.547149 status: local 0/10 remote 2/20
+Oct  4 10:12:21 localhost qmail: 1696381941.547202 end msg 131090
+Oct  4 10:12:21 localhost qmail: 1696381941.623743 delivery 3311153: success: 173.37.147.230_accepted_message./Remote_host_said:_250_[Sniper]_OK_1696381941_snipe-queue_4465/
+Oct  4 10:12:21 localhost qmail: 1696381941.623876 status: local 0/10 remote 1/20
+Oct  4 10:12:21 localhost qmail: 1696381941.623925 end msg 131471
+Oct  4 10:12:21 localhost qmail: 1696381941.747575 delivery 3311151: success: 173.37.147.230_accepted_message./Remote_host_said:_250_[Sniper]_OK_1696381941_snipe-queue_4475/
+Oct  4 10:12:21 localhost qmail: 1696381941.747701 status: local 0/10 remote 0/20
+Oct  4 10:12:21 localhost qmail: 1696381941.747754 end msg 131115
+Oct  4 10:12:29 localhost qmail: 1696381949.461935 new msg 131090
+Oct  4 10:12:29 localhost qmail: 1696381949.462019 info msg 131090: bytes 50288 from <newsletter@sw.or.kr> qp 452453 uid 502
+Oct  4 10:12:29 localhost qmail: 1696381949.462995 starting delivery 3311155: msg 131090 to local voninn@dsnw.net
+Oct  4 10:12:29 localhost qmail: 1696381949.463005 status: local 1/10 remote 0/20
+Oct  4 10:12:29 localhost qmail: 1696381949.847090 delivery 3311155: success: [2023/10/04_10:12:29]_catch_or_not_?:_N/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//No
+tice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct  4 10:12:29 localhost qmail: 1696381949.847153 status: local 0/10 remote 0/20
+Oct  4 10:12:29 localhost qmail: 1696381949.847172 end msg 131090
+Oct  4 10:12:31 localhost pop3: 1696381951.851934 tcpserver: status: 5/255
+Oct  4 10:12:31 localhost pop3: 1696381951.852345 tcpserver: pid 452462 from 222.111.232.129
+Oct  4 10:12:31 localhost pop3: 1696381951.852376 tcpserver: ok 452462 0:115.68.164.36:110 :222.111.232.129::55079
+Oct  4 10:12:31 localhost pop3: 1696381951.857695 tcpserver: end 452462 status 256
+Oct  4 10:12:31 localhost pop3: 1696381951.857728 tcpserver: status: 4/255
+Oct  4 10:12:31 localhost pop3: 1696381951.862041 tcpserver: status: 5/255
+Oct  4 10:12:31 localhost pop3: 1696381951.862375 tcpserver: pid 452463 from 222.111.232.129
+Oct  4 10:12:31 localhost pop3: 1696381951.862402 tcpserver: ok 452463 0:115.68.164.36:110 :222.111.232.129::55080
+Oct  4 10:12:31 localhost pop3: 1696381951.866746 tcpserver: end 452463 status 256
+Oct  4 10:12:31 localhost pop3: 1696381951.866774 tcpserver: status: 4/255
+Oct  4 10:12:31 localhost pop3: 1696381951.870598 tcpserver: status: 5/255
+Oct  4 10:12:31 localhost pop3: 1696381951.870956 tcpserver: pid 452464 from 222.111.232.129
+Oct  4 10:12:31 localhost pop3: 1696381951.870982 tcpserver: ok 452464 0:115.68.164.36:110 :222.111.232.129::55081
+Oct  4 10:12:31 localhost pop3: 1696381951.899765 tcpserver: end 452464 status 256
+Oct  4 10:12:31 localhost pop3: 1696381951.899801 tcpserver: status: 4/255
+Oct  4 10:12:31 localhost pop3: 1696381951.907491 tcpserver: status: 5/255
+
+
+Oct 13 08:46:49 localhost qmail: 1697154409.576798 delivery 3358104: success: [2023/10/13_08:46:49]_found_in_white_list/[2023/10/13_08:46:49]_pass_rules/[2023/10/13_08:46:49]_pass_rules/[2023/10/13_08:46:49]_catch_or_not_?:_Y/PHP_Notice:
+__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 13 08:46:49 localhost qmail: 1697154409.576948 status: local 0/10 remote 4/20
+Oct 13 08:46:49 localhost qmail: 1697154409.577002 end msg 131464
+Oct 13 08:46:56 localhost pop3: 1697154416.624693 tcpserver: status: 1/255
+Oct 13 08:46:56 localhost pop3: 1697154416.624936 tcpserver: pid 88354 from 121.53.202.79
+Oct 13 08:46:56 localhost pop3: 1697154416.624959 tcpserver: ok 88354 0:115.68.164.36:110 :121.53.202.79::2281
+Oct 13 08:46:56 localhost pop3: 1697154416.647329 tcpserver: end 88354 status 256
+Oct 13 08:46:56 localhost pop3: 1697154416.647356 tcpserver: status: 0/255
+Oct 13 08:47:01 localhost qmail: 1697154421.109738 new msg 131464
+Oct 13 08:47:01 localhost qmail: 1697154421.109786 info msg 131464: bytes 545 from <root@dsnw.net> qp 88401 uid 500
+Oct 13 08:47:01 localhost qmail: 1697154421.110577 starting delivery 3358107: msg 131464 to local anymate@dsnw.net
+Oct 13 08:47:01 localhost qmail: 1697154421.110606 status: local 1/10 remote 4/20
+Oct 13 08:47:01 localhost qmail: 1697154421.113051 delivery 3358107: success: did_0+0+0/
+Oct 13 08:47:01 localhost qmail: 1697154421.113180 status: local 0/10 remote 4/20
+Oct 13 08:47:01 localhost qmail: 1697154421.113237 end msg 131464
+Oct 13 08:47:02 localhost pop3: 1697154422.680823 tcpserver: status: 1/255
+Oct 13 08:47:02 localhost pop3: 1697154422.681204 tcpserver: pid 88407 from 223.39.180.155
+Oct 13 08:47:02 localhost pop3: 1697154422.681254 tcpserver: ok 88407 0:115.68.164.36:110 :223.39.180.155::54184
+Oct 13 08:47:02 localhost pop3: 1697154422.900831 tcpserver: end 88407 status 256
+Oct 13 08:47:02 localhost pop3: 1697154422.900852 tcpserver: status: 0/255
+Oct 13 08:47:04 localhost qmail: 1697154424.918977 new msg 131464
+Oct 13 08:47:04 localhost qmail: 1697154424.919036 info msg 131464: bytes 556 from <root@dsnw.net> qp 88416 uid 500
+Oct 13 08:47:04 localhost qmail: 1697154424.919847 starting delivery 3358108: msg 131464 to local anymate@dsnw.net
+Oct 13 08:47:04 localhost qmail: 1697154424.919863 status: local 1/10 remote 4/20
+Oct 13 08:47:04 localhost qmail: 1697154424.923476 delivery 3358108: success: did_0+0+0/
+Oct 13 08:47:04 localhost qmail: 1697154424.923545 status: local 0/10 remote 4/20
+Oct 13 08:47:04 localhost qmail: 1697154424.923577 end msg 131464
+Oct 13 08:47:22 localhost pop3: 1697154442.233692 tcpserver: status: 1/255
+Oct 13 08:47:22 localhost pop3: 1697154442.234083 tcpserver: pid 88477 from 175.203.36.141
+Oct 13 08:47:22 localhost pop3: 1697154442.234133 tcpserver: ok 88477 0:115.68.164.36:110 :175.203.36.141::65076
+Oct 13 08:47:22 localhost pop3: 1697154442.264214 tcpserver: end 88477 status 256
+Oct 13 08:47:22 localhost pop3: 1697154442.264248 tcpserver: status: 0/255
+Oct 13 08:47:23 localhost qmail: 1697154443.711052 new msg 131464
+Oct 13 08:47:23 localhost qmail: 1697154443.711135 info msg 131464: bytes 340960 from <donggyun@dsnw.net> qp 88480 uid 500
+Oct 13 08:47:23 localhost qmail: 1697154443.712417 starting delivery 3358109: msg 131464 to local love2282@dsnw.net
+Oct 13 08:47:23 localhost qmail: 1697154443.712461 status: local 1/10 remote 4/20
+Oct 13 08:47:23 localhost qmail: 1697154443.974689 delivery 3358109: success: [2023/10/13_08:47:23]_found_in_white_list/[2023/10/13_08:47:23]_pass_rules/[2023/10/13_08:47:23]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/
+data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 13 08:47:23 localhost qmail: 1697154443.974738 status: local 0/10 remote 4/20
+
+
+
+Oct 13 08:47:23 localhost qmail: 1697154443.974758 end msg 131464
+Oct 13 08:47:25 localhost pop3: 1697154445.289202 tcpserver: status: 1/255
+Oct 13 08:47:25 localhost pop3: 1697154445.289520 tcpserver: pid 88486 from 106.251.232.130
+Oct 13 08:47:25 localhost pop3: 1697154445.289572 tcpserver: ok 88486 0:115.68.164.36:110 :106.251.232.130::41434
+Oct 13 08:47:25 localhost pop3: 1697154445.362687 tcpserver: status: 2/255
+Oct 13 08:47:25 localhost pop3: 1697154445.363042 tcpserver: pid 88488 from 115.68.164.31
+Oct 13 08:47:25 localhost pop3: 1697154445.363118 tcpserver: ok 88488 0:115.68.164.36:110 :115.68.164.31::58492
+Oct 13 08:47:25 localhost pop3: 1697154445.373871 tcpserver: end 88488 status 256
+Oct 13 08:47:25 localhost pop3: 1697154445.373893 tcpserver: status: 1/255
+Oct 13 08:47:25 localhost pop3: 1697154445.539464 tcpserver: end 88486 status 256
+Oct 13 08:47:25 localhost pop3: 1697154445.539506 tcpserver: status: 0/255
+Oct 13 08:47:25 localhost pop3: 1697154445.559934 tcpserver: status: 1/255
+Oct 13 08:47:25 localhost pop3: 1697154445.560326 tcpserver: pid 88490 from 106.251.232.130
+Oct 13 08:47:25 localhost pop3: 1697154445.560372 tcpserver: ok 88490 0:115.68.164.36:110 :106.251.232.130::41436
+Oct 13 08:47:25 localhost pop3: 1697154445.570084 tcpserver: status: 2/255
+Oct 13 08:47:25 localhost pop3: 1697154445.570389 tcpserver: pid 88491 from 115.68.164.31
+Oct 13 08:47:25 localhost pop3: 1697154445.570430 tcpserver: ok 88491 0:115.68.164.36:110 :115.68.164.31::58502
+Oct 13 08:47:25 localhost pop3: 1697154445.581517 tcpserver: end 88491 status 256
+Oct 13 08:47:25 localhost pop3: 1697154445.581550 tcpserver: status: 1/255
+Oct 13 08:47:25 localhost pop3: 1697154445.653885 tcpserver: end 88490 status 256
+Oct 13 08:47:25 localhost pop3: 1697154445.653908 tcpserver: status: 0/255
+Oct 13 08:47:33 localhost pop3: 1697154453.386929 tcpserver: status: 1/255
+Oct 13 08:47:33 localhost pop3: 1697154453.387346 tcpserver: pid 88498 from 121.167.147.63
+Oct 13 08:47:33 localhost pop3: 1697154453.387399 tcpserver: ok 88498 0:115.68.164.36:110 :121.167.147.63::54993
+Oct 13 08:47:33 localhost pop3: 1697154453.492267 tcpserver: end 88498 status 256
+Oct 13 08:47:33 localhost pop3: 1697154453.492304 tcpserver: status: 0/255
+Oct 13 08:47:36 localhost pop3: 1697154456.683730 tcpserver: status: 1/255
+Oct 13 08:47:36 localhost pop3: 1697154456.684201 tcpserver: pid 88502 from 152.149.43.251
+Oct 13 08:47:36 localhost pop3: 1697154456.684251 tcpserver: ok 88502 0:115.68.164.36:110 :152.149.43.251::8450
+Oct 13 08:47:36 localhost pop3: 1697154456.764479 tcpserver: end 88502 status 256
+Oct 13 08:47:36 localhost pop3: 1697154456.764520 tcpserver: status: 0/255
+Oct 13 08:47:42 localhost pop3: 1697154462.387196 tcpserver: status: 1/255
+Oct 13 08:47:42 localhost pop3: 1697154462.387515 tcpserver: pid 88506 from 121.53.202.100
+Oct 13 08:47:42 localhost pop3: 1697154462.387537 tcpserver: ok 88506 0:115.68.164.36:110 :121.53.202.100::27479
+Oct 13 08:47:42 localhost pop3: 1697154462.405909 tcpserver: end 88506 status 256
+Oct 13 08:47:42 localhost pop3: 1697154462.405928 tcpserver: status: 0/255
+Oct 13 08:47:42 localhost pop3: 1697154462.432466 tcpserver: status: 1/255
+Oct 13 08:47:42 localhost pop3: 1697154462.432769 tcpserver: pid 88508 from 121.53.202.80
+Oct 13 08:47:42 localhost pop3: 1697154462.432812 tcpserver: ok 88508 0:115.68.164.36:110 :121.53.202.80::41674
+Oct 13 08:47:42 localhost pop3: 1697154462.444095 tcpserver: end 88508 status 256
+Oct 13 08:47:42 localhost pop3: 1697154462.444131 tcpserver: status: 0/255
+Oct 13 08:47:42 localhost pop3: 1697154462.449806 tcpserver: status: 1/255
+Oct 13 08:47:42 localhost pop3: 1697154462.450139 tcpserver: pid 88510 from 121.53.202.80
+Oct 13 08:47:42 localhost pop3: 1697154462.450184 tcpserver: ok 88510 0:115.68.164.36:110 :121.53.202.80::43787
+Oct 13 08:47:42 localhost pop3: 1697154462.461072 tcpserver: end 88510 status 256
+Oct 13 08:47:42 localhost pop3: 1697154462.461129 tcpserver: status: 0/255
+Oct 13 08:47:43 localhost pop3: 1697154463.310291 tcpserver: status: 1/255
+Oct 13 08:47:43 localhost pop3: 1697154463.310628 tcpserver: pid 88512 from 211.48.190.72
+Oct 13 08:47:43 localhost pop3: 1697154463.310683 tcpserver: ok 88512 0:115.68.164.36:110 :211.48.190.72::61508
+Oct 13 08:47:43 localhost pop3: 1697154463.310699 tcpserver: status: 2/255
+Oct 13 08:47:43 localhost pop3: 1697154463.311017 tcpserver: pid 88513 from 211.48.190.72
+Oct 13 08:47:43 localhost pop3: 1697154463.311043 tcpserver: ok 88513 0:115.68.164.36:110 :211.48.190.72::61509
+Oct 13 08:47:43 localhost pop3: 1697154463.316650 tcpserver: status: 3/255
+Oct 13 08:47:43 localhost pop3: 1697154463.316909 tcpserver: pid 88514 from 211.48.190.72
+Oct 13 08:47:43 localhost pop3: 1697154463.316937 tcpserver: ok 88514 0:115.68.164.36:110 :211.48.190.72::61510
+Oct 13 08:47:43 localhost pop3: 1697154463.333769 tcpserver: end 88513 status 256
+Oct 13 08:47:43 localhost pop3: 1697154463.333802 tcpserver: status: 2/255
+Oct 13 08:47:43 localhost pop3: 1697154463.334170 tcpserver: end 88512 status 256
+Oct 13 08:47:43 localhost pop3: 1697154463.334185 tcpserver: status: 1/255
+
+
+
+
+
+
+Oct 13 08:47:43 localhost pop3: 1697154463.386007 tcpserver: end 88514 status 256
+Oct 13 08:47:43 localhost pop3: 1697154463.386044 tcpserver: status: 0/255
+Oct 13 08:47:45 localhost qmail: 1697154465.261926 delivery 3358102: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 13 08:47:45 localhost qmail: 1697154465.261976 status: local 0/10 remote 3/20
+Oct 13 08:47:45 localhost qmail: 1697154465.297892 delivery 3358103: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 13 08:47:45 localhost qmail: 1697154465.297935 status: local 0/10 remote 2/20
+Oct 13 08:47:45 localhost qmail: 1697154465.379883 delivery 3358105: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 13 08:47:45 localhost qmail: 1697154465.379909 status: local 0/10 remote 1/20
+Oct 13 08:47:45 localhost qmail: 1697154465.414823 delivery 3358106: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 13 08:47:45 localhost qmail: 1697154465.414859 status: local 0/10 remote 0/20
+Oct 13 08:47:49 localhost qmail: 1697154469.062656 new msg 131464
+Oct 13 08:47:49 localhost qmail: 1697154469.062681 info msg 131464: bytes 148938 from <moonsh1984@naver.com> qp 88522 uid 502
+Oct 13 08:47:49 localhost qmail: 1697154469.063186 starting delivery 3358110: msg 131464 to local yyj0138@dsnw.net
+Oct 13 08:47:49 localhost qmail: 1697154469.063199 status: local 1/10 remote 0/20
+Oct 13 08:47:49 localhost qmail: 1697154469.402202 delivery 3358110: success: PHP_Notice:__Undefined_offset:_2_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/data/ANYMATE/gwd
+snwnet/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/cla
+ss/class.mailParser.inc.php_on_line_218/[2023/10/13_08:47:49]_found_in_white_list/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_p
+ass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rul
+Oct 13 08:47:49 localhost qmail: 1697154469.402202+es/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:
+49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pa
+ss_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rul
+es/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[202
+Oct 13 08:47:49 localhost qmail: 1697154469.402202+3/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pas
+s_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rule
+s/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[202
+3/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13
+Oct 13 08:47:49 localhost qmail: 1697154469.402202+_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_pass_rules/[2023/10/13_08:47:49]_catched/[2023/10/13_08:47:49]_folder_no:261
+0/[2023/10/13_08:47:49]_catch_or_not_?:_Y/did_1+0+1/
+Oct 13 08:47:49 localhost qmail: 1697154469.402271 status: local 0/10 remote 0/20
+Oct 13 08:47:49 localhost qmail: 1697154469.402291 end msg 131464
+Oct 13 08:47:50 localhost pop3: 1697154470.952940 tcpserver: status: 1/255
+Oct 13 08:47:50 localhost pop3: 1697154470.953196 tcpserver: pid 88532 from 121.53.202.100
+Oct 13 08:47:50 localhost pop3: 1697154470.953224 tcpserver: ok 88532 0:115.68.164.36:110 :121.53.202.100::39376
+Oct 13 08:47:50 localhost pop3: 1697154470.963683 tcpserver: end 88532 status 256
+Oct 13 08:47:50 localhost pop3: 1697154470.963718 tcpserver: status: 0/255
+Oct 13 08:47:50 localhost pop3: 1697154470.968014 tcpserver: status: 1/255
+Oct 13 08:47:50 localhost pop3: 1697154470.968291 tcpserver: pid 88534 from 121.53.202.100
+Oct 13 08:47:50 localhost pop3: 1697154470.968325 tcpserver: ok 88534 0:115.68.164.36:110 :121.53.202.100::59450
+Oct 13 08:47:50 localhost pop3: 1697154470.979842 tcpserver: end 88534 status 256
+Oct 13 08:47:50 localhost pop3: 1697154470.979877 tcpserver: status: 0/255
+Oct 13 08:47:56 localhost qmail: 1697154476.642029 new msg 131464
+Oct 13 08:47:56 localhost qmail: 1697154476.642093 info msg 131464: bytes 2816 from <jejin815@dsnw.net> qp 88539 uid 500
+Oct 13 08:47:56 localhost qmail: 1697154476.642968 starting delivery 3358111: msg 131464 to local singnalcap@dsnw.net
+Oct 13 08:47:56 localhost qmail: 1697154476.643000 status: local 1/10 remote 0/20
+Oct 13 08:47:56 localhost qmail: 1697154476.878105 delivery 3358111: success: [2023/10/13_08:47:56]_catched_smart_rule_100/[2023/10/13_08:47:56]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/
+class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 13 08:47:56 localhost qmail: 1697154476.878162 status: local 0/10 remote 0/20
+Oct 13 08:47:56 localhost qmail: 1697154476.878183 end msg 131464
+Oct 13 08:47:59 localhost pop3: 1697154479.190565 tcpserver: status: 1/255
+Oct 13 08:47:59 localhost pop3: 1697154479.190957 tcpserver: pid 88546 from 209.85.167.132
+Oct 13 08:47:59 localhost pop3: 1697154479.190994 tcpserver: ok 88546 0:115.68.164.36:110 :209.85.167.132::52759
+Oct 13 08:48:01 localhost pop3: 1697154481.517937 tcpserver: end 88546 status 256
+Oct 13 08:48:01 localhost pop3: 1697154481.517973 tcpserver: status: 0/255
+Oct 13 08:48:07 localhost pop3: 1697154487.125147 tcpserver: status: 1/255
+Oct 13 08:48:07 localhost pop3: 1697154487.125449 tcpserver: pid 88608 from 14.226.47.113
+Oct 13 08:48:07 localhost pop3: 1697154487.125499 tcpserver: ok 88608 0:115.68.164.36:110 :14.226.47.113::49703
+Oct 13 08:48:08 localhost pop3: 1697154488.269165 tcpserver: status: 2/255
+
+
+
+
+Oct 20 13:26:29 localhost qmail: 1697775989.707136 delivery 3397332: success: [2023/10/20_13:26:29]_found_in_white_list/[2023/10/20_13:26:29]_pass_rules/[2023/10/20_13:26:29]_pass_rules/[2023/10/20_13:26:29]_catch_or_not_?:_Y/PHP_Notice:
+__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 20 13:26:29 localhost qmail: 1697775989.707224 status: local 0/10 remote 4/20
+Oct 20 13:26:29 localhost qmail: 1697775989.707258 end msg 131466
+Oct 20 13:26:32 localhost pop3: 1697775992.282224 tcpserver: status: 4/255
+Oct 20 13:26:32 localhost pop3: 1697775992.282457 tcpserver: pid 215254 from 118.217.134.62
+Oct 20 13:26:32 localhost pop3: 1697775992.282489 tcpserver: ok 215254 0:115.68.164.36:110 :118.217.134.62::55838
+Oct 20 13:26:32 localhost pop3: 1697775992.327729 tcpserver: end 215254 status 256
+Oct 20 13:26:32 localhost pop3: 1697775992.327768 tcpserver: status: 3/255
+Oct 20 13:26:33 localhost pop3: 1697775993.367473 tcpserver: status: 4/255
+Oct 20 13:26:33 localhost pop3: 1697775993.367876 tcpserver: pid 215256 from 121.53.202.100
+Oct 20 13:26:33 localhost pop3: 1697775993.367928 tcpserver: ok 215256 0:115.68.164.36:110 :121.53.202.100::54326
+Oct 20 13:26:33 localhost pop3: 1697775993.380007 tcpserver: end 215256 status 256
+Oct 20 13:26:33 localhost pop3: 1697775993.380048 tcpserver: status: 3/255
+Oct 20 13:26:33 localhost pop3: 1697775993.384361 tcpserver: status: 4/255
+Oct 20 13:26:33 localhost pop3: 1697775993.384739 tcpserver: pid 215258 from 121.53.202.100
+Oct 20 13:26:33 localhost pop3: 1697775993.384784 tcpserver: ok 215258 0:115.68.164.36:110 :121.53.202.100::52577
+Oct 20 13:26:33 localhost pop3: 1697775993.395984 tcpserver: end 215258 status 256
+Oct 20 13:26:33 localhost pop3: 1697775993.396016 tcpserver: status: 3/255
+Oct 20 13:26:35 localhost pop3: 1697775995.365759 tcpserver: status: 4/255
+Oct 20 13:26:35 localhost pop3: 1697775995.366177 tcpserver: pid 215260 from 211.231.104.234
+Oct 20 13:26:35 localhost pop3: 1697775995.366228 tcpserver: ok 215260 0:115.68.164.36:110 :211.231.104.234::7811
+Oct 20 13:26:35 localhost pop3: 1697775995.378424 tcpserver: end 215260 status 256
+Oct 20 13:26:35 localhost pop3: 1697775995.378463 tcpserver: status: 3/255
+Oct 20 13:26:35 localhost pop3: 1697775995.383743 tcpserver: status: 4/255
+Oct 20 13:26:35 localhost pop3: 1697775995.383995 tcpserver: pid 215262 from 211.231.104.234
+Oct 20 13:26:35 localhost pop3: 1697775995.384040 tcpserver: ok 215262 0:115.68.164.36:110 :211.231.104.234::31047
+Oct 20 13:26:35 localhost pop3: 1697775995.394994 tcpserver: end 215262 status 256
+Oct 20 13:26:35 localhost pop3: 1697775995.395022 tcpserver: status: 3/255
+Oct 20 13:26:36 localhost pop3: 1697775996.228043 tcpserver: status: 4/255
+Oct 20 13:26:36 localhost pop3: 1697775996.228402 tcpserver: pid 215265 from 121.53.202.85
+Oct 20 13:26:36 localhost pop3: 1697775996.228431 tcpserver: ok 215265 0:115.68.164.36:110 :121.53.202.85::18677
+Oct 20 13:26:36 localhost pop3: 1697775996.241003 tcpserver: end 215265 status 256
+Oct 20 13:26:36 localhost pop3: 1697775996.241039 tcpserver: status: 3/255
+Oct 20 13:26:36 localhost pop3: 1697775996.245850 tcpserver: status: 4/255
+Oct 20 13:26:36 localhost pop3: 1697775996.246131 tcpserver: pid 215267 from 121.53.202.85
+Oct 20 13:26:36 localhost pop3: 1697775996.246160 tcpserver: ok 215267 0:115.68.164.36:110 :121.53.202.85::31575
+Oct 20 13:26:36 localhost pop3: 1697775996.257808 tcpserver: end 215267 status 256
+Oct 20 13:26:36 localhost pop3: 1697775996.257838 tcpserver: status: 3/255
+Oct 20 13:26:37 localhost qmail: 1697775997.827559 new msg 131466
+
+
+
+
+
+Oct 20 13:26:37 localhost qmail: 1697775997.827604 info msg 131466: bytes 8310 from <230147@shinsegae.com> qp 215270 uid 502
+Oct 20 13:26:37 localhost qmail: 1697775997.828772 starting delivery 3397335: msg 131466 to local skill033@dsnw.net
+Oct 20 13:26:37 localhost qmail: 1697775997.828798 status: local 1/10 remote 4/20
+Oct 20 13:26:37 localhost qmail: 1697775997.927500 new msg 131475
+Oct 20 13:26:37 localhost qmail: 1697775997.927540 info msg 131475: bytes 8295 from <230147@shinsegae.com> qp 215277 uid 502
+Oct 20 13:26:37 localhost qmail: 1697775997.928320 starting delivery 3397336: msg 131475 to local sky@dsnw.net
+Oct 20 13:26:37 localhost qmail: 1697775997.928349 status: local 2/10 remote 4/20
+Oct 20 13:26:37 localhost qmail: 1697775997.955870 delivery 3397335: success: PHP_Notice:__Undefined_property:_stdClass::$date_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1029//Notice:_Undefined_property:_std
+Class::$date_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1029/[2023/10/20_13:26:37]_catch_or_not_?:_N/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_
+line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 20 13:26:37 localhost qmail: 1697775997.955921 status: local 1/10 remote 4/20
+Oct 20 13:26:37 localhost qmail: 1697775997.955941 end msg 131466
+Oct 20 13:26:38 localhost qmail: 1697775998.064518 delivery 3397336: success: PHP_Notice:__Undefined_property:_stdClass::$date_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1029//Notice:_Undefined_property:_std
+Class::$date_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1029/[2023/10/20_13:26:38]_catch_or_not_?:_N/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_
+line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 20 13:26:38 localhost qmail: 1697775998.064598 status: local 0/10 remote 4/20
+Oct 20 13:26:38 localhost qmail: 1697775998.064627 end msg 131475
+Oct 20 13:26:38 localhost qmail: 1697775998.079837 new msg 131466
+Oct 20 13:26:38 localhost qmail: 1697775998.079895 info msg 131466: bytes 8294 from <230147@shinsegae.com> qp 215285 uid 502
+Oct 20 13:26:38 localhost qmail: 1697775998.080784 starting delivery 3397337: msg 131466 to local hgm@dsnw.net
+Oct 20 13:26:38 localhost qmail: 1697775998.080808 status: local 1/10 remote 4/20
+Oct 20 13:26:38 localhost qmail: 1697775998.257566 delivery 3397337: success: PHP_Notice:__Undefined_property:_stdClass::$date_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1029//Notice:_Undefined_property:_std
+Class::$date_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1029/[2023/10/20_13:26:38]_catch_or_not_?:_N/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_
+line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 20 13:26:38 localhost qmail: 1697775998.257635 status: local 0/10 remote 4/20
+Oct 20 13:26:38 localhost qmail: 1697775998.257655 end msg 131466
+Oct 20 13:26:39 localhost pop3: 1697775999.057514 tcpserver: status: 4/255
+Oct 20 13:26:39 localhost pop3: 1697775999.057939 tcpserver: pid 215291 from 61.72.116.80
+Oct 20 13:26:39 localhost pop3: 1697775999.057987 tcpserver: ok 215291 0:115.68.164.36:110 :61.72.116.80::56249
+Oct 20 13:26:39 localhost pop3: 1697775999.182113 tcpserver: end 215291 status 256
+Oct 20 13:26:39 localhost pop3: 1697775999.182137 tcpserver: status: 3/255
+Oct 20 13:26:39 localhost qmail: 1697775999.336747 new msg 131466
+Oct 20 13:26:39 localhost qmail: 1697775999.336793 info msg 131466: bytes 19356 from <friendupdates@facebookmail.com> qp 215294 uid 502
+Oct 20 13:26:39 localhost qmail: 1697775999.337604 starting delivery 3397338: msg 131466 to local leegw@dsnw.net
+Oct 20 13:26:39 localhost qmail: 1697775999.337637 status: local 1/10 remote 4/20
+Oct 20 13:26:39 localhost qmail: 1697775999.627966 delivery 3397338: success: PHP_Notice:__Undefined_offset:_1_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_1_in_/data/ANYMATE/gwd
+snwnet/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/cla
+ss/class.mailParser.inc.php_on_line_218/[2023/10/20_13:26:39]_catch_or_not_?:_N/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/d
+ata/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 20 13:26:39 localhost qmail: 1697775999.628016 status: local 0/10 remote 4/20
+Oct 20 13:26:39 localhost qmail: 1697775999.628039 end msg 131466
+Oct 20 13:26:44 localhost pop3: 1697776004.896235 tcpserver: status: 4/255
+Oct 20 13:26:44 localhost pop3: 1697776004.896633 tcpserver: pid 215313 from 121.53.202.80
+Oct 20 13:26:44 localhost pop3: 1697776004.896684 tcpserver: ok 215313 0:115.68.164.36:110 :121.53.202.80::35123
+Oct 20 13:26:44 localhost pop3: 1697776004.909363 tcpserver: end 215313 status 256
+Oct 20 13:26:44 localhost pop3: 1697776004.909401 tcpserver: status: 3/255
+Oct 20 13:26:44 localhost pop3: 1697776004.914010 tcpserver: status: 4/255
+Oct 20 13:26:44 localhost pop3: 1697776004.914364 tcpserver: pid 215315 from 121.53.202.80
+Oct 20 13:26:44 localhost pop3: 1697776004.914409 tcpserver: ok 215315 0:115.68.164.36:110 :121.53.202.80::41030
+Oct 20 13:26:44 localhost pop3: 1697776004.925645 tcpserver: end 215315 status 256
+Oct 20 13:26:44 localhost pop3: 1697776004.925679 tcpserver: status: 3/255
+Oct 20 13:26:52 localhost pop3: 1697776012.276871 tcpserver: status: 4/255
+Oct 20 13:26:52 localhost pop3: 1697776012.277222 tcpserver: pid 215322 from 175.203.36.141
+Oct 20 13:26:52 localhost pop3: 1697776012.277277 tcpserver: ok 215322 0:115.68.164.36:110 :175.203.36.141::61038
+Oct 20 13:26:52 localhost pop3: 1697776012.313100 tcpserver: end 215322 status 256
+Oct 20 13:26:52 localhost pop3: 1697776012.313138 tcpserver: status: 3/255
+Oct 20 13:26:56 localhost pop3: 1697776016.605252 tcpserver: status: 4/255
+Oct 20 13:26:56 localhost pop3: 1697776016.605605 tcpserver: pid 215325 from 61.72.116.80
+Oct 20 13:26:56 localhost pop3: 1697776016.605658 tcpserver: ok 215325 0:115.68.164.36:110 :61.72.116.80::64775
+Oct 20 13:26:56 localhost pop3: 1697776016.687719 tcpserver: status: 5/255
+
+
+
+
+
+
+Oct 20 13:26:56 localhost pop3: 1697776016.688039 tcpserver: pid 215327 from 39.118.122.40
+Oct 20 13:26:56 localhost pop3: 1697776016.688087 tcpserver: ok 215327 0:115.68.164.36:110 :39.118.122.40::49208
+Oct 20 13:26:56 localhost pop3: 1697776016.712160 tcpserver: end 215325 status 256
+Oct 20 13:26:56 localhost pop3: 1697776016.712198 tcpserver: status: 4/255
+Oct 20 13:26:56 localhost pop3: 1697776016.790484 tcpserver: end 215327 status 256
+Oct 20 13:26:56 localhost pop3: 1697776016.790525 tcpserver: status: 3/255
+Oct 20 13:27:00 localhost pop3: 1697776020.906504 tcpserver: status: 4/255
+Oct 20 13:27:00 localhost pop3: 1697776020.906908 tcpserver: pid 215330 from 121.53.202.120
+Oct 20 13:27:00 localhost pop3: 1697776020.906964 tcpserver: ok 215330 0:115.68.164.36:110 :121.53.202.120::63028
+Oct 20 13:27:00 localhost pop3: 1697776020.933170 tcpserver: end 215330 status 256
+Oct 20 13:27:00 localhost pop3: 1697776020.933210 tcpserver: status: 3/255
+Oct 20 13:27:01 localhost qmail: 1697776021.125654 new msg 131466
+Oct 20 13:27:01 localhost qmail: 1697776021.125718 info msg 131466: bytes 547 from <root@dsnw.net> qp 215372 uid 500
+Oct 20 13:27:01 localhost qmail: 1697776021.126550 starting delivery 3397339: msg 131466 to local anymate@dsnw.net
+Oct 20 13:27:01 localhost qmail: 1697776021.126586 status: local 1/10 remote 4/20
+Oct 20 13:27:01 localhost qmail: 1697776021.130441 delivery 3397339: success: did_0+0+0/
+Oct 20 13:27:01 localhost qmail: 1697776021.130511 status: local 0/10 remote 4/20
+Oct 20 13:27:01 localhost qmail: 1697776021.130558 end msg 131466
+Oct 20 13:27:02 localhost pop3: 1697776022.489779 tcpserver: status: 4/255
+Oct 20 13:27:02 localhost pop3: 1697776022.490157 tcpserver: pid 215377 from 106.251.232.130
+Oct 20 13:27:02 localhost pop3: 1697776022.490211 tcpserver: ok 215377 0:115.68.164.36:110 :106.251.232.130::53848
+Oct 20 13:27:02 localhost pop3: 1697776022.535182 tcpserver: status: 5/255
+Oct 20 13:27:02 localhost pop3: 1697776022.535490 tcpserver: pid 215379 from 115.68.164.31
+Oct 20 13:27:02 localhost pop3: 1697776022.535541 tcpserver: ok 215379 0:115.68.164.36:110 :115.68.164.31::38098
+Oct 20 13:27:02 localhost pop3: 1697776022.546012 tcpserver: end 215379 status 256
+Oct 20 13:27:02 localhost pop3: 1697776022.546049 tcpserver: status: 4/255
+Oct 20 13:27:02 localhost pop3: 1697776022.605583 tcpserver: end 215377 status 256
+Oct 20 13:27:02 localhost pop3: 1697776022.605628 tcpserver: status: 3/255
+Oct 20 13:27:02 localhost pop3: 1697776022.778741 tcpserver: status: 4/255
+Oct 20 13:27:02 localhost pop3: 1697776022.778987 tcpserver: pid 215382 from 106.251.232.130
+Oct 20 13:27:02 localhost pop3: 1697776022.779037 tcpserver: ok 215382 0:115.68.164.36:110 :106.251.232.130::53849
+Oct 20 13:27:02 localhost pop3: 1697776022.857807 tcpserver: end 215382 status 256
+Oct 20 13:27:02 localhost pop3: 1697776022.857847 tcpserver: status: 3/255
+Oct 20 13:27:03 localhost pop3: 1697776023.048045 tcpserver: status: 4/255
+Oct 20 13:27:03 localhost pop3: 1697776023.048252 tcpserver: pid 215384 from 115.68.164.31
+Oct 20 13:27:03 localhost pop3: 1697776023.048314 tcpserver: ok 215384 0:115.68.164.36:110 :115.68.164.31::38104
+Oct 20 13:27:03 localhost pop3: 1697776023.057121 tcpserver: end 215384 status 256
+Oct 20 13:27:03 localhost pop3: 1697776023.057152 tcpserver: status: 3/255
+Oct 20 13:27:03 localhost qmail: 1697776023.996179 new msg 131466
+Oct 20 13:27:03 localhost qmail: 1697776023.996225 info msg 131466: bytes 8295 from <230147@shinsegae.com> qp 215387 uid 502
+Oct 20 13:27:03 localhost qmail: 1697776023.996983 starting delivery 3397340: msg 131466 to local sky@dsnw.net
+Oct 20 13:27:03 localhost qmail: 1697776023.997022 status: local 1/10 remote 4/20
+Oct 20 13:27:04 localhost qmail: 1697776024.123925 delivery 3397340: success: PHP_Notice:__Undefined_property:_stdClass::$date_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1029//Notice:_Undefined_property:_std
+Class::$date_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1029/[2023/10/20_13:27:04]_catch_or_not_?:_N/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_
+line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 20 13:27:04 localhost qmail: 1697776024.123958 status: local 0/10 remote 4/20
+Oct 20 13:27:04 localhost qmail: 1697776024.123965 end msg 131466
+Oct 20 13:27:04 localhost qmail: 1697776024.226979 new msg 131466
+Oct 20 13:27:04 localhost qmail: 1697776024.227037 info msg 131466: bytes 8309 from <230147@shinsegae.com> qp 215394 uid 502
+Oct 20 13:27:04 localhost qmail: 1697776024.228023 starting delivery 3397341: msg 131466 to local skill033@dsnw.net
+Oct 20 13:27:04 localhost qmail: 1697776024.228057 status: local 1/10 remote 4/20
+Oct 20 13:27:04 localhost qmail: 1697776024.298346 new msg 131475
+Oct 20 13:27:04 localhost qmail: 1697776024.298398 info msg 131475: bytes 8295 from <230147@shinsegae.com> qp 215402 uid 502
+Oct 20 13:27:04 localhost qmail: 1697776024.299219 starting delivery 3397342: msg 131475 to local hgm@dsnw.net
+Oct 20 13:27:04 localhost qmail: 1697776024.299249 status: local 2/10 remote 4/20
+Oct 20 13:27:04 localhost qmail: 1697776024.337032 delivery 3397341: success: PHP_Notice:__Undefined_property:_stdClass::$date_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1029//Notice:_Undefined_property:_std
+Class::$date_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1029/[2023/10/20_13:27:04]_catch_or_not_?:_N/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_
+line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 20 13:27:04 localhost qmail: 1697776024.337156 status: local 1/10 remote 4/20
+Oct 20 13:27:04 localhost qmail: 1697776024.337208 end msg 131466
+
+
+
+
+
+
+Oct 20 13:27:04 localhost qmail: 1697776024.443539 delivery 3397342: success: PHP_Notice:__Undefined_property:_stdClass::$date_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1029//Notice:_Undefined_property:_std
+Class::$date_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1029/[2023/10/20_13:27:04]_catch_or_not_?:_N/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_
+line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 20 13:27:04 localhost qmail: 1697776024.443597 status: local 0/10 remote 4/20
+Oct 20 13:27:04 localhost qmail: 1697776024.443620 end msg 131475
+Oct 20 13:27:05 localhost qmail: 1697776025.887151 new msg 131466
+Oct 20 13:27:05 localhost qmail: 1697776025.887215 info msg 131466: bytes 558 from <root@dsnw.net> qp 215414 uid 500
+Oct 20 13:27:05 localhost qmail: 1697776025.888057 starting delivery 3397343: msg 131466 to local anymate@dsnw.net
+Oct 20 13:27:05 localhost qmail: 1697776025.888092 status: local 1/10 remote 4/20
+Oct 20 13:27:05 localhost qmail: 1697776025.891927 delivery 3397343: success: did_0+0+0/
+Oct 20 13:27:05 localhost qmail: 1697776025.892045 status: local 0/10 remote 4/20
+Oct 20 13:27:05 localhost qmail: 1697776025.892093 end msg 131466
+Oct 20 13:27:10 localhost pop3: 1697776030.229623 tcpserver: status: 4/255
+Oct 20 13:27:10 localhost pop3: 1697776030.230004 tcpserver: pid 215430 from 209.85.210.7
+Oct 20 13:27:10 localhost pop3: 1697776030.230056 tcpserver: ok 215430 0:115.68.164.36:110 :209.85.210.7::52761
+Oct 20 13:27:11 localhost pop3: 1697776031.415987 tcpserver: end 215430 status 256
+Oct 20 13:27:11 localhost pop3: 1697776031.416033 tcpserver: status: 3/255
+Oct 20 13:27:18 localhost pop3: 1697776038.288479 tcpserver: status: 4/255
+Oct 20 13:27:18 localhost pop3: 1697776038.288731 tcpserver: pid 215463 from 115.68.164.31
+Oct 20 13:27:18 localhost pop3: 1697776038.288783 tcpserver: ok 215463 0:115.68.164.36:110 :115.68.164.31::38146
+Oct 20 13:27:18 localhost pop3: 1697776038.299786 tcpserver: end 215463 status 256
+Oct 20 13:27:18 localhost pop3: 1697776038.299821 tcpserver: status: 3/255
+Oct 20 13:27:20 localhost pop3: 1697776040.860827 tcpserver: status: 4/255
+Oct 20 13:27:20 localhost pop3: 1697776040.861069 tcpserver: pid 215466 from 152.149.43.251
+Oct 20 13:27:20 localhost pop3: 1697776040.861101 tcpserver: ok 215466 0:115.68.164.36:110 :152.149.43.251::9955
+Oct 20 13:27:20 localhost pop3: 1697776040.976384 tcpserver: end 215466 status 256
+Oct 20 13:27:20 localhost pop3: 1697776040.976404 tcpserver: status: 3/255
+Oct 20 13:27:21 localhost qmail: 1697776041.913841 new msg 131466
+Oct 20 13:27:21 localhost qmail: 1697776041.913891 info msg 131466: bytes 290263 from <kyj0583@kica.or.kr> qp 215469 uid 502
+Oct 20 13:27:21 localhost qmail: 1697776041.915004 starting delivery 3397344: msg 131466 to local ds21@dsnw.net
+Oct 20 13:27:21 localhost qmail: 1697776041.915040 status: local 1/10 remote 4/20
+Oct 20 13:27:22 localhost qmail: 1697776042.222657 delivery 3397344: success: PHP_Notice:__Undefined_offset:_2_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/data/ANYMATE/gwd
+snwnet/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/cla
+ss/class.mailParser.inc.php_on_line_218/[2023/10/20_13:27:22]_found_in_white_list/[2023/10/20_13:27:22]_pass_rules/[2023/10/20_13:27:22]_pass_rules/[2023/10/20_13:27:22]_pass_rules/[2023/10/20_13:27:22]_pass_rules/[2023/10/20_13:27:22]_p
+ass_rules/[2023/10/20_13:27:22]_pass_rules/[2023/10/20_13:27:22]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE
+Oct 20 13:27:22 localhost qmail: 1697776042.222657+/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 20 13:27:22 localhost qmail: 1697776042.222709 status: local 0/10 remote 4/20
+Oct 20 13:27:22 localhost qmail: 1697776042.222730 end msg 131466
+Oct 20 13:27:23 localhost pop3: 1697776043.139696 tcpserver: status: 4/255
+Oct 20 13:27:23 localhost pop3: 1697776043.140025 tcpserver: pid 215476 from 118.235.4.143
+Oct 20 13:27:23 localhost pop3: 1697776043.140076 tcpserver: ok 215476 0:115.68.164.36:110 :118.235.4.143::37984
+Oct 20 13:27:24 localhost pop3: 1697776044.009547 tcpserver: end 215476 status 256
+Oct 20 13:27:24 localhost pop3: 1697776044.009592 tcpserver: status: 3/255
+Oct 20 13:27:25 localhost qmail: 1697776045.356977 delivery 3397330: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 20 13:27:25 localhost qmail: 1697776045.357026 status: local 0/10 remote 3/20
+Oct 20 13:27:25 localhost qmail: 1697776045.398575 delivery 3397331: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 20 13:27:25 localhost qmail: 1697776045.398619 status: local 0/10 remote 2/20
+Oct 20 13:27:25 localhost qmail: 1697776045.482005 delivery 3397333: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 20 13:27:25 localhost qmail: 1697776045.482048 status: local 0/10 remote 1/20
+Oct 20 13:27:25 localhost qmail: 1697776045.524897 delivery 3397334: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 20 13:27:25 localhost qmail: 1697776045.524942 status: local 0/10 remote 0/20
+Oct 20 13:27:27 localhost pop3: 1697776047.245179 tcpserver: status: 4/255
+Oct 20 13:27:27 localhost pop3: 1697776047.245532 tcpserver: pid 215483 from 61.72.116.80
+Oct 20 13:27:27 localhost pop3: 1697776047.245593 tcpserver: ok 215483 0:115.68.164.36:110 :61.72.116.80::50859
+Oct 20 13:27:27 localhost pop3: 1697776047.470594 tcpserver: end 215483 status 256
+Oct 20 13:27:27 localhost pop3: 1697776047.470637 tcpserver: status: 3/255
+Oct 20 13:27:27 localhost pop3: 1697776047.664051 tcpserver: status: 4/255
+Oct 20 13:27:27 localhost pop3: 1697776047.664385 tcpserver: pid 215485 from 223.39.244.56
+Oct 20 13:27:27 localhost pop3: 1697776047.664439 tcpserver: ok 215485 0:115.68.164.36:110 :223.39.244.56::47428
+Oct 20 13:27:27 localhost pop3: 1697776047.736842 tcpserver: status: 5/255
+Oct 20 13:27:27 localhost pop3: 1697776047.737148 tcpserver: pid 215486 from 211.48.190.72
+
+
+
+
+
+
+
+
+
+Oct 23 17:34:41 localhost qmail: 1698050081.073355 delivery 3410201: success: [2023/10/23_17:34:41]_found_in_white_list/[2023/10/23_17:34:41]_pass_rules/[2023/10/23_17:34:41]_pass_rules/[2023/10/23_17:34:41]_catch_or_not_?:_Y/PHP_Notice:
+__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 23 17:34:41 localhost qmail: 1698050081.073412 status: local 0/10 remote 4/20
+Oct 23 17:34:41 localhost qmail: 1698050081.073438 end msg 131475
+Oct 23 17:34:41 localhost pop3: 1698050081.410883 tcpserver: status: 2/255
+Oct 23 17:34:41 localhost pop3: 1698050081.411325 tcpserver: pid 112377 from 175.203.36.141
+Oct 23 17:34:41 localhost pop3: 1698050081.411373 tcpserver: ok 112377 0:115.68.164.36:110 :175.203.36.141::52024
+Oct 23 17:34:41 localhost pop3: 1698050081.442731 tcpserver: end 112377 status 256
+Oct 23 17:34:41 localhost pop3: 1698050081.442770 tcpserver: status: 1/255
+Oct 23 17:34:52 localhost pop3: 1698050092.895296 tcpserver: status: 2/255
+Oct 23 17:34:52 localhost pop3: 1698050092.895665 tcpserver: pid 112384 from 140.82.203.226
+Oct 23 17:34:52 localhost pop3: 1698050092.895714 tcpserver: ok 112384 0:115.68.164.36:110 :140.82.203.226::8835
+Oct 23 17:34:55 localhost pop3: 1698050095.883652 tcpserver: status: 3/255
+Oct 23 17:34:55 localhost pop3: 1698050095.884084 tcpserver: pid 112387 from 27.126.44.222
+Oct 23 17:34:55 localhost pop3: 1698050095.884133 tcpserver: ok 112387 0:115.68.164.36:110 :27.126.44.222::48594
+Oct 23 17:34:56 localhost pop3: 1698050096.161317 tcpserver: end 112387 status 256
+Oct 23 17:34:56 localhost pop3: 1698050096.161336 tcpserver: status: 2/255
+Oct 23 17:35:00 localhost pop3: 1698050100.093851 tcpserver: end 112384 status 256
+Oct 23 17:35:00 localhost pop3: 1698050100.093898 tcpserver: status: 1/255
+Oct 23 17:35:01 localhost qmail: 1698050101.616499 new msg 131475
+Oct 23 17:35:01 localhost qmail: 1698050101.616539 info msg 131475: bytes 547 from <root@dsnw.net> qp 112431 uid 500
+Oct 23 17:35:01 localhost qmail: 1698050101.617139 starting delivery 3410204: msg 131475 to local anymate@dsnw.net
+Oct 23 17:35:01 localhost qmail: 1698050101.617173 status: local 1/10 remote 4/20
+Oct 23 17:35:01 localhost qmail: 1698050101.619384 delivery 3410204: success: did_0+0+0/
+Oct 23 17:35:01 localhost qmail: 1698050101.619469 status: local 0/10 remote 4/20
+Oct 23 17:35:01 localhost qmail: 1698050101.619499 end msg 131475
+Oct 23 17:35:01 localhost pop3: 1698050101.773560 tcpserver: status: 2/255
+Oct 23 17:35:01 localhost pop3: 1698050101.773731 tcpserver: status: 3/255
+Oct 23 17:35:01 localhost pop3: 1698050101.773816 tcpserver: pid 112435 from 211.48.190.72
+Oct 23 17:35:01 localhost pop3: 1698050101.773863 tcpserver: ok 112435 0:115.68.164.36:110 :211.48.190.72::59101
+Oct 23 17:35:01 localhost pop3: 1698050101.774070 tcpserver: pid 112436 from 211.48.190.72
+Oct 23 17:35:01 localhost pop3: 1698050101.774101 tcpserver: ok 112436 0:115.68.164.36:110 :211.48.190.72::59102
+Oct 23 17:35:01 localhost pop3: 1698050101.776473 tcpserver: status: 4/255
+Oct 23 17:35:01 localhost pop3: 1698050101.776801 tcpserver: pid 112437 from 211.48.190.72
+Oct 23 17:35:01 localhost pop3: 1698050101.776840 tcpserver: ok 112437 0:115.68.164.36:110 :211.48.190.72::59103
+Oct 23 17:35:01 localhost pop3: 1698050101.793384 tcpserver: end 112436 status 256
+Oct 23 17:35:01 localhost pop3: 1698050101.793401 tcpserver: status: 3/255
+Oct 23 17:35:01 localhost pop3: 1698050101.797558 tcpserver: end 112435 status 256
+Oct 23 17:35:01 localhost pop3: 1698050101.797587 tcpserver: status: 2/255
+Oct 23 17:35:01 localhost pop3: 1698050101.829429 tcpserver: end 112437 status 256
+
+
+
+
+Oct 23 17:35:01 localhost pop3: 1698050101.829468 tcpserver: status: 1/255
+Oct 23 17:35:06 localhost qmail: 1698050106.363771 new msg 131475
+Oct 23 17:35:06 localhost qmail: 1698050106.363836 info msg 131475: bytes 558 from <root@dsnw.net> qp 112446 uid 500
+Oct 23 17:35:06 localhost qmail: 1698050106.365119 starting delivery 3410205: msg 131475 to local anymate@dsnw.net
+Oct 23 17:35:06 localhost qmail: 1698050106.365156 status: local 1/10 remote 4/20
+Oct 23 17:35:06 localhost qmail: 1698050106.368285 delivery 3410205: success: did_0+0+0/
+Oct 23 17:35:06 localhost qmail: 1698050106.368416 status: local 0/10 remote 4/20
+Oct 23 17:35:06 localhost qmail: 1698050106.368538 end msg 131475
+Oct 23 17:35:14 localhost qmail: 1698050114.145839 new msg 131475
+Oct 23 17:35:14 localhost qmail: 1698050114.145874 info msg 131475: bytes 49899 from <kdw79@dsnw.net> qp 112470 uid 500
+Oct 23 17:35:14 localhost qmail: 1698050114.146574 starting delivery 3410206: msg 131475 to remote ejkim@apsinc.co.kr
+Oct 23 17:35:14 localhost qmail: 1698050114.146597 status: local 0/10 remote 5/20
+Oct 23 17:35:14 localhost qmail: 1698050114.180625 new msg 131482
+Oct 23 17:35:14 localhost qmail: 1698050114.180669 info msg 131482: bytes 49899 from <kdw79@dsnw.net> qp 112472 uid 500
+Oct 23 17:35:14 localhost qmail: 1698050114.181400 starting delivery 3410207: msg 131482 to remote itsm@apsholdings.co.kr
+Oct 23 17:35:14 localhost qmail: 1698050114.181424 status: local 0/10 remote 6/20
+Oct 23 17:35:14 localhost qmail: 1698050114.187673 delivery 3410206: success: 211.174.161.28_accepted_message./Remote_host_said:_250_[Sniper]_OK_1698050112_snipe-queue_27371/
+Oct 23 17:35:14 localhost qmail: 1698050114.187737 status: local 0/10 remote 5/20
+Oct 23 17:35:14 localhost qmail: 1698050114.187764 end msg 131475
+Oct 23 17:35:14 localhost qmail: 1698050114.252944 delivery 3410207: success: 211.174.161.28_accepted_message./Remote_host_said:_250_[Sniper]_OK_1698050112_snipe-queue_27378/
+Oct 23 17:35:14 localhost qmail: 1698050114.252967 status: local 0/10 remote 4/20
+Oct 23 17:35:14 localhost qmail: 1698050114.252973 end msg 131482
+Oct 23 17:35:14 localhost qmail: 1698050114.264456 new msg 131475
+Oct 23 17:35:14 localhost qmail: 1698050114.264505 info msg 131475: bytes 12196 from <get_return@Incruit-email.com> qp 112476 uid 502
+Oct 23 17:35:14 localhost qmail: 1698050114.265014 starting delivery 3410208: msg 131475 to local ds12@dsnw.net
+Oct 23 17:35:14 localhost qmail: 1698050114.265043 status: local 1/10 remote 4/20
+Oct 23 17:35:14 localhost qmail: 1698050114.578245 delivery 3410208: success: [2023/10/23_17:35:14]_pass_rules/[2023/10/23_17:35:14]_pass_rules/[2023/10/23_17:35:14]_pass_rules/[2023/10/23_17:35:14]_pass_rules/[2023/10/23_17:35:14]_pass_
+rules/[2023/10/23_17:35:14]_pass_rules/[2023/10/23_17:35:14]_pass_rules/[2023/10/23_17:35:14]_pass_rules/[2023/10/23_17:35:14]_pass_rules/[2023/10/23_17:35:14]_pass_rules/[2023/10/23_17:35:14]_catch_or_not_?:_N/PHP_Notice:__Undefined_ind
+ex:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 23 17:35:14 localhost qmail: 1698050114.578290 status: local 0/10 remote 4/20
+Oct 23 17:35:14 localhost qmail: 1698050114.578313 end msg 131475
+Oct 23 17:35:17 localhost qmail: 1698050117.425489 new msg 131475
+Oct 23 17:35:17 localhost qmail: 1698050117.425514 info msg 131475: bytes 560772 from <smsfes@kbiz.or.kr> qp 112499 uid 502
+Oct 23 17:35:17 localhost qmail: 1698050117.426055 starting delivery 3410209: msg 131475 to local ds18@dsnw.net
+Oct 23 17:35:17 localhost qmail: 1698050117.426068 status: local 1/10 remote 4/20
+Oct 23 17:35:17 localhost qmail: 1698050117.750816 delivery 3410209: success: PHP_Notice:__Undefined_property:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030//Notice:_Undefined_propert
+y:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030/[2023/10/23_17:35:17]_pass_rules/[2023/10/23_17:35:17]_pass_rules/[2023/10/23_17:35:17]_catch_or_not_?:_N/did_1+0+1/
+Oct 23 17:35:17 localhost qmail: 1698050117.750878 status: local 0/10 remote 4/20
+Oct 23 17:35:17 localhost qmail: 1698050117.750900 end msg 131475
+Oct 23 17:35:18 localhost pop3: 1698050118.841798 tcpserver: status: 2/255
+Oct 23 17:35:18 localhost pop3: 1698050118.842218 tcpserver: pid 112511 from 121.167.147.63
+Oct 23 17:35:18 localhost pop3: 1698050118.842264 tcpserver: ok 112511 0:115.68.164.36:110 :121.167.147.63::60121
+Oct 23 17:35:18 localhost pop3: 1698050118.931001 tcpserver: end 112511 status 256
+Oct 23 17:35:18 localhost pop3: 1698050118.931043 tcpserver: status: 1/255
+Oct 23 17:35:21 localhost qmail: 1698050121.001857 new msg 131475
+Oct 23 17:35:21 localhost qmail: 1698050121.001909 info msg 131475: bytes 134770 from <hometaxadmin@hometax.go.kr> qp 112516 uid 502
+Oct 23 17:35:21 localhost qmail: 1698050121.003036 starting delivery 3410210: msg 131475 to local ds07@dsnw.net
+Oct 23 17:35:21 localhost qmail: 1698050121.003072 status: local 1/10 remote 4/20
+Oct 23 17:35:21 localhost qmail: 1698050121.294166 delivery 3410210: success: [2023/10/23_17:35:21]_found_in_white_list/[2023/10/23_17:35:21]_pass_rules/[2023/10/23_17:35:21]_pass_rules/[2023/10/23_17:35:21]_pass_rules/[2023/10/23_17:35:
+21]_pass_rules/[2023/10/23_17:35:21]_pass_rules/[2023/10/23_17:35:21]_pass_rules/[2023/10/23_17:35:21]_pass_rules/[2023/10/23_17:35:21]_pass_rules/[2023/10/23_17:35:21]_pass_rules/[2023/10/23_17:35:21]_pass_rules/[2023/10/23_17:35:21]_pa
+ss_rules/[2023/10/23_17:35:21]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/cl
+ass/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 23 17:35:21 localhost qmail: 1698050121.294231 status: local 0/10 remote 4/20
+Oct 23 17:35:21 localhost qmail: 1698050121.294254 end msg 131475
+Oct 23 17:35:21 localhost pop3: 1698050121.674348 tcpserver: status: 2/255
+Oct 23 17:35:21 localhost pop3: 1698050121.674711 tcpserver: pid 112522 from 61.255.174.30
+Oct 23 17:35:21 localhost pop3: 1698050121.674757 tcpserver: ok 112522 0:115.68.164.36:110 :61.255.174.30::51228
+Oct 23 17:35:22 localhost qmail: 1698050122.074480 new msg 131475
+Oct 23 17:35:22 localhost qmail: 1698050122.074527 info msg 131475: bytes 134973 from <hometaxadmin@hometax.go.kr> qp 112525 uid 502
+Oct 23 17:35:22 localhost qmail: 1698050122.075296 starting delivery 3410211: msg 131475 to local ds07@dsnw.net
+
+
+
+Oct 23 17:35:22 localhost qmail: 1698050122.075326 status: local 1/10 remote 4/20
+Oct 23 17:35:22 localhost qmail: 1698050122.238984 delivery 3410211: success: [2023/10/23_17:35:22]_found_in_white_list/[2023/10/23_17:35:22]_pass_rules/[2023/10/23_17:35:22]_pass_rules/[2023/10/23_17:35:22]_pass_rules/[2023/10/23_17:35:
+22]_pass_rules/[2023/10/23_17:35:22]_pass_rules/[2023/10/23_17:35:22]_pass_rules/[2023/10/23_17:35:22]_pass_rules/[2023/10/23_17:35:22]_pass_rules/[2023/10/23_17:35:22]_pass_rules/[2023/10/23_17:35:22]_pass_rules/[2023/10/23_17:35:22]_pa
+ss_rules/[2023/10/23_17:35:22]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/cl
+ass/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 23 17:35:22 localhost qmail: 1698050122.239048 status: local 0/10 remote 4/20
+Oct 23 17:35:22 localhost qmail: 1698050122.239081 end msg 131475
+Oct 23 17:35:24 localhost pop3: 1698050124.399601 tcpserver: status: 3/255
+Oct 23 17:35:24 localhost pop3: 1698050124.400013 tcpserver: pid 112533 from 115.68.164.31
+Oct 23 17:35:24 localhost pop3: 1698050124.400058 tcpserver: ok 112533 0:115.68.164.36:110 :115.68.164.31::34006
+Oct 23 17:35:24 localhost pop3: 1698050124.412323 tcpserver: end 112533 status 256
+Oct 23 17:35:24 localhost pop3: 1698050124.412355 tcpserver: status: 2/255
+Oct 23 17:35:25 localhost pop3: 1698050125.694433 tcpserver: status: 3/255
+Oct 23 17:35:25 localhost pop3: 1698050125.694806 tcpserver: pid 112535 from 61.72.116.80
+Oct 23 17:35:25 localhost pop3: 1698050125.694850 tcpserver: ok 112535 0:115.68.164.36:110 :61.72.116.80::50943
+Oct 23 17:35:25 localhost qmail: 1698050125.815053 new msg 131475
+Oct 23 17:35:25 localhost qmail: 1698050125.815110 info msg 131475: bytes 217265 from <khm88@dsnw.net> qp 112541 uid 502
+Oct 23 17:35:25 localhost qmail: 1698050125.816095 starting delivery 3410212: msg 131475 to local khm88@dsnw.net
+Oct 23 17:35:25 localhost qmail: 1698050125.816123 status: local 1/10 remote 4/20
+Oct 23 17:35:25 localhost qmail: 1698050125.820034 new msg 131489
+Oct 23 17:35:25 localhost qmail: 1698050125.820084 info msg 131489: bytes 217265 from <khm88@dsnw.net> qp 112544 uid 502
+Oct 23 17:35:25 localhost qmail: 1698050125.820963 starting delivery 3410213: msg 131489 to local mandualstn@dsnw.net
+Oct 23 17:35:25 localhost qmail: 1698050125.820992 status: local 2/10 remote 4/20
+Oct 23 17:35:25 localhost qmail: 1698050125.821179 new msg 131483
+Oct 23 17:35:25 localhost qmail: 1698050125.821338 info msg 131483: bytes 217265 from <khm88@dsnw.net> qp 112543 uid 502
+Oct 23 17:35:25 localhost qmail: 1698050125.822131 starting delivery 3410214: msg 131483 to local ds33_tech@dsnw.net
+Oct 23 17:35:25 localhost qmail: 1698050125.822160 status: local 3/10 remote 4/20
+Oct 23 17:35:25 localhost pop3: 1698050125.852346 tcpserver: end 112535 status 256
+Oct 23 17:35:25 localhost pop3: 1698050125.852391 tcpserver: status: 2/255
+Oct 23 17:35:25 localhost qmail: 1698050125.866582 new msg 131482
+Oct 23 17:35:25 localhost qmail: 1698050125.866636 info msg 131482: bytes 217265 from <khm88@dsnw.net> qp 112542 uid 502
+Oct 23 17:35:25 localhost qmail: 1698050125.867491 starting delivery 3410215: msg 131482 to local kklist12@dsnw.net
+Oct 23 17:35:25 localhost qmail: 1698050125.867520 status: local 4/10 remote 4/20
+Oct 23 17:35:25 localhost pop3: 1698050125.907600 tcpserver: status: 3/255
+Oct 23 17:35:25 localhost pop3: 1698050125.907775 tcpserver: pid 112565 from 61.72.116.80
+Oct 23 17:35:25 localhost pop3: 1698050125.907810 tcpserver: ok 112565 0:115.68.164.36:110 :61.72.116.80::50944
+Oct 23 17:35:25 localhost qmail: 1698050125.914737 new msg 131495
+Oct 23 17:35:25 localhost qmail: 1698050125.914788 info msg 131495: bytes 217370 from <khm88@dsnw.net> qp 112564 uid 500
+Oct 23 17:35:25 localhost qmail: 1698050125.915611 starting delivery 3410216: msg 131495 to local fire2377@dsnw.net
+Oct 23 17:35:25 localhost qmail: 1698050125.915634 status: local 5/10 remote 4/20
+Oct 23 17:35:25 localhost qmail: 1698050125.915641 delivery 3410214: success: did_0+6+1/qp_112564/
+Oct 23 17:35:25 localhost qmail: 1698050125.915689 status: local 4/10 remote 4/20
+Oct 23 17:35:25 localhost qmail: 1698050125.915705 starting delivery 3410217: msg 131495 to local cmw6007@dsnw.net
+Oct 23 17:35:25 localhost qmail: 1698050125.915717 status: local 5/10 remote 4/20
+Oct 23 17:35:25 localhost qmail: 1698050125.915735 end msg 131483
+Oct 23 17:35:25 localhost qmail: 1698050125.915956 starting delivery 3410218: msg 131495 to local khm88@dsnw.net
+Oct 23 17:35:25 localhost qmail: 1698050125.915982 status: local 6/10 remote 4/20
+Oct 23 17:35:25 localhost qmail: 1698050125.915992 starting delivery 3410219: msg 131495 to local jipark@dsnw.net
+Oct 23 17:35:25 localhost qmail: 1698050125.916004 status: local 7/10 remote 4/20
+Oct 23 17:35:25 localhost qmail: 1698050125.916013 starting delivery 3410220: msg 131495 to local tjhan@dsnw.net
+Oct 23 17:35:25 localhost qmail: 1698050125.916026 status: local 8/10 remote 4/20
+Oct 23 17:35:25 localhost qmail: 1698050125.916042 starting delivery 3410221: msg 131495 to local shoh@dsnw.net
+Oct 23 17:35:25 localhost qmail: 1698050125.916052 status: local 9/10 remote 4/20
+Oct 23 17:35:26 localhost pop3: 1698050126.057869 tcpserver: end 112565 status 256
+Oct 23 17:35:26 localhost pop3: 1698050126.057891 tcpserver: status: 2/255
+Oct 23 17:35:26 localhost pop3: 1698050126.113705 tcpserver: status: 3/255
+Oct 23 17:35:26 localhost pop3: 1698050126.114068 tcpserver: pid 112600 from 61.72.116.80
+Oct 23 17:35:26 localhost pop3: 1698050126.114100 tcpserver: ok 112600 0:115.68.164.36:110 :61.72.116.80::50945
+
+
+
+Oct 23 17:35:25 localhost qmail: 1698050125.915992 starting delivery 3410219: msg 131495 to local jipark@dsnw.net
+Oct 23 17:35:25 localhost qmail: 1698050125.916004 status: local 7/10 remote 4/20
+Oct 23 17:35:25 localhost qmail: 1698050125.916013 starting delivery 3410220: msg 131495 to local tjhan@dsnw.net
+Oct 23 17:35:25 localhost qmail: 1698050125.916026 status: local 8/10 remote 4/20
+Oct 23 17:35:25 localhost qmail: 1698050125.916042 starting delivery 3410221: msg 131495 to local shoh@dsnw.net
+Oct 23 17:35:25 localhost qmail: 1698050125.916052 status: local 9/10 remote 4/20
+Oct 23 17:35:26 localhost pop3: 1698050126.057869 tcpserver: end 112565 status 256
+Oct 23 17:35:26 localhost pop3: 1698050126.057891 tcpserver: status: 2/255
+Oct 23 17:35:26 localhost pop3: 1698050126.113705 tcpserver: status: 3/255
+Oct 23 17:35:26 localhost pop3: 1698050126.114068 tcpserver: pid 112600 from 61.72.116.80
+Oct 23 17:35:26 localhost pop3: 1698050126.114100 tcpserver: ok 112600 0:115.68.164.36:110 :61.72.116.80::50945
+Oct 23 17:35:26 localhost qmail: 1698050126.305330 delivery 3410212: success: PHP_Notice:__Undefined_offset:_3_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_3_in_/data/ANYMATE/gwd
+snwnet/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/cla
+ss/class.mailParser.inc.php_on_line_218/[2023/10/23_17:35:26]_catched_smart_rule_100/[2023/10/23_17:35:26]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1
+906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 23 17:35:26 localhost qmail: 1698050126.305364 status: local 8/10 remote 4/20
+Oct 23 17:35:26 localhost qmail: 1698050126.305373 end msg 131475
+Oct 23 17:35:26 localhost qmail: 1698050126.325815 delivery 3410215: success: PHP_Notice:__Undefined_offset:_3_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_3_in_/data/ANYMATE/gwd
+snwnet/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/cla
+ss/class.mailParser.inc.php_on_line_218/[2023/10/23_17:35:26]_catched_smart_rule_100/[2023/10/23_17:35:26]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1
+906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 23 17:35:26 localhost qmail: 1698050126.325877 status: local 7/10 remote 4/20
+Oct 23 17:35:26 localhost qmail: 1698050126.325916 end msg 131482
+Oct 23 17:35:26 localhost qmail: 1698050126.340649 delivery 3410213: success: PHP_Notice:__Undefined_offset:_3_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_3_in_/data/ANYMATE/gwd
+snwnet/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/cla
+ss/class.mailParser.inc.php_on_line_218/[2023/10/23_17:35:26]_catched_smart_rule_100/[2023/10/23_17:35:26]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1
+906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 23 17:35:26 localhost qmail: 1698050126.340694 status: local 6/10 remote 4/20
+Oct 23 17:35:26 localhost qmail: 1698050126.340731 end msg 131489
+Oct 23 17:35:26 localhost qmail: 1698050126.358006 delivery 3410217: success: PHP_Notice:__Undefined_offset:_3_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_3_in_/data/ANYMATE/gwd
+snwnet/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/cla
+ss/class.mailParser.inc.php_on_line_218/[2023/10/23_17:35:26]_catched_smart_rule_100/[2023/10/23_17:35:26]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1
+906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 23 17:35:26 localhost qmail: 1698050126.358062 status: local 5/10 remote 4/20
+Oct 23 17:35:26 localhost qmail: 1698050126.361297 delivery 3410221: success: PHP_Notice:__Undefined_offset:_3_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_3_in_/data/ANYMATE/gwd
+snwnet/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/cla
+ss/class.mailParser.inc.php_on_line_218/[2023/10/23_17:35:26]_catched_smart_rule_100/[2023/10/23_17:35:26]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1
+906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 23 17:35:26 localhost qmail: 1698050126.361320 status: local 4/10 remote 4/20
+Oct 23 17:35:26 localhost qmail: 1698050126.372705 delivery 3410218: success: PHP_Notice:__Undefined_offset:_3_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_3_in_/data/ANYMATE/gwd
+snwnet/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/cla
+ss/class.mailParser.inc.php_on_line_218/[2023/10/23_17:35:26]_catched_smart_rule_100/[2023/10/23_17:35:26]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1
+906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 23 17:35:26 localhost qmail: 1698050126.372730 status: local 3/10 remote 4/20
+Oct 23 17:35:26 localhost qmail: 1698050126.381957 delivery 3410219: success: PHP_Notice:__Undefined_offset:_3_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_3_in_/data/ANYMATE/gwd
+snwnet/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/cla
+ss/class.mailParser.inc.php_on_line_218/[2023/10/23_17:35:26]_catched_smart_rule_100/[2023/10/23_17:35:26]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1
+906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 23 17:35:26 localhost qmail: 1698050126.381982 status: local 2/10 remote 4/20
+Oct 23 17:35:26 localhost qmail: 1698050126.389175 delivery 3410216: success: PHP_Notice:__Undefined_offset:_3_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_3_in_/data/ANYMATE/gwd
+snwnet/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/cla
+ss/class.mailParser.inc.php_on_line_218/[2023/10/23_17:35:26]_catched_smart_rule_100/[2023/10/23_17:35:26]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1
+906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 23 17:35:26 localhost qmail: 1698050126.389193 status: local 1/10 remote 4/20
+Oct 23 17:35:26 localhost qmail: 1698050126.397970 delivery 3410220: success: PHP_Notice:__Undefined_offset:_3_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_3_in_/data/ANYMATE/gwd
+snwnet/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/cla
+ss/class.mailParser.inc.php_on_line_218/[2023/10/23_17:35:26]_catched_smart_rule_100/[2023/10/23_17:35:26]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1
+906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+
+
+Oct 23 17:35:36 localhost qmail: 1698050136.749724 delivery 3410199: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 23 17:35:36 localhost qmail: 1698050136.749774 status: local 0/10 remote 3/20
+Oct 23 17:35:36 localhost qmail: 1698050136.783116 delivery 3410200: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 23 17:35:36 localhost qmail: 1698050136.783156 status: local 0/10 remote 2/20
+Oct 23 17:35:36 localhost qmail: 1698050136.862258 delivery 3410202: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 23 17:35:36 localhost qmail: 1698050136.862299 status: local 0/10 remote 1/20
+Oct 23 17:35:36 localhost qmail: 1698050136.902480 delivery 3410203: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 23 17:35:36 localhost qmail: 1698050136.902520 status: local 0/10 remote 0/20
+
+
+Oct 23 17:39:11 localhost qmail: 1698050351.607501 delivery 3410239: success: PHP_Notice:__Undefined_property:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030//Notice:_Undefined_propert
+y:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030/[2023/10/23_17:39:11]_pass_rules/[2023/10/23_17:39:11]_pass_rules/[2023/10/23_17:39:11]_catch_or_not_?:_N/did_1+0+1/
+Oct 23 17:39:11 localhost qmail: 1698050351.607627 status: local 1/10 remote 4/20
+Oct 23 17:39:11 localhost qmail: 1698050351.607679 end msg 131475
+Oct 23 17:39:11 localhost qmail: 1698050351.815468 delivery 3410242: success: [2023/10/23_17:39:11]_found_in_white_list/[2023/10/23_17:39:11]_pass_rules/[2023/10/23_17:39:11]_pass_rules/[2023/10/23_17:39:11]_catch_or_not_?:_Y/PHP_Notice:
+__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 23 17:39:11 localhost qmail: 1698050351.815543 status: local 0/10 remote 4/20
+Oct 23 17:39:11 localhost qmail: 1698050351.815564 end msg 131495
+Oct 23 17:39:12 localhost qmail: 1698050352.449005 new msg 131475
+Oct 23 17:39:12 localhost qmail: 1698050352.449045 info msg 131475: bytes 560774 from <smsfes@kbiz.or.kr> qp 113368 uid 502
+Oct 23 17:39:12 localhost qmail: 1698050352.449527 starting delivery 3410245: msg 131475 to local ykh@dsnw.net
+Oct 23 17:39:12 localhost qmail: 1698050352.449547 status: local 1/10 remote 4/20
+Oct 23 17:39:12 localhost qmail: 1698050352.705971 delivery 3410245: success: PHP_Notice:__Undefined_property:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030//Notice:_Undefined_propert
+y:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030/[2023/10/23_17:39:12]_catch_or_not_?:_N/did_1+0+1/
+Oct 23 17:39:12 localhost qmail: 1698050352.706035 status: local 0/10 remote 4/20
+Oct 23 17:39:12 localhost qmail: 1698050352.706057 end msg 131475
+Oct 23 17:39:13 localhost qmail: 1698050353.662815 new msg 131475
+Oct 23 17:39:13 localhost qmail: 1698050353.662864 info msg 131475: bytes 560778 from <smsfes@kbiz.or.kr> qp 113378 uid 502
+Oct 23 17:39:13 localhost qmail: 1698050353.663838 starting delivery 3410246: msg 131475 to local kimch@dsnw.net
+Oct 23 17:39:13 localhost qmail: 1698050353.663867 status: local 1/10 remote 4/20
+Oct 23 17:39:13 localhost qmail: 1698050353.955366 delivery 3410246: success: PHP_Notice:__Undefined_property:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030//Notice:_Undefined_propert
+y:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030/[2023/10/23_17:39:13]_catch_or_not_?:_N/did_1+0+1/
+Oct 23 17:39:13 localhost qmail: 1698050353.955413 status: local 0/10 remote 4/20
+Oct 23 17:39:13 localhost qmail: 1698050353.955434 end msg 131475
+Oct 23 17:39:14 localhost qmail: 1698050354.852691 new msg 131475
+Oct 23 17:39:14 localhost qmail: 1698050354.852716 info msg 131475: bytes 560780 from <smsfes@kbiz.or.kr> qp 113390 uid 502
+Oct 23 17:39:14 localhost qmail: 1698050354.853162 starting delivery 3410247: msg 131475 to local ds33@dsnw.net
+Oct 23 17:39:14 localhost qmail: 1698050354.853172 status: local 1/10 remote 4/20
+Oct 23 17:39:15 localhost qmail: 1698050355.139081 delivery 3410247: success: PHP_Notice:__Undefined_property:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030//Notice:_Undefined_propert
+y:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030/[2023/10/23_17:39:15]_catch_or_not_?:_N/did_1+0+1/
+Oct 23 17:39:15 localhost qmail: 1698050355.139137 status: local 0/10 remote 4/20
+Oct 23 17:39:15 localhost qmail: 1698050355.139161 end msg 131475
+Oct 23 17:39:16 localhost qmail: 1698050356.094957 new msg 131475
+Oct 23 17:39:16 localhost qmail: 1698050356.095000 info msg 131475: bytes 560780 from <smsfes@kbiz.or.kr> qp 113403 uid 502
+Oct 23 17:39:16 localhost qmail: 1698050356.096018 starting delivery 3410248: msg 131475 to local ds29@dsnw.net
+Oct 23 17:39:16 localhost qmail: 1698050356.096060 status: local 1/10 remote 4/20
+Oct 23 17:39:16 localhost qmail: 1698050356.366449 delivery 3410248: success: PHP_Notice:__Undefined_property:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030//Notice:_Undefined_propert
+y:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030/[2023/10/23_17:39:16]_catch_or_not_?:_N/did_1+0+1/
+Oct 23 17:39:16 localhost qmail: 1698050356.366500 status: local 0/10 remote 4/20
+Oct 23 17:39:16 localhost qmail: 1698050356.366532 end msg 131475
+
+
+
+
+
+
+y:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030/[2023/10/23_17:39:11]_pass_rules/[2023/10/23_17:39:11]_pass_rules/[2023/10/23_17:39:11]_catch_or_not_?:_N/did_1+0+1/
+Oct 23 17:39:11 localhost qmail: 1698050351.607627 status: local 1/10 remote 4/20
+Oct 23 17:39:11 localhost qmail: 1698050351.607679 end msg 131475
+Oct 23 17:39:11 localhost qmail: 1698050351.815468 delivery 3410242: success: [2023/10/23_17:39:11]_found_in_white_list/[2023/10/23_17:39:11]_pass_rules/[2023/10/23_17:39:11]_pass_rules/[2023/10/23_17:39:11]_catch_or_not_?:_Y/PHP_Notice:
+__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 23 17:39:11 localhost qmail: 1698050351.815543 status: local 0/10 remote 4/20
+Oct 23 17:39:11 localhost qmail: 1698050351.815564 end msg 131495
+Oct 23 17:39:12 localhost qmail: 1698050352.449005 new msg 131475
+Oct 23 17:39:12 localhost qmail: 1698050352.449045 info msg 131475: bytes 560774 from <smsfes@kbiz.or.kr> qp 113368 uid 502
+Oct 23 17:39:12 localhost qmail: 1698050352.449527 starting delivery 3410245: msg 131475 to local ykh@dsnw.net
+Oct 23 17:39:12 localhost qmail: 1698050352.449547 status: local 1/10 remote 4/20
+Oct 23 17:39:12 localhost qmail: 1698050352.705971 delivery 3410245: success: PHP_Notice:__Undefined_property:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030//Notice:_Undefined_propert
+y:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030/[2023/10/23_17:39:12]_catch_or_not_?:_N/did_1+0+1/
+Oct 23 17:39:12 localhost qmail: 1698050352.706035 status: local 0/10 remote 4/20
+Oct 23 17:39:12 localhost qmail: 1698050352.706057 end msg 131475
+Oct 23 17:39:13 localhost qmail: 1698050353.662815 new msg 131475
+Oct 23 17:39:13 localhost qmail: 1698050353.662864 info msg 131475: bytes 560778 from <smsfes@kbiz.or.kr> qp 113378 uid 502
+Oct 23 17:39:13 localhost qmail: 1698050353.663838 starting delivery 3410246: msg 131475 to local kimch@dsnw.net
+Oct 23 17:39:13 localhost qmail: 1698050353.663867 status: local 1/10 remote 4/20
+Oct 23 17:39:13 localhost qmail: 1698050353.955366 delivery 3410246: success: PHP_Notice:__Undefined_property:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030//Notice:_Undefined_propert
+y:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030/[2023/10/23_17:39:13]_catch_or_not_?:_N/did_1+0+1/
+Oct 23 17:39:13 localhost qmail: 1698050353.955413 status: local 0/10 remote 4/20
+Oct 23 17:39:13 localhost qmail: 1698050353.955434 end msg 131475
+Oct 23 17:39:14 localhost qmail: 1698050354.852691 new msg 131475
+Oct 23 17:39:14 localhost qmail: 1698050354.852716 info msg 131475: bytes 560780 from <smsfes@kbiz.or.kr> qp 113390 uid 502
+Oct 23 17:39:14 localhost qmail: 1698050354.853162 starting delivery 3410247: msg 131475 to local ds33@dsnw.net
+Oct 23 17:39:14 localhost qmail: 1698050354.853172 status: local 1/10 remote 4/20
+Oct 23 17:39:15 localhost qmail: 1698050355.139081 delivery 3410247: success: PHP_Notice:__Undefined_property:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030//Notice:_Undefined_propert
+y:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030/[2023/10/23_17:39:15]_catch_or_not_?:_N/did_1+0+1/
+Oct 23 17:39:15 localhost qmail: 1698050355.139137 status: local 0/10 remote 4/20
+Oct 23 17:39:15 localhost qmail: 1698050355.139161 end msg 131475
+Oct 23 17:39:16 localhost qmail: 1698050356.094957 new msg 131475
+Oct 23 17:39:16 localhost qmail: 1698050356.095000 info msg 131475: bytes 560780 from <smsfes@kbiz.or.kr> qp 113403 uid 502
+Oct 23 17:39:16 localhost qmail: 1698050356.096018 starting delivery 3410248: msg 131475 to local ds29@dsnw.net
+Oct 23 17:39:16 localhost qmail: 1698050356.096060 status: local 1/10 remote 4/20
+Oct 23 17:39:16 localhost qmail: 1698050356.366449 delivery 3410248: success: PHP_Notice:__Undefined_property:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030//Notice:_Undefined_propert
+y:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030/[2023/10/23_17:39:16]_catch_or_not_?:_N/did_1+0+1/
+Oct 23 17:39:16 localhost qmail: 1698050356.366500 status: local 0/10 remote 4/20
+Oct 23 17:39:16 localhost qmail: 1698050356.366532 end msg 131475
+Oct 23 17:39:17 localhost qmail: 1698050357.300550 new msg 131475
+Oct 23 17:39:17 localhost qmail: 1698050357.300588 info msg 131475: bytes 560786 from <smsfes@kbiz.or.kr> qp 113417 uid 502
+Oct 23 17:39:17 localhost qmail: 1698050357.301562 starting delivery 3410249: msg 131475 to local dongwoo@dsnw.net
+Oct 23 17:39:17 localhost qmail: 1698050357.301584 status: local 1/10 remote 4/20
+Oct 23 17:39:17 localhost qmail: 1698050357.566749 delivery 3410249: success: PHP_Notice:__Undefined_property:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030//Notice:_Undefined_propert
+y:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030/[2023/10/23_17:39:17]_pass_rules/[2023/10/23_17:39:17]_pass_rules/[2023/10/23_17:39:17]_pass_rules/[2023/10/23_17:39:17]_pass_rules/[2
+023/10/23_17:39:17]_pass_rules/[2023/10/23_17:39:17]_pass_rules/[2023/10/23_17:39:17]_pass_rules/[2023/10/23_17:39:17]_pass_rules/[2023/10/23_17:39:17]_pass_rules/[2023/10/23_17:39:17]_pass_rules/[2023/10/23_17:39:17]_catch_or_not_?:_N/d
+id_1+0+1/
+Oct 23 17:39:17 localhost qmail: 1698050357.566806 status: local 0/10 remote 4/20
+Oct 23 17:39:17 localhost qmail: 1698050357.566828 end msg 131475
+Oct 23 17:39:18 localhost qmail: 1698050358.568009 new msg 131475
+Oct 23 17:39:18 localhost qmail: 1698050358.568042 info msg 131475: bytes 560774 from <smsfes@kbiz.or.kr> qp 113430 uid 502
+Oct 23 17:39:18 localhost qmail: 1698050358.568475 starting delivery 3410250: msg 131475 to local kys@dsnw.net
+Oct 23 17:39:18 localhost qmail: 1698050358.568497 status: local 1/10 remote 4/20
+Oct 23 17:39:18 localhost qmail: 1698050358.992474 delivery 3410250: success: PHP_Notice:__Undefined_property:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030//Notice:_Undefined_propert
+y:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030/[2023/10/23_17:39:18]_pass_rules/[2023/10/23_17:39:18]_pass_rules/[2023/10/23_17:39:18]_pass_rules/[2023/10/23_17:39:18]_pass_rules/[2
+023/10/23_17:39:18]_pass_rules/[2023/10/23_17:39:18]_pass_rules/[2023/10/23_17:39:18]_pass_rules/[2023/10/23_17:39:18]_pass_rules/[2023/10/23_17:39:18]_pass_rules/[2023/10/23_17:39:18]_catch_or_not_?:_N/did_1+0+1/
+Oct 23 17:39:18 localhost qmail: 1698050358.992518 status: local 0/10 remote 4/20
+Oct 23 17:39:18 localhost qmail: 1698050358.992558 end msg 131475
+Oct 23 17:39:20 localhost pop3: 1698050360.969907 tcpserver: status: 4/255
+Oct 23 17:39:20 localhost pop3: 1698050360.970252 tcpserver: pid 113441 from 121.167.147.63
+Oct 23 17:39:20 localhost pop3: 1698050360.970297 tcpserver: ok 113441 0:115.68.164.36:110 :121.167.147.63::60147
+Oct 23 17:39:21 localhost pop3: 1698050361.062687 tcpserver: end 113441 status 256
+Oct 23 17:39:21 localhost pop3: 1698050361.062729 tcpserver: status: 3/255
+Oct 23 17:39:27 localhost qmail: 1698050367.188730 new msg 131475
+Oct 23 17:39:27 localhost qmail: 1698050367.188776 info msg 131475: bytes 111183 from <rlfrldnr@naver.com> qp 113447 uid 502
+Oct 23 17:39:27 localhost qmail: 1698050367.189459 starting delivery 3410251: msg 131475 to local lastcorean@dsnw.net
+Oct 23 17:39:27 localhost qmail: 1698050367.189499 status: local 1/10 remote 4/20
+Oct 23 17:39:27 localhost qmail: 1698050367.482839 delivery 3410251: success: PHP_Notice:__Undefined_offset:_2_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/data/ANYMATE/gwd
+snwnet/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/cla
+ss/class.mailParser.inc.php_on_line_218/[2023/10/23_17:39:27]_catch_or_not_?:_N/did_1+0+1/
+
+
+Oct 23 17:39:27 localhost qmail: 1698050367.482912 status: local 0/10 remote 4/20
+Oct 23 17:39:27 localhost qmail: 1698050367.482932 end msg 131475
+Oct 23 17:39:30 localhost pop3: 1698050370.358215 tcpserver: status: 4/255
+Oct 23 17:39:30 localhost pop3: 1698050370.358506 tcpserver: pid 113455 from 121.167.147.63
+Oct 23 17:39:30 localhost pop3: 1698050370.358552 tcpserver: ok 113455 0:115.68.164.36:110 :121.167.147.63::2127
+Oct 23 17:39:30 localhost pop3: 1698050370.455537 tcpserver: end 113455 status 256
+Oct 23 17:39:30 localhost pop3: 1698050370.455583 tcpserver: status: 3/255
+Oct 23 17:39:30 localhost pop3: 1698050370.485173 tcpserver: status: 4/255
+Oct 23 17:39:30 localhost pop3: 1698050370.485508 tcpserver: pid 113457 from 121.167.147.63
+Oct 23 17:39:30 localhost pop3: 1698050370.485552 tcpserver: ok 113457 0:115.68.164.36:110 :121.167.147.63::2131
+Oct 23 17:39:30 localhost pop3: 1698050370.561666 tcpserver: end 113457 status 256
+Oct 23 17:39:30 localhost pop3: 1698050370.561704 tcpserver: status: 3/255
+Oct 23 17:39:35 localhost pop3: 1698050375.758248 tcpserver: status: 4/255
+Oct 23 17:39:35 localhost pop3: 1698050375.758664 tcpserver: pid 113460 from 209.85.160.168
+Oct 23 17:39:35 localhost pop3: 1698050375.758711 tcpserver: ok 113460 0:115.68.164.36:110 :209.85.160.168::52843
+Oct 23 17:39:37 localhost pop3: 1698050377.315960 tcpserver: end 113460 status 256
+Oct 23 17:39:37 localhost pop3: 1698050377.316004 tcpserver: status: 3/255
+Oct 23 17:39:38 localhost pop3: 1698050378.997343 tcpserver: status: 4/255
+Oct 23 17:39:38 localhost pop3: 1698050378.997755 tcpserver: pid 113463 from 152.149.43.251
+Oct 23 17:39:38 localhost pop3: 1698050378.997813 tcpserver: ok 113463 0:115.68.164.36:110 :152.149.43.251::11697
+Oct 23 17:39:39 localhost pop3: 1698050379.112806 tcpserver: end 113463 status 256
+Oct 23 17:39:39 localhost pop3: 1698050379.112847 tcpserver: status: 3/255
+Oct 23 17:39:42 localhost pop3: 1698050382.487681 tcpserver: status: 4/255
+Oct 23 17:39:42 localhost pop3: 1698050382.488120 tcpserver: pid 113467 from 175.203.36.141
+Oct 23 17:39:42 localhost pop3: 1698050382.488169 tcpserver: ok 113467 0:115.68.164.36:110 :175.203.36.141::52014
+Oct 23 17:39:42 localhost pop3: 1698050382.518781 tcpserver: end 113467 status 256
+Oct 23 17:39:42 localhost pop3: 1698050382.518832 tcpserver: status: 3/255
+Oct 23 17:39:48 localhost pop3: 1698050388.667448 tcpserver: status: 4/255
+Oct 23 17:39:48 localhost pop3: 1698050388.667856 tcpserver: pid 113478 from 61.72.116.80
+Oct 23 17:39:48 localhost pop3: 1698050388.667905 tcpserver: ok 113478 0:115.68.164.36:110 :61.72.116.80::59390
+Oct 23 17:39:48 localhost pop3: 1698050388.938260 tcpserver: end 113478 status 256
+Oct 23 17:39:48 localhost pop3: 1698050388.938304 tcpserver: status: 3/255
+Oct 23 17:39:55 localhost pop3: 1698050395.568673 tcpserver: status: 4/255
+Oct 23 17:39:55 localhost pop3: 1698050395.568969 tcpserver: pid 113485 from 39.118.122.40
+Oct 23 17:39:55 localhost pop3: 1698050395.568995 tcpserver: ok 113485 0:115.68.164.36:110 :39.118.122.40::54149
+Oct 23 17:39:55 localhost pop3: 1698050395.688349 tcpserver: end 113485 status 256
+Oct 23 17:39:55 localhost pop3: 1698050395.688396 tcpserver: status: 3/255
+Oct 23 17:39:57 localhost pop3: 1698050397.237096 tcpserver: status: 4/255
+Oct 23 17:39:57 localhost pop3: 1698050397.237481 tcpserver: pid 113488 from 112.166.7.245
+Oct 23 17:39:57 localhost pop3: 1698050397.237523 tcpserver: ok 113488 0:115.68.164.36:110 :112.166.7.245::3076
+Oct 23 17:39:57 localhost pop3: 1698050397.289323 tcpserver: end 113488 status 256
+Oct 23 17:39:57 localhost pop3: 1698050397.289354 tcpserver: status: 3/255
+Oct 23 17:39:59 localhost qmail: 1698050399.877777 new msg 131475
+Oct 23 17:39:59 localhost qmail: 1698050399.877838 info msg 131475: bytes 560784 from <smsfes@kbiz.or.kr> qp 113492 uid 502
+Oct 23 17:39:59 localhost qmail: 1698050399.878873 starting delivery 3410252: msg 131475 to local meatul@dsnw.net
+Oct 23 17:39:59 localhost qmail: 1698050399.878906 status: local 1/10 remote 4/20
+Oct 23 17:40:00 localhost qmail: 1698050400.150068 delivery 3410252: success: PHP_Notice:__Undefined_property:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030//Notice:_Undefined_propert
+y:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030/[2023/10/23_17:40:00]_pass_rules/[2023/10/23_17:40:00]_catch_or_not_?:_N/did_1+0+1/
+Oct 23 17:40:00 localhost qmail: 1698050400.150138 status: local 0/10 remote 4/20
+Oct 23 17:40:00 localhost qmail: 1698050400.150173 end msg 131475
+Oct 23 17:40:00 localhost qmail: 1698050400.932473 new msg 131475
+Oct 23 17:40:00 localhost qmail: 1698050400.932527 info msg 131475: bytes 560776 from <smsfes@kbiz.or.kr> qp 113500 uid 502
+Oct 23 17:40:00 localhost qmail: 1698050400.933398 starting delivery 3410253: msg 131475 to local moon@dsnw.net
+Oct 23 17:40:00 localhost qmail: 1698050400.933427 status: local 1/10 remote 4/20
+Oct 23 17:40:01 localhost qmail: 1698050401.242068 delivery 3410253: success: PHP_Notice:__Undefined_property:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030//Notice:_Undefined_propert
+y:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030/[2023/10/23_17:40:01]_catch_or_not_?:_N/did_1+0+1/
+Oct 23 17:40:01 localhost qmail: 1698050401.242114 status: local 0/10 remote 4/20
+Oct 23 17:40:01 localhost qmail: 1698050401.242136 end msg 131475
+Oct 23 17:40:02 localhost qmail: 1698050402.128569 new msg 131475
+Oct 23 17:40:02 localhost qmail: 1698050402.128609 info msg 131475: bytes 560776 from <smsfes@kbiz.or.kr> qp 113627 uid 502
+Oct 23 17:40:02 localhost qmail: 1698050402.129229 starting delivery 3410254: msg 131475 to local ds11@dsnw.net
+Oct 23 17:40:02 localhost qmail: 1698050402.129255 status: local 1/10 remote 4/20
+
+
+Oct 23 17:40:02 localhost qmail: 1698050402.128609 info msg 131475: bytes 560776 from <smsfes@kbiz.or.kr> qp 113627 uid 502
+Oct 23 17:40:02 localhost qmail: 1698050402.129229 starting delivery 3410254: msg 131475 to local ds11@dsnw.net
+Oct 23 17:40:02 localhost qmail: 1698050402.129255 status: local 1/10 remote 4/20
+Oct 23 17:40:02 localhost qmail: 1698050402.423557 delivery 3410254: success: PHP_Notice:__Undefined_property:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030//Notice:_Undefined_propert
+y:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2
+023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10
+/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:
+Oct 23 17:40:02 localhost qmail: 1698050402.423557+40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[20
+23/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/
+23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:
+40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_
+Oct 23 17:40:02 localhost qmail: 1698050402.423557+pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/2
+3_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:4
+0:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_
+pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_ru
+Oct 23 17:40:02 localhost qmail: 1698050402.423557+les/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40
+:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_p
+ass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rules/[2023/10/23_17:40:02]_pass_rule/Error_report_too_long,_sorry./
+Oct 23 17:40:02 localhost qmail: 1698050402.423613 status: local 0/10 remote 4/20
+Oct 23 17:40:02 localhost qmail: 1698050402.423630 end msg 131475
+Oct 23 17:40:02 localhost pop3: 1698050402.705356 tcpserver: status: 4/255
+Oct 23 17:40:02 localhost pop3: 1698050402.705566 tcpserver: pid 113660 from 211.231.104.234
+Oct 23 17:40:02 localhost pop3: 1698050402.705581 tcpserver: ok 113660 0:115.68.164.36:110 :211.231.104.234::34315
+Oct 23 17:40:02 localhost pop3: 1698050402.715870 tcpserver: end 113660 status 256
+Oct 23 17:40:02 localhost pop3: 1698050402.715912 tcpserver: status: 3/255
+Oct 23 17:40:02 localhost pop3: 1698050402.720466 tcpserver: status: 4/255
+Oct 23 17:40:02 localhost pop3: 1698050402.720719 tcpserver: pid 113663 from 211.231.104.234
+Oct 23 17:40:02 localhost pop3: 1698050402.720742 tcpserver: ok 113663 0:115.68.164.36:110 :211.231.104.234::22159
+Oct 23 17:40:02 localhost pop3: 1698050402.731650 tcpserver: end 113663 status 256
+Oct 23 17:40:02 localhost pop3: 1698050402.731679 tcpserver: status: 3/255
+Oct 23 17:40:02 localhost pop3: 1698050402.893057 tcpserver: status: 4/255
+Oct 23 17:40:02 localhost pop3: 1698050402.893262 tcpserver: pid 113671 from 115.68.164.36
+Oct 23 17:40:02 localhost pop3: 1698050402.893282 tcpserver: ok 113671 0:115.68.164.36:110 :115.68.164.36::49654
+Oct 23 17:40:02 localhost pop3: 1698050402.932704 tcpserver: end 113671 status 256
+Oct 23 17:40:02 localhost pop3: 1698050402.932724 tcpserver: status: 3/255
+Oct 23 17:40:03 localhost qmail: 1698050403.385717 new msg 131475
+Oct 23 17:40:03 localhost qmail: 1698050403.385764 info msg 131475: bytes 560778 from <smsfes@kbiz.or.kr> qp 113686 uid 502
+Oct 23 17:40:03 localhost qmail: 1698050403.386662 starting delivery 3410255: msg 131475 to local jykim@dsnw.net
+Oct 23 17:40:03 localhost qmail: 1698050403.386687 status: local 1/10 remote 4/20
+Oct 23 17:40:03 localhost qmail: 1698050403.643741 delivery 3410255: success: PHP_Notice:__Undefined_property:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030//Notice:_Undefined_propert
+y:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030/[2023/10/23_17:40:03]_catch_or_not_?:_N/did_1+0+1/
+Oct 23 17:40:03 localhost qmail: 1698050403.643803 status: local 0/10 remote 4/20
+Oct 23 17:40:03 localhost qmail: 1698050403.643828 end msg 131475
+Oct 23 17:40:04 localhost pop3: 1698050404.680525 tcpserver: status: 4/255
+Oct 23 17:40:04 localhost pop3: 1698050404.680861 tcpserver: pid 113711 from 211.234.192.186
+Oct 23 17:40:04 localhost pop3: 1698050404.680908 tcpserver: ok 113711 0:115.68.164.36:110 :211.234.192.186::63830
+Oct 23 17:40:04 localhost pop3: 1698050404.930339 tcpserver: status: 5/255
+Oct 23 17:40:04 localhost pop3: 1698050404.933896 tcpserver: pid 113717 from 118.217.134.62
+Oct 23 17:40:04 localhost pop3: 1698050404.933943 tcpserver: ok 113717 0:115.68.164.36:110 :118.217.134.62::56834
+Oct 23 17:40:04 localhost pop3: 1698050404.971602 tcpserver: end 113717 status 256
+Oct 23 17:40:04 localhost pop3: 1698050404.971643 tcpserver: status: 4/255
+Oct 23 17:40:04 localhost pop3: 1698050404.993210 tcpserver: status: 5/255
+Oct 23 17:40:04 localhost pop3: 1698050404.993486 tcpserver: pid 113720 from 211.234.192.186
+Oct 23 17:40:04 localhost pop3: 1698050404.993532 tcpserver: ok 113720 0:115.68.164.36:110 :211.234.192.186::63833
+Oct 23 17:40:05 localhost pop3: 1698050405.546167 tcpserver: end 113711 status 256
+Oct 23 17:40:05 localhost pop3: 1698050405.546214 tcpserver: status: 4/255
+Oct 23 17:40:06 localhost qmail: 1698050406.047786 new msg 131475
+
+y:_stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030/[2023/10/23_17:40:07]_catch_or_not_?:_N/did_1+0+1/
+Oct 23 17:40:07 localhost qmail: 1698050407.404022 status: local 0/10 remote 4/20
+Oct 23 17:40:07 localhost qmail: 1698050407.404044 end msg 131475
+Oct 23 17:40:07 localhost qmail: 1698050407.500822 delivery 3410240: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 23 17:40:07 localhost qmail: 1698050407.500844 status: local 0/10 remote 3/20
+Oct 23 17:40:07 localhost qmail: 1698050407.530256 delivery 3410241: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 23 17:40:07 localhost qmail: 1698050407.530293 status: local 0/10 remote 2/20
+Oct 23 17:40:07 localhost qmail: 1698050407.606736 delivery 3410243: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 23 17:40:07 localhost qmail: 1698050407.606760 status: local 0/10 remote 1/20
+Oct 23 17:40:07 localhost qmail: 1698050407.639483 delivery 3410244: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 23 17:40:07 localhost qmail: 1698050407.639508 status: local 0/10 remote 0/20
+Oct 23 17:40:08 localhost pop3: 1698050408.492235 tcpserver: status: 5/255
+
+
+
+
+
+Oct 24 10:49:02 localhost qmail: 1698112142.234729 delivery 3413965: success: [2023/10/24_10:49:02]_found_in_white_list/[2023/10/24_10:49:02]_pass_rules/[2023/10/24_10:49:02]_pass_rules/[2023/10/24_10:49:02]_catch_or_not_?:_Y/PHP_Notice:
+__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 24 10:49:02 localhost qmail: 1698112142.234778 status: local 0/10 remote 4/20
+Oct 24 10:49:02 localhost qmail: 1698112142.234799 end msg 131499
+Oct 24 10:49:05 localhost qmail: 1698112145.686356 new msg 131499
+Oct 24 10:49:05 localhost qmail: 1698112145.686402 info msg 131499: bytes 558 from <root@dsnw.net> qp 301878 uid 500
+Oct 24 10:49:05 localhost qmail: 1698112145.687208 starting delivery 3413968: msg 131499 to local anymate@dsnw.net
+Oct 24 10:49:05 localhost qmail: 1698112145.687242 status: local 1/10 remote 4/20
+Oct 24 10:49:05 localhost qmail: 1698112145.690483 delivery 3413968: success: did_0+0+0/
+Oct 24 10:49:05 localhost qmail: 1698112145.690543 status: local 0/10 remote 4/20
+Oct 24 10:49:05 localhost qmail: 1698112145.690571 end msg 131499
+Oct 24 10:49:09 localhost pop3: 1698112149.968614 tcpserver: status: 4/255
+Oct 24 10:49:09 localhost pop3: 1698112149.968967 tcpserver: pid 301893 from 106.251.232.130
+Oct 24 10:49:09 localhost pop3: 1698112149.969011 tcpserver: ok 301893 0:115.68.164.36:110 :106.251.232.130::54971
+Oct 24 10:49:10 localhost pop3: 1698112150.032175 tcpserver: status: 5/255
+Oct 24 10:49:10 localhost pop3: 1698112150.032537 tcpserver: pid 301895 from 115.68.164.31
+Oct 24 10:49:10 localhost pop3: 1698112150.032573 tcpserver: ok 301895 0:115.68.164.36:110 :115.68.164.31::59948
+Oct 24 10:49:10 localhost pop3: 1698112150.044036 tcpserver: end 301895 status 256
+Oct 24 10:49:10 localhost pop3: 1698112150.044072 tcpserver: status: 4/255
+Oct 24 10:49:10 localhost pop3: 1698112150.140880 tcpserver: end 301893 status 256
+Oct 24 10:49:10 localhost pop3: 1698112150.140919 tcpserver: status: 3/255
+Oct 24 10:49:10 localhost pop3: 1698112150.165869 tcpserver: status: 4/255
+Oct 24 10:49:10 localhost pop3: 1698112150.166121 tcpserver: pid 301897 from 106.251.232.130
+Oct 24 10:49:10 localhost pop3: 1698112150.166160 tcpserver: ok 301897 0:115.68.164.36:110 :106.251.232.130::54972
+Oct 24 10:49:10 localhost pop3: 1698112150.281064 tcpserver: end 301897 status 256
+Oct 24 10:49:10 localhost pop3: 1698112150.281101 tcpserver: status: 3/255
+Oct 24 10:49:14 localhost pop3: 1698112154.294768 tcpserver: status: 4/255
+Oct 24 10:49:14 localhost pop3: 1698112154.295078 tcpserver: pid 301912 from 110.70.55.117
+Oct 24 10:49:14 localhost pop3: 1698112154.295129 tcpserver: ok 301912 0:115.68.164.36:110 :110.70.55.117::30944
+Oct 24 10:49:19 localhost pop3: 1698112159.076466 tcpserver: status: 5/255
+Oct 24 10:49:19 localhost pop3: 1698112159.076823 tcpserver: pid 301932 from 223.39.249.211
+Oct 24 10:49:19 localhost pop3: 1698112159.076869 tcpserver: ok 301932 0:115.68.164.36:110 :223.39.249.211::42414
+Oct 24 10:49:19 localhost pop3: 1698112159.338232 tcpserver: end 301932 status 256
+Oct 24 10:49:19 localhost pop3: 1698112159.338274 tcpserver: status: 4/255
+Oct 24 10:49:19 localhost pop3: 1698112159.997952 tcpserver: status: 5/255
+Oct 24 10:49:19 localhost pop3: 1698112159.998344 tcpserver: pid 301934 from 61.72.116.80
+Oct 24 10:49:19 localhost pop3: 1698112159.998390 tcpserver: ok 301934 0:115.68.164.36:110 :61.72.116.80::63430
+Oct 24 10:49:20 localhost pop3: 1698112160.113325 tcpserver: end 301934 status 256
+Oct 24 10:49:20 localhost pop3: 1698112160.113362 tcpserver: status: 4/255
+Oct 24 10:49:24 localhost qmail: 1698112164.887538 new msg 131499
+
+
+
+
+
+
+
+Oct 25 09:45:45 localhost pop3: 1698194745.691753 tcpserver: status: 3/255
+Oct 25 09:45:46 localhost qmail: 1698194746.064702 new msg 131517
+Oct 25 09:45:46 localhost qmail: 1698194746.064747 info msg 131517: bytes 927 from <admin@dsnw.net> qp 110174 uid 500
+Oct 25 09:45:46 localhost qmail: 1698194746.065787 starting delivery 3420386: msg 131517 to remote admin@cisco.com
+Oct 25 09:45:46 localhost qmail: 1698194746.065821 status: local 0/10 remote 1/20
+Oct 25 09:45:46 localhost qmail: 1698194746.600492 new msg 131520
+Oct 25 09:45:46 localhost qmail: 1698194746.600568 info msg 131520: bytes 6116 from <return@s002.sendmail05.com> qp 1101
+77 uid 502
+Oct 25 09:45:46 localhost qmail: 1698194746.601405 starting delivery 3420387: msg 131520 to local yooym@dsnw.net
+Oct 25 09:45:46 localhost qmail: 1698194746.601430 status: local 1/10 remote 1/20
+Oct 25 09:45:46 localhost pop3: 1698194746.783249 tcpserver: status: 4/255
+Oct 25 09:45:46 localhost pop3: 1698194746.783443 tcpserver: pid 110183 from 209.85.167.25
+Oct 25 09:45:46 localhost pop3: 1698194746.783479 tcpserver: ok 110183 0:115.68.164.36:110 :209.85.167.25::49995
+Oct 25 09:45:47 localhost qmail: 1698194747.008314 delivery 3420387: success: [2023/10/25_09:45:46]_catch_or_not_?:_N/PH
+P_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notic
+e:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 25 09:45:47 localhost qmail: 1698194747.008374 status: local 0/10 remote 1/20
+Oct 25 09:45:47 localhost qmail: 1698194747.008396 end msg 131520
+Oct 25 09:45:48 localhost pop3: 1698194748.944633 tcpserver: end 110183 status 256
+Oct 25 09:45:48 localhost pop3: 1698194748.944652 tcpserver: status: 3/255
+Oct 25 09:45:50 localhost pop3: 1698194750.539280 tcpserver: status: 4/255
+Oct 25 09:45:50 localhost pop3: 1698194750.540531 tcpserver: pid 110187 from 209.85.221.6
+Oct 25 09:45:50 localhost pop3: 1698194750.540572 tcpserver: ok 110187 0:115.68.164.36:110 :209.85.221.6::47766
+Oct 25 09:45:50 localhost qmail: 1698194750.624694 new msg 131520
+Oct 25 09:45:50 localhost qmail: 1698194750.624738 info msg 131520: bytes 9508 from <webmaster@hyundaicapital.com> qp 11
+0189 uid 502
+Oct 25 09:45:50 localhost qmail: 1698194750.625639 starting delivery 3420388: msg 131520 to local js00@dsnw.net
+Oct 25 09:45:50 localhost qmail: 1698194750.625674 status: local 1/10 remote 1/20
+Oct 25 09:45:51 localhost qmail: 1698194751.014597 delivery 3420388: success: PHP_Notice:__Undefined_property:_stdClass:
+:$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030//Notice:_Undefined_property:_
+stdClass::$message_id_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_1030/[2023/10/25_09:45:50
+]_catch_or_not_?:_N/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.p
+hp_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_li
+ne_1906/did_1+0+1/
+Oct 25 09:45:51 localhost qmail: 1698194751.014669 status: local 0/10 remote 1/20
+Oct 25 09:45:51 localhost qmail: 1698194751.014698 starting delivery 3420389: msg 131501 to remote ganlee@cisco.com
+Oct 25 09:45:51 localhost qmail: 1698194751.014708 status: local 0/10 remote 2/20
+Oct 25 09:45:51 localhost qmail: 1698194751.014735 end msg 131520
+Oct 25 09:45:51 localhost qmail: 1698194751.014868 starting delivery 3420390: msg 131482 to remote gxuan@cisco.com
+Oct 25 09:45:51 localhost qmail: 1698194751.014886 status: local 0/10 remote 3/20
+
+
+Oct 25 09:45:51 localhost qmail: 1698194751.014708 status: local 0/10 remote 2/20
+Oct 25 09:45:51 localhost qmail: 1698194751.014735 end msg 131520
+Oct 25 09:45:51 localhost qmail: 1698194751.014868 starting delivery 3420390: msg 131482 to remote gxuan@cisco.com
+Oct 25 09:45:51 localhost qmail: 1698194751.014886 status: local 0/10 remote 3/20
+Oct 25 09:45:51 localhost qmail: 1698194751.014911 starting delivery 3420391: msg 131492 to remote attach@cisco.com
+Oct 25 09:45:51 localhost qmail: 1698194751.014923 status: local 0/10 remote 4/20
+Oct 25 09:45:51 localhost qmail: 1698194751.014954 starting delivery 3420392: msg 131498 to remote joechoi@cisco.com
+Oct 25 09:45:51 localhost qmail: 1698194751.014964 status: local 0/10 remote 5/20
+Oct 25 09:45:52 localhost pop3: 1698194752.029384 tcpserver: end 110187 status 256
+Oct 25 09:45:52 localhost pop3: 1698194752.029432 tcpserver: status: 3/255
+Oct 25 09:45:56 localhost qmail: 1698194756.996353 new msg 131520
+Oct 25 09:45:56 localhost qmail: 1698194756.996390 info msg 131520: bytes 30147 from <kuki1012@sk.com> qp 110227 uid 502
+Oct 25 09:45:56 localhost qmail: 1698194756.997157 starting delivery 3420393: msg 131520 to local mandualstn@dsnw.net
+Oct 25 09:45:56 localhost qmail: 1698194756.997190 status: local 1/10 remote 5/20
+Oct 25 09:45:57 localhost qmail: 1698194757.091136 new msg 131523
+Oct 25 09:45:57 localhost qmail: 1698194757.091210 info msg 131523: bytes 30142 from <kuki1012@sk.com> qp 110234 uid 502
+Oct 25 09:45:57 localhost qmail: 1698194757.091775 starting delivery 3420394: msg 131523 to local mskim@dsnw.net
+Oct 25 09:45:57 localhost qmail: 1698194757.091786 status: local 2/10 remote 5/20
+Oct 25 09:45:57 localhost qmail: 1698194757.369239 delivery 3420393: success: PHP_Notice:__Undefined_offset:_1_in_/data/
+ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_1_in_/data/ANYMATE/gwdsnw
+net/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/ma
+il/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/class/cla
+ss.mailParser.inc.php_on_line_218/[2023/10/25_09:45:57]_catched_smart_rule_200/[2023/10/25_09:45:57]_catch_or_not_?:_Y/d
+id_1+0+1/
+Oct 25 09:45:57 localhost qmail: 1698194757.369323 status: local 1/10 remote 5/20
+Oct 25 09:45:57 localhost qmail: 1698194757.369360 end msg 131520
+Oct 25 09:45:57 localhost qmail: 1698194757.403561 delivery 3420394: success: PHP_Notice:__Undefined_offset:_1_in_/data/
+ANYMATE/gwdsnwnet/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_1_in_/data/ANYMATE/gwdsnw
+net/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/ma
+il/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/data/ANYMATE/gwdsnwnet/m/mail/class/cla
+ss.mailParser.inc.php_on_line_218/[2023/10/25_09:45:57]_catch_or_not_?:_N/did_1+0+1/
+Oct 25 09:45:57 localhost qmail: 1698194757.403596 status: local 0/10 remote 5/20
+Oct 25 09:45:57 localhost qmail: 1698194757.403633 end msg 131523
+Oct 25 09:46:00 localhost pop3: 1698194760.970883 tcpserver: status: 4/255
+Oct 25 09:46:00 localhost pop3: 1698194760.971256 tcpserver: pid 110241 from 121.53.202.120
+Oct 25 09:46:00 localhost pop3: 1698194760.971307 tcpserver: ok 110241 0:115.68.164.36:110 :121.53.202.120::28534
+Oct 25 09:46:00 localhost pop3: 1698194760.983465 tcpserver: end 110241 status 256
+Oct 25 09:46:00 localhost pop3: 1698194760.983508 tcpserver: status: 3/255
+Oct 25 09:46:00 localhost pop3: 1698194760.990217 tcpserver: status: 4/255
+
+
+Oct 25 09:46:00 localhost pop3: 1698194760.983508 tcpserver: status: 3/255
+Oct 25 09:46:00 localhost pop3: 1698194760.990217 tcpserver: status: 4/255
+Oct 25 09:46:00 localhost pop3: 1698194760.990546 tcpserver: pid 110243 from 121.53.202.120
+Oct 25 09:46:00 localhost pop3: 1698194760.990596 tcpserver: ok 110243 0:115.68.164.36:110 :121.53.202.120::26611
+Oct 25 09:46:01 localhost pop3: 1698194761.002442 tcpserver: end 110243 status 256
+Oct 25 09:46:01 localhost pop3: 1698194761.002471 tcpserver: status: 3/255
+Oct 25 09:46:03 localhost pop3: 1698194763.859391 tcpserver: status: 4/255
+Oct 25 09:46:03 localhost pop3: 1698194763.859757 tcpserver: pid 110297 from 110.93.147.138
+Oct 25 09:46:03 localhost pop3: 1698194763.859807 tcpserver: ok 110297 0:115.68.164.36:110 :110.93.147.138::37534
+Oct 25 09:46:03 localhost pop3: 1698194763.890918 tcpserver: end 110297 status 256
+Oct 25 09:46:03 localhost pop3: 1698194763.890938 tcpserver: status: 3/255
+Oct 25 09:46:14 localhost pop3: 1698194774.462463 tcpserver: status: 4/255
+Oct 25 09:46:14 localhost pop3: 1698194774.462811 tcpserver: pid 110335 from 211.231.104.217
+Oct 25 09:46:14 localhost pop3: 1698194774.462858 tcpserver: ok 110335 0:115.68.164.36:110 :211.231.104.217::38043
+Oct 25 09:46:14 localhost pop3: 1698194774.475977 tcpserver: end 110335 status 256
+Oct 25 09:46:14 localhost pop3: 1698194774.476013 tcpserver: status: 3/255
+Oct 25 09:46:14 localhost pop3: 1698194774.483210 tcpserver: status: 4/255
+Oct 25 09:46:14 localhost pop3: 1698194774.483526 tcpserver: pid 110337 from 211.231.104.217
+Oct 25 09:46:14 localhost pop3: 1698194774.483567 tcpserver: ok 110337 0:115.68.164.36:110 :211.231.104.217::24875
+Oct 25 09:46:14 localhost pop3: 1698194774.495906 tcpserver: end 110337 status 256
+Oct 25 09:46:14 localhost pop3: 1698194774.495925 tcpserver: status: 3/255
+Oct 25 09:46:16 localhost pop3: 1698194776.960773 tcpserver: status: 4/255
+Oct 25 09:46:16 localhost pop3: 1698194776.961108 tcpserver: pid 110394 from 115.68.164.31
+Oct 25 09:46:16 localhost pop3: 1698194776.961154 tcpserver: ok 110394 0:115.68.164.36:110 :115.68.164.31::33940
+Oct 25 09:46:16 localhost pop3: 1698194776.972618 tcpserver: end 110394 status 256
+Oct 25 09:46:16 localhost pop3: 1698194776.972640 tcpserver: status: 3/255
+Oct 25 09:46:21 localhost pop3: 1698194781.817635 tcpserver: status: 4/255
+Oct 25 09:46:21 localhost pop3: 1698194781.817993 tcpserver: pid 110407 from 175.203.36.141
+Oct 25 09:46:21 localhost pop3: 1698194781.818048 tcpserver: ok 110407 0:115.68.164.36:110 :175.203.36.141::63632
+Oct 25 09:46:21 localhost pop3: 1698194781.850347 tcpserver: end 110407 status 256
+Oct 25 09:46:21 localhost pop3: 1698194781.850383 tcpserver: status: 3/255
+Oct 25 09:46:25 localhost pop3: 1698194785.577688 tcpserver: status: 4/255
+Oct 25 09:46:25 localhost pop3: 1698194785.578054 tcpserver: pid 110411 from 211.231.104.234
+Oct 25 09:46:25 localhost pop3: 1698194785.578106 tcpserver: ok 110411 0:115.68.164.36:110 :211.231.104.234::42809
+Oct 25 09:46:25 localhost pop3: 1698194785.589823 tcpserver: end 110411 status 256
+Oct 25 09:46:25 localhost pop3: 1698194785.589863 tcpserver: status: 3/255
+Oct 25 09:46:25 localhost pop3: 1698194785.602175 tcpserver: status: 4/255
+Oct 25 09:46:25 localhost pop3: 1698194785.602495 tcpserver: pid 110413 from 211.231.104.234
+Oct 25 09:46:25 localhost pop3: 1698194785.602555 tcpserver: ok 110413 0:115.68.164.36:110 :211.231.104.234::30913
+Oct 25 09:46:25 localhost pop3: 1698194785.619278 tcpserver: end 110413 status 256
+
+
+Oct 25 09:46:25 localhost pop3: 1698194785.619278 tcpserver: end 110413 status 256
+Oct 25 09:46:25 localhost pop3: 1698194785.619298 tcpserver: status: 3/255
+Oct 25 09:46:28 localhost qmail: 1698194788.044426 new msg 131520
+Oct 25 09:46:28 localhost qmail: 1698194788.044449 info msg 131520: bytes 7214 from <wshan12@dsnw.net> qp 110416 uid 500
+Oct 25 09:46:28 localhost qmail: 1698194788.045193 starting delivery 3420395: msg 131520 to remote ccj135@kwater.or.kr
+Oct 25 09:46:28 localhost qmail: 1698194788.045203 status: local 0/10 remote 6/20
+Oct 25 09:46:28 localhost qmail: 1698194788.071208 delivery 3420395: success: 203.237.3.207_accepted_message./Remote_hos
+t_said:_250_[Sniper]_OK_1698194785_snipe-queue_4396/
+Oct 25 09:46:28 localhost qmail: 1698194788.071328 status: local 0/10 remote 5/20
+Oct 25 09:46:28 localhost qmail: 1698194788.071380 end msg 131520
+Oct 25 09:46:28 localhost pop3: 1698194788.967358 tcpserver: end 110113 status 256
+Oct 25 09:46:28 localhost pop3: 1698194788.967403 tcpserver: status: 2/255
+Oct 25 09:46:32 localhost pop3: 1698194792.448110 tcpserver: status: 3/255
+Oct 25 09:46:32 localhost qmail: 1698194792.448364 new msg 131520
+Oct 25 09:46:32 localhost qmail: 1698194792.448395 info msg 131520: bytes 132599 from <hometaxadmin@hometax.go.kr> qp 11
+0424 uid 502
+Oct 25 09:46:32 localhost pop3: 1698194792.448443 tcpserver: pid 110425 from 118.217.134.62
+Oct 25 09:46:32 localhost pop3: 1698194792.448491 tcpserver: ok 110425 0:115.68.164.36:110 :118.217.134.62::53832
+Oct 25 09:46:32 localhost qmail: 1698194792.449202 starting delivery 3420396: msg 131520 to local ds09@dsnw.net
+Oct 25 09:46:32 localhost qmail: 1698194792.449222 status: local 1/10 remote 5/20
+Oct 25 09:46:32 localhost pop3: 1698194792.494801 tcpserver: end 110425 status 256
+Oct 25 09:46:32 localhost pop3: 1698194792.494842 tcpserver: status: 2/255
+Oct 25 09:46:32 localhost qmail: 1698194792.822440 delivery 3420396: success: [2023/10/25_09:46:32]_found_in_white_list/
+[2023/10/25_09:46:32]_pass_rules/[2023/10/25_09:46:32]_pass_rules/[2023/10/25_09:46:32]_pass_rules/[2023/10/25_09:46:32]
+_pass_rules/[2023/10/25_09:46:32]_pass_rules/[2023/10/25_09:46:32]_pass_rules/[2023/10/25_09:46:32]_pass_rules/[2023/10/
+25_09:46:32]_pass_rules/[2023/10/25_09:46:32]_pass_rules/[2023/10/25_09:46:32]_pass_rules/[2023/10/25_09:46:32]_pass_rul
+es/[2023/10/25_09:46:32]_pass_rules/[2023/10/25_09:46:32]_pass_rules/[2023/10/25_09:46:32]_pass_rules/[2023/10/25_09:46:
+32]_pass_rules/[2023/10/25_09:46:32]_pass_rules/[2023/10/25_09:46:32]_pass_rules/[2023/10/25_09:46:32]_pass_rules/[2023/
+10/25_09:46:32]_pass_rules/[2023/10/25_09:46:32]_pass_rules/[2023/10/25_09:46:32]_pass_rules/[2023/10/25_09:46:32]_pass_
+rules/[202
+Oct 25 09:46:32 localhost qmail: 1698194792.822440+3/10/25_09:46:32]_pass_rules/[2023/10/25_09:46:32]_pass_rules/[2023/1
+0/25_09:46:32]_pass_rules/[2023/10/25_09:46:32]_pass_rules/[2023/10/25_09:46:32]_pass_rules/[2023/10/25_09:46:32]_pass_r
+ules/[2023/10/25_09:46:32]_pass_rules/[2023/10/25_09:46:32]_pass_rules/[2023/10/25_09:46:32]_pass_rules/[2023/10/25_09:4
+6:32]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.i
+nc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_o
+n_line_1906/did_1+0+1/
+Oct 25 09:46:32 localhost qmail: 1698194792.822497 status: local 0/10 remote 5/20
+Oct 25 09:46:32 localhost qmail: 1698194792.822525 end msg 131520
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="test" type="date">
+    <input type="text" id="aa"></input>
+    <input type="text" id="ab"></input>
+    <input type="text" id="ac"></input>
+    <input type="datetime-local" name="" id="">
+    <button id="btn" type="button">ㅎㅇㅎㅇ</button>
+    <script>
+        document.getElementById('btn').addEventListener('click', () => {
+            if(confirm('삭제?')) {
+                console.log("예를 누르셨습니다");
+            } else {
+                console.log("아니오를 누르셨습니다");
+            }
+        });
+        
+
+        document.addEventListener("DOMContentLoaded", function() {
+            var a = document.getElementById('test');
+            a.addEventListener('change', function() {
+                var c = a.value;
+                b = c.split('-');
+                    console.log(a.value);
+                    console.log(b);
+                    document.getElementById('aa').value = b[0];
+                    document.getElementById('ab').value = b[1];
+                    document.getElementById('ac').value = b[2];
+                });
+            
+        });
+    </script>
+</body>
+</html>

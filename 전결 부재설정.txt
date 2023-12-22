@@ -1,0 +1,32 @@
+일단 관리자모드 전자결재 > 부재설정
++ 일반유저설정 전자결재 > 부재설정
+
+일단 파일체크하고,
+부재설정기간 저장하는 테이블 체크하고,
+시간 어케 고를지 생각하고
+편집모드도 생각해야됨
+
+
+/home/anymate/gwmkkimcom-3800/html/dcs/absentManager.html
+/home/anymate/gwmkkimcom-3800/html/dcs/absent.html
+---------------------------------------------------------
+일반유저 부재설정은 캘린더사이에 시/분만 추가하고, 설정이 되어있는 경우는 설정한 시/분까지 같이 나오도록
+이미 되어있는 상태에서 다시 저장했을때에도 문제없이 되도록?
+
+----------------------------------------------------------
+팝업관리에 시/분까지 적용하는 기능이 있길래, 그부분 가져와서 만들었고,
+처음에는 기존에, 추가를 클릭했을 때 오늘날짜로 설정이 되어있고, 오늘날짜를 시작으로 선택하면,
+datetime으로 현재시간으로 추가가 되었었고, 그렇게 만드려고
+
+
+기본적으로 처음 추가 눌렀을 때 아무래도 기존에 쓰던 것처럼, 시작과 끝시간을 00:00, 23:59
+
+
+
+https://github.com/longbill/jquery-date-range-picker
+https://longbill.github.io/jquery-date-range-picker/
+https://www.grandplaza.co.kr/page/booking
+
+
+
+https://www.daterangepicker.com/#google_vignette

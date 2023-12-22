@@ -1,0 +1,495 @@
+Oct 16 14:02:29 localhost qmail: 1697439749.703442 end msg 1710532
+Oct 16 14:02:31 localhost qmail: 1697439751.809819 new msg 1710519
+Oct 16 14:02:31 localhost qmail: 1697439751.809864 info msg 1710519: bytes 992 from <admin@sjtech87.co.kr> qp 31783 uid 500
+Oct 16 14:02:31 localhost qmail: 1697439751.897977 starting delivery 37089: msg 1710519 to remote alsrb2688@naver.com
+Oct 16 14:02:31 localhost qmail: 1697439751.898016 status: local 0/10 remote 1/20
+Oct 16 14:02:31 localhost qmail: 1697439751.974507 new msg 1710526
+Oct 16 14:02:31 localhost qmail: 1697439751.974559 info msg 1710526: bytes 992 from <admin@sjtech87.co.kr> qp 31784 uid 500
+Oct 16 14:02:32 localhost qmail: 1697439752.128063 starting delivery 37090: msg 1710526 to remote qsczeadwx1@gmail.com
+Oct 16 14:02:32 localhost qmail: 1697439752.128086 status: local 0/10 remote 2/20
+Oct 16 14:02:32 localhost qmail: 1697439752.128167 new msg 1710533
+Oct 16 14:02:32 localhost qmail: 1697439752.128194 info msg 1710533: bytes 992 from <admin@sjtech87.co.kr> qp 31786 uid 500
+Oct 16 14:02:32 localhost qmail: 1697439752.195626 starting delivery 37091: msg 1710533 to remote mkkim@dbvalley.com
+Oct 16 14:02:32 localhost qmail: 1697439752.195664 status: local 0/10 remote 3/20
+Oct 16 14:02:32 localhost qmail: 1697439752.357307 delivery 37089: deferral: Connected_to_125.209.238.137_but_greeting_failed./Remote_host_said:_421_4.3.2_Your_ip_blocked_from_this_server_p7Aa7s4qRaSblDhgTK-Lsw_-_nsmtp/
+Oct 16 14:02:32 localhost qmail: 1697439752.357338 status: local 0/10 remote 2/20
+Oct 16 14:02:33 localhost qmail: 1697439753.010289 new msg 1710534
+Oct 16 14:02:33 localhost qmail: 1697439753.010342 info msg 1710534: bytes 35526 from <yen.la@sjtechvn.com> qp 31789 uid 502
+Oct 16 14:02:33 localhost qmail: 1697439753.086388 starting delivery 37092: msg 1710534 to local tran.tham@sjtechvn.com
+Oct 16 14:02:33 localhost qmail: 1697439753.086411 status: local 1/10 remote 2/20
+Oct 16 14:02:33 localhost qmail: 1697439753.086418 new msg 1710542
+Oct 16 14:02:33 localhost qmail: 1697439753.086424 info msg 1710542: bytes 35526 from <yen.la@sjtechvn.com> qp 31791 uid 502
+Oct 16 14:02:33 localhost qmail: 1697439753.161996 starting delivery 37093: msg 1710542 to local thao.nguyen@sjtechvn.com
+Oct 16 14:02:33 localhost qmail: 1697439753.162037 status: local 2/10 remote 2/20
+Oct 16 14:02:33 localhost qmail: 1697439753.162665 new msg 1710541
+Oct 16 14:02:33 localhost qmail: 1697439753.162704 info msg 1710541: bytes 35526 from <yen.la@sjtechvn.com> qp 31790 uid 502
+Oct 16 14:02:33 localhost qmail: 1697439753.296078 starting delivery 37094: msg 1710541 to local khoi.nguyen@sjtechvn.com
+Oct 16 14:02:33 localhost qmail: 1697439753.296138 status: local 3/10 remote 2/20
+Oct 16 14:02:33 localhost qmail: 1697439753.365464 delivery 37092: success: PHP_Notice:__Undefined_offset:_2_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/home/anymate/g
+wsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/gwsjtechvn
+com/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/10/16_14:02:33]_catched_smart_rule_100/[2023/10/16_14:02:33]_pass_rules/[2023/10/16_14:02:33]_catch_or_not_?:_Y/did_1+0+1/
+Oct 16 14:02:33 localhost qmail: 1697439753.365716 status: local 2/10 remote 2/20
+Oct 16 14:02:33 localhost qmail: 1697439753.365746 end msg 1710534
+Oct 16 14:02:33 localhost qmail: 1697439753.414019 delivery 37093: success: PHP_Notice:__Undefined_offset:_2_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/home/anymate/g
+wsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/gwsjtechvn
+com/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/10/16_14:02:33]_catched_smart_rule_100/[2023/10/16_14:02:33]_catch_or_not_?:_Y/did_1+0+1/
+Oct 16 14:02:33 localhost qmail: 1697439753.414250 status: local 1/10 remote 2/20
+Oct 16 14:02:33 localhost qmail: 1697439753.414280 end msg 1710542
+Oct 16 14:02:33 localhost qmail: 1697439753.524099 delivery 37094: success: PHP_Notice:__Undefined_offset:_2_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/home/anymate/g
+wsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/gwsjtechvn
+com/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/10/16_14:02:33]_catched_smart_rule_100/[2023/10/16_14:02:33]_catch_or_not_?:_Y/did_1+0+1/
+Oct 16 14:02:33 localhost qmail: 1697439753.524169 status: local 0/10 remote 2/20
+Oct 16 14:02:33 localhost qmail: 1697439753.524193 end msg 1710541
+Oct 16 14:02:34 localhost qmail: 1697439754.294218 delivery 37091: failure: 222.96.148.100_does_not_like_recipient./Remote_host_said:_553_https://www.spamhaus.org/query/ip/125.212.129.86/Giving_up_on_222.96.148.100./
+Oct 16 14:02:34 localhost qmail: 1697439754.294387 status: local 0/10 remote 1/20
+Oct 16 14:02:34 localhost qmail: 1697439754.397089 bounce msg 1710533 qp 31807
+Oct 16 14:02:34 localhost qmail: 1697439754.397131 end msg 1710533
+Oct 16 14:02:34 localhost qmail: 1697439754.397372 new msg 1710539
+Oct 16 14:02:34 localhost qmail: 1697439754.397401 info msg 1710539: bytes 1623 from <> qp 31807 uid 508
+Oct 16 14:02:34 localhost qmail: 1697439754.484255 starting delivery 37095: msg 1710539 to remote admin@sjtech87.co.kr
+Oct 16 14:02:34 localhost qmail: 1697439754.484281 status: local 0/10 remote 2/20
+Oct 16 14:02:35 localhost qmail: 1697439755.270086 delivery 37090: failure: 142.250.157.26_failed_after_I_sent_the_message./Remote_host_said:_550-5.7.1_[125.212.129.86]_The_IP_you're_using_to_send_mail_is_not_authorized_to/550-5.7.1_send
+_email_directly_to_our_servers._Please_use_the_SMTP_relay_at_your/550-5.7.1_service_provider_instead._Learn_more_at/550_5.7.1__https://support.google.com/mail/?p=NotAuthorizedError_a12-20020a17090a854c00b002683f507990si5695526pjw.109_-_g
+smtp/
+Oct 16 14:02:35 localhost qmail: 1697439755.270279 status: local 0/10 remote 1/20
+Oct 16 14:02:35 localhost qmail: 1697439755.367755 bounce msg 1710526 qp 31810
+Oct 16 14:02:35 localhost qmail: 1697439755.367814 end msg 1710526
+Oct 16 14:02:35 localhost qmail: 1697439755.368098 new msg 1710532
+Oct 16 14:02:35 localhost qmail: 1697439755.368151 info msg 1710532: bytes 1888 from <> qp 31810 uid 508
+Oct 16 14:02:35 localhost qmail: 1697439755.435291 starting delivery 37096: msg 1710532 to remote admin@sjtech87.co.kr
+Oct 16 14:02:35 localhost qmail: 1697439755.435330 status: local 0/10 remote 2/20
+Oct 16 14:02:36 localhost qmail: 1697439756.062716 delivery 37095: success: 125.137.106.4_accepted_message./Remote_host_said:_250_[Sniper]_OK_1697439853_snipe-queue_14371/
+[root@localhost log]# more maillog
+Oct 15 03:15:05 localhost qmail: 1697314505.330130 new msg 1710478
+Oct 15 03:15:05 localhost qmail: 1697314505.330525 info msg 1710478: bytes 575 from <root@sjtechvn.com> qp 8876 uid 500
+Oct 15 03:15:05 localhost qmail: 1697314505.446591 starting delivery 34315: msg 1710478 to local anymate@sjtechvn.com
+Oct 15 03:15:05 localhost qmail: 1697314505.446629 status: local 1/10 remote 0/20
+Oct 15 03:15:05 localhost qmail: 1697314505.450570 delivery 34315: success: did_0+0+0/
+Oct 15 03:15:05 localhost qmail: 1697314505.450695 status: local 0/10 remote 0/20
+Oct 15 03:15:05 localhost qmail: 1697314505.450737 end msg 1710478
+Oct 15 03:17:02 localhost qmail: 1697314622.028297 new msg 1710439
+Oct 15 03:17:02 localhost qmail: 1697314622.028342 info msg 1710439: bytes 564 from <root@sjtechvn.com> qp 9044 uid 500
+Oct 15 03:17:02 localhost qmail: 1697314622.237276 starting delivery 34316: msg 1710439 to local anymate@sjtechvn.com
+Oct 15 03:17:02 localhost qmail: 1697314622.237307 status: local 1/10 remote 0/20
+Oct 15 03:17:02 localhost qmail: 1697314622.240564 delivery 34316: success: did_0+0+0/
+Oct 15 03:17:02 localhost qmail: 1697314622.240682 status: local 0/10 remote 0/20
+Oct 15 03:17:02 localhost qmail: 1697314622.240726 end msg 1710439
+Oct 15 03:17:04 localhost qmail: 1697314624.637331 new msg 1710439
+Oct 15 03:17:04 localhost qmail: 1697314624.637391 info msg 1710439: bytes 575 from <root@sjtechvn.com> qp 9047 uid 500
+Oct 15 03:17:04 localhost qmail: 1697314624.729497 starting delivery 34317: msg 1710439 to local anymate@sjtechvn.com
+Oct 15 03:17:04 localhost qmail: 1697314624.729524 status: local 1/10 remote 0/20
+Oct 15 03:17:04 localhost qmail: 1697314624.732722 delivery 34317: success: did_0+0+0/
+Oct 15 03:17:04 localhost qmail: 1697314624.732801 status: local 0/10 remote 0/20
+Oct 15 03:17:04 localhost qmail: 1697314624.732835 end msg 1710439
+Oct 15 03:18:13 localhost qmail: 1697314693.802328 starting delivery 34318: msg 1710536 to remote hien93.tran@samsung.com
+Oct 15 03:18:13 localhost qmail: 1697314693.802383 status: local 0/10 remote 1/20
+Oct 15 03:18:14 localhost qmail: 1697314694.870646 delivery 34318: deferral: Connected_to_203.254.224.12_but_greeting_failed./Remote_host_said:_554_5.7.1_Rejected_because_Bad_IP/
+Oct 15 03:18:14 localhost qmail: 1697314694.870701 status: local 0/10 remote 0/20
+Oct 15 03:19:01 localhost qmail: 1697314741.407115 new msg 1710478
+Oct 15 03:19:01 localhost qmail: 1697314741.407172 info msg 1710478: bytes 564 from <root@sjtechvn.com> qp 9156 uid 500
+Oct 15 03:19:01 localhost qmail: 1697314741.459498 starting delivery 34319: msg 1710478 to local anymate@sjtechvn.com
+Oct 15 03:19:01 localhost qmail: 1697314741.459521 status: local 1/10 remote 0/20
+Oct 15 03:19:01 localhost qmail: 1697314741.463400 delivery 34319: success: did_0+0+0/
+Oct 15 03:19:01 localhost qmail: 1697314741.463535 status: local 0/10 remote 0/20
+Oct 15 03:19:01 localhost qmail: 1697314741.463662 end msg 1710478
+Oct 15 03:19:02 localhost qmail: 1697314742.618698 new msg 1710439
+Oct 15 03:19:02 localhost qmail: 1697314742.618730 info msg 1710439: bytes 541134 from <callcenter@cogisticstransportation.com> qp 9116 uid 502
+Oct 15 03:19:02 localhost qmail: 1697314742.686158 starting delivery 34320: msg 1710439 to local tuan.phan@sjtechvn.com
+Oct 15 03:19:02 localhost qmail: 1697314742.686194 status: local 1/10 remote 0/20
+Oct 15 03:19:02 localhost qmail: 1697314742.686223 starting delivery 34321: msg 1710439 to local kham.pham@sjtechvn.com
+Oct 15 03:19:02 localhost qmail: 1697314742.686243 status: local 2/10 remote 0/20
+Oct 15 03:19:02 localhost qmail: 1697314742.686269 starting delivery 34322: msg 1710439 to local anh.pham@sjtechvn.com
+Oct 15 03:19:02 localhost qmail: 1697314742.686288 status: local 3/10 remote 0/20
+Oct 15 03:19:02 localhost qmail: 1697314742.686311 starting delivery 34323: msg 1710439 to local uyen.vy@sjtechvn.com
+Oct 15 03:19:02 localhost qmail: 1697314742.686330 status: local 4/10 remote 0/20
+Oct 15 03:19:02 localhost qmail: 1697314742.686352 starting delivery 34324: msg 1710439 to local yen.la@sjtechvn.com
+Oct 15 03:19:02 localhost qmail: 1697314742.686372 status: local 5/10 remote 0/20
+Oct 15 03:19:02 localhost qmail: 1697314742.686573 starting delivery 34325: msg 1710439 to local binh.dang@sjtechvn.com
+Oct 15 03:19:02 localhost qmail: 1697314742.686602 status: local 6/10 remote 0/20
+Oct 15 03:19:02 localhost qmail: 1697314742.686615 starting delivery 34326: msg 1710439 to local tran.tham@sjtechvn.com
+Oct 15 03:19:02 localhost qmail: 1697314742.686625 status: local 7/10 remote 0/20
+Oct 15 03:19:03 localhost qmail: 1697314743.625199 delivery 34322: success: PHP_Notice:__Undefined_offset:_2_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/home/anymate/g
+wsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/gwsjtechvn
+com/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/10/15_03:19:03]_catch_or_not_?:_N/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_inde
+x:_HTTP_HOST_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 15 03:19:03 localhost qmail: 1697314743.625263 status: local 6/10 remote 0/20
+Oct 15 03:19:03 localhost qmail: 1697314743.633500 delivery 34320: success: PHP_Notice:__Undefined_offset:_2_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/home/anymate/g
+wsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/gwsjtechvn
+com/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/10/15_03:19:03]_catch_or_not_?:_N/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_inde
+x:_HTTP_HOST_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 15 03:19:03 localhost qmail: 1697314743.633529 status: local 5/10 remote 0/20
+Oct 15 03:19:03 localhost qmail: 1697314743.656279 delivery 34321: success: PHP_Notice:__Undefined_offset:_2_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/home/anymate/g
+wsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/gwsjtechvn
+com/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/10/15_03:19:03]_catch_or_not_?:_N/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_inde
+x:_HTTP_HOST_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+/alsrb2688@naver.com
+...skipping
+Oct 16 14:02:31 localhost qmail: 1697439751.809819 new msg 1710519
+Oct 16 14:02:31 localhost qmail: 1697439751.809864 info msg 1710519: bytes 992 from <admin@sjtech87.co.kr> qp 31783 uid 500
+Oct 16 14:02:31 localhost qmail: 1697439751.897977 starting delivery 37089: msg 1710519 to remote alsrb2688@naver.com
+Oct 16 14:02:31 localhost qmail: 1697439751.898016 status: local 0/10 remote 1/20
+Oct 16 14:02:31 localhost qmail: 1697439751.974507 new msg 1710526
+Oct 16 14:02:31 localhost qmail: 1697439751.974559 info msg 1710526: bytes 992 from <admin@sjtech87.co.kr> qp 31784 uid 500
+Oct 16 14:02:32 localhost qmail: 1697439752.128063 starting delivery 37090: msg 1710526 to remote qsczeadwx1@gmail.com
+Oct 16 14:02:32 localhost qmail: 1697439752.128086 status: local 0/10 remote 2/20
+Oct 16 14:02:32 localhost qmail: 1697439752.128167 new msg 1710533
+Oct 16 14:02:32 localhost qmail: 1697439752.128194 info msg 1710533: bytes 992 from <admin@sjtech87.co.kr> qp 31786 uid 500
+Oct 16 14:02:32 localhost qmail: 1697439752.195626 starting delivery 37091: msg 1710533 to remote mkkim@dbvalley.com
+Oct 16 14:02:32 localhost qmail: 1697439752.195664 status: local 0/10 remote 3/20
+Oct 16 14:02:32 localhost qmail: 1697439752.357307 delivery 37089: deferral: Connected_to_125.209.238.137_but_greeting_failed./Remote_host_said:_421_4.3.2_Your_ip_blocked_from_this_server_p7Aa7s4qRaSblDhgTK-Lsw_-_nsmtp/
+Oct 16 14:02:32 localhost qmail: 1697439752.357338 status: local 0/10 remote 2/20
+Oct 16 14:02:33 localhost qmail: 1697439753.010289 new msg 1710534
+Oct 16 14:02:33 localhost qmail: 1697439753.010342 info msg 1710534: bytes 35526 from <yen.la@sjtechvn.com> qp 31789 uid 502
+Oct 16 14:02:33 localhost qmail: 1697439753.086388 starting delivery 37092: msg 1710534 to local tran.tham@sjtechvn.com
+Oct 16 14:02:33 localhost qmail: 1697439753.086411 status: local 1/10 remote 2/20
+Oct 16 14:02:33 localhost qmail: 1697439753.086418 new msg 1710542
+Oct 16 14:02:33 localhost qmail: 1697439753.086424 info msg 1710542: bytes 35526 from <yen.la@sjtechvn.com> qp 31791 uid 502
+Oct 16 14:02:33 localhost qmail: 1697439753.161996 starting delivery 37093: msg 1710542 to local thao.nguyen@sjtechvn.com
+Oct 16 14:02:33 localhost qmail: 1697439753.162037 status: local 2/10 remote 2/20
+Oct 16 14:02:33 localhost qmail: 1697439753.162665 new msg 1710541
+Oct 16 14:02:33 localhost qmail: 1697439753.162704 info msg 1710541: bytes 35526 from <yen.la@sjtechvn.com> qp 31790 uid 502
+Oct 16 14:02:33 localhost qmail: 1697439753.296078 starting delivery 37094: msg 1710541 to local khoi.nguyen@sjtechvn.com
+Oct 16 14:02:33 localhost qmail: 1697439753.296138 status: local 3/10 remote 2/20
+Oct 16 14:02:33 localhost qmail: 1697439753.365464 delivery 37092: success: PHP_Notice:__Undefined_offset:_2_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/home/anymate/g
+wsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/gwsjtechvn
+com/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/10/16_14:02:33]_catched_smart_rule_100/[2023/10/16_14:02:33]_pass_rules/[2023/10/16_14:02:33]_catch_or_not_?:_Y/did_1+0+1/
+Oct 16 14:02:33 localhost qmail: 1697439753.365716 status: local 2/10 remote 2/20
+Oct 16 14:02:33 localhost qmail: 1697439753.365746 end msg 1710534
+Oct 16 14:02:33 localhost qmail: 1697439753.414019 delivery 37093: success: PHP_Notice:__Undefined_offset:_2_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/home/anymate/g
+wsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/gwsjtechvn
+com/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/10/16_14:02:33]_catched_smart_rule_100/[2023/10/16_14:02:33]_catch_or_not_?:_Y/did_1+0+1/
+Oct 16 14:02:33 localhost qmail: 1697439753.414250 status: local 1/10 remote 2/20
+Oct 16 14:02:33 localhost qmail: 1697439753.414280 end msg 1710542
+Oct 16 14:02:33 localhost qmail: 1697439753.524099 delivery 37094: success: PHP_Notice:__Undefined_offset:_2_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/home/anymate/g
+wsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/gwsjtechvn
+com/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/10/16_14:02:33]_catched_smart_rule_100/[2023/10/16_14:02:33]_catch_or_not_?:_Y/did_1+0+1/
+Oct 16 14:02:33 localhost qmail: 1697439753.524169 status: local 0/10 remote 2/20
+Oct 16 14:02:33 localhost qmail: 1697439753.524193 end msg 1710541
+Oct 16 14:02:34 localhost qmail: 1697439754.294218 delivery 37091: failure: 222.96.148.100_does_not_like_recipient./Remote_host_said:_553_https://www.spamhaus.org/query/ip/125.212.129.86/Giving_up_on_222.96.148.100./
+Oct 16 14:02:34 localhost qmail: 1697439754.294387 status: local 0/10 remote 1/20
+Oct 16 14:02:34 localhost qmail: 1697439754.397089 bounce msg 1710533 qp 31807
+Oct 16 14:02:34 localhost qmail: 1697439754.397131 end msg 1710533
+Oct 16 14:02:34 localhost qmail: 1697439754.397372 new msg 1710539
+Oct 16 14:02:34 localhost qmail: 1697439754.397401 info msg 1710539: bytes 1623 from <> qp 31807 uid 508
+Oct 16 14:02:34 localhost qmail: 1697439754.484255 starting delivery 37095: msg 1710539 to remote admin@sjtech87.co.kr
+Oct 16 14:02:34 localhost qmail: 1697439754.484281 status: local 0/10 remote 2/20
+Oct 16 14:02:35 localhost qmail: 1697439755.270086 delivery 37090: failure: 142.250.157.26_failed_after_I_sent_the_message./Remote_host_said:_550-5.7.1_[125.212.129.86]_The_IP_you're_using_to_send_mail_is_not_authorized_to/550-5.7.1_send
+_email_directly_to_our_servers._Please_use_the_SMTP_relay_at_your/550-5.7.1_service_provider_instead._Learn_more_at/550_5.7.1__https://support.google.com/mail/?p=NotAuthorizedError_a12-20020a17090a854c00b002683f507990si5695526pjw.109_-_g
+smtp/
+Oct 16 14:02:35 localhost qmail: 1697439755.270279 status: local 0/10 remote 1/20
+Oct 16 14:02:35 localhost qmail: 1697439755.367755 bounce msg 1710526 qp 31810
+Oct 16 14:02:35 localhost qmail: 1697439755.367814 end msg 1710526
+Oct 16 14:02:35 localhost qmail: 1697439755.368098 new msg 1710532
+Oct 16 14:02:35 localhost qmail: 1697439755.368151 info msg 1710532: bytes 1888 from <> qp 31810 uid 508
+Oct 16 14:02:35 localhost qmail: 1697439755.435291 starting delivery 37096: msg 1710532 to remote admin@sjtech87.co.kr
+Oct 16 14:02:35 localhost qmail: 1697439755.435330 status: local 0/10 remote 2/20
+Oct 16 14:02:36 localhost qmail: 1697439756.062716 delivery 37095: success: 125.137.106.4_accepted_message./Remote_host_said:_250_[Sniper]_OK_1697439853_snipe-queue_14371/
+Oct 16 14:02:36 localhost qmail: 1697439756.062831 status: local 0/10 remote 1/20
+/
+...skipping
+Oct 16 14:09:04 localhost qmail: 1697440144.503064 status: local 0/10 remote 0/20
+Oct 16 14:09:04 localhost qmail: 1697440144.503114 end msg 1710499
+Oct 16 14:09:12 localhost qmail: 1697440152.511377 starting delivery 37106: msg 1710519 to remote alsrb2688@naver.com
+Oct 16 14:09:12 localhost qmail: 1697440152.511423 status: local 0/10 remote 1/20
+Oct 16 14:09:13 localhost qmail: 1697440153.118834 delivery 37106: deferral: Connected_to_125.209.238.100_but_greeting_failed./Remote_host_said:_421_4.3.2_Your_ip_blocked_from_this_server_TnT4u2h2SnOqADdMP7YkMw_-_nsmtp/
+Oct 16 14:09:13 localhost qmail: 1697440153.118883 status: local 0/10 remote 0/20
+Oct 16 14:10:00 localhost pop3: 1697440200.814751 tcpserver: status: 1/255
+Oct 16 14:10:00 localhost pop3: 1697440200.815149 tcpserver: pid 32202 from 112.113.15.220
+Oct 16 14:10:00 localhost pop3: 1697440200.815189 tcpserver: ok 32202 0:172.15.1.30:110 :112.113.15.220::51492
+Oct 16 14:10:00 localhost pop3: 1697440200.904588 tcpserver: end 32202 status 256
+Oct 16 14:10:00 localhost pop3: 1697440200.904625 tcpserver: status: 0/255
+Oct 16 14:10:00 localhost pop3: 1697440200.923077 tcpserver: status: 1/255
+Oct 16 14:10:00 localhost pop3: 1697440200.923391 tcpserver: pid 32204 from 112.113.15.220
+Oct 16 14:10:00 localhost pop3: 1697440200.923425 tcpserver: ok 32204 0:172.15.1.30:110 :112.113.15.220::51493
+Oct 16 14:10:01 localhost pop3: 1697440201.002145 tcpserver: end 32204 status 256
+Oct 16 14:10:01 localhost pop3: 1697440201.002178 tcpserver: status: 0/255
+Oct 16 14:10:07 localhost pop3: 1697440207.211153 tcpserver: status: 1/255
+Oct 16 14:10:07 localhost pop3: 1697440207.211490 tcpserver: pid 32278 from 112.113.15.220
+Oct 16 14:10:07 localhost pop3: 1697440207.211523 tcpserver: ok 32278 0:172.15.1.30:110 :112.113.15.220::51499
+Oct 16 14:10:07 localhost pop3: 1697440207.287549 tcpserver: end 32278 status 256
+Oct 16 14:10:07 localhost pop3: 1697440207.287588 tcpserver: status: 0/255
+Oct 16 14:10:07 localhost pop3: 1697440207.332627 tcpserver: status: 1/255
+Oct 16 14:10:07 localhost pop3: 1697440207.332920 tcpserver: pid 32280 from 112.113.15.220
+Oct 16 14:10:07 localhost pop3: 1697440207.332954 tcpserver: ok 32280 0:172.15.1.30:110 :112.113.15.220::51500
+Oct 16 14:10:07 localhost pop3: 1697440207.418791 tcpserver: end 32280 status 256
+Oct 16 14:10:07 localhost pop3: 1697440207.418830 tcpserver: status: 0/255
+Oct 16 14:10:39 localhost qmail: 1697440239.704228 new msg 1710499
+Oct 16 14:10:39 localhost qmail: 1697440239.704283 info msg 1710499: bytes 52459 from <uyen.vy@sjtechvn.com> qp 32289 uid 502
+Oct 16 14:10:39 localhost qmail: 1697440239.846327 starting delivery 37107: msg 1710499 to local thao.nguyen@sjtechvn.com
+Oct 16 14:10:39 localhost qmail: 1697440239.846354 status: local 1/10 remote 0/20
+Oct 16 14:10:39 localhost qmail: 1697440239.846405 new msg 1710521
+Oct 16 14:10:39 localhost qmail: 1697440239.846438 info msg 1710521: bytes 52459 from <uyen.vy@sjtechvn.com> qp 32290 uid 502
+Oct 16 14:10:39 localhost qmail: 1697440239.946615 starting delivery 37108: msg 1710521 to local anh.pham@sjtechvn.com
+Oct 16 14:10:39 localhost qmail: 1697440239.946653 status: local 2/10 remote 0/20
+Oct 16 14:10:39 localhost qmail: 1697440239.946778 new msg 1710531
+Oct 16 14:10:39 localhost qmail: 1697440239.946824 info msg 1710531: bytes 52459 from <uyen.vy@sjtechvn.com> qp 32292 uid 502
+Oct 16 14:10:40 localhost qmail: 1697440240.022618 new msg 1710532
+Oct 16 14:10:40 localhost qmail: 1697440240.022649 info msg 1710532: bytes 52459 from <uyen.vy@sjtechvn.com> qp 32293 uid 502
+Oct 16 14:10:40 localhost qmail: 1697440240.089647 starting delivery 37109: msg 1710531 to local kham.pham@sjtechvn.com
+Oct 16 14:10:40 localhost qmail: 1697440240.089693 status: local 3/10 remote 0/20
+Oct 16 14:10:40 localhost qmail: 1697440240.089763 new msg 1710526
+Oct 16 14:10:40 localhost qmail: 1697440240.089817 info msg 1710526: bytes 52459 from <uyen.vy@sjtechvn.com> qp 32291 uid 502
+Oct 16 14:10:40 localhost qmail: 1697440240.182126 starting delivery 37110: msg 1710532 to local tuan.phan@sjtechvn.com
+Oct 16 14:10:40 localhost qmail: 1697440240.182158 status: local 4/10 remote 0/20
+Oct 16 14:10:40 localhost qmail: 1697440240.182214 starting delivery 37111: msg 1710526 to local tran.tham@sjtechvn.com
+Oct 16 14:10:40 localhost qmail: 1697440240.182236 status: local 5/10 remote 0/20
+Oct 16 14:10:40 localhost qmail: 1697440240.210350 delivery 37107: success: PHP_Notice:__Undefined_offset:_2_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/home/anymate/g
+wsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/gwsjtechvn
+com/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/10/16_14:10:40]_catched_smart_rule_100/[2023/10/16_14:10:40]_catch_or_not_?:_Y/did_1+0+1/
+Oct 16 14:10:40 localhost qmail: 1697440240.210463 status: local 4/10 remote 0/20
+Oct 16 14:10:40 localhost qmail: 1697440240.210502 end msg 1710499
+Oct 16 14:10:40 localhost qmail: 1697440240.265479 delivery 37108: success: PHP_Notice:__Undefined_offset:_2_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/home/anymate/g
+wsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/gwsjtechvn
+com/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/10/16_14:10:40]_catched_smart_rule_100/[2023/10/16_14:10:40]_catch_or_not_?:_Y/did_1+0+1/
+Oct 16 14:10:40 localhost qmail: 1697440240.265546 status: local 3/10 remote 0/20
+Oct 16 14:10:40 localhost qmail: 1697440240.265570 end msg 1710521
+Oct 16 14:10:40 localhost qmail: 1697440240.334993 delivery 37109: success: PHP_Notice:__Undefined_offset:_2_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/home/anymate/g
+wsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/gwsjtechvn
+com/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/10/16_14:10:40]_catched_smart_rule_100/[2023/10/16_14:10:40]_catch_or_not_?:_Y/did_1+0+1/
+Oct 16 14:10:40 localhost qmail: 1697440240.335094 status: local 2/10 remote 0/20
+Oct 16 14:10:40 localhost qmail: 1697440240.335125 end msg 1710531
+/
+...skipping
+Oct 16 14:29:04 localhost qmail: 1697441344.987546 status: local 0/10 remote 0/20
+Oct 16 14:29:04 localhost qmail: 1697441344.987677 end msg 1710499
+Oct 16 14:29:12 localhost qmail: 1697441352.995954 starting delivery 37175: msg 1710519 to remote alsrb2688@naver.com
+Oct 16 14:29:12 localhost qmail: 1697441352.996005 status: local 0/10 remote 1/20
+Oct 16 14:29:13 localhost qmail: 1697441353.652393 delivery 37175: deferral: Connected_to_125.209.222.14_but_greeting_failed./Remote_host_said:_421_4.3.2_Your_ip_blocked_from_this_server_Se3FG7lmQGKJTG1wvO-qaw_-_nsmtp/
+Oct 16 14:29:13 localhost qmail: 1697441353.652423 status: local 0/10 remote 0/20
+Oct 16 14:29:38 localhost qmail: 1697441378.424462 new msg 1710499
+Oct 16 14:29:38 localhost qmail: 1697441378.424499 info msg 1710499: bytes 45785 from <vn.export@pglox.com> qp 1503 uid 502
+Oct 16 14:29:38 localhost qmail: 1697441378.568733 starting delivery 37176: msg 1710499 to local uyen.vy@sjtechvn.com
+Oct 16 14:29:38 localhost qmail: 1697441378.568765 status: local 1/10 remote 0/20
+Oct 16 14:29:38 localhost qmail: 1697441378.568833 new msg 1710526
+Oct 16 14:29:38 localhost qmail: 1697441378.568851 info msg 1710526: bytes 45785 from <vn.export@pglox.com> qp 1505 uid 502
+Oct 16 14:29:38 localhost qmail: 1697441378.691327 starting delivery 37177: msg 1710526 to local binh.dang@sjtechvn.com
+Oct 16 14:29:38 localhost qmail: 1697441378.691380 status: local 2/10 remote 0/20
+Oct 16 14:29:38 localhost qmail: 1697441378.691566 new msg 1710534
+Oct 16 14:29:38 localhost qmail: 1697441378.691587 info msg 1710534: bytes 45785 from <vn.export@pglox.com> qp 1509 uid 502
+Oct 16 14:29:38 localhost qmail: 1697441378.808662 starting delivery 37178: msg 1710534 to local thao.nguyen@sjtechvn.com
+Oct 16 14:29:38 localhost qmail: 1697441378.808684 status: local 3/10 remote 0/20
+Oct 16 14:29:38 localhost qmail: 1697441378.808821 new msg 1710531
+Oct 16 14:29:38 localhost qmail: 1697441378.808837 info msg 1710531: bytes 45785 from <vn.export@pglox.com> qp 1506 uid 502
+Oct 16 14:29:38 localhost qmail: 1697441378.951419 delivery 37176: success: PHP_Notice:__Undefined_offset:_2_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/home/anymate/g
+wsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/gwsjtechvn
+com/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/10/16_14:29:38]_catch_or_not_?:_N/did_1+0+1/
+Oct 16 14:29:38 localhost qmail: 1697441378.951604 status: local 2/10 remote 0/20
+Oct 16 14:29:38 localhost qmail: 1697441378.951619 new msg 1710532
+Oct 16 14:29:38 localhost qmail: 1697441378.951625 info msg 1710532: bytes 45785 from <vn.export@pglox.com> qp 1507 uid 502
+Oct 16 14:29:39 localhost qmail: 1697441379.027060 starting delivery 37179: msg 1710531 to local tuan.phan@sjtechvn.com
+Oct 16 14:29:39 localhost qmail: 1697441379.027086 status: local 3/10 remote 0/20
+Oct 16 14:29:39 localhost qmail: 1697441379.027097 end msg 1710499
+Oct 16 14:29:39 localhost qmail: 1697441379.027405 delivery 37177: success: PHP_Notice:__Undefined_offset:_2_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/home/anymate/g
+wsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/gwsjtechvn
+com/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/10/16_14:29:38]_catch_or_not_?:_N/did_1+0+1/
+Oct 16 14:29:39 localhost qmail: 1697441379.027423 status: local 2/10 remote 0/20
+Oct 16 14:29:39 localhost qmail: 1697441379.027430 new msg 1710533
+Oct 16 14:29:39 localhost qmail: 1697441379.027436 info msg 1710533: bytes 45785 from <vn.export@pglox.com> qp 1508 uid 502
+Oct 16 14:29:39 localhost qmail: 1697441379.152858 end msg 1710526
+Oct 16 14:29:39 localhost qmail: 1697441379.153128 delivery 37178: success: PHP_Notice:__Undefined_offset:_2_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/home/anymate/g
+wsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/gwsjtechvn
+com/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/10/16_14:29:39]_catch_or_not_?:_N/did_1+0+1/
+Oct 16 14:29:39 localhost qmail: 1697441379.153302 status: local 1/10 remote 0/20
+Oct 16 14:29:39 localhost qmail: 1697441379.153317 new msg 1710541
+Oct 16 14:29:39 localhost qmail: 1697441379.153323 info msg 1710541: bytes 45785 from <vn.export@pglox.com> qp 1511 uid 502
+Oct 16 14:29:39 localhost qmail: 1697441379.215241 starting delivery 37180: msg 1710532 to local tran.tham@sjtechvn.com
+Oct 16 14:29:39 localhost qmail: 1697441379.215265 status: local 2/10 remote 0/20
+Oct 16 14:29:39 localhost qmail: 1697441379.215274 end msg 1710534
+Oct 16 14:29:39 localhost qmail: 1697441379.215429 new msg 1710539
+Oct 16 14:29:39 localhost qmail: 1697441379.215458 info msg 1710539: bytes 45785 from <vn.export@pglox.com> qp 1510 uid 502
+Oct 16 14:29:39 localhost qmail: 1697441379.315071 delivery 37179: success: PHP_Notice:__Undefined_offset:_2_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/home/anymate/g
+wsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/gwsjtechvn
+com/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/10/16_14:29:39]_catch_or_not_?:_N/did_1+0+1/
+Oct 16 14:29:39 localhost qmail: 1697441379.315342 status: local 1/10 remote 0/20
+Oct 16 14:29:39 localhost qmail: 1697441379.315373 starting delivery 37181: msg 1710541 to local anh.pham@sjtechvn.com
+Oct 16 14:29:39 localhost qmail: 1697441379.315403 status: local 2/10 remote 0/20
+Oct 16 14:29:39 localhost qmail: 1697441379.315413 end msg 1710531
+Oct 16 14:29:39 localhost qmail: 1697441379.315594 starting delivery 37182: msg 1710539 to local kham.pham@sjtechvn.com
+Oct 16 14:29:39 localhost qmail: 1697441379.315624 status: local 3/10 remote 0/20
+Oct 16 14:29:39 localhost qmail: 1697441379.315826 new msg 1710521
+Oct 16 14:29:39 localhost qmail: 1697441379.315851 info msg 1710521: bytes 45785 from <vn.export@pglox.com> qp 1504 uid 502
+Oct 16 14:29:39 localhost qmail: 1697441379.382481 starting delivery 37183: msg 1710533 to local khoi.nguyen@sjtechvn.com
+Oct 16 14:29:39 localhost qmail: 1697441379.382504 status: local 4/10 remote 0/20
+Oct 16 14:29:39 localhost qmail: 1697441379.382583 starting delivery 37184: msg 1710521 to local yen.la@sjtechvn.com
+/
+...skipping
+Oct 16 14:29:55 localhost qmail: 1697441395.847300 new msg 1710499
+Oct 16 14:29:55 localhost qmail: 1697441395.847338 info msg 1710499: bytes 1382 from <admin@sjtech87.co.kr> qp 1566 uid 500
+Oct 16 14:29:55 localhost qmail: 1697441395.981795 starting delivery 37186: msg 1710499 to remote alsrb2688@naver.com
+Oct 16 14:29:55 localhost qmail: 1697441395.981839 status: local 0/10 remote 1/20
+Oct 16 14:29:55 localhost qmail: 1697441395.981931 new msg 1710532
+Oct 16 14:29:55 localhost qmail: 1697441395.981971 info msg 1710532: bytes 1382 from <admin@sjtech87.co.kr> qp 1567 uid 500
+Oct 16 14:29:56 localhost qmail: 1697441396.075176 starting delivery 37187: msg 1710532 to remote qsczeadwx1@gmail.com
+Oct 16 14:29:56 localhost qmail: 1697441396.075219 status: local 0/10 remote 2/20
+Oct 16 14:29:56 localhost qmail: 1697441396.075283 new msg 1710539
+Oct 16 14:29:56 localhost qmail: 1697441396.075318 info msg 1710539: bytes 1382 from <admin@sjtech87.co.kr> qp 1569 uid 500
+Oct 16 14:29:56 localhost qmail: 1697441396.184964 starting delivery 37188: msg 1710539 to remote mkkim@dbvalley.com
+Oct 16 14:29:56 localhost qmail: 1697441396.185009 status: local 0/10 remote 3/20
+Oct 16 14:29:56 localhost qmail: 1697441396.455566 delivery 37186: deferral: Connected_to_125.209.238.137_but_greeting_failed./Remote_host_said:_421_4.3.2_Your_ip_blocked_from_this_server_VrA02sZiT4CBxdJXfZH2nQ_-_nsmtp/
+Oct 16 14:29:56 localhost qmail: 1697441396.455607 status: local 0/10 remote 2/20
+Oct 16 14:29:56 localhost qmail: 1697441396.839633 delivery 37188: failure: 222.96.148.100_does_not_like_recipient./Remote_host_said:_553_https://www.spamhaus.org/query/ip/125.212.129.86/Giving_up_on_222.96.148.100./
+Oct 16 14:29:56 localhost qmail: 1697441396.839809 status: local 0/10 remote 1/20
+Oct 16 14:29:57 localhost qmail: 1697441397.408815 bounce msg 1710539 qp 1572
+Oct 16 14:29:57 localhost qmail: 1697441397.409172 end msg 1710539
+Oct 16 14:29:57 localhost qmail: 1697441397.409425 new msg 1710542
+Oct 16 14:29:57 localhost qmail: 1697441397.409447 info msg 1710542: bytes 2012 from <> qp 1572 uid 508
+Oct 16 14:29:57 localhost qmail: 1697441397.844351 starting delivery 37189: msg 1710542 to remote admin@sjtech87.co.kr
+Oct 16 14:29:57 localhost qmail: 1697441397.844381 status: local 0/10 remote 2/20
+Oct 16 14:29:58 localhost qmail: 1697441398.793170 delivery 37189: success: 125.137.106.4_accepted_message./Remote_host_said:_250_[Sniper]_OK_1697441496_snipe-queue_21510/
+Oct 16 14:29:58 localhost qmail: 1697441398.793295 status: local 0/10 remote 1/20
+Oct 16 14:29:58 localhost qmail: 1697441398.793346 end msg 1710542
+Oct 16 14:29:59 localhost qmail: 1697441399.215903 delivery 37187: failure: 142.251.8.27_failed_after_I_sent_the_message./Remote_host_said:_550-5.7.1_[125.212.129.86]_The_IP_you're_using_to_send_mail_is_not_authorized_to/550-5.7.1_send_e
+mail_directly_to_our_servers._Please_use_the_SMTP_relay_at_your/550-5.7.1_service_provider_instead._Learn_more_at/550_5.7.1__https://support.google.com/mail/?p=NotAuthorizedError_kg5-20020a170903060500b001c5bb1f0cccsi9411467plb.275_-_gsm
+tp/
+Oct 16 14:29:59 localhost qmail: 1697441399.216052 status: local 0/10 remote 0/20
+Oct 16 14:29:59 localhost qmail: 1697441399.319936 bounce msg 1710532 qp 1574
+Oct 16 14:29:59 localhost qmail: 1697441399.319971 end msg 1710532
+Oct 16 14:29:59 localhost qmail: 1697441399.320105 new msg 1710534
+Oct 16 14:29:59 localhost qmail: 1697441399.320129 info msg 1710534: bytes 2275 from <> qp 1574 uid 508
+Oct 16 14:29:59 localhost qmail: 1697441399.420706 starting delivery 37190: msg 1710534 to remote admin@sjtech87.co.kr
+Oct 16 14:29:59 localhost qmail: 1697441399.420745 status: local 0/10 remote 1/20
+Oct 16 14:30:00 localhost qmail: 1697441400.332937 delivery 37190: success: 125.137.106.4_accepted_message./Remote_host_said:_250_[Sniper]_OK_1697441497_snipe-queue_21520/
+Oct 16 14:30:00 localhost qmail: 1697441400.333044 status: local 0/10 remote 0/20
+Oct 16 14:30:00 localhost qmail: 1697441400.333082 end msg 1710534
+Oct 16 14:30:10 localhost pop3: 1697441410.489241 tcpserver: status: 1/255
+Oct 16 14:30:10 localhost pop3: 1697441410.489600 tcpserver: pid 1659 from 112.113.14.63
+Oct 16 14:30:10 localhost pop3: 1697441410.489642 tcpserver: ok 1659 0:172.15.1.30:110 :112.113.14.63::57549
+Oct 16 14:30:10 localhost pop3: 1697441410.954139 tcpserver: end 1659 status 256
+Oct 16 14:30:10 localhost pop3: 1697441410.954178 tcpserver: status: 0/255
+Oct 16 14:31:01 localhost qmail: 1697441461.677243 new msg 1710521
+Oct 16 14:31:01 localhost qmail: 1697441461.677285 info msg 1710521: bytes 564 from <root@sjtechvn.com> qp 1701 uid 500
+Oct 16 14:31:01 localhost qmail: 1697441461.759283 starting delivery 37191: msg 1710521 to local anymate@sjtechvn.com
+Oct 16 14:31:01 localhost qmail: 1697441461.759314 status: local 1/10 remote 0/20
+Oct 16 14:31:01 localhost qmail: 1697441461.762692 delivery 37191: success: did_0+0+0/
+Oct 16 14:31:01 localhost qmail: 1697441461.762785 status: local 0/10 remote 0/20
+Oct 16 14:31:01 localhost qmail: 1697441461.762830 end msg 1710521
+Oct 16 14:31:05 localhost qmail: 1697441465.294756 new msg 1710521
+Oct 16 14:31:05 localhost qmail: 1697441465.294788 info msg 1710521: bytes 575 from <root@sjtechvn.com> qp 1705 uid 500
+Oct 16 14:31:05 localhost qmail: 1697441465.528676 starting delivery 37192: msg 1710521 to local anymate@sjtechvn.com
+Oct 16 14:31:05 localhost qmail: 1697441465.528713 status: local 1/10 remote 0/20
+Oct 16 14:31:05 localhost qmail: 1697441465.532351 delivery 37192: success: did_0+0+0/
+Oct 16 14:31:05 localhost qmail: 1697441465.532482 status: local 0/10 remote 0/20
+Oct 16 14:31:05 localhost qmail: 1697441465.532613 end msg 1710521
+Oct 16 14:31:54 localhost qmail: 1697441514.384380 new msg 1710521
+Oct 16 14:31:54 localhost qmail: 1697441514.384435 info msg 1710521: bytes 826658 from <ksko@phoenixtech.co.kr> qp 1711 uid 502
+Oct 16 14:31:54 localhost qmail: 1697441514.447070 starting delivery 37193: msg 1710521 to local kien.than@sjtechvn.com
+Oct 16 14:31:54 localhost qmail: 1697441514.447106 status: local 1/10 remote 0/20
+/
+...skipping
+Oct 16 14:35:36 localhost pop3: 1697441736.904283 tcpserver: end 1978 status 256
+Oct 16 14:35:36 localhost pop3: 1697441736.904322 tcpserver: status: 0/255
+Oct 16 14:36:36 localhost qmail: 1697441796.455152 starting delivery 37206: msg 1710499 to remote alsrb2688@naver.com
+Oct 16 14:36:36 localhost qmail: 1697441796.455195 status: local 0/10 remote 1/20
+Oct 16 14:36:37 localhost qmail: 1697441797.143085 delivery 37206: deferral: Connected_to_125.209.222.14_but_greeting_failed./Remote_host_said:_421_4.3.2_Your_ip_blocked_from_this_server_i6znOwz4TMyFt6KcXXkq8Q_-_nsmtp/
+Oct 16 14:36:37 localhost qmail: 1697441797.143134 status: local 0/10 remote 0/20
+Oct 16 14:36:50 localhost qmail: 1697441810.034594 new msg 1710521
+Oct 16 14:36:50 localhost qmail: 1697441810.034639 info msg 1710521: bytes 2116 from <daesunlee@sjtech87.co.kr> qp 2037 uid 502
+Oct 16 14:36:50 localhost qmail: 1697441810.118448 starting delivery 37207: msg 1710521 to local phuong.bui@sjtechvn.com
+Oct 16 14:36:50 localhost qmail: 1697441810.118479 status: local 1/10 remote 0/20
+Oct 16 14:36:50 localhost qmail: 1697441810.469938 delivery 37207: success: PHP_Notice:__Undefined_property:_stdClass::$message_id_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_1030//Notice:_Undefined_prope
+rty:_stdClass::$message_id_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_1030/[2023/10/16_14:36:50]_catched_smart_rule_101/[2023/10/16_14:36:50]_catch_or_not_?:_Y/did_1+0+1/
+Oct 16 14:36:50 localhost qmail: 1697441810.470050 status: local 0/10 remote 0/20
+Oct 16 14:36:50 localhost qmail: 1697441810.470093 end msg 1710521
+Oct 16 14:37:01 localhost qmail: 1697441821.555612 new msg 1710521
+Oct 16 14:37:01 localhost qmail: 1697441821.555670 info msg 1710521: bytes 564 from <root@sjtechvn.com> qp 2083 uid 500
+Oct 16 14:37:01 localhost qmail: 1697441821.672945 starting delivery 37208: msg 1710521 to local anymate@sjtechvn.com
+Oct 16 14:37:01 localhost qmail: 1697441821.672979 status: local 1/10 remote 0/20
+Oct 16 14:37:01 localhost qmail: 1697441821.676601 delivery 37208: success: did_0+0+0/
+Oct 16 14:37:01 localhost qmail: 1697441821.676722 status: local 0/10 remote 0/20
+Oct 16 14:37:01 localhost qmail: 1697441821.676760 end msg 1710521
+Oct 16 14:37:05 localhost qmail: 1697441825.073004 new msg 1710532
+Oct 16 14:37:05 localhost qmail: 1697441825.073047 info msg 1710532: bytes 575 from <root@sjtechvn.com> qp 2087 uid 500
+Oct 16 14:37:05 localhost qmail: 1697441825.165293 starting delivery 37209: msg 1710532 to local anymate@sjtechvn.com
+Oct 16 14:37:05 localhost qmail: 1697441825.165329 status: local 1/10 remote 0/20
+Oct 16 14:37:05 localhost qmail: 1697441825.168812 delivery 37209: success: did_0+0+0/
+Oct 16 14:37:05 localhost qmail: 1697441825.168926 status: local 0/10 remote 0/20
+Oct 16 14:37:05 localhost qmail: 1697441825.168969 end msg 1710532
+Oct 16 14:37:09 localhost qmail: 1697441829.156905 new msg 1710521
+Oct 16 14:37:09 localhost qmail: 1697441829.156966 info msg 1710521: bytes 7397222 from <hongjuan.yao@valeo.com> qp 2086 uid 502
+Oct 16 14:37:09 localhost qmail: 1697441829.265961 starting delivery 37210: msg 1710521 to local tuan.phan@sjtechvn.com
+Oct 16 14:37:09 localhost qmail: 1697441829.265985 status: local 1/10 remote 0/20
+Oct 16 14:37:10 localhost qmail: 1697441830.133309 delivery 37210: success: PHP_Notice:__Undefined_offset:_2_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/home/anymate/g
+wsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/gwsjtechvn
+com/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/10/16_14:37:10]_catch_or_not_?:_N/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_inde
+x:_HTTP_HOST_in_/home/anymate/gwsjtechvncom/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 16 14:37:10 localhost qmail: 1697441830.133420 status: local 0/10 remote 0/20
+Oct 16 14:37:10 localhost qmail: 1697441830.133466 end msg 1710521
+Oct 16 14:38:12 localhost pop3: 1697441892.337502 tcpserver: status: 1/255
+Oct 16 14:38:12 localhost pop3: 1697441892.337859 tcpserver: pid 2146 from 112.113.14.242
+Oct 16 14:38:12 localhost pop3: 1697441892.337901 tcpserver: ok 2146 0:172.15.1.30:110 :112.113.14.242::60385
+Oct 16 14:38:12 localhost pop3: 1697441892.425865 tcpserver: end 2146 status 256
+Oct 16 14:38:12 localhost pop3: 1697441892.425895 tcpserver: status: 0/255
+Oct 16 14:39:01 localhost qmail: 1697441941.808380 new msg 1710521
+Oct 16 14:39:01 localhost qmail: 1697441941.808422 info msg 1710521: bytes 564 from <root@sjtechvn.com> qp 2187 uid 500
+Oct 16 14:39:02 localhost qmail: 1697441942.000742 starting delivery 37211: msg 1710521 to local anymate@sjtechvn.com
+Oct 16 14:39:02 localhost qmail: 1697441942.000782 status: local 1/10 remote 0/20
+Oct 16 14:39:02 localhost qmail: 1697441942.004144 delivery 37211: success: did_0+0+0/
+Oct 16 14:39:02 localhost qmail: 1697441942.004226 status: local 0/10 remote 0/20
+Oct 16 14:39:02 localhost qmail: 1697441942.004306 end msg 1710521
+Oct 16 14:39:04 localhost qmail: 1697441944.329231 new msg 1710521
+Oct 16 14:39:04 localhost qmail: 1697441944.329285 info msg 1710521: bytes 575 from <root@sjtechvn.com> qp 2192 uid 500
+Oct 16 14:39:04 localhost qmail: 1697441944.401858 starting delivery 37212: msg 1710521 to local anymate@sjtechvn.com
+Oct 16 14:39:04 localhost qmail: 1697441944.401894 status: local 1/10 remote 0/20
+Oct 16 14:39:04 localhost qmail: 1697441944.405142 delivery 37212: success: did_0+0+0/
+Oct 16 14:39:04 localhost qmail: 1697441944.405244 status: local 0/10 remote 0/20
+Oct 16 14:39:04 localhost qmail: 1697441944.405284 end msg 1710521
+Oct 16 14:39:53 localhost qmail: 1697441993.454654 starting delivery 37213: msg 1710440 to remote choijh1117@naver.com
+Oct 16 14:39:53 localhost qmail: 1697441993.454700 status: local 0/10 remote 1/20
+Oct 16 14:39:53 localhost qmail: 1697441993.964135 delivery 37213: deferral: Connected_to_125.209.238.100_but_greeting_failed./Remote_host_said:_421_4.3.2_Your_ip_blocked_from_this_server_xZzW0W+BQSWDBVugRycOWA_-_nsmtp/
+Oct 16 14:39:53 localhost qmail: 1697441993.964178 status: local 0/10 remote 0/20
+/
+...skipping
+Oct 16 14:43:27 localhost qmail: 1697442207.327372 new msg 1710521
+Oct 16 14:43:27 localhost qmail: 1697442207.327431 info msg 1710521: bytes 1799 from <admin@sjtech87.co.kr> qp 2445 uid 500
+Oct 16 14:43:27 localhost qmail: 1697442207.432450 starting delivery 37220: msg 1710521 to remote alsrb2688@naver.com
+Oct 16 14:43:27 localhost qmail: 1697442207.432473 status: local 0/10 remote 1/20
+Oct 16 14:43:27 localhost qmail: 1697442207.432549 new msg 1710539
+Oct 16 14:43:27 localhost qmail: 1697442207.432580 info msg 1710539: bytes 1799 from <admin@sjtech87.co.kr> qp 2446 uid 500
+Oct 16 14:43:27 localhost qmail: 1697442207.524644 starting delivery 37221: msg 1710539 to remote qsczeadwx1@gmail.com
+Oct 16 14:43:27 localhost qmail: 1697442207.524684 status: local 0/10 remote 2/20
+Oct 16 14:43:27 localhost qmail: 1697442207.524815 new msg 1710543
+Oct 16 14:43:27 localhost qmail: 1697442207.524862 info msg 1710543: bytes 1799 from <admin@sjtech87.co.kr> qp 2448 uid 500
+Oct 16 14:43:27 localhost qmail: 1697442207.597256 starting delivery 37222: msg 1710543 to remote mkkim@dbvalley.com
+Oct 16 14:43:27 localhost qmail: 1697442207.597295 status: local 0/10 remote 3/20
+Oct 16 14:43:27 localhost qmail: 1697442207.597418 new msg 1710546
+Oct 16 14:43:27 localhost qmail: 1697442207.597467 info msg 1710546: bytes 1799 from <admin@sjtech87.co.kr> qp 2450 uid 500
+Oct 16 14:43:27 localhost qmail: 1697442207.659941 starting delivery 37223: msg 1710546 to remote qsczeadwx12@daum.net
+Oct 16 14:43:27 localhost qmail: 1697442207.659979 status: local 0/10 remote 4/20
+Oct 16 14:43:28 localhost qmail: 1697442208.080335 delivery 37220: deferral: Connected_to_125.209.238.137_but_greeting_failed./Remote_host_said:_421_4.3.2_Your_ip_blocked_from_this_server_4b0covQ-RE+wZ+zdkrTE1Q_-_nsmtp/
+Oct 16 14:43:28 localhost qmail: 1697442208.080378 status: local 0/10 remote 3/20
+Oct 16 14:43:28 localhost pop3: 1697442208.190688 tcpserver: status: 1/255
+Oct 16 14:43:28 localhost pop3: 1697442208.190998 tcpserver: pid 2453 from 172.16.1.1
+Oct 16 14:43:28 localhost pop3: 1697442208.191026 tcpserver: ok 2453 0:172.15.1.30:110 :172.16.1.1::52157
+Oct 16 14:43:29 localhost pop3: 1697442209.154876 tcpserver: end 2453 status 256
+Oct 16 14:43:29 localhost pop3: 1697442209.154914 tcpserver: status: 0/255
+Oct 16 14:43:29 localhost qmail: 1697442209.162740 delivery 37222: success: 222.96.148.100_accepted_message./Remote_host_said:_250_ok_1697442305_qp_33995/
+Oct 16 14:43:29 localhost qmail: 1697442209.162861 status: local 0/10 remote 2/20
+Oct 16 14:43:29 localhost qmail: 1697442209.162893 end msg 1710543
+Oct 16 14:43:30 localhost qmail: 1697442210.479587 delivery 37221: failure: 142.251.8.26_failed_after_I_sent_the_message./Remote_host_said:_550-5.7.1_[125.212.129.86]_The_IP_you're_using_to_send_mail_is_not_authorized_to/550-5.7.1_send_e
+mail_directly_to_our_servers._Please_use_the_SMTP_relay_at_your/550-5.7.1_service_provider_instead._Learn_more_at/550_5.7.1__https://support.google.com/mail/?p=NotAuthorizedError_x18-20020a17090300d200b001c60d334996si2916186plc.622_-_gsm
+tp/
+Oct 16 14:43:30 localhost qmail: 1697442210.479772 status: local 0/10 remote 1/20
+Oct 16 14:43:30 localhost qmail: 1697442210.593881 bounce msg 1710539 qp 2456
+Oct 16 14:43:30 localhost qmail: 1697442210.593921 end msg 1710539
+Oct 16 14:43:30 localhost qmail: 1697442210.594167 new msg 1710542
+Oct 16 14:43:30 localhost qmail: 1697442210.594197 info msg 1710542: bytes 2692 from <> qp 2456 uid 508
+Oct 16 14:43:30 localhost qmail: 1697442210.688033 starting delivery 37224: msg 1710542 to remote admin@sjtech87.co.kr
+Oct 16 14:43:30 localhost qmail: 1697442210.688070 status: local 0/10 remote 2/20
+Oct 16 14:43:31 localhost qmail: 1697442211.205778 delivery 37223: failure: 211.249.219.43_failed_after_I_sent_the_message./Remote_host_said:_554_5.7.1_DAS41_125.212.129.86:_Your_mail_is_blocked_automatically_by_anti-spam_system._(E04)/
+Oct 16 14:43:31 localhost qmail: 1697442211.205961 status: local 0/10 remote 1/20
+Oct 16 14:43:31 localhost qmail: 1697442211.305402 bounce msg 1710546 qp 2458
+Oct 16 14:43:31 localhost qmail: 1697442211.305460 end msg 1710546
+Oct 16 14:43:31 localhost qmail: 1697442211.305629 new msg 1710543
+Oct 16 14:43:31 localhost qmail: 1697442211.305666 info msg 1710543: bytes 2451 from <> qp 2458 uid 508
+Oct 16 14:43:31 localhost qmail: 1697442211.387107 starting delivery 37225: msg 1710543 to remote admin@sjtech87.co.kr
+Oct 16 14:43:31 localhost qmail: 1697442211.387128 status: local 0/10 remote 2/20
+Oct 16 14:43:31 localhost qmail: 1697442211.594938 delivery 37224: success: 125.137.106.4_accepted_message./Remote_host_said:_250_[Sniper]_OK_1697442308_snipe-queue_24577/
+Oct 16 14:43:31 localhost qmail: 1697442211.595134 status: local 0/10 remote 1/20
+Oct 16 14:43:31 localhost qmail: 1697442211.595162 end msg 1710542
+Oct 16 14:43:32 localhost qmail: 1697442212.293167 delivery 37225: success: 125.137.106.4_accepted_message./Remote_host_said:_250_[Sniper]_OK_1697442309_snipe-queue_24587/
+Oct 16 14:43:32 localhost qmail: 1697442212.293281 status: local 0/10 remote 0/20
+Oct 16 14:43:32 localhost qmail: 1697442212.293320 end msg 1710543
+Oct 16 14:43:51 localhost qmail: 1697442231.306805 starting delivery 37226: msg 1710537 to remote van.manh1@samsung.com
+Oct 16 14:43:51 localhost qmail: 1697442231.306845 status: local 0/10 remote 1/20
+Oct 16 14:43:52 localhost qmail: 1697442232.765418 delivery 37226: deferral: Connected_to_203.254.224.12_but_greeting_failed./Remote_host_said:_554_5.7.1_Rejected_because_Bad_IP/
+Oct 16 14:43:52 localhost qmail: 1697442232.765472 status: local 0/10 remote 0/20

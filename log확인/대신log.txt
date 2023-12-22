@@ -1,0 +1,251 @@
+Sep 25 15:10:35 localhost qmail: 1695622235.299334 new msg 131471
+Sep 25 15:10:35 localhost qmail: 1695622235.299375 info msg 131471: bytes 82102 from <poclick0429@dsnw.net> qp 85114 uid 500
+Sep 25 15:10:35 localhost qmail: 1695622235.300000 starting delivery 3279865: msg 131471 to remote attach@cisco.com
+Sep 25 15:10:35 localhost qmail: 1695622235.300032 status: local 1/10 remote 2/20
+Sep 25 15:10:35 localhost qmail: 1695622235.340246 new msg 131474
+Sep 25 15:10:35 localhost qmail: 1695622235.340273 info msg 131474: bytes 82102 from <poclick0429@dsnw.net> qp 85116 uid 500
+Sep 25 15:10:35 localhost qmail: 1695622235.341179 starting delivery 3279866: msg 131474 to local chosim1@dsnw.net
+Sep 25 15:10:35 localhost qmail: 1695622235.341209 status: local 2/10 remote 2/20
+Sep 25 15:10:35 localhost qmail: 1695622235.374425 new msg 131477
+Sep 25 15:10:35 localhost qmail: 1695622235.374471 info msg 131477: bytes 82102 from <poclick0429@dsnw.net> qp 85120 uid 500
+Sep 25 15:10:35 localhost qmail: 1695622235.375315 starting delivery 3279867: msg 131477 to remote joechoi@cisco.com
+Sep 25 15:10:35 localhost qmail: 1695622235.375348 status: local 2/10 remote 3/20
+Sep 25 15:10:35 localhost qmail: 1695622235.413301 new msg 131480
+Sep 25 15:10:35 localhost qmail: 1695622235.413373 info msg 131480: bytes 82102 from <poclick0429@dsnw.net> qp 85124 uid 500
+Sep 25 15:10:35 localhost qmail: 1695622235.414260 starting delivery 3279868: msg 131480 to remote ganlee@cisco.com
+Sep 25 15:10:35 localhost qmail: 1695622235.414280 status: local 2/10 remote 4/20
+Sep 25 15:10:35 localhost qmail: 1695622235.458360 new msg 131483
+
+Sep 25 15:10:35 localhost qmail: 1695622235.887468 delivery 3279865: success: 173.37.147.230_accepted_message./Remote_host_said:_250_[Sniper]_OK_1695622234_snipe-queue_1379/
+Sep 25 15:10:35 localhost qmail: 1695622235.887548 status: local 1/10 remote 1/20
+Sep 25 15:10:35 localhost qmail: 1695622235.887587 end msg 131471
+Sep 25 15:10:35 localhost qmail: 1695622235.594450 delivery 3279866: success: [2023/09/25_15:10:35]_found_in_white_list/[2023/09/25_15:10:35]_pass_rules/[2023/09/25_15:10:35]_pass_rules/[2023/09/25_15:10:35]_catch_or_not_?:_Y/PHP_Notice:
+__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Sep 25 15:10:35 localhost qmail: 1695622235.594504 status: local 3/10 remote 3/20
+Sep 25 15:10:35 localhost qmail: 1695622235.594525 end msg 131474
+Sep 25 15:10:35 localhost qmail: 1695622235.573102 delivery 3279867: success: 173.37.147.230_accepted_message./Remote_host_said:_250_[Sniper]_OK_1695622233_snipe-queue_1363/
+Sep 25 15:10:35 localhost qmail: 1695622235.573262 status: local 4/10 remote 3/20
+Sep 25 15:10:35 localhost qmail: 1695622235.573330 end msg 131477
+Sep 25 15:10:36 localhost qmail: 1695622236.038197 delivery 3279868: success: 173.37.147.230_accepted_message./Remote_host_said:_250_[Sniper]_OK_1695622234_snipe-queue_1387/
+Sep 25 15:10:36 localhost qmail: 1695622236.038324 status: local 0/10 remote 0/20
+Sep 25 15:10:36 localhost qmail: 1695622236.038375 end msg 131480
+
+
+
+
+Sep 25 15:30:08 localhost qmail: 1695623408.915303 new msg 131090
+Sep 25 15:30:08 localhost qmail: 1695623408.915363 info msg 131090: bytes 357663 from <poclick0429@dsnw.net> qp 95041 uid 500
+Sep 25 15:30:08 localhost qmail: 1695623408.916061 starting delivery 3280099: msg 131090 to remote ganlee@cisco.com
+Sep 25 15:30:08 localhost qmail: 1695623408.916078 status: local 0/10 remote 1/20
+Sep 25 15:30:08 localhost qmail: 1695623408.955566 new msg 131444
+Sep 25 15:30:08 localhost qmail: 1695623408.955612 info msg 131444: bytes 357663 from <poclick0429@dsnw.net> qp 95043 uid 500
+Sep 25 15:30:08 localhost qmail: 1695623408.956587 starting delivery 3280100: msg 131444 to remote attach@cisco.com
+Sep 25 15:30:08 localhost qmail: 1695623408.956622 status: local 0/10 remote 2/20
+Sep 25 15:30:08 localhost qmail: 1695623408.996527 new msg 131471
+Sep 25 15:30:08 localhost qmail: 1695623408.996575 info msg 131471: bytes 357663 from <poclick0429@dsnw.net> qp 95045 uid 500
+Sep 25 15:30:08 localhost qmail: 1695623408.997576 starting delivery 3280101: msg 131471 to local chosim1@dsnw.net
+Sep 25 15:30:08 localhost qmail: 1695623408.997601 status: local 1/10 remote 2/20
+Sep 25 15:30:09 localhost qmail: 1695623409.035037 new msg 131474
+Sep 25 15:30:09 localhost qmail: 1695623409.035080 info msg 131474: bytes 357663 from <poclick0429@dsnw.net> qp 95049 uid 500
+Sep 25 15:30:09 localhost qmail: 1695623409.035851 starting delivery 3280102: msg 131474 to remote joechoi@cisco.com
+Sep 25 15:30:09 localhost qmail: 1695623409.035882 status: local 1/10 remote 3/20
+
+Sep 25 15:30:09 localhost qmail: 1695623409.531581 delivery 3280099: success: 173.37.147.230_accepted_message./Remote_host_said:_250_[Sniper]_OK_1695623407_snipe-queue_9310/
+Sep 25 15:30:09 localhost qmail: 1695623409.531717 status: local 0/10 remote 1/20
+Sep 25 15:30:09 localhost qmail: 1695623409.531778 end msg 131090
+Sep 25 15:30:09 localhost qmail: 1695623409.560276 delivery 3280100: success: 173.37.147.230_accepted_message./Remote_host_said:_250_[Sniper]_OK_1695623407_snipe-queue_9317/
+Sep 25 15:30:09 localhost qmail: 1695623409.560410 status: local 0/10 remote 0/20
+Sep 25 15:30:09 localhost qmail: 1695623409.560469 end msg 131444
+Sep 25 15:30:09 localhost qmail: 1695623409.251349 delivery 3280101: success: [2023/09/25_15:30:09]_found_in_white_list/[2023/09/25_15:30:09]_pass_rules/[2023/09/25_15:30:09]_pass_rules/[2023/09/25_15:30:09]_catch_or_not_?:_Y/PHP_Notice:
+__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Sep 25 15:30:09 localhost qmail: 1695623409.251504 status: local 0/10 remote 3/20
+Sep 25 15:30:09 localhost qmail: 1695623409.251566 end msg 131471
+Sep 25 15:30:09 localhost qmail: 1695623409.467480 delivery 3280102: success: 173.37.147.230_accepted_message./Remote_host_said:_250_[Sniper]_OK_1695623407_snipe-queue_9303/
+Sep 25 15:30:09 localhost qmail: 1695623409.467636 status: local 0/10 remote 2/20
+Sep 25 15:30:09 localhost qmail: 1695623409.467664 end msg 131474
+
+
+
+
+Oct  4 10:12:20 localhost qmail: 1696381940.936846 info msg 131090: bytes 132852 from <poclick0429@dsnw.net> qp 452420 uid 500
+Oct  4 10:12:20 localhost qmail: 1696381940.937433 starting delivery 3311150: msg 131090 to remote ganlee@cisco.com
+Oct  4 10:12:20 localhost qmail: 1696381940.937448 status: local 0/10 remote 1/20
+Oct  4 10:12:20 localhost qmail: 1696381940.968039 new msg 131115
+Oct  4 10:12:20 localhost qmail: 1696381940.968092 info msg 131115: bytes 132852 from <poclick0429@dsnw.net> qp 452422 uid 500
+Oct  4 10:12:20 localhost qmail: 1696381940.968733 starting delivery 3311151: msg 131115 to remote attach@cisco.com
+Oct  4 10:12:20 localhost qmail: 1696381940.968743 status: local 0/10 remote 2/20
+Oct  4 10:12:21 localhost qmail: 1696381941.001223 new msg 131464
+Oct  4 10:12:21 localhost qmail: 1696381941.001297 info msg 131464: bytes 132852 from <poclick0429@dsnw.net> qp 452424 uid 500
+Oct  4 10:12:21 localhost qmail: 1696381941.002316 starting delivery 3311152: msg 131464 to local chosim1@dsnw.net
+Oct  4 10:12:21 localhost qmail: 1696381941.002349 status: local 1/10 remote 2/20
+Oct  4 10:12:21 localhost qmail: 1696381941.038000 new msg 131471
+Oct  4 10:12:21 localhost qmail: 1696381941.038045 info msg 131471: bytes 132852 from <poclick0429@dsnw.net> qp 452428 uid 500
+Oct  4 10:12:21 localhost qmail: 1696381941.038601 starting delivery 3311153: msg 131471 to remote joechoi@cisco.com
+Oct  4 10:12:21 localhost qmail: 1696381941.038641 status: local 1/10 remote 3/20
+
+Oct  4 10:12:21 localhost qmail: 1696381941.547017 delivery 3311150: success: 173.37.147.230_accepted_message./Remote_host_said:_250_[Sniper]_OK_1696381941_snipe-queue_4457/
+Oct  4 10:12:21 localhost qmail: 1696381941.547149 status: local 0/10 remote 2/20
+Oct  4 10:12:21 localhost qmail: 1696381941.547202 end msg 131090
+Oct  4 10:12:21 localhost qmail: 1696381941.747575 delivery 3311151: success: 173.37.147.230_accepted_message./Remote_host_said:_250_[Sniper]_OK_1696381941_snipe-queue_4475/
+Oct  4 10:12:21 localhost qmail: 1696381941.747701 status: local 0/10 remote 0/20
+Oct  4 10:12:21 localhost qmail: 1696381941.747754 end msg 131115
+Oct  4 10:12:21 localhost qmail: 1696381941.262800 delivery 3311152: success: [2023/10/04_10:12:21]_found_in_white_list/[2023/10/04_10:12:21]_pass_rules/[2023/10/04_10:12:21]_pass_rules/[2023/10/04_10:12:21]_catch_or_not_?:_Y/PHP_Notice:
+__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct  4 10:12:21 localhost qmail: 1696381941.262867 status: local 0/10 remote 3/20
+Oct  4 10:12:21 localhost qmail: 1696381941.262887 end msg 131464
+Oct  4 10:12:21 localhost qmail: 1696381941.623743 delivery 3311153: success: 173.37.147.230_accepted_message./Remote_host_said:_250_[Sniper]_OK_1696381941_snipe-queue_4465/
+Oct  4 10:12:21 localhost qmail: 1696381941.623876 status: local 0/10 remote 1/20
+Oct  4 10:12:21 localhost qmail: 1696381941.623925 end msg 131471
+
+
+
+Oct 13 08:46:49 localhost qmail: 1697154409.237813 new msg 131115
+Oct 13 08:46:49 localhost qmail: 1697154409.237833 info msg 131115: bytes 671122 from <poclick0429@dsnw.net> qp 88338 uid 500
+Oct 13 08:46:49 localhost qmail: 1697154409.238242 starting delivery 3358103: msg 131115 to remote attach@cisco.com
+Oct 13 08:46:49 localhost qmail: 1697154409.238253 status: local 0/10 remote 2/20
+Oct 13 08:46:49 localhost qmail: 1697154409.279015 new msg 131464
+Oct 13 08:46:49 localhost qmail: 1697154409.279079 info msg 131464: bytes 671122 from <poclick0429@dsnw.net> qp 88340 uid 500
+Oct 13 08:46:49 localhost qmail: 1697154409.279839 starting delivery 3358104: msg 131464 to local chosim1@dsnw.net
+Oct 13 08:46:49 localhost qmail: 1697154409.279869 status: local 1/10 remote 2/20
+Oct 13 08:46:49 localhost qmail: 1697154409.318898 new msg 131471
+Oct 13 08:46:49 localhost qmail: 1697154409.318954 info msg 131471: bytes 671122 from <poclick0429@dsnw.net> qp 88343 uid 500
+Oct 13 08:46:49 localhost qmail: 1697154409.319685 starting delivery 3358105: msg 131471 to remote joechoi@cisco.com
+Oct 13 08:46:49 localhost qmail: 1697154409.319714 status: local 1/10 remote 3/20
+Oct 13 08:46:49 localhost qmail: 1697154409.355085 new msg 131474
+Oct 13 08:46:49 localhost qmail: 1697154409.355140 info msg 131474: bytes 671122 from <poclick0429@dsnw.net> qp 88346 uid 500
+Oct 13 08:46:49 localhost qmail: 1697154409.355852 starting delivery 3358106: msg 131474 to remote ganlee@cisco.com
+Oct 13 08:46:49 localhost qmail: 1697154409.355881 status: local 1/10 remote 4/20
+
+Oct 13 08:47:45 localhost qmail: 1697154465.297892 delivery 3358103: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 13 08:47:45 localhost qmail: 1697154465.297935 status: local 0/10 remote 2/20
+Oct 13 08:46:49 localhost qmail: 1697154409.576798 delivery 3358104: success: [2023/10/13_08:46:49]_found_in_white_list/[2023/10/13_08:46:49]_pass_rules/[2023/10/13_08:46:49]_pass_rules/[2023/10/13_08:46:49]_catch_or_not_?:_Y/PHP_Notice:
+__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 13 08:46:49 localhost qmail: 1697154409.576948 status: local 0/10 remote 4/20
+Oct 13 08:46:49 localhost qmail: 1697154409.577002 end msg 131464
+Oct 13 08:47:45 localhost qmail: 1697154465.379883 delivery 3358105: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 13 08:47:45 localhost qmail: 1697154465.379909 status: local 0/10 remote 1/20
+Oct 13 08:47:45 localhost qmail: 1697154465.414823 delivery 3358106: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 13 08:47:45 localhost qmail: 1697154465.414859 status: local 0/10 remote 0/20
+
+
+
+
+
+
+Oct 20 13:26:29 localhost qmail: 1697775989.336762 info msg 131115: bytes 675100 from <poclick0429@dsnw.net> qp 215242 uid 500
+Oct 20 13:26:29 localhost qmail: 1697775989.337770 starting delivery 3397331: msg 131115 to remote attach@cisco.com
+Oct 20 13:26:29 localhost qmail: 1697775989.337796 status: local 0/10 remote 2/20
+Oct 20 13:26:29 localhost qmail: 1697775989.377746 new msg 131466
+Oct 20 13:26:29 localhost qmail: 1697775989.377792 info msg 131466: bytes 675100 from <poclick0429@dsnw.net> qp 215244 uid 500
+Oct 20 13:26:29 localhost qmail: 1697775989.378705 starting delivery 3397332: msg 131466 to local chosim1@dsnw.net
+Oct 20 13:26:29 localhost qmail: 1697775989.378755 status: local 1/10 remote 2/20
+Oct 20 13:26:29 localhost qmail: 1697775989.419868 new msg 131474
+Oct 20 13:26:29 localhost qmail: 1697775989.419930 info msg 131474: bytes 675100 from <poclick0429@dsnw.net> qp 215248 uid 500
+Oct 20 13:26:29 localhost qmail: 1697775989.421040 starting delivery 3397333: msg 131474 to remote joechoi@cisco.com
+Oct 20 13:26:29 localhost qmail: 1697775989.421076 status: local 1/10 remote 3/20
+Oct 20 13:26:29 localhost qmail: 1697775989.462818 new msg 131478
+Oct 20 13:26:29 localhost qmail: 1697775989.462861 info msg 131478: bytes 675100 from <poclick0429@dsnw.net> qp 215252 uid 500
+Oct 20 13:26:29 localhost qmail: 1697775989.463941 starting delivery 3397334: msg 131478 to remote ganlee@cisco.com
+Oct 20 13:26:29 localhost qmail: 1697775989.463978 status: local 1/10 remote 4/20
+
+Oct 20 13:26:29 localhost qmail: 1697775989.707136 delivery 3397332: success: [2023/10/20_13:26:29]_found_in_white_list/[2023/10/20_13:26:29]_pass_rules/[2023/10/20_13:26:29]_pass_rules/[2023/10/20_13:26:29]_catch_or_not_?:_Y/PHP_Notice:
+__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 20 13:26:29 localhost qmail: 1697775989.707224 status: local 0/10 remote 4/20
+Oct 20 13:26:29 localhost qmail: 1697775989.707258 end msg 131466
+Oct 20 13:27:25 localhost qmail: 1697776045.398575 delivery 3397331: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 20 13:27:25 localhost qmail: 1697776045.398619 status: local 0/10 remote 2/20
+Oct 20 13:27:25 localhost qmail: 1697776045.482005 delivery 3397333: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 20 13:27:25 localhost qmail: 1697776045.482048 status: local 0/10 remote 1/20
+Oct 20 13:27:25 localhost qmail: 1697776045.524897 delivery 3397334: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 20 13:27:25 localhost qmail: 1697776045.524942 status: local 0/10 remote 0/20
+
+
+
+Oct 23 17:34:40 localhost qmail: 1698050080.720709 new msg 131466
+Oct 23 17:34:40 localhost qmail: 1698050080.720756 info msg 131466: bytes 679322 from <poclick0429@dsnw.net> qp 112365 uid 500
+Oct 23 17:34:40 localhost qmail: 1698050080.721392 starting delivery 3410200: msg 131466 to remote attach@cisco.com
+Oct 23 17:34:40 localhost qmail: 1698050080.721431 status: local 0/10 remote 2/20
+Oct 23 17:34:40 localhost qmail: 1698050080.760734 new msg 131475
+Oct 23 17:34:40 localhost qmail: 1698050080.760781 info msg 131475: bytes 679322 from <poclick0429@dsnw.net> qp 112367 uid 500
+Oct 23 17:34:40 localhost qmail: 1698050080.761527 starting delivery 3410201: msg 131475 to local chosim1@dsnw.net
+Oct 23 17:34:40 localhost qmail: 1698050080.761556 status: local 1/10 remote 2/20
+Oct 23 17:34:40 localhost qmail: 1698050080.800643 new msg 131481
+Oct 23 17:34:40 localhost qmail: 1698050080.800685 info msg 131481: bytes 679322 from <poclick0429@dsnw.net> qp 112371 uid 500
+Oct 23 17:34:40 localhost qmail: 1698050080.801363 starting delivery 3410202: msg 131481 to remote joechoi@cisco.com
+Oct 23 17:34:40 localhost qmail: 1698050080.801421 status: local 1/10 remote 3/20
+Oct 23 17:34:40 localhost qmail: 1698050080.840702 new msg 131486
+Oct 23 17:34:40 localhost qmail: 1698050080.840763 info msg 131486: bytes 679322 from <poclick0429@dsnw.net> qp 112375 uid 500
+Oct 23 17:34:40 localhost qmail: 1698050080.841538 starting delivery 3410203: msg 131486 to remote ganlee@cisco.com
+Oct 23 17:34:40 localhost qmail: 1698050080.841568 status: local 1/10 remote 4/20
+
+Oct 23 17:34:41 localhost qmail: 1698050081.073355 delivery 3410201: success: [2023/10/23_17:34:41]_found_in_white_list/[2023/10/23_17:34:41]_pass_rules/[2023/10/23_17:34:41]_pass_rules/[2023/10/23_17:34:41]_catch_or_not_?:_Y/PHP_Notice:
+__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 23 17:34:41 localhost qmail: 1698050081.073412 status: local 0/10 remote 4/20
+Oct 23 17:34:41 localhost qmail: 1698050081.073438 end msg 131475
+Oct 23 17:35:36 localhost qmail: 1698050136.783116 delivery 3410200: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 23 17:35:36 localhost qmail: 1698050136.783156 status: local 0/10 remote 2/20
+Oct 23 17:35:36 localhost qmail: 1698050136.862258 delivery 3410202: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 23 17:35:36 localhost qmail: 1698050136.862299 status: local 0/10 remote 1/20
+Oct 23 17:35:36 localhost qmail: 1698050136.902480 delivery 3410203: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 23 17:35:36 localhost qmail: 1698050136.902520 status: local 0/10 remote 0/20
+
+
+
+Oct 23 17:39:11 localhost qmail: 1698050351.468262 new msg 131492
+Oct 23 17:39:11 localhost qmail: 1698050351.468285 info msg 131492: bytes 714868 from <poclick0429@dsnw.net> qp 113354 uid 500
+Oct 23 17:39:11 localhost qmail: 1698050351.468767 starting delivery 3410241: msg 131492 to remote attach@cisco.com
+Oct 23 17:39:11 localhost qmail: 1698050351.468780 status: local 1/10 remote 2/20
+Oct 23 17:39:11 localhost qmail: 1698050351.510514 new msg 131495
+Oct 23 17:39:11 localhost qmail: 1698050351.510537 info msg 131495: bytes 714868 from <poclick0429@dsnw.net> qp 113356 uid 500
+Oct 23 17:39:11 localhost qmail: 1698050351.510980 starting delivery 3410242: msg 131495 to local chosim1@dsnw.net
+Oct 23 17:39:11 localhost qmail: 1698050351.511012 status: local 2/10 remote 2/20
+Oct 23 17:39:11 localhost qmail: 1698050351.547327 new msg 131498
+Oct 23 17:39:11 localhost qmail: 1698050351.547352 info msg 131498: bytes 714868 from <poclick0429@dsnw.net> qp 113360 uid 500
+Oct 23 17:39:11 localhost qmail: 1698050351.547851 starting delivery 3410243: msg 131498 to remote joechoi@cisco.com
+Oct 23 17:39:11 localhost qmail: 1698050351.547867 status: local 2/10 remote 3/20
+Oct 23 17:39:11 localhost qmail: 1698050351.584384 new msg 131501
+Oct 23 17:39:11 localhost qmail: 1698050351.584413 info msg 131501: bytes 714868 from <poclick0429@dsnw.net> qp 113364 uid 500
+Oct 23 17:39:11 localhost qmail: 1698050351.584843 starting delivery 3410244: msg 131501 to remote ganlee@cisco.com
+Oct 23 17:39:11 localhost qmail: 1698050351.584857 status: local 2/10 remote 4/20
+
+Oct 23 17:39:11 localhost qmail: 1698050351.815468 delivery 3410242: success: [2023/10/23_17:39:11]_found_in_white_list/[2023/10/23_17:39:11]_pass_rules/[2023/10/23_17:39:11]_pass_rules/[2023/10/23_17:39:11]_catch_or_not_?:_Y/PHP_Notice:
+__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 23 17:39:11 localhost qmail: 1698050351.815543 status: local 0/10 remote 4/20
+Oct 23 17:39:11 localhost qmail: 1698050351.815564 end msg 131495
+Oct 23 17:40:07 localhost qmail: 1698050407.530256 delivery 3410241: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 23 17:40:07 localhost qmail: 1698050407.530293 status: local 0/10 remote 2/20
+Oct 23 17:40:07 localhost qmail: 1698050407.606736 delivery 3410243: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 23 17:40:07 localhost qmail: 1698050407.606760 status: local 0/10 remote 1/20
+Oct 23 17:40:07 localhost qmail: 1698050407.639483 delivery 3410244: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 23 17:40:07 localhost qmail: 1698050407.639508 status: local 0/10 remote 0/20
+
+
+
+Oct 24 10:49:01 localhost qmail: 1698112141.910322 new msg 131483
+Oct 24 10:49:01 localhost qmail: 1698112141.910385 info msg 131483: bytes 203384 from <poclick0429@dsnw.net> qp 301858 uid 500
+Oct 24 10:49:01 localhost qmail: 1698112141.911276 starting delivery 3413964: msg 131483 to remote attach@cisco.com
+Oct 24 10:49:01 localhost qmail: 1698112141.911292 status: local 0/10 remote 2/20
+Oct 24 10:49:01 localhost qmail: 1698112141.938217 new msg 131499
+Oct 24 10:49:01 localhost qmail: 1698112141.938254 info msg 131499: bytes 203384 from <poclick0429@dsnw.net> qp 301860 uid 500
+Oct 24 10:49:01 localhost qmail: 1698112141.938932 starting delivery 3413965: msg 131499 to local chosim1@dsnw.net
+Oct 24 10:49:01 localhost qmail: 1698112141.938960 status: local 1/10 remote 2/20
+Oct 24 10:49:01 localhost qmail: 1698112141.967100 new msg 131507
+Oct 24 10:49:01 localhost qmail: 1698112141.967135 info msg 131507: bytes 203384 from <poclick0429@dsnw.net> qp 301863 uid 500
+Oct 24 10:49:01 localhost qmail: 1698112141.967768 starting delivery 3413966: msg 131507 to remote joechoi@cisco.com
+Oct 24 10:49:01 localhost qmail: 1698112141.967796 status: local 1/10 remote 3/20
+Oct 24 10:49:01 localhost qmail: 1698112141.999310 new msg 131510
+Oct 24 10:49:01 localhost qmail: 1698112141.999367 info msg 131510: bytes 203384 from <poclick0429@dsnw.net> qp 301868 uid 500
+Oct 24 10:49:02 localhost qmail: 1698112142.000249 starting delivery 3413967: msg 131510 to remote ganlee@cisco.com
+Oct 24 10:49:02 localhost qmail: 1698112142.000284 status: local 1/10 remote 4/20
+
+Oct 24 10:49:02 localhost qmail: 1698112142.234729 delivery 3413965: success: [2023/10/24_10:49:02]_found_in_white_list/[2023/10/24_10:49:02]_pass_rules/[2023/10/24_10:49:02]_pass_rules/[2023/10/24_10:49:02]_catch_or_not_?:_Y/PHP_Notice:
+__Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/data/ANYMATE/gwdsnwnet/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 24 10:49:02 localhost qmail: 1698112142.234778 status: local 0/10 remote 4/20
+Oct 24 10:49:02 localhost qmail: 1698112142.234799 end msg 131499
+Oct 24 10:49:57 localhost qmail: 1698112197.973251 delivery 3413964: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 24 10:49:57 localhost qmail: 1698112197.973296 status: local 0/10 remote 2/20
+Oct 24 10:49:58 localhost qmail: 1698112198.029057 delivery 3413966: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 24 10:49:58 localhost qmail: 1698112198.029096 status: local 0/10 remote 1/20
+Oct 24 10:49:58 localhost qmail: 1698112198.059568 delivery 3413967: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Oct 24 10:49:58 localhost qmail: 1698112198.059605 status: local 0/10 remote 0/20
+

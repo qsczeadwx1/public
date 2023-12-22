@@ -1,0 +1,59 @@
+ANYMATE_BASE_PATH => 그룹웨어명
+ANYMATE_MINI_PATH => 그룹웨어명/m
+M_CLASS => 그룹웨어명/APF/base
+ANYMATE_LIB => 그룹웨어명/APF/lib
+ANYMATE_FRAMEWORK_PATH 그룹웨어명/APF
+APF => 그룹웨어명/APF
+$ANYMATE_CLASS => 그룹웨어명/class
+
+class IO => ANYMATE_LIB/class.io.inc.php
+ANYMATE_BASE_PATH .  "/dcs/class/class.env.inc.php"
+
+기본적으로 그룹웨어 루트는
+/home/anymate/그룹웨어명
+에서시작
+나머지 디렉토리 위치 는 그룹웨어 url에서 예상이 가능함
+
+그룹웨어 뒤에 붙는
+예) gw.mkkim.com/board 면 
+
+/home/anymate/그룹웨어명/board 이라는 폴더가 있을거고, 거기에 class와 html 폴더가 있고 그안에 설정 및 뷰 파일들이 있음.
+근데 그룹웨어 설치했을 때 기본적으로 있는 것들은 class 폴더만 저기있고,
+html폴더는 따로
+/home/anymate/그룹웨어명/html/board 로 가야 있다.
+
+설치 이후에 따로 내가 직접 생성할경우에는
+/home/anymate/그룹웨어명/새로만들페이지명(예: test) 폴더안에 class 와 html폴더 둘다 넣는다.
+
+그렇게 기본적으로 구성을 하면
+그룹웨어에 gw.mkkim.com/test 를 치면 들어갈 수 있다.
+
+기본적인 페이지구조만 이해하고, 상세하게 구성시키는건 나중에...
+
+그리고 그룹웨어를 보다보면 
+gw.mkkim.com/board/?mode=write 이런식으로
+뒤에 mode가 붙어있는게 있는데,
+이러면 /home/anymate/그룹웨어명/board/html/write.html 에서 가져왔다는 뜻?임
+근데 board는 기본적으로 있는 거라 html파일은 /home/anymate/그룹웨어명/html/write.html 에 있다.
+mode뒤에 붙는거는 뷰로 보여질 html의 파일명이라 생각하면 됨
+
+그런데 url에 gw.mkkim.com/board 이렇게만 써져있는데, 화면이 나옴
+그거는 /home/anymate/그룹웨어명/board 에 index.html에 있는데
+거기보면 mode_default라고 board쪽으로 왔을때 기본적으로 mode를 설정해주는게 있음
+board같은 경우는 list 라서 gw.mkkim.com/board 이렇게 써져있지만,
+사실은 gw.mkkim.com/board/?mode=list 를 실행하는 거임
+
+그리고 보통 뷰로 보이는 html과 class파일명은 이름을 맞춤
+그런데 html명은 write.html인데,
+class파일명은 class.webBoardWrite.inc.php 이라고 써져있음.
+이것도 index.php에서 보면 기본으로 class파일명 앞에 webBoard가 붙는다고 적혀있을 거임
+
+이렇게 class파일이랑 html이랑 같이보다보면,
+class파일에 아무것도 없는거 같은데, 기능이랑 이것저것 잘나올때가 있음.
+그럴땐 보통 그파일에 require_once한거 보면
+/home/anymate/그룹웨어명/m/board 쪽에 똑같거나 비슷한 이름 파일명이 있음.
+
+/m 이라는건 모바일 생각해서 만들었다는 거고,
+우리 그룹웨어는 기본적으로 모바일까지 같이 생각해서 만들고,
+그다음에 웹환경에 맞춰서 만들어져서, 기본적으로 /m 쪽에서 모바일이랑 웹이랑 같이 쓸수있게 만들고,
+그다음에 웹만 사용하는 home/anymate/그룹웨어명/board 쪽에서 만든다.

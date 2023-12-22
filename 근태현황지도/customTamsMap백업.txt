@@ -1,0 +1,111 @@
+<?
+require_once M_CLASS."/class.ViewApp.inc.php";
+require_once ANYMATE_BASE_PATH."/tams/class/class.TamsEnv.inc.php";
+require_once ANYMATE_BASE_PATH."/tams/class/class.TamsManager.inc.php";
+require_once ANYMATE_CLASS."/class.Department.inc.php";
+/**
+ *  
+ * @package tams
+ * @ver 5.0
+ * @author nohmin@dbvalley.com) 
+*/
+
+class CustomTamsMap extends ViewApp
+{
+	protected $oEnv=null;
+
+	function __construct()
+	{
+		parent::__construct();
+		$this->cpn_code= $this->oUser->cpn_code;
+
+		$this->oDepartment = new Department($this->oUser->cpn_code);
+		$this->oTams = new TamsEnv($this->oUser->cpn_code);
+		$this->oTams->loadDB();
+		$this->db->debug=true;
+		
+	}
+
+	function __default()
+	{
+		if(!isset($this->acc_no)) $this->acc_no=$this->oUser->acc_no;
+		if(!isset($this->s_dept)) $this->s_dept='';
+		if(!isset($this->s_place)) $this->s_place='1';
+		if(!isset($this->work_dt)) $this->work_dt=date("Y-m-d");
+
+		$this->oUX->setPageTitle("근태현황_지도");
+		
+		$arr = $this->oDepartment->makeSelectArray('F');
+		
+		$this->oUX->addCalendar("work_dt",'',$this->work_dt, "","changeMonth:true, changeYear:true,");
+		$this->oUX->addSelectMenu('s_dept',$arr,$this->s_dept,"");
+		$this->oUX->addSelectMenu('s_place',array(""=>'-- 출근지 --') + $this->oTams->getTamsArea(),$this->s_place,"");
+		$this->oUX->setSelectMenu('근태조회',"myCheckSelection(document.list_form,'','');");
+		
+
+		$DATA['map_api_key'] = '';
+		if (isset($GLOBALS['GA_CONFIG']['CUSTOM']['API']['KAKAO']['MAP'])) $DATA['map_api_key'] = $GLOBALS['GA_CONFIG']['CUSTOM']['API']['KAKAO']['MAP'];
+		
+		$srt_gps = '';
+		$poi_gps = array();
+		$polyline = array();
+
+		// 근무지별 GPS 정보 가져오기
+		$placeGpsList =$this->getPlaceGps();
+
+		// 해당일자 근태기록 가져오기
+		$tamsList = $this->getCurrentDateTams($this->work_dt, $this->s_dept);
+
+		
+		$DATA['center_gps'] = $placeGpsList[0];
+		$DATA['tamsList'] = $tamsList;
+
+		return $DATA;
+
+	}
+
+	// 근무지별 GPS 정보 가져오기
+	// 파견지는 빼고 가져오려면
+	// where 절에  AND ar_type_cd = 1 추가, 대신 select메뉴에 파견지도 없애야함
+	function getPlaceGps()
+	{
+		$arr = array();
+		$sql = "SELECT * FROM ".  T_TAMS_AREA . " WHERE cpn_code = '" . $this->cpn_code. "' AND ar_active = 1 AND AR_NO = ".$this->s_place;
+		$this->db->que = $sql;
+		$this->db->query();
+		
+		while($row = $this->db->getRow())
+		{
+		     $arr[] = $row;
+		}
+		return $arr;
+		
+	}
+
+	// 근태정보 가져오기
+	// 근태방법(사무실 출근인지 직출인지 판정 )은 /tams/class/class.TimeBook.inc.php 파일의 378 라인부터 참고
+	function getCurrentDateTams($work_dt, $s_dept)
+	{
+		$arr = array();
+		$sql = "select u.name , m.* , (select count(*) from T_TAMS_OUTSIDE WHERE tams_idx = idx) outside_cnt 
+			from T_TAMS m , " . V_USER . " u WHERE m.acc_no = u.acc_no AND dt_work='" . $work_dt . "' AND m.cpn_code='" . $this->cpn_code. "' AND work_type_cd = 100 ";
+		if(!empty($s_dept)) {
+		$sql .= "AND u.dept_no = ". $s_dept;
+		}
+
+		$this->db->que = $sql;
+		$this->db->query();
+		
+		while($row = $this->db->getRow())
+		{
+			if (!empty($row['loc_s'])) {
+				$arr['jikchul'][] = $row;
+			} else {
+				$arr['office'][] = $row;
+			}
+		}
+		return $arr;
+		
+	}
+}
+?>

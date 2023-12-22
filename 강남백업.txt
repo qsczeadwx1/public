@@ -1,0 +1,102 @@
+{{sel_template:SRT}}T49{{sel_template:END}}
+{{doc_level:SRT}}1{{doc_level:END}}
+{{popup:SRT}}N{{popup:END}}
+{{ori_dcs_id:SRT}}{{ori_dcs_id:END}}
+{{ori_sel_year:SRT}}{{ori_sel_year:END}}
+{{line_id:SRT}}187009{{line_id:END}}
+{{dcs_temp_id:SRT}}816491{{dcs_temp_id:END}}
+{{ref:SRT}}{{ref:END}}
+{{r_dcs_id:SRT}}816491{{r_dcs_id:END}}
+{{r_sel_year:SRT}}2023{{r_sel_year:END}}
+{{reject_sel_year:SRT}}{{reject_sel_year:END}}
+{{reject_dcs_id:SRT}}{{reject_dcs_id:END}}
+{{anyedms_category_nm:SRT}}{{anyedms_category_nm:END}}
+{{head_docnum:SRT}}{{head_docnum:END}}
+{{foot_docnum:SRT}}<table border=0 width=100%><col width=\"33%\"></col><col width=\"33%\"></col><col width=\"33%\"></col>
+<tr><td colspan=\"3\"><hr style=\"border:1px \" width=\"100%\" size=\"4\" color=\"black\"> </td></tr>
+<tr>
+<td>KQ-W-05-001-F04</td><td align=center>강남제비스코</td><td align=\"right\">A<sub>4</sub> (Rev No : 0 )</td>
+</tr>
+</table>
+{{foot_docnum:END}}
+{{recv_id_sel:SRT}}U:1699:CA{{recv_id_sel:END}}
+{{recv_id:SRT}}U:1699:CA|U:1700:CA|U:1707:CA|U:1709:CA|U:3104:CA{{recv_id:END}}
+{{rundoc_id:SRT}}{{rundoc_id:END}}
+{{opinion_content:SRT}}{{opinion_content:END}}
+{{content:SRT}}<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif; text-align: center;\"><strong style=\"letter-spacing: -0.1em;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">\"도전.혁신.성공.\"</span></strong></p>
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\"><br></span></p>
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">환경관련 비용의 비중이 확대되어 사후원가계산 후 분석자료에 별도 표시가 필요하여 기존의 제&gt;잡비(환경유지비)로 관리되는 것을 별도의 항목을 부여하고자 아래와 같이&nbsp;계정코드를 신설하고자 품의하오니&nbsp;재가하여 주시기 바랍니다.</span></p>
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\"><br></span></p>
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif; text-align: center;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">- 아&nbsp; 래 -</span></p>
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\"><br></span></p>
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\'; font-weight: bold;\">1. 계정과목 신설</span></p>
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif;\"><span style=\"font-family: \'Malgun Gothic\'; font-size: 10pt;\">가. 신설 계정과목</span></p>
+<table border=\"1\" cellspacing=\"0\" cellpadding=\"0\" class=\"\" style=\"color: rgb(100, 100, 100); font-family: Tahoma, Gulim, Arial, Helvetica, sans-serif; font-size: 10pt; background-color: rgb(255, 255, 255); border: 0px solid rgb(0, 0, 0); width: 624.75px; height: 94px; border-collapse: collapse;\">
+<tbody>
+<tr>
+<td style=\"border: 1px solid rgb(0, 0, 0); width: 140px; height: 49px;\">
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif; text-align: center;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">계정과목</span></p></td>
+<td style=\"border: 1px solid rgb(0, 0, 0); width: 83px; height: 49px;\">
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif; text-align: center;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">계정코드</span></p></td>
+<td style=\"border: 1px solid rgb(0, 0, 0); width: 69px; height: 49px;\">
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif; text-align: center;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">거래처</span></p></td>
+<td style=\"border: 1px solid rgb(0, 0, 0); width: 146px; height: 49px;\">
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif; text-align: center;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">차변기재사항</span></p>
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif; text-align: center;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">대변기재사항</span></p></td>
+<td style=\"border: 1px solid rgb(0, 0, 0); width: 72px; height: 49px;\">
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif; text-align: center;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">보조부관리</span></p>
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif; text-align: center;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">잔액관리</span></p></td>
+<td style=\"border: 1px solid rgb(0, 0, 0); width: 57px; height: 49px;\">
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif; text-align: center;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">관리</span></p>
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif; text-align: center;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">유형</span></p></td>
+<td style=\"border: 1px solid rgb(0, 0, 0); width: 53px; height: 49px;\">
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif; text-align: center;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">전표</span></p>
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif; text-align: center;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">예산</span></p></td>
+</tr>
+<tr>
+<td style=\"border: 1px solid rgb(0, 0, 0); width: 140px; height: 44px;\">
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif; text-align: center;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">제조경비&gt;환경유지비</span></p></td>
+<td style=\"border: 1px solid rgb(0, 0, 0); width: 83px; height: 44px;\">
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif; text-align: center;\"><span style=\"font-size: 10pt; font-family: \'Malgun Gothic\';\">43004000</span></p></td>
+<td style=\"border: 1px solid rgb(0, 0, 0); width: 69px; height: 44px;\">
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif; text-align: center;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">-</span></p></td>
+<td style=\"border: 1px solid rgb(0, 0, 0); width: 146px; height: 44px;\">
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif; text-align: center;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">공장코드</span></p>
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif; text-align: center;\"><span style=\"font-size: 10pt; font-family: \'Malgun Gothic\';\">-</span></p></td>
+<td style=\"border: 1px solid rgb(0, 0, 0); width: 72px; height: 44px;\">
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif; text-align: center;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">항목</span></p>
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif; text-align: center;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">항목</span></p></td>
+<td style=\"border: 1px solid rgb(0, 0, 0); width: 57px; height: 44px;\">
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif; text-align: center;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">일반</span></p>
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif; text-align: center;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">계정</span></p></td>
+<td style=\"border: 1px solid rgb(0, 0, 0); width: 53px; height: 44px;\">
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif; text-align: center;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">Y</span></p>
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif; text-align: center;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">N</span></p></td>
+</tr>
+</tbody>
+</table>
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\"><br></span></p>
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">나. 사용하지 않을 계정과목 : 제조경비&gt;잡비(환경유지비) [43008801]</span></p>
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">&nbsp;</span></p>
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\'; font-weight: bold;\">2. 강남아이텍 요청사항</span></p>
+<p style=\"margin-right: 0px; margin-left: 0px; padding: 0px; font-family: Gulim, Tahoma, Arial, Helvetica, sans-serif;\"><span style=\"margin: 0px; padding: 0px; font-size: 10pt; font-family: \'Malgun Gothic\';\">&nbsp; &nbsp; :&nbsp;상기 계정코드가 신규 부여되면, 2023년 발생한 전사 \"제조경비&gt;잡비(환경유지비)\" 전표자료는 일괄 수정해 주시기 바랍니다.</span><span style=\"font-family: \'Malgun Gothic\'; font-size: 10pt;\">&nbsp;&nbsp;(끝)</span></p>{{content:END}}
+
+
+
+
+54008801
+
+
+
+[root@newbms ~]# nslookup
+> set type=txt
+> hanhoinc.com
+Server:         168.126.63.1
+Address:        168.126.63.1#53
+
+Non-authoritative answer:
+hanhoinc.com    text = "MS=ms98024231"
+hanhoinc.com    text = "v=spf1 ip4:203.251.109.211 ip4:203.251.109.212 -all"
+hanhoinc.com    text = "MS=D4119548F52879C66CD48503F34BDF4D78D0416F"
+
+Authoritative answers can be found from:

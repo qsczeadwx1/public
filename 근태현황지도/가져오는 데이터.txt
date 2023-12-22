@@ -1,0 +1,156 @@
+$placeGpsList =$this->getPlaceGps();
+
+Array ( [0] => Array ( [ar_no] => 2 [ar_nm] => 
+대구사무소 [ar_pos_x] => 35.838231949571686 [ar_pos_y] => 
+128.48902584360332 [ar_net] => 221.164.171.189/32 [ar_active] => 
+1 [cpn_code] => CA [ar_type_cd] => 1 [ar_addr] => 
+대구광역시 달서구 성서공단로11길 32(호림동) 대구기계부품연구원 연구1동 507호 [yn_pc] => 
+1 [yn_mobile] => 1 [yn_beacon] => 1 [yn_gps] => 1 [gps_distance] => 30 )
+
+[1] => Array ( [ar_no] => 3 [ar_nm] => 부산사무소 [ar_pos_x] => 35.1784175 [ar_pos_y] => 
+129.1251115 [ar_net] => 222.97.196.154/32 [ar_active] => 1 [cpn_code] => CA [ar_type_cd] => 
+1 [ar_addr] => 부산광역시 해운대구 센텀동로71(우동) 벽산e-센텀클래스원2차 1001호 [yn_pc] => 1 [yn_mobile] => 
+1 [yn_beacon] => 1 [yn_gps] => 1 [gps_distance] => 30 ) [2] => Array ( [ar_no] => 1 [ar_nm] => 
+본사 [ar_pos_x] => 35.5636808 [ar_pos_y] => 129.27973980000002 [ar_net] => 
+222.96.148.101/32 172.16.1.0/24 [ar_active] => 1 [cpn_code] => CA [ar_type_cd] => 1 [ar_addr] => 
+울산 중구 종가6길 7, 807호 [yn_pc] => 1 [yn_mobile] => 1 [yn_beacon] => 1 [yn_gps] => 0 [gps_distance] => 0 ) 
+[3] => Array ( [ar_no] => 6 [ar_nm] => 서울사무소 [ar_pos_x] => 37.4862522 [ar_pos_y] => 
+126.89214560000005 [ar_net] => 218.38.151.142/32 [ar_active] => 1 [cpn_code] => CA [ar_type_cd] => 
+1 [ar_addr] => 경기도 광명시 새빛공원로67, B동 1607호 [yn_pc] => 1 [yn_mobile] => 1 [yn_beacon] => 1 [yn_gps] => 
+0 [gps_distance] => 0 ) )
+
+
+
+
+
+
+
+
+
+
+$tamsList = $this->getCurrentDateTams($this->work_dt);
+오늘출근현황 이미지 참고
+
+Array ( [0] => Array ( [name] => �댁닔�� [idx] => 177295 [dt_work] => 
+2023-11-27 [dtm_s] => 1701040091 [dtm_e] => [ip_s] => 222.97.196.154 [ip_e] => 
+[work_type_cd] => 100 [place_cd_s] => 3 [place_cd_e] => [loc_s] => [loc_e] => 
+[acc_no] => 135 [dept_no] => 0302 [cpn_code] => CA [memo1] => [his_cd] => [yn_consider] => 
+0 [yn_holi] => 0 [yn_rpt] => 0 [work_time_cd] => [yn_beacon] => 0 [beacon_s] => [beacon_e] => 
+[yn_mobile] => 1 [ov_time] => 0 [work_consider_time] => [work_consider_text] => [work_item_cd] => 
+[outside_cnt] => 0 ) [1] => Array ( [name] => �댁젙�� [idx] => 177326 [dt_work] => 2023-11-27 [dtm_s] => 
+1701044864 [dtm_e] => [ip_s] => 118.235.42.175 [ip_e] => [work_type_cd] => 100 [place_cd_s] => [place_cd_e] => 
+[loc_s] => [loc_e] => [acc_no] => 105 [dept_no] => 0309 [cpn_code] => CA [memo1] => [his_cd] =>
+
+if ($_SERVER["REMOTE_ADDR"] == '221.164.171.189')
+{
+	
+}
+
+
+[16:34:26] SELECT F.* , D.share_yn FROM TOP_BASE_DB.T_WEBFOLDER_FILE F LEFT JOIN TOP_BASE_DB.T_WEBFOLDER_DIR D ON F.dir_no = D.dir_no WHERE file_no IN (527,25,26,27,28,29,30) AND del_yn = 0
+[17:02:41] SELECT F.* , D.share_yn FROM TOP_BASE_DB.T_WEBFOLDER_FILE F LEFT JOIN TOP_BASE_DB.T_WEBFOLDER_DIR D ON F.dir_no = D.dir_no WHERE file_no IN (527,25,26,27,28,29,30) AND del_yn = 0
+[17:09:57] SELECT F.* , D.share_yn FROM TOP_BASE_DB.T_WEBFOLDER_FILE F LEFT JOIN TOP_BASE_DB.T_WEBFOLDER_DIR D ON F.dir_no = D.dir_no WHERE file_no IN (527,28,29,30) AND del_yn = 0
+
+Application ended!
+
+
+[17:20:10] SELECT F.* , D.share_yn FROM TOP_BASE_DB.T_WEBFOLDER_FILE F LEFT JOIN TOP_BASE_DB.T_WEBFOLDER_DIR D ON F.dir_no = D.dir_no WHERE file_no IN (527) AND del_yn = 0
+
+
+
+Application ended!
+
+
+[09:09:22] SELECT count(*) FROM TOP_BASE_DB.T_WEBFOLDER_FILE WHERE dir_type = 2 AND del_yn = 0 AND dir_no = 4
+[09:09:22] SELECT count(*) FROM TOP_BASE_DB.T_WEBFOLDER_FILE WHERE dir_type = 2 AND del_yn = 0 AND dir_no = 4
+[09:09:22] SELECT * FROM TOP_BASE_DB.T_WEBFOLDER_FILE WHERE dir_type = 2 AND del_yn = 0 AND dir_no = 4 Order by file_nm asc
+
+-----BEGIN CERTIFICATE REQUEST-----
+MIICyTCCAbECAQAwgYMxCzAJBgNVBAYTAktSMQ4wDAYDVQQIDAVEYWVndTESMBAG
+A1UEBwwJRGFsc2VvLWd1MREwDwYDVQQKDAhkYnZhbGxleTEZMBcGA1UEAwwQZ3cu
+dGV4dGlsZS5vci5rcjEiMCAGCSqGSIb3DQEJARYTYWRtaW5AdGV4dGlsZS5vci5r
+cjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMgG04HmSanXj0CWCO8Q
+/rcbX4vnyu5OnKxDhW8tah+4j1i8FtDGi6AM/7QjYuK4kQ79VoEAsgGpDFaZzmZq
+vCRYo7q2CVKRM3KkBw+SiEVxD8mm7tLULXHo9rJUohRzoBIO8XRAOvQQxhUjrxqa
+51j0GAkO/Iu8asQl3WqPz16RkEcjZfb3pC74pUSZP89rReeFWFS+a6LL/Nnv3/YN
+cJiqqeWz2zaeQZ+H2Ah5cKczHMQCJDhfz1MTi7/JQgHJj52wrF4LZwcbbi+w84ed
+wxDIhn90BMHfTUjqD1HPzvHI7FNGYN4GeJ57f2/e1M6oCQV1HxUx7FZ8NX3tzBRi
+3gcCAwEAAaAAMA0GCSqGSIb3DQEBCwUAA4IBAQAcd5PGHxpu9omUesEBMGi09AYK
+UCQZyV5IWP6lEXpw7hxIOn33V9e9SaUco7tmpHQVqcJURWpQZOkThXQemIPl+lKw
+Yzmt8yZIWmnIIK8tAhZgndVUTEUyidsVABvWq6Hl6Bt5iI/F0DkuPT87LMwvwQxv
+1GlP1CMZ2jcZ/pYo360+fFx3us4yT0/GxRgJz20EEO3VYXoh7K02Cj7Ef1M5o36n
+ezH/yZpjMssUG7sVCzhUJpN0u5grig717QiTO2mwzo9PyQmnULovxWIYU6oS5BwG
+rvsouDwOTO/hSHPIUOj7xla38XFGeT3P2Y4gFU0RGUjSku3KtnNheJ9EjjVt
+-----END CERTIFICATE REQUEST-----
+
+
+
+C1DD59BAC16656CD119B2CAF6F20BAA9 << 디에스시
+
+0106D248470FA63B9BDBBA0E13A71761 << 한국섬유
+
+
+
+http://bms.anymate.co.kr/view.php?id=49903
+
+
+
+금강
+
+
+
+https://gw.samwonchem.com/addressbook/?mode=zipcode&obj_zipcode=co_zipcode&obj_addr=co_addr1
+
+베트남 법인
+
+sales@evamvn.co.kr
+
+
+
+
+안녕하세요 디비밸리입니다.
+
+유선으로 말씀드린 대로
+문서함 열람권한은 부서에 따라 
+
+
+
+전자결재 > 인수인계 > 회람조치 했는데,
+
+
+정승권 책임 > 채동명
+
+
+Dec  5 13:28:35 gw qmail: 1701757715.411447 info msg 3148055: bytes 1025 from <admin-cb@evamvn.co.kr> qp 18837 uid 500
+Dec  5 13:28:35 gw qmail: 1701757715.412160 starting delivery 150533: msg 3148055 to remote qsczeadwx12@daum.net
+Dec  5 13:28:35 gw qmail: 1701757715.412176 status: local 0/10 remote 1/20
+Dec  5 13:28:35 gw qmail: 1701757715.432238 new msg 3148056
+Dec  5 13:28:35 gw qmail: 1701757715.432321 info msg 3148056: bytes 1025 from <admin-cb@evamvn.co.kr> qp 18839 uid 500
+Dec  5 13:28:35 gw qmail: 1701757715.433315 starting delivery 150534: msg 3148056 to remote qsczeadwx1@gmail.com
+Dec  5 13:28:35 gw qmail: 1701757715.433365 status: local 0/10 remote 2/20
+Dec  5 13:28:35 gw qmail: 1701757715.454026 new msg 3148059
+Dec  5 13:28:35 gw qmail: 1701757715.454129 info msg 3148059: bytes 1025 from <admin-cb@evamvn.co.kr> qp 18841 uid 500
+Dec  5 13:28:35 gw qmail: 1701757715.455156 starting delivery 150535: msg 3148059 to remote alsrb2688@naver.com
+Dec  5 13:28:35 gw qmail: 1701757715.455207 status: local 0/10 remote 3/20
+Dec  5 13:28:35 gw qmail: 1701757715.476423 new msg 3148060
+Dec  5 13:28:35 gw qmail: 1701757715.476475 info msg 3148060: bytes 1025 from <admin-cb@evamvn.co.kr> qp 18843 uid 500
+Dec  5 13:28:35 gw qmail: 1701757715.477674 starting delivery 150536: msg 3148060 to remote mkkim@dbvalley.com
+Dec  5 13:28:35 gw qmail: 1701757715.477714 status: local 0/10 remote 4/20
+
+
+Dec  5 13:28:38 gw qmail: 1701757718.330972 delivery 150535: success: 125.209.222.14_accepted_message./Remote_host_said:_250_2.0.0_OK_3ZMC-oBeRc+LHXFBRN63JA_-_
+nsmtp/
+Dec  5 13:28:38 gw qmail: 1701757718.331189 status: local 0/10 remote 3/20
+Dec  5 13:28:38 gw qmail: 1701757718.331274 end msg 3148059
+Dec  5 13:28:38 gw qmail: 1701757718.665998 delivery 150534: success: 64.233.188.27_accepted_message./Remote_host_said:_250_2.0.0_OK__1701757719_mh9-20020a1709
+0b4ac900b00286bb6f1ab9si2556832pjb.116_-_gsmtp/
+Dec  5 13:28:38 gw qmail: 1701757718.666202 status: local 0/10 remote 2/20
+Dec  5 13:28:38 gw qmail: 1701757718.666284 end msg 3148056
+Dec  5 13:28:39 gw qmail: 1701757719.631832 delivery 150536: failure: 222.96.148.100_does_not_like_recipient./Remote_host_said:_553_https://www.spamhaus.org/qu
+ery/ip/116.104.85.190/Giving_up_on_222.96.148.100./
+
+
+
+HJ_120.html
+
+영신정공

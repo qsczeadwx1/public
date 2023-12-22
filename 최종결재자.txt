@@ -1,0 +1,387 @@
+신성용  sungyongshin	89, 한야 240 602, 305
+이충섭  elvis           181, 한야 241 1623, 710
+이상윤	sh2022          212 62
+신명용  my17            101 17      1
+손한진  shjm22          14 133     88
+황희섭  hshwang         170 386     47
+배석진  sjbae           11 0
+
+김성수  kss66           207 532     6
+여백범  yeobb           189 7       0
+
+신주성  shin            200 2       0
+김종수  kjs87           194 8       5
+김도상  chris5461       214 7     4
+해외영업 cheers         158 3
+
+이승준  leemh           42 642     18
+홍익제  hij84           146 327     1
+안우재  awj1            127 248     15
+이창호  chlee           61 350
+최용준  yjchoi          41 449 
+지흥준  kf2023          292, 한야 291 34, 1   14
+김용화  yhkim           57 0
+
+- 신생공업
+김태상(퇴사) tskim 51
+김재석(퇴사) kjs 157
+
+- 한야
+박종화 jonghwa101 235
+박부찬 chungitong 283
+
+이성무 lsm54 234
+
+한상민 hsm0492 236
+
+홍성빈 hongping 280
+
+이효준 hjlee 275
+
+이창구 lcg209 230
+
+김형근 mcmusa 269
+
+- 신생공업
+김태상(퇴사) : 590건, 김재석(퇴사) : 1111건
+
+- 한야
+박종화 : 97건, 박부찬 : 0건, 이성무 : 1건, 한상민 : 0건, 홍성빈 : 0건, 이효준 : 0건, 이창구 : 1건, 김형근 : 0건
+602 12
+1137 26
+
+97
+0
+1
+0
+0
+0
+1
+0
+
+60
+
+
+
+
+$sql = "SELECT name, ptn_name, sign_dt FROM T_DCS_PROCESSOR_2023
+    
+        WHERE dcs_id = 3 AND approval_n=(SELECT MAX(approval_n) FROM T_DCS_PROCESSOR_2023 AND  approval_type='A')";
+
+
+SELECT * FROM T_DCS_PROCESSOR_2023 
+WHERE p.acc_no = 2 AND approval_n=(SELECT MAX(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE   approval_type='A')
+
+SELECT name, ptn_name, sign_dt FROM T_DCS_PROCESSOR_2023
+WHERE dcs_id = 3 
+AND approval_n=(SELECT MAX(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 3 AND  approval_type='A')
+
+
+
+
+
+
+
+
+
+
+SELECT P.name, P.ptn_name, P.sign_dt, P.dcs_id, P.acc_no, P.approval_type, P.approval
+FROM T_DCS_PROCESSOR_2023 AS P
+INNER JOIN (
+    SELECT dcs_id, MAX(approval_n) AS max_approval_n
+    FROM T_DCS_PROCESSOR_2023
+    WHERE approval_type = 'A' AND approval = 'C'
+    GROUP BY dcs_id
+) AS A ON P.dcs_id = A.dcs_id AND P.approval_n = A.max_approval_n
+INNER JOIN T_DCS_2023 AS D ON P.dcs_id = D.dcs_id AND D.status = 'C'
+WHERE P.sign_dt IS NOT NULL AND P.acc_no = 200 AND P.approval_type = 'A' AND P.approval = 'C';
+
+
+SELECT COUNT( * ) AS Count
+FROM T_DCS_PROCESSOR_2023 AS P
+INNER JOIN T_DCS_2023 AS D ON P.dcs_id = D.dcs_id
+WHERE P.dcs_id = D.dcs_id
+AND P.acc_no = 89
+AND D.acc_no = 89
+AND P.approval_n = 10
+AND D.status = 'C'
+
+
+SELECT count(*)
+FROM T_DCS_PROCESSOR_2023 AS P
+INNER JOIN (
+    SELECT dcs_id, MAX(approval_n) AS max_approval_n
+    FROM T_DCS_PROCESSOR_2023
+    WHERE approval_type = 'A' AND approval = 'C'
+    GROUP BY dcs_id
+) AS A ON P.dcs_id = A.dcs_id AND P.approval_n = A.max_approval_n
+INNER JOIN T_DCS_2023 AS D ON P.dcs_id = D.dcs_id AND D.status = 'C'
+WHERE P.sign_dt IS NOT NULL AND P.cpn_code = 'CA'
+
+
+SELECT *
+FROM T_DCS_2022 AS d
+WHERE d.app_dt < 2023-01-01
+
+
+
+1612
+
+7255 김재석
+7025 김재석
+6983 김재석
+7352 한야 - 신성용
+7259 한야 - 이충섭
+7257 한야 - 이충섭
+7354 한야 - 이충섭
+7304 신성용
+7307 신성용
+7309 신성용
+7353 한야 - 신성용
+7310 한야 - 신성용
+7355 신성용
+7324 신성용
+7350 이창호
+7351 이창호
+
+2022 결재문서 10개 , 한야 - 6개
+
+
+
+
+
+
+
+SELECT COUNT(dcs_pro_id) AS Count
+FROM (
+    SELECT dcs_id, MAX(approval_n) AS max_approval_n
+    FROM T_DCS_PROCESSOR_2023 AS P
+    WHERE approval_type = 'A' AND approval = 'C'
+    GROUP BY dcs_id
+) AS L
+JOIN T_DCS_PROCESSOR_2023 AS P
+ON L.dcs_id = P.dcs_id
+AND L.max_approval_n = P.approval_n
+WHERE P.acc_no = 89 AND D.status = C
+
+SELECT COUNT( * ) AS Count
+FROM T_DCS_PROCESSOR_2023 AS P
+INNER JOIN T_DCS_2023 AS D ON P.dcs_id = D.dcs_id
+WHERE P.dcs_id = D.dcs_id
+AND P.acc_no = 89
+AND D.acc_no = 89
+AND P.approval_n = 10
+AND D.status = 'C'
+
+SELECT *
+FROM T_DCS_PROCESSOR_2023 AS P
+INNER JOIN T_DCS_2023 AS D ON P.dcs_id = D.dcs_id
+WHERE P.dcs_id = D.dcs_id
+AND P.acc_no = 89
+AND D.acc_no = 89
+AND P.approval_n = 10;
+
+
+8266
+274
+
+
+7138 274
+
+1128
+
+
+7291
+7005 5 36 241 4 
+
+DB로 뽑았을땐 총 7138건이고, 1인결재 뺴면 6864건 인데
+그룹웨어에서 총 문서는 7005건으로 나옴..
+
+
+한야 : 887
+
+최지현
+
+
+
+SELECT P.name, P.ptn_name, P.sign_dt, P.dcs_id, P.acc_no
+FROM T_DCS_PROCESSOR_2023 AS P
+INNER JOIN (
+    SELECT dcs_id, MAX(approval_n) AS max_approval_n
+    FROM T_DCS_PROCESSOR_2023
+    WHERE approval_type = 'A' AND approval = 'C'
+    GROUP BY dcs_id
+) AS A ON P.dcs_id = A.dcs_id AND P.approval_n = A.max_approval_n AND P.sign_dt IS NOT NULL AND acc_no = 89;
+
+
+SELECT *
+FROM T_DCS_PROCESSOR_2023 AS P
+INNER JOIN T_DCS_2023 AS D ON P.dcs_id = D.dcs_id
+WHERE P.dcs_id = D.dcs_id
+AND P.acc_no = 89
+AND D.acc_no = 89
+AND P.approval_n = 10;
+
+
+
+
+
+
+SELECT count(*)
+FROM T_DCS_PROCESSOR_2023 AS P
+INNER JOIN (
+    SELECT dcs_id, MAX(approval_n) AS max_approval_n
+    FROM T_DCS_PROCESSOR_2023
+    WHERE approval_type = 'A'
+    GROUP BY dcs_id
+) AS A ON P.dcs_id = A.dcs_id AND P.approval_n = A.max_approval_n AND P.sign_dt IS NOT NULL AND acc_no = 89;
+
+신성용 : 신생공업 - 610건, 한야 - 310
+이충섭 : 신생공업 - 1612건, 한야 - 478
+이상윤 : 60건
+신명용 : 0건
+손한진 : 37건
+황희섭 : 337건
+배석진 : 0건
+김성수 : 527건
+여백범 : 4건
+신주성 : 1건
+김종수 : 0건
+김도상 : 0건 
+김도상(해외영업) : 0건
+이승준 : 602건
+홍익제 : 306건
+안우재 : 220건
+이창호 : 339건
+최용준 : 434건
+지흥준 : 신생공업 - 20건, 한야 - 0건
+김용화 : 0건
+김태상(퇴사) : 367건
+김재석(퇴사) : 1099건
+
+- 한야
+
+박종화 : 95건
+박부찬 : 0건
+이성무 : 0건
+한상민 : 0건
+홍성빈 : 0건
+이효준 : 0건
+이창구 : 0건
+김형근 : 0건
+
+신생공업 총 : 7022 건
+한야 총 : 883 건
+
+
+877 + 6
+
+7012 + 10
+
+
+
+
+6964 1125
+6690
+
+신성용  sungyongshin	89, 한야 240 602, 305
+이충섭  elvis           181, 한야 241 1623, 710
+이상윤	sh2022          212 62
+신명용  my17            101 17      1
+손한진  shjm22          14 133     88
+황희섭  hshwang         170 386     47
+배석진  sjbae           11 0
+김성수  kss66           207 532     6
+여백범  yeobb           189 7       0
+신주성  shin            200 2       0
+김종수  kjs87           194 8       5
+김도상  chris5461       214 7     4
+해외영업 cheers         158 3
+이승준  leemh           42 642     18
+홍익제  hij84           146 327     1
+안우재  awj1            127 248     15
+이창호  chlee           61 350
+최용준  yjchoi          41 449 
+지흥준  kf2023          292, 한야 291 34, 1   14
+김용화  yhkim           57 0
+
+- 신생공업
+김태상(퇴사) tskim 51
+김재석(퇴사) kjs 157
+
+- 한야
+박종화 jonghwa101 235
+박부찬 chungitong 283
+이성무 lsm54 234
+한상민 hsm0492 236
+홍성빈 hongping 280
+이효준 hjlee 275
+이창구 lcg209 230
+김형근 mcmusa 269
+
+
+
+[14:02:06] SELECT name, ptn_name, sign_dt FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 14 AND approval_n=(SELECT MAX(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 14 AND approval_type='A')
+
+
+
+) FROM T_DCS_2023 D , T_DCS_TEMPLATE_MAST T WHERE D.cpn_code = 'CA' and D.dcs_tem_id = T.dcs_tem_id AND D.dcs_id in ( SELECT SP.dcs_id FROM T_DCS_2023 SD , T_DCS_PROCESSOR_2023 SP Where approval_type = 'A' AND SP.name like '%admin%' AND approval_n = (SELECT max(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = D.dcs_id ) )
+[14:02:06] SELECT count(D.dcs_id) FROM T_DCS_2023 D , T_DCS_TEMPLATE_MAST T WHERE D.cpn_code = 'CA' and D.dcs_tem_id = T.dcs_tem_id AND D.dcs_id in ( SELECT SP.dcs_id FROM T_DCS_2023 SD , T_DCS_PROCESSOR_2023 SP Where approval_type = 'A' AND SP.name like '%admin%' AND approval_n = (SELECT max(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = D.dcs_id ) )
+[14:02:06] SELECT D.dcs_id, D.cpn_code, D.dcs_box_id, D.acc_no, D.title, D.docnum, D.keep_month, D.secure, D.dept_name, D.dept_fullname, D.ptn_name, D.emergency, D.dcs_tem_id, D.reg_dt, D.run_dt, D.exp_dt, D.app_dt, D.ori_dcs_id, D.ori_sel_year, D.status, D.name , T.title as tem_title, D.file_yn , (SELECT count(*) FROM T_DCS_PRINT_HISTORY WHERE sel_year = 2023 AND dcs_id = D.dcs_id ) as print_cnt, (SELECT emp_serial FROM V_USER WHERE acc_no = D.acc_no) as emp_serial, B.title box_name FROM T_DCS_2023 D LEFT JOIN T_DCS_BOX B On B.dcs_box_id = D.dcs_box_id , T_DCS_TEMPLATE_MAST T WHERE D.cpn_code = 'CA' and D.dcs_tem_id = T.dcs_tem_id AND D.dcs_id in ( SELECT SP.dcs_id FROM T_DCS_2023 SD , T_DCS_PROCESSOR_2023 SP Where approval_type = 'A' AND SP.name like '%admin%' AND approval_n = (SELECT max(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = D.dcs_id AND approval_type = 'A') ) ORDER by D.reg_dt desc
+[14:02:06] SELECT name, ptn_name, sign_dt FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 60 AND approval_n=(SELECT MAX(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 60 AND approval_type='A')
+[14:02:06] SELECT name, ptn_name, sign_dt FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 54 AND approval_n=(SELECT MAX(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 54 AND approval_type='A')
+[14:02:06] SELECT name, ptn_name, sign_dt FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 53 AND approval_n=(SELECT MAX(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 53 AND approval_type='A')
+[14:02:06] SELECT name, ptn_name, sign_dt FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 52 AND approval_n=(SELECT MAX(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 52 AND approval_type='A')
+[14:02:06] SELECT name, ptn_name, sign_dt FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 51 AND approval_n=(SELECT MAX(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 51 AND approval_type='A')
+[14:02:06] SELECT name, ptn_name, sign_dt FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 50 AND approval_n=(SELECT MAX(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 50 AND approval_type='A')
+[14:02:06] SELECT name, ptn_name, sign_dt FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 49 AND approval_n=(SELECT MAX(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 49 AND approval_type='A')
+[14:02:06] SELECT name, ptn_name, sign_dt FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 48 AND approval_n=(SELECT MAX(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 48 AND approval_type='A')
+[14:02:06] SELECT name, ptn_name, sign_dt FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 47 AND approval_n=(SELECT MAX(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 47 AND approval_type='A')
+[14:02:06] SELECT name, ptn_name, sign_dt FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 31 AND approval_n=(SELECT MAX(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 31 AND approval_type='A')
+[14:02:06] SELECT name, ptn_name, sign_dt FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 28 AND approval_n=(SELECT MAX(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 28 AND approval_type='A')
+[14:02:06] SELECT name, ptn_name, sign_dt FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 27 AND approval_n=(SELECT MAX(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 27 AND approval_type='A')
+[14:02:06] SELECT name, ptn_name, sign_dt FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 26 AND approval_n=(SELECT MAX(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 26 AND approval_type='A')
+[14:02:06] SELECT name, ptn_name, sign_dt FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 25 AND approval_n=(SELECT MAX(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 25 AND approval_type='A')
+[14:02:06] SELECT name, ptn_name, sign_dt FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 24 AND approval_n=(SELECT MAX(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 24 AND approval_type='A')
+[14:02:06] SELECT name, ptn_name, sign_dt FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 23 AND approval_n=(SELECT MAX(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 23 AND approval_type='A')
+[14:02:06] SELECT name, ptn_name, sign_dt FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 21 AND approval_n=(SELECT MAX(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 21 AND approval_type='A')
+[14:02:06] SELECT name, ptn_name, sign_dt FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 19 AND approval_n=(SELECT MAX(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 19 AND approval_type='A')
+[14:02:06] SELECT name, ptn_name, sign_dt FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 18 AND approval_n=(SELECT MAX(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 18 AND approval_type='A')
+[14:02:06] SELECT name, ptn_name, sign_dt FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 14 AND approval_n=(SELECT MAX(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE dcs_id = 14 AND approval_type='A')
+[14:02:06] SELECT * FROM TOP.T_ADMENU_AUTH_MENU WHERE acc_no = 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if( !empty($this->sd_lastapproval) ) $WHERE .= " AND D.dcs_id in (
+SELECT SP.dcs_id FROM " . $this->TB_DCS . " SD , " .  $this->TB_PROC . " SP Where approval_type = 'A' AND SP.name like '%" . $this->sd_lastapproval . "%'
+AND approval_n = (SELECT max(approval_n) FROM " . $this->TB_PROC . " WHERE dcs_id = D.dcs_id AND approval_type = 'A')
+)";
+
+
+if( !empty($this->sd_lastapproval) ) $WHERE .= " AND D.dcs_id in (
+SELECT SP.dcs_id FROM " . $this->TB_DCS . " SD , " .  $this->TB_PROC . " SP Where approval_type = 'A' AND SP.name like '%" . $this->sd_lastapproval . "%'
+AND approval_n = (SELECT max(approval_n) FROM " . $this->TB_PROC . " WHERE dcs_id = D.dcs_id )
+)";
+
+
+
+
+SELECT *
+FROM T_DCS_2023 D , T_DCS_TEMPLATE_MAST T
+WHERE D.cpn_code = 'CA' and D.dcs_tem_id = T.dcs_tem_id
+AND D.dcs_id in (
+SELECT SP.dcs_id FROM T_DCS_2023 SD , T_DCS_PROCESSOR_2023 SP Where approval_type = 'A' AND SP.name like '%이충섭%'
+AND approval_n = (SELECT max(approval_n) FROM T_DCS_PROCESSOR_2023 WHERE SP.dcs_id = D.dcs_id AND SP.name like '%이충섭%')
+)

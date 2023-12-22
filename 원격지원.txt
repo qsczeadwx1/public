@@ -1,0 +1,221 @@
+바탕화면에 리모트 콜 키고
+아래 아이디중 하나로 로그인
+dbvalley01 / dbwlqhtn
+dbvalley02 / dbwlqhtn
+dbvalley03 / 3455#$%%
+dbvalley04 / 3455#$%%
+
+고객에게 
+       - rs.anymate.co.kr
+로 들어가서, 파일다운받고 실행해달라고 요청
+
+      - http://113366/dbvalley 으로 고객접속
+
+네, 나모에디터 관련해서 지금 증상확인 중인데,
+저희쪽에서 부산영어 그룹웨어 접속해서 확인 해봤을 때는, 문제가 없어서
+원격으로 한번 확인해보려고 하는데 괜찮을까요...
+
+
+
+URL맞는지 확인한번하고,
+에러메시지 뜨는지 한번 확인하고,,,
+
+환경설정 파일을 로드할수 없습니다 에디터 기본주소 정보가 올바르지않습니다
+
+
+
+일단 그룹웨어 접속해서 크롬이랑, 엣지에서 업로드되는지..
+파일 크기나, 확장자명에 따라 다르지는 않는지
+
+
+엣지 보안, 쿠키, 버전체크
+안되면 설정 기본값으로 바꾸기...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::anymate
+
+게시판도나옴
+
+
+
+r
+XML 파일을 로드하는데 실패했스빈다.
+\
+메일은 됨
+
+
+
+
+forbidden 
+
+
+
+
+
+
+sosoc_no 1564
+duty_code 1
+dept_no 0101010201
+yndft Y
+
+ptn_code 176
+
+010107
+
+강남아이텍
+
+데이터 수정
+제비스코
+
+1) 원가 인상 >> 판매가 인상
+
+
+
+
+3. "승인되지 않은 도메인 정보입니다. 에디터 실행을 중단합니다."라는 메시지가 출력되는 경우
+도메인 확인
+빌드 발주 시에 신청한 도메인(혹은 IP)으로 에디터를 구동하지 않은 경우 해당 메시지가 나타날 수 있습니다. 신청한 도메인으로 접속한 것이 맞는지 확인바랍니다.
+
+로컬 테스트 시에는 127.0.0.1로 테스트하거나, 해당 도메인을 hosts 파일에 등록 후 도메인으로 접속해야 합니다.
+
+방화벽 확인
+크로스에디터는 구동 시에 나모의 인증서버를 통한 인증과정을 포함하고 있습니다.
+
+"crosseditor.namo.co.kr(121.254.175.145)"과 포트번호 80으로 통신이 가능한지 확인 바랍니다.
+
+icon_list_03.gif크로스에디터를 설치한 서버에서 "crosseditor.namo.co.kr"로 ping이 나가는지 확인 바랍니다.
+
+icon_list_03.gif웹 서버와 WAS 서버가 분리되어 있는 경우엔 WAS 서버에서 ping을 날려야 합니다.
+
+내부망을 사용하여 통신이 불가능한 경우 문의 바랍니다.
+
+쿠키 확인
+쿠키를 사용 안 함으로 설정한 경우 쿠키 사용함으로 변경 바랍니다.
+
+크로스에디터는 성능상의 이유로 여러 번 요청하는 경우에는 쿠키를 통해 인증을 처리하고 있습니다.
+
+패치를 한 경우
+work directory에 기존에 컴파일 된 코드가 존재하면 삭제합니다.
+
+서버에서 세션을 삭제하거나 서버를 다시 시작합니다.
+
+
+
+디에스시
+
+권한
+
+
+Notice: Undefined index: subject in /home/anymate/gwmkkimcom-3800/m/mail/class/class.PreWriter.inc.php on line 109 
+Notice: Undefined index: body in /home/anymate/gwmkkimcom-3800/m/mail/class/class.PreWriter.inc.php on line 139
+Notice: Undefined index: file_yn in /home/anymate/gwmkkimcom-3800/m/mail/class/class.mailEdit.inc.php on line 225
+
+
+
+
+
+
+컬럼 8개?로 바꿔야 됨
+
+
+<tr>
+	<th><?=mecho("환급여부")?></th>
+	<th rowspan='2' ><?=mecho("교육비부담")?></th>
+	<td class="default">유 : <input type="text" name="item09" class="input02" style="width:30%" value="<?=$DATA[0]['item09']?>">%</td>
+	<td class="default">
+		<label><input type="radio" name="chk2" value="환급" <?=($DATA[0][chk2] == '환급') ? 'checked' : ''?>> <?=mecho("환급")?></label>&nbsp;&nbsp;
+		<label><input type="radio" name="chk2" value="비환급" <?=($DATA[0][chk2] == '비환급') ? 'checked' : ''?>> <?=mecho("비환급")?></label>
+	</td>
+	<td class="default">무 : <input type="text" name="item10" class="input02" style="width:30%" value="<?=$DATA[0]['item10']?>">%</td>
+</tr>
+
+강남아이텍
+
+동원금속
+그룹웨어 비번을 잘못입력해서, 
+이현문 선임
+
+강남아이텍
+어제 
+
+신라
+메인서버를 ssl인증떄문에 카페 24에 IP를 바꿔야하는데,
+IP 220.73.163.82
+119.206.195.241 
+
+신라쪽에서 새로운 자기들 홈페이지를 오픈하려고 하는데,
+
+
+
+첨부파일로 정렬했을때는, 문서함에 첨부파일이 하나도 없으면, 이전다음 버튼 아예 작동안함
+있으면, 버튼을 눌렀을 때 제일 처음과 제일 끝으로 이동함
+
+http://gw.mkkim.com:3800/dcs/?mode=view&flag=box&dcs_id=undefined&page=1&sel_year=2023&sel_tem=&sel_date=&sel_sdate=&sel_edate=&sel_search=&sch_txt=&sel_status=&sel_box=&sd_title=&sd_docnum=&sd_drafter=&sd_approval=&sd_lastapproval=&sd_content=&order_idx=5&sort=desc
+dcs_id가 undefined라 흰색화면 나옴
+
+보안은 바로 
+
+
+http://gw.mkkim.com:3800/dcs/?mode=view&flag=box&dcs_id=Notice:%20Undefined%20offset:%201%20in%20/home/anymate/gwmkkimcom-3800/m/dcs/class/class.dcsBox.inc.php%20on%20line%20531&page=1&sel_year=2023&sel_tem=&sel_date=&sel_sdate=&sel_edate=&sel_search=&sch_txt=&sel_status=&sel_box=&sd_title=&sd_docnum=&sd_drafter=&sd_approval=&sd_lastapproval=&sd_content=&order_idx=7&sort=asc
+
+카운텍
+
+한국코스틱
+
+합병관련해서
+도메인변경되는거 이번주에 실시할 예정
+이번주 금요일 저녁에
+
+메일도메인 포워딩작업도 할 예정
+
+
+
+기존꺼 쳐도 들어 갈수있게 할수있나
+
+핸드폰 웹버전으로 들어갈때
+/m으로 들어갔는데,
+
+kostic.biz는 저희쪽에서
+
+한국콘텍 메일도메인
+
+신생공업
+
+rms 권한.....
+history볼수있는곳 어디임..
+
+
+그룹웨어 처음에 들어갔을때 회사 추가하려하는데,
+도메인 musemvina.com 베트남
+
+그룹웨어 접속할때 처음 회사 선택에 뮤셈이 뜨도록,
+
+뮤셈
+musemvina 라고 다른 계열사가 있고, 
+
+
+114400
+
+
+군0
+

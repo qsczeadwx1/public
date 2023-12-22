@@ -1,0 +1,381 @@
+46255 유지보수 참고용 bms
+--------------------------
+
+기본 텍스트는 왼쪽정렬,
+금액은 오른쪽정렬,
+
+만들고나서, 미리보기로 확인하고,
+임시저장후에 재사용으로도 확인하기
+
+-----------------------------------------
+http://bms.anymate.co.kr/view.php?id=49962
+0049962: [TJB대전방송] 휴가신청서 개정 부탁드립니다.
+db 휴가데이터 및 양식 수정
+
+-------------------------------------------
+http://bms.anymate.co.kr/view.php?id=49965
+[대구카지노] 퇴직원 날짜 일치의 건
+날짜 선택했을때, select태그 안에 날짜 값도 같이 바뀌게 만들기
+
+--------------------------------------------
+http://bms.anymate.co.kr/view.php?id=48165
+0048165: [인제대학교] 전자결재 외부공문 수신처 관련 문의
+부산여자대학
+외부공문 발송대장 들어가려면 admin에는 권한이 없어서
+dbvalley로 접속해야됨
+http://bms.anymate.co.kr/view.php?id=50073
+
+외부공문 발송시에 선택하는 수신처들은 정부 디렉터리 시스템이라는 외부시스템에서 실시간으로 데이터를 받아와서 출력이 되는거임,
+앞에 Y가 현재 발송을 보낼 수 있는 상태임.
+만약에 지금 그쪽에 보내야하는데 N이라서 선택이 안된다면, 우리가 외부시스템에서 받아온 데이터를 출력하는 것 뿐이기 떄문에,
+우리한텐 문제가 업고, 보내야하는 그쪽 기관이나 업체에다가 문의를 해야함.
+
+
+------------------------------------------------
+
+ASIA-59.html
+기본적인건 이걸로 많이 참고하면될듯
+
+-----------------------------------------
+
+엠젠
+부사장님이
+초기비번 1111
+
+아디 mblee
+
+
+방송중계회선 청약신청서[김민규]
+DVD복사 신청서[김민규]
+영상자료판매 환불신청서[김민규]
+
+-------------------------------------
+클릭했을때, 보이고 안보이게 만드는거
+개발서버 3버전
+CUS_12_1.html 확인해보기
+
+성림
+
+--------------------------------------
+/usr/local/gwobscokr/dcs/template/draw/custom/OBS_70.html
+결재양식 금액 합산되는거
+
+------------------------------------
+/usr/local/gwobscokr/dcs/template/draw/custom/OBS_34.html
+여러줄 플러스 마이너스하는거
+
+
+뮤셈비나 들어가면,
+결재라인 \
+
+-----------------------------------------
+http://bms.anymate.co.kr/view.php?id=49796
+결재문서 "하단 첨부파일"은 관리자모드에서 수정하실수 있습니다.
+관리자모드 > 전자결재 > 결재문서 관리 > 검색 후 제목클릭 > 첨부파일 탭선택 > 기존 파일 삭제 또는 파일추가 > 첨부파일 변경 적용 클릭
+------------------------------------------
+https://bms.anymate.co.kr/view.php?id=46900
+본문첨부파일 변경
+일단 전자결재에 변경해달라는 문서 들어가서 본문첨부된 파일 드래그해서 주소창에 복사해서
+http://gw.mkkim.com:3800/editor/?mode=download&fileno=MNTgwTNDI3ANDEz=MTE1
+이런식으로 적혀있는거에서
+fileno= 뒤에 있는 MNTgwTNDI3ANDEz=MTE1이부분 디코딩하면 
+T_EDITOR_FILE테이블에 e_file_no나온다는데 어디서 디코딩해야됨??
+이걸로 못찾겠으면,
+e_reg_dt로 파일올라온 시간 + e_file_name으로 저장될 때 원래 파일이름, acc_no로 작성자 구분해서
+찾으면됨,
+그룹웨어명/data/com/CA/awefiles/년도/월/
+에서 e_save_name을 찾아서, 원래꺼 지우고, 바꿀파일 이름 똑같이 만들어서 업로드 하면 파일 바뀜
+혹시 본문에 보이는 이름까지 같이 바꿔달라고 하면,
+T_DCS_CONTENT_년도 에서 해당 문서 찾아서 내용수정하면됨
+
+디비밸리 로그인 > 상단 헤더쪽 ANYMATE 메뉴 > 유틸리티 > Anymate 인코딩/디코딩 ( myEncoding / myDecoding ) 메뉴에서
+디코딩 하면됨
+
+
+---------------------------------------------------
+http://bms.anymate.co.kr/view.php?id=47841
+본문첨부파일 다운 안됨
+
+--------------------------------------------------
+
+
+박상원
+
+
+  ※ 결재선 : 영업담당자 →생산팀장협의 →영업팀장
+
+  ※ 필수 수신자 : 생산담당자, 연구소담당자, 품질담당자(필요시 관련 담당자 추가)
+
+-----------------------------------------------------------
+목록에 리스트 갯수 설정하기
+개인설정 > 메뉴설정 > 부서게시판 > 목록수로 수정 하실수 있습니다.
+----------------------------------------------------------------
+
+혹시 어떤거 때문에 필요하신지 
+
+심의의뢰서 안에서
+방송일시가
+최종완료된시간으로 비교행햐ㅏㅣ는데,
+
+----------------------------------------------------------------
+<?=Form::SELECT("sday_dt_yy", "YY", $DATA[0]['sday_dt_yy'])?>년 
+<?=Form::SELECT("sday_dt_mm", "MM", $DATA[0]['sday_dt_mm'])?>월 
+<?=Form::SELECT("sday_dt_dd", "DD", $DATA[0]['sday_dt_dd'])?>일
+<?=Form::SELECT("sday_dt_HH", "HH", $DATA[0]["sday_dt_HH"], "")?>시 
+<?=Form::SELECT("sday_dt_II", "II", $DATA[0]["sday_dt_II"], "")?>분 
+
+
+
+-----------------
+2366 대구1팀-2308-48
+
+
+
+구매의뢰 연동 dcs_tem_id=53 KBC_31.html
+UPDATE `TOP_BASE_DB`.`T_DCS_2023`
+SET `title` = CONCAT('(구매) ', SUBSTRING(`title`,5))
+WHERE `T_DCS_2023`.`cpn_code` = 'CA' AND `T_DCS_2023`.`dcs_tem_id` = 53;
+
+장비비품수리요청서 연동 dcs_tem_id=54 KBC_32.html
+UPDATE `TOP_BASE_DB`.`T_DCS_2023`
+SET `title` = CONCAT('(수리) ', SUBSTRING(`title`,5))
+WHERE `T_DCS_2023`.`cpn_code` = 'CA' AND `T_DCS_2023`.`dcs_tem_id` = 54;
+
+검수확인서 dcs_tem_id=64 KBC_42.html
+UPDATE `TOP_BASE_DB`.`T_DCS_2023`
+SET `title` = CONCAT('(검수) ', SUBSTRING(`title`,5))
+WHERE `T_DCS_2023`.`cpn_code` = 'CA' AND `T_DCS_2023`.`dcs_tem_id` = 64;
+
+선급금 요청서 dcs_tem_id=66 KBC_44.html
+UPDATE `TOP_BASE_DB`.`T_DCS_2023`
+SET `title` = CONCAT('(선급) ', SUBSTRING(`title`,5))
+WHERE `T_DCS_2023`.`cpn_code` = 'CA' AND `T_DCS_2023`.`dcs_tem_id` = 66;
+
+출고의뢰 연동 dcs_tem_id=55 KBC_33.html
+UPDATE `TOP_BASE_DB`.`T_DCS_2023`
+SET `title` = CONCAT('(출고의뢰) ', SUBSTRING(`title`, 7))
+WHERE `T_DCS_2023`.`cpn_code` = 'CA' AND `T_DCS_2023`.`dcs_tem_id` = 55;
+
+
+교육(연수)참가신청서 dcs_tem_id=28 KBC_06.html
+
+UPDATE `TOP_BASE_DB`.`T_DCS_2023`
+SET `title` = CONCAT('(교육참가) ', SUBSTRING(`title`, 13))
+WHERE `T_DCS_2023`.`cpn_code` = 'CA' AND `T_DCS_2023`.`dcs_tem_id` = 28;
+
+UPDATE `TOP_BASE_DB`.`T_DCS_2023` 
+SET `title` = LEFT( `title` , CHAR_LENGTH( `title` ) -1 ) 
+WHERE `T_DCS_2023`.`cpn_code` = 'CA' AND `T_DCS_2023`.`dcs_tem_id` = 28;
+
+
+교육(연수)결과보고서 dcs_tem_id=26 KBC_04.html
+
+UPDATE `TOP_BASE_DB`.`T_DCS_2023`
+SET `title` = CONCAT('(교육결과) ', SUBSTRING(`title`, 13))
+WHERE `T_DCS_2023`.`cpn_code` = 'CA' AND `T_DCS_2023`.`dcs_tem_id` = 26;
+
+UPDATE `TOP_BASE_DB`.`T_DCS_2023` 
+SET `title` = LEFT( `title` , CHAR_LENGTH( `title` ) -1 ) 
+WHERE `T_DCS_2023`.`cpn_code` = 'CA' AND `T_DCS_2023`.`dcs_tem_id` = 26;
+
+
+일일차량 임차 신청서 dcs_tem_id=88 KBC_59.html
+UPDATE `TOP_BASE_DB`.`T_DCS_2023`
+SET `title` = CONCAT('(일일차량) ', SUBSTRING(`title`,7))
+WHERE `T_DCS_2023`.`cpn_code` = 'CA' AND `T_DCS_2023`.`dcs_tem_id` = 64;
+
+SPOT,캠페인협찬 계약의뢰 dcs_tem_id=83 KBC_56.html
+UPDATE `TOP_BASE_DB`.`T_DCS_2023`
+SET `title` = CONCAT('(계약의뢰) ', SUBSTRING(`title`,7))
+WHERE `T_DCS_2023`.`cpn_code` = 'CA' AND `T_DCS_2023`.`dcs_tem_id` = 83;
+
+프로그램 제작 계약의뢰 dcs_tem_id=84 KBC_57.html
+UPDATE `TOP_BASE_DB`.`T_DCS_2023`
+SET `title` = CONCAT('(계약의뢰) ', SUBSTRING(`title`,7))
+WHERE `T_DCS_2023`.`cpn_code` = 'CA' AND `T_DCS_2023`.`dcs_tem_id` = 84;
+
+협조문 dcs_tem_id=12 S12.html
+UPDATE `TOP_BASE_DB`.`T_DCS_2023`
+SET `title` = CONCAT('(협조) ', `title`)
+WHERE `T_DCS_2023`.`cpn_code` = 'CA' AND `T_DCS_2023`.`dcs_tem_id` = 12;
+
+송출의뢰 dcs_tem_id=52 KBC_30.html
+UPDATE `TOP_BASE_DB`.`T_DCS_2023`
+SET `title` = CONCAT('(송출의뢰) ', `title`)
+WHERE `T_DCS_2023`.`cpn_code` = 'CA' AND `T_DCS_2023`.`dcs_tem_id` = 52;
+
+
+
+증빙첨부 dcs_tem_id=70 user.html 안함
+
+전자(세금)계산서 발행 신청 dcs_tem_id=68 user.html 안함
+
+
+
+51개
+33개
+124개
+52개
+99개
+20개
+3개
+31개
+134개
+7개
+154개
+441개
+계 1149
+현재 작성된 유효한 문서함엔 1149
+
+57
+39
+131
+53
+108
+23
+3
+32
+138
+7
+174
+446
+DB에 삭제된 문서까지 1211
+
+
+전자(세금)계산서, 증빙첨부 제외
+
+----------------------------------------------
+[(주)엠텍 ENG] 구매품의서, 구매신청서에 최종 결재 후 의견란 추가의건
+http://bms.anymate.co.kr/view.php?id=50250
+결재완료 문서 의견 다는 기능
+$GA_CONFIG['CUSTOM']['DCS']['BTN_DONE_OPINION'] = true;
+http://bms.anymate.co.kr/view.php?id=18887
+
+---------------------------------------------
+http://bms.anymate.co.kr/view.php?id=50253
+대외공문 발신일자 표기 요청
+대외공문 수정 / run.html
+
+------------------------------------------------
+예약상태가 
+
+
+CP 147694 0105
+
+동양대학교
+
+알림메일
+
+모든 회람문서 클릭하면 다그런지,
+허용으로 바꿨는지,
+
+그럼 
+
+
+
+http://weboffice.dyu.ac.kr:443/dcs/?mode=view&dcs_id=65718&flag=now&sel_year=2023&alarm_iid=6860558http://weboffice.dyu.ac.kr:443/dcs/?mode=view&dcs_id=65718&flag=now&sel_year=2023&alarm_iid=6860558
+
+ssl
+
+
+컬럼 10개에서 12개로
+
+----------------------------------------------
+
+텍스트에어리어 공백
+<td colspan="7" class="default" >
+        <?=nl2br(str_replace(" ","&nbsp",$DATA[0][bigo]))?>
+</td>
+
+-----------------------------------------------
+OBS_34.html
+여러줄 한번에 추가하고 지우기
+
+
+
+<tr>
+	<th><?=mecho("제목")?></th>
+	<td class="default" colspan='6'><input type='text' name='titlez' class="input02" style='width:100%' value="<?=$DATA[0]['titlez']?>" ></td>
+</tr>
+<tr>
+	<th><?=mecho("거래처")?></th>
+	<td class="default" colspan="3">
+		<input type="hidden" name="cust_no" id="cust_no" style="width:100%" value="<?=$DATA[0]['cust_no']?>" class="input02">
+		<input type="text" name="cust" id="cust" style="width:70%" value="<?=$DATA[0]['cust']?>" class="input02"> <input type="button" value="검색" style="background-color:#33cc00;color:#fff;width:80px;height:23px" onclick="onclick_search()">
+	</td>
+	<th><?=mecho("납기일자")?></th>
+	<td class="default"><?=$work_dt ?>
+	</td>
+</tr>
+<tr>
+	<th><?=mecho("목적")?></th>
+	<td class="default" colspan="6"><textarea name='bigo' id='bigo'  class="input02" style="height:80px;width:100%"><?=$DATA[0]['bigo']?></textarea></td>
+</tr>
+<tr>
+	<th><?=mecho("수리완료예정일")?></th>
+	<td class="default">
+		<?=$suri_dt ?>
+	</td>
+	<th><?=mecho("수리담당/연락처")?></th>
+	<td class="default" colspan="3">
+		<input type='text' id='suri_name' name='suri_name' class="input02" style='width:40%' value="<?=$DATA[0]['suri_name']?>" > / <input type='text' id='suri_phone' name='suri_phone' class="input02" style='width:40%' value="<?=$DATA[0]['suri_phone']?>" >
+	</td>
+</tr>
+
+
+엣지
+
+메일에서 첨부파일 여는데,
+업뎃했는데 안된다.
+
+안전하게 다운할 수 없습니다.
+
+하나씩은 할 수 있는데,
+
+답변
+
+
+" . $this->module->oUX->showEditor("itemA{$i}_editor",$DATA['itemA{$i}_editor'],'100%','300px','draw_form') . "
+
+엠젠
+중국 도메인 변경 계획중인데,
+
+도메인을 바꾸면,
+
+기존에 사용하던 메일에서 바꾼걸로 메일오는데,
+
+기존에 사용하던 도메인으로 메일이 왔을때 > 새로운 이메일로 포워딩? 아님 도착 되는 그 기능에
+유효기간이 있는가?
+
+------------------------------------------
+[한국섬유개발연구원] 위임전결 관련 입니다
+http://bms.anymate.co.kr/view.php?id=50539
+
+안녕하세요 디비밸리입니다.
+
+현재 전결 후 다음결재자가 열람 가능하도록 설정 되어있습니다.
+
+관리자 > 전자결재 > 전자결재옵션 > 전결 후 다음 결재자가 열람 가능 설정 참고하시기 바랍니다.
+
+https://gw.hjncs.com/erp_template/?mode=gumaeImport&kind=1
+https://gw.hjncs.com/erp_template/?mode=jaegoChange&kind=215
+
+케이스터디
+
+
+대구카지노 골드크라운
+
+12/8 
+
+-----------------------------------------------
+DU_41.html
+동양대학교 행 늘리고, 줄이기 할때,
+일정 컬럼만 두칸으로 늘리기
+
+-------------------------------------------
+강남화성
+KW_34_2.html
+에디터 간소화 및 캘린더 옵션 설정하는법
+
+
+홍익재

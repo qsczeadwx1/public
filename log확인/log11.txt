@@ -1,0 +1,100 @@
+Dec  1 09:37:54 localhost qmail: 1701391074.344456 starting delivery 403143: msg 524907 to remote alsrb2688@naver.com
+Dec  1 09:37:54 localhost qmail: 1701391074.344484 status: local 0/10 remote 1/20
+Dec  1 09:37:54 localhost qmail: 1701391074.364482 new msg 524941
+Dec  1 09:37:54 localhost qmail: 1701391074.364511 info msg 524941: bytes 1057 from <admin@hanhoinc.com> qp 1166 uid 500
+Dec  1 09:37:54 localhost qmail: 1701391074.427973 starting delivery 403144: msg 524941 to remote qsczeadwx1@gmail.com
+Dec  1 09:37:54 localhost qmail: 1701391074.428005 status: local 0/10 remote 2/20
+Dec  1 09:37:54 localhost qmail: 1701391074.428019 delivery 403143: success: 192.168.250.14_accepted_message./Remote_host_said:_250_Message_accepted_for_delivery./
+Dec  1 09:37:54 localhost qmail: 1701391074.428080 status: local 0/10 remote 1/20
+Dec  1 09:37:54 localhost qmail: 1701391074.428128 end msg 524907
+Dec  1 09:37:54 localhost qmail: 1701391074.451046 new msg 524944
+Dec  1 09:37:54 localhost qmail: 1701391074.451089 info msg 524944: bytes 1057 from <admin@hanhoinc.com> qp 1169 uid 500
+Dec  1 09:37:54 localhost qmail: 1701391074.491638 starting delivery 403145: msg 524944 to remote qsczeadwx12@daum.net
+Dec  1 09:37:54 localhost qmail: 1701391074.491678 status: local 0/10 remote 2/20
+Dec  1 09:37:54 localhost qmail: 1701391074.491687 delivery 403144: success: 192.168.250.14_accepted_message./Remote_host_said:_250_Message_accepted_for_delivery./
+Dec  1 09:37:54 localhost qmail: 1701391074.491695 status: local 0/10 remote 1/20
+Dec  1 09:37:54 localhost qmail: 1701391074.491701 end msg 524941
+Dec  1 09:37:54 localhost qmail: 1701391074.508904 new msg 524932
+Dec  1 09:37:54 localhost qmail: 1701391074.508934 info msg 524932: bytes 1057 from <admin@hanhoinc.com> qp 1171 uid 500
+Dec  1 09:37:54 localhost qmail: 1701391074.555009 starting delivery 403146: msg 524932 to remote mkkim@dbvalley.com
+Dec  1 09:37:54 localhost qmail: 1701391074.555045 status: local 0/10 remote 2/20
+Dec  1 09:37:54 localhost qmail: 1701391074.555059 delivery 403145: success: 192.168.250.14_accepted_message./Remote_host_said:_250_Message_accepted_for_delivery./
+Dec  1 09:37:54 localhost qmail: 1701391074.555247 status: local 0/10 remote 1/20
+Dec  1 09:37:54 localhost qmail: 1701391074.555267 end msg 524944
+Dec  1 09:37:54 localhost qmail: 1701391074.601664 delivery 403146: success: 192.168.250.14_accepted_message./Remote_host_said:_250_Message_accepted_for_delivery./
+Dec  1 09:37:54 localhost qmail: 1701391074.601825 status: local 0/10 remote 0/20
+Dec  1 09:37:54 localhost qmail: 1701391074.601846 end msg 524932
+
+
+
+
+
+Dec  1 09:38:01 localhost qmail: 1701391081.229989 new msg 524907
+Dec  1 09:38:01 localhost qmail: 1701391081.230036 info msg 524907: bytes 563 from <root@hanhoinc.com> qp 1222 uid 500
+Dec  1 09:38:01 localhost qmail: 1701391081.282541 starting delivery 403147: msg 524907 to local anymate@hanhoinc.com
+Dec  1 09:38:01 localhost qmail: 1701391081.282579 status: local 1/10 remote 0/20
+Dec  1 09:38:01 localhost qmail: 1701391081.285699 delivery 403147: success: did_0+0+0/
+Dec  1 09:38:01 localhost qmail: 1701391081.285792 status: local 0/10 remote 0/20
+Dec  1 09:38:01 localhost qmail: 1701391081.285822 end msg 524907
+Dec  1 09:38:05 localhost qmail: 1701391085.174042 new msg 524907
+Dec  1 09:38:05 localhost qmail: 1701391085.174091 info msg 524907: bytes 574 from <root@hanhoinc.com> qp 1226 uid 500
+Dec  1 09:38:05 localhost qmail: 1701391085.208619 starting delivery 403148: msg 524907 to local anymate@hanhoinc.com
+Dec  1 09:38:05 localhost qmail: 1701391085.208650 status: local 1/10 remote 0/20
+Dec  1 09:38:05 localhost qmail: 1701391085.211716 delivery 403148: success: did_0+0+0/
+Dec  1 09:38:05 localhost qmail: 1701391085.211817 status: local 0/10 remote 0/20
+Dec  1 09:38:05 localhost qmail: 1701391085.211855 end msg 524907
+Dec  1 09:38:08 localhost pop3: 1701391088.351133 tcpserver: status: 1/255
+Dec  1 09:38:08 localhost pop3: 1701391088.351478 tcpserver: pid 1231 from 211.231.104.218
+Dec  1 09:38:08 localhost pop3: 1701391088.351527 tcpserver: ok 1231 0:192.168.250.202:110 :211.231.104.218::33670
+Dec  1 09:38:08 localhost pop3: 1701391088.375502 tcpserver: end 1231 status 256
+Dec  1 09:38:08 localhost pop3: 1701391088.375531 tcpserver: status: 0/255
+Dec  1 09:38:08 localhost pop3: 1701391088.396207 tcpserver: status: 1/255
+Dec  1 09:38:08 localhost pop3: 1701391088.396440 tcpserver: pid 1233 from 211.231.104.218
+Dec  1 09:38:08 localhost pop3: 1701391088.396474 tcpserver: ok 1233 0:192.168.250.202:110 :211.231.104.218::58178
+Dec  1 09:38:08 localhost pop3: 1701391088.415221 tcpserver: end 1233 status 256
+Dec  1 09:38:08 localhost pop3: 1701391088.415241 tcpserver: status: 0/255
+Dec  1 09:38:36 localhost qmail: 1701391116.502405 new msg 524846
+Dec  1 09:38:36 localhost qmail: 1701391116.502449 info msg 524846: bytes 2273 from <> qp 1242 uid 501
+Dec  1 09:38:36 localhost qmail: 1701391116.580690 starting delivery 403149: msg 524846 to local admin@hanhoinc.com
+Dec  1 09:38:36 localhost qmail: 1701391116.580718 status: local 1/10 remote 0/20
+Dec  1 09:38:36 localhost qmail: 1701391116.651548 delivery 403149: success: did_1+0+0/
+Dec  1 09:38:36 localhost qmail: 1701391116.651651 status: local 0/10 remote 0/20
+Dec  1 09:38:36 localhost qmail: 1701391116.651683 end msg 524846
+Dec  1 09:39:33 localhost qmail: 1701391173.655552 new msg 524846
+Dec  1 09:39:33 localhost qmail: 1701391173.655603 info msg 524846: bytes 4037771 from <jobgo@gepa.kr> qp 1324 uid 501
+Dec  1 09:39:33 localhost qmail: 1701391173.690702 starting delivery 403150: msg 524846 to local rachel.kim@hanhoinc.com
+Dec  1 09:39:33 localhost qmail: 1701391173.690739 status: local 1/10 remote 0/20
+Dec  1 09:39:33 localhost qmail: 1701391173.696400 delivery 403150: failure: Sorry,_no_mailbox_here_by_that_name._(#5.1.1)/
+Dec  1 09:39:33 localhost qmail: 1701391173.696529 status: local 0/10 remote 0/20
+Dec  1 09:39:33 localhost qmail: 1701391173.787728 bounce msg 524846 qp 1327
+Dec  1 09:39:33 localhost qmail: 1701391173.787776 end msg 524846
+Dec  1 09:39:33 localhost qmail: 1701391173.789545 new msg 524931
+Dec  1 09:39:33 localhost qmail: 1701391173.789590 info msg 524931: bytes 4038296 from <> qp 1327 uid 507
+Dec  1 09:39:33 localhost qmail: 1701391173.828171 starting delivery 403151: msg 524931 to remote jobgo@gepa.kr
+Dec  1 09:39:33 localhost qmail: 1701391173.828206 status: local 0/10 remote 1/20
+Dec  1 09:39:33 localhost qmail: 1701391173.834287 delivery 403151: failure: Connected_to_192.168.250.14_but_sender_was_rejected./Remote_host_said:_553_Not_allowed_Blank_Sender/
+Dec  1 09:39:33 localhost qmail: 1701391173.834439 status: local 0/10 remote 0/20
+Dec  1 09:39:33 localhost qmail: 1701391173.937251 bounce msg 524931 qp 1329
+Dec  1 09:39:33 localhost qmail: 1701391173.937316 end msg 524931
+Dec  1 09:39:33 localhost qmail: 1701391173.938861 new msg 524907
+Dec  1 09:39:33 localhost qmail: 1701391173.938896 info msg 524907: bytes 4038794 from <#@[]> qp 1329 uid 507
+Dec  1 09:39:33 localhost qmail: 1701391173.983671 starting delivery 403152: msg 524907 to local doublebounce@hanhoinc.com
+Dec  1 09:39:33 localhost qmail: 1701391173.983706 status: local 1/10 remote 0/20
+Dec  1 09:39:33 localhost qmail: 1701391173.989072 delivery 403152: success: did_0+0+0/
+Dec  1 09:39:33 localhost qmail: 1701391173.989175 status: local 0/10 remote 0/20
+Dec  1 09:39:33 localhost qmail: 1701391173.989231 end msg 524907
+Dec  1 09:40:01 localhost qmail: 1701391201.385440 new msg 524846
+Dec  1 09:40:01 localhost qmail: 1701391201.385486 info msg 524846: bytes 563 from <root@hanhoinc.com> qp 1435 uid 500
+Dec  1 09:40:01 localhost qmail: 1701391201.436316 starting delivery 403153: msg 524846 to local anymate@hanhoinc.com
+Dec  1 09:40:01 localhost qmail: 1701391201.436343 status: local 1/10 remote 0/20
+Dec  1 09:40:01 localhost qmail: 1701391201.438891 delivery 403153: success: did_0+0+0/
+Dec  1 09:40:01 localhost qmail: 1701391201.438975 status: local 0/10 remote 0/20
+Dec  1 09:40:01 localhost qmail: 1701391201.439003 end msg 524846
+Dec  1 09:40:04 localhost qmail: 1701391204.324083 new msg 524905
+Dec  1 09:40:04 localhost qmail: 1701391204.324128 info msg 524905: bytes 574 from <root@hanhoinc.com> qp 1445 uid 500
+Dec  1 09:40:04 localhost qmail: 1701391204.363018 starting delivery 403154: msg 524905 to local anymate@hanhoinc.com
+Dec  1 09:40:04 localhost qmail: 1701391204.363067 status: local 1/10 remote 0/20
+Dec  1 09:40:04 localhost qmail: 1701391204.365941 delivery 403154: success: did_0+0+0/
+Dec  1 09:40:04 localhost qmail: 1701391204.366061 status: local 0/10 remote 0/20
+Dec  1 09:40:04 localhost qmail: 1701391204.366075 end msg 524905
+

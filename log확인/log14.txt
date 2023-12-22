@@ -1,0 +1,30 @@
+Dec 18 10:53:20 localhost qmail: 1702871600.210358 info msg 1710401: bytes 3154 from <adminsjvn@sjtechvn.com> qp 19268 uid 502
+Dec 18 10:53:20 localhost qmail: 1702871600.277710 starting delivery 184209: msg 1710401 to remote jaehyunchoi@sjtech87.co.kr
+Dec 18 10:53:20 localhost qmail: 1702871600.277747 status: local 0/10 remote 1/20
+
+Dec 18 10:53:30 localhost qmail: 1702871610.281687 delivery 184209: deferral: CNAME_lookup_failed_temporarily._(#4.4.3)/
+Dec 18 10:53:30 localhost qmail: 1702871610.281735 status: local 0/10 remote 0/20
+
+
+
+
+
+------------------------------------
+SSLCertificateFile "/usr/local/apache2/conf/server.crt"
+SSLCertificateKeyFile "/usr/local/apache2/conf/server.key"
+
+
+
+#SSLCertificateChainFile "/usr/local/apache2/conf/server-ca.crt"
+
+
+
+#SSLCARevocationPath "/usr/local/apache2/conf/ssl.crl"
+#SSLCARevocationFile "/usr/local/apache2/conf/ssl.crl/ca-bundle.crl"
+
+
+
+#SSLSRPVerifierFile "/usr/local/apache2/conf/passwd.srpv"
+
+
+drwxr-sr-x  4 root root  4096 2022-02-16 17:07 conf

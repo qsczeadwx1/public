@@ -1,0 +1,109 @@
+
+
+
+Nov 19 06:51:45 localhost qmail: 1700347905.399615 new msg 1180061
+Nov 19 06:51:45 localhost qmail: 1700347905.399656 info msg 1180061: bytes 32629 from <htmpro@hp.com> qp 31457 uid 502
+Nov 19 06:51:45 localhost qmail: 1700347905.490009 starting delivery 180391: msg 1180061 to local jcr0843@giblue.co.kr
+Nov 19 06:51:45 localhost qmail: 1700347905.490044 status: local 1/10 remote 1/20
+
+
+Nov 19 06:51:45 localhost qmail: 1700347905.490173 info msg 1180094: bytes 32629 from <htmpro@hp.com> qp 31458 uid 502
+Nov 19 06:51:45 localhost qmail: 1700347905.640657 starting delivery 180392: msg 1180094 to local hyunjuseo@giblue.co.kr
+Nov 19 06:51:45 localhost qmail: 1700347905.640689 status: local 2/10 remote 1/20
+Nov 19 06:51:45 localhost qmail: 1700347905.640698 delivery 180391: success: did_1+0+0/
+Nov 19 06:51:45 localhost qmail: 1700347905.640781 status: local 1/10 remote 1/20
+Nov 19 06:51:45 localhost qmail: 1700347905.640818 end msg 1180061
+Nov 19 06:51:45 localhost qmail: 1700347905.803350 delivery 180392: success: did_1+0+0/
+Nov 19 06:51:45 localhost qmail: 1700347905.803444 status: local 0/10 remote 1/20
+Nov 19 06:51:45 localhost qmail: 1700347905.803492 end msg 1180094
+Nov 19 06:52:02 localhost qmail: 1700347922.096773 new msg 1180061
+Nov 19 06:52:02 localhost qmail: 1700347922.096812 info msg 1180061: bytes 581 from <root@mgenplus.net> qp 31510 uid 500
+Nov 19 06:52:02 localhost qmail: 1700347922.217235 starting delivery 180393: msg 1180061 to local anymate@mgenplus.net
+
+
+
+
+
+
+Dec  4 11:05:45 localhost qmail: 1701659145.753244 info msg 1180088: bytes 57767 from <jongyeol.park@hp.com> qp 28264 uid 502
+Dec  4 11:05:45 localhost qmail: 1701659145.834840 starting delivery 210852: msg 1180088 to local likh@giblue.co.kr
+Dec  4 11:05:45 localhost qmail: 1701659145.834877 status: local 1/10 remote 0/20
+Dec  4 11:05:45 localhost qmail: 1701659145.834888 new msg 1180026
+Dec  4 11:05:45 localhost qmail: 1701659145.834903 info msg 1180026: bytes 57767 from <jongyeol.park@hp.com> qp 28262 uid 502
+Dec  4 11:05:46 localhost qmail: 1701659146.020125 new msg 1180023
+Dec  4 11:05:46 localhost qmail: 1701659146.020164 info msg 1180023: bytes 57767 from <jongyeol.park@hp.com> qp 28261 uid 502
+Dec  4 11:05:46 localhost qmail: 1701659146.085060 starting delivery 210853: msg 1180026 to local guguoxin@giblue.co.kr
+Dec  4 11:05:46 localhost qmail: 1701659146.085099 status: local 2/10 remote 0/20
+Dec  4 11:05:46 localhost qmail: 1701659146.085245 starting delivery 210854: msg 1180023 to local im7958@giblue.co.kr
+Dec  4 11:05:46 localhost qmail: 1701659146.085276 status: local 3/10 remote 0/20
+Dec  4 11:05:46 localhost qmail: 1701659146.085284 new msg 1180089
+Dec  4 11:05:46 localhost qmail: 1701659146.085295 info msg 1180089: bytes 57767 from <jongyeol.park@hp.com> qp 28265 uid 502
+Dec  4 11:05:46 localhost qmail: 1701659146.388243 starting delivery 210855: msg 1180089 to local wangys@giblue.co.kr
+Dec  4 11:05:46 localhost qmail: 1701659146.388275 status: local 4/10 remote 0/20
+Dec  4 11:05:46 localhost qmail: 1701659146.388357 new msg 1180086
+Dec  4 11:05:46 localhost qmail: 1701659146.388394 info msg 1180086: bytes 57767 from <jongyeol.park@hp.com> qp 28263 uid 502
+Dec  4 11:05:46 localhost qmail: 1701659146.592842 delivery 210854: success: did_1+0+0/
+Dec  4 11:05:46 localhost qmail: 1701659146.592936 status: local 3/10 remote 0/20
+Dec  4 11:05:46 localhost qmail: 1701659146.592950 delivery 210853: success: did_1+0+1/
+Dec  4 11:05:46 localhost qmail: 1701659146.593008 status: local 2/10 remote 0/20
+Dec  4 11:05:46 localhost qmail: 1701659146.593054 starting delivery 210856: msg 1180086 to local khs5235@giblue.co.kr
+Dec  4 11:05:46 localhost qmail: 1701659146.593068 status: local 3/10 remote 0/20
+Dec  4 11:05:46 localhost qmail: 1701659146.593099 end msg 1180023
+Dec  4 11:05:46 localhost qmail: 1701659146.593300 end msg 1180026
+Dec  4 11:05:46 localhost qmail: 1701659146.659139 delivery 210856: success: did_1+0+0/
+Dec  4 11:05:46 localhost qmail: 1701659146.662972 status: local 2/10 remote 0/20
+Dec  4 11:05:46 localhost qmail: 1701659146.663007 end msg 1180086
+Dec  4 11:05:46 localhost qmail: 1701659146.679563 new msg 1180090
+Dec  4 11:05:46 localhost qmail: 1701659146.679767 info msg 1180090: bytes 57767 from <jongyeol.park@hp.com> qp 28266 uid 502
+Dec  4 11:05:46 localhost qmail: 1701659146.803595 starting delivery 210857: msg 1180090 to local chj812@giblue.co.kr
+Dec  4 11:05:46 localhost qmail: 1701659146.803633 status: local 3/10 remote 0/20
+
+
+
+Dec  4 11:05:46 localhost qmail: 1701659146.803656 delivery 210852: success: PHP_Notice:__Undefined_offset:_2_in_/home/anymate/wwwmgenplusweihainet-8030/m/mail/c
+lass/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/home/anymate/wwwmgenplusweihainet-8030/m/mail/class/class.mailParser.inc.php_on_line_2
+18/PHP_Notice:__Undefined_index:_text_in_/home/anymate/wwwmgenplusweihainet-8030/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text
+_in_/home/anymate/wwwmgenplusweihainet-8030/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/12/04_12:05:46]_found_in_white_list/[2023/12/04_12:05:46]_cat
+ch_or_not_?:_Y/did_1+0+1/
+
+
+Dec  4 11:05:46 localhost qmail: 1701659146.803762 status: local 2/10 remote 0/20
+Dec  4 11:05:46 localhost qmail: 1701659146.803802 delivery 210855: success: PHP_Notice:__Undefined_offset:_2_in_/home/anymate/wwwmgenplusweihainet-8030/m/mail/c
+lass/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/home/anymate/wwwmgenplusweihainet-8030/m/mail/class/class.mailParser.inc.php_on_line_2
+18/PHP_Notice:__Undefined_index:_text_in_/home/anymate/wwwmgenplusweihainet-8030/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text
+_in_/home/anymate/wwwmgenplusweihainet-8030/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/12/04_12:05:46]_catched_smart_rule_200/[2023/12/04_12:05:46]_
+catch_or_not_?:_Y/did_1+0+1/
+Dec  4 11:05:46 localhost qmail: 1701659146.803821 status: local 1/10 remote 0/20
+Dec  4 11:05:46 localhost qmail: 1701659146.803859 end msg 1180088
+Dec  4 11:05:46 localhost qmail: 1701659146.804026 end msg 1180089
+Dec  4 11:05:47 localhost qmail: 1701659147.219887 delivery 210857: success: PHP_Notice:__Undefined_offset:_2_in_/home/anymate/wwwmgenplusweihainet-8030/m/mail/c
+lass/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_2_in_/home/anymate/wwwmgenplusweihainet-8030/m/mail/class/class.mailParser.inc.php_on_line_2
+18/PHP_Notice:__Undefined_index:_text_in_/home/anymate/wwwmgenplusweihainet-8030/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text
+_in_/home/anymate/wwwmgenplusweihainet-8030/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/12/04_12:05:47]_found_in_white_list/[2023/12/04_12:05:47]_cat
+ch_or_not_?:_Y/did_1+0+1/
+Dec  4 11:05:47 localhost qmail: 1701659147.219987 status: local 0/10 remote 0/20
+Dec  4 11:05:47 localhost qmail: 1701659147.220063 end msg 1180090
+Dec  4 11:06:01 localhost qmail: 1701659161.363225 new msg 1180023
+Dec  4 11:06:01 localhost qmail: 1701659161.363266 info msg 1180023: bytes 579 from <root@mgenplus.net> qp 28330 uid 500
+Dec  4 11:06:01 localhost qmail: 1701659161.442140 starting delivery 210858: msg 1180023 to local anymate@mgenplus.net
+Dec  4 11:06:01 localhost qmail: 1701659161.442166 status: local 1/10 remote 0/20
+Dec  4 11:06:01 localhost qmail: 1701659161.445236 delivery 210858: success: did_0+0+0/
+Dec  4 11:06:01 localhost qmail: 1701659161.445325 status: local 0/10 remote 0/20
+Dec  4 11:06:01 localhost qmail: 1701659161.445356 end msg 1180023
+Dec  4 11:06:04 localhost qmail: 1701659164.845576 new msg 1180023
+Dec  4 11:06:04 localhost qmail: 1701659164.845617 info msg 1180023: bytes 590 from <root@mgenplus.net> qp 28334 uid 500
+Dec  4 11:06:04 localhost qmail: 1701659164.935434 starting delivery 210859: msg 1180023 to local anymate@mgenplus.net
+Dec  4 11:06:04 localhost qmail: 1701659164.935461 status: local 1/10 remote 0/20
+Dec  4 11:06:04 localhost qmail: 1701659164.938581 delivery 210859: success: did_0+0+0/
+Dec  4 11:06:04 localhost qmail: 1701659164.938671 status: local 0/10 remote 0/20
+Dec  4 11:06:04 localhost qmail: 1701659164.938704 end msg 1180023
+Dec  4 11:08:01 localhost qmail: 1701659281.416937 new msg 1180023
+Dec  4 11:08:01 localhost qmail: 1701659281.416971 info msg 1180023: bytes 579 from <root@mgenplus.net> qp 28430 uid 500
+Dec  4 11:08:01 localhost qmail: 1701659281.600947 starting delivery 210860: msg 1180023 to local anymate@mgenplus.net
+Dec  4 11:08:01 localhost qmail: 1701659281.600986 status: local 1/10 remote 0/20
+Dec  4 11:08:01 localhost qmail: 1701659281.603891 delivery 210860: success: did_0+0+0/
+Dec  4 11:08:01 localhost qmail: 1701659281.603982 status: local 0/10 remote 0/20
+Dec  4 11:08:01 localhost qmail: 1701659281.604014 end msg 1180023
+Dec  4 11:08:05 localhost qmail: 1701659285.003634 new msg 1180023
+
+

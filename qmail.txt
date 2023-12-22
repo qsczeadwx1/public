@@ -1,0 +1,19 @@
+/var/qmail 에서 메일 설정들 볼 수 있음...
+
+/var/qmail/control 에서 기본 메일 도메인 확인가능
+
+/home/anymate/gwmkkim2com/data/com/CA/mail/mailuser 에서 지금 그룹웨어 메일 유저 확인가능
+
+/home/anymate/gwmkkim2com/data/com/CA/mail/mailuser/(유저아이디)/mailfiles 에서 메일 원본 확인가능
+
+crontab >> 스케쥴러 느낌
+
+그랜드
+
+스팸메일이 와있는데,
+
+직원 성과보고서
+
+클릭해서 링크만
+
+buty010

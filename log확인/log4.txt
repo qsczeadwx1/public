@@ -1,0 +1,67 @@
+Oct 23 08:36:02 localhost qmail: 1698017762.051480 new msg 47842611
+Oct 23 08:36:02 localhost qmail: 1698017762.051507 info msg 47842611: bytes 4408 from <choi.st@ajusteel.co.kr> qp 1713 uid 502
+Oct 23 08:36:02 localhost qmail: 1698017762.052313 starting delivery 395921: msg 47842611 to local yongkuk@kangnam.co.kr
+Oct 23 08:36:02 localhost qmail: 1698017762.052325 status: local 1/10 remote 0/20
+Oct 23 08:36:02 localhost qmail: 1698017762.061977 new msg 47842615
+Oct 23 08:36:02 localhost qmail: 1698017762.061997 info msg 47842615: bytes 708 from <root@kangnam.co.kr> qp 1718 uid 501
+Oct 23 08:36:02 localhost qmail: 1698017762.062878 starting delivery 395922: msg 47842615 to local anymate@kangnam.co.kr
+Oct 23 08:36:02 localhost qmail: 1698017762.062890 status: local 2/10 remote 0/20
+Oct 23 08:36:02 localhost qmail: 1698017762.064529 delivery 395922: success: did_0+0+0/
+Oct 23 08:36:02 localhost qmail: 1698017762.064596 status: local 1/10 remote 0/20
+Oct 23 08:36:02 localhost qmail: 1698017762.064620 end msg 47842615
+Oct 23 08:36:02 localhost qmail: 1698017762.132341 new msg 47842615
+Oct 23 08:36:02 localhost qmail: 1698017762.132369 info msg 47842615: bytes 62058 from <donghwan_3@kangnam.co.kr> qp 1731 uid 501
+Oct 23 08:36:02 localhost qmail: 1698017762.133172 starting delivery 395923: msg 47842615 to local weijin@kangnam.co.kr
+Oct 23 08:36:02 localhost qmail: 1698017762.133188 status: local 2/10 remote 0/20
+Oct 23 08:36:02 localhost qmail: 1698017762.138795 new msg 47842621
+Oct 23 08:36:02 localhost qmail: 1698017762.138821 info msg 47842621: bytes 62058 from <donghwan_3@kangnam.co.kr> qp 1734 uid 501
+Oct 23 08:36:02 localhost qmail: 1698017762.139612 starting delivery 395924: msg 47842621 to local minyoung_1@kangnam.co.kr
+Oct 23 08:36:02 localhost qmail: 1698017762.139629 status: local 3/10 remote 0/20
+Oct 23 08:36:02 localhost qmail: 1698017762.141677 delivery 395923: success: did_1+0+0/
+Oct 23 08:36:02 localhost qmail: 1698017762.141743 status: local 2/10 remote 0/20
+Oct 23 08:36:02 localhost qmail: 1698017762.141769 end msg 47842615
+Oct 23 08:36:02 localhost qmail: 1698017762.288405 delivery 395924: success: PHP_Notice:__Undefined_index:_SERVER_NAME_in_/home/anymate/nestkangnamcokr/config/config.custom.inc.php_on_line_345//Notice:_Undefined_index:_SERVER_NAME_in_/ho
+me/anymate/nestkangnamcokr/config/config.custom.inc.php_on_line_345/[2023/10/23_08:36:02]_found_in_white_domain/[2023/10/23_08:36:02]_pass_rules/[2023/10/23_08:36:02]_pass_rules/[2023/10/23_08:36:02]_pass_rules/[2023/10/23_08:36:02]_pass
+_rules/[2023/10/23_08:36:02]_pass_rules/[2023/10/23_08:36:02]_pass_rules/[2023/10/23_08:36:02]_pass_rules/[2023/10/23_08:36:02]_pass_rules/[2023/10/23_08:36:02]_pass_rules/[2023/10/23_08:36:02]_catched/[2023/10/23_08:36:02]_folder_no:436
+6/[2023/10/23_08:36:02]_catch_or_not_?:_Y/PHP_Notice:__Undefined_index:_HTTP_HOST_in_/home/anymate/nestkangnamcokr/m/mail/class/class.mailL
+Oct 23 08:36:02 localhost qmail: 1698017762.288405+oad.inc.php_on_line_1906//Notice:_Undefined_index:_HTTP_HOST_in_/home/anymate/nestkangnamcokr/m/mail/class/class.mailLoad.inc.php_on_line_1906/did_1+0+1/
+Oct 23 08:36:02 localhost qmail: 1698017762.288446 status: local 1/10 remote 0/20
+Oct 23 08:36:02 localhost qmail: 1698017762.288449 end msg 47842621
+Oct 23 08:36:02 localhost qmail: 1698017762.654187 delivery 395921: success: PHP_Notice:__Undefined_index:_SERVER_NAME_in_/home/anymate/nestkangnamcokr/config/config.custom.inc.php_on_line_345//Notice:_Undefined_index:_SERVER_NAME_in_/ho
+me/anymate/nestkangnamcokr/config/config.custom.inc.php_on_line_345/PHP_Notice:__Undefined_offset:_1_in_/home/anymate/nestkangnamcokr/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_offset:_1_in_/home/anymate/nestkan
+gnamcokr/m/mail/class/class.mailParser.inc.php_on_line_218/PHP_Notice:__Undefined_index:_text_in_/home/anymate/nestkangnamcokr/m/mail/class/class.mailParser.inc.php_on_line_218//Notice:_Undefined_index:_text_in_/home/anymate/nestkangnamc
+okr/m/mail/class/class.mailParser.inc.php_on_line_218/[2023/10/23_08:36:02]_found_in_white_list/[2023/10/23_08:36:02]_catch_or_not_?:_Y/did
+Oct 23 08:36:02 localhost qmail: 1698017762.654187+_1+0+1/
+Oct 23 08:36:02 localhost qmail: 1698017762.654238 status: local 0/10 remote 0/20
+Oct 23 08:36:02 localhost qmail: 1698017762.654263 end msg 47842611
+Oct 23 08:36:07 localhost pop3: 1698017767.990391 tcpserver: status: 1/255
+Oct 23 08:36:07 localhost pop3: 1698017767.990564 tcpserver: pid 2118 from 192.168.91.90
+Oct 23 08:36:07 localhost pop3: 1698017767.990594 tcpserver: ok 2118 0:210.126.176.19:110 :192.168.91.90::47124
+Oct 23 08:36:08 localhost pop3: 1698017768.116809 tcpserver: end 2118 status 256
+Oct 23 08:36:08 localhost pop3: 1698017768.116839 tcpserver: status: 0/255
+Oct 23 08:36:17 localhost pop3: 1698017777.169966 tcpserver: status: 1/255
+Oct 23 08:36:17 localhost pop3: 1698017777.170135 tcpserver: pid 2159 from 192.168.91.154
+Oct 23 08:36:17 localhost pop3: 1698017777.170165 tcpserver: ok 2159 0:210.126.176.19:110 :192.168.91.154::56651
+Oct 23 08:36:17 localhost pop3: 1698017777.419759 tcpserver: end 2159 status 256
+Oct 23 08:36:17 localhost pop3: 1698017777.419786 tcpserver: status: 0/255
+Oct 23 08:36:20 localhost dovecot: auth: Debug: Loading modules from directory: /usr/local/dovecot/lib/dovecot/auth
+Oct 23 08:36:20 localhost dovecot: auth: Debug: auth client connected (pid=2165)
+Oct 23 08:36:33 localhost dovecot: imap-login: Disconnected (no auth attempts): rip=42.144.88.192, lip=210.126.176.19, TLS
+Oct 23 08:36:37 localhost pop3: 1698017797.299328 tcpserver: status: 1/255
+Oct 23 08:36:37 localhost pop3: 1698017797.299557 tcpserver: pid 2260 from 192.168.103.15
+Oct 23 08:36:37 localhost pop3: 1698017797.299587 tcpserver: ok 2260 0:210.126.176.19:110 :192.168.103.15::63332
+Oct 23 08:36:37 localhost pop3: 1698017797.408570 tcpserver: end 2260 status 256
+Oct 23 08:36:37 localhost pop3: 1698017797.408597 tcpserver: status: 0/255
+Oct 23 08:36:37 localhost pop3: 1698017797.451341 tcpserver: status: 1/255
+Oct 23 08:36:37 localhost pop3: 1698017797.451571 tcpserver: pid 2262 from 192.168.103.15
+Oct 23 08:36:37 localhost pop3: 1698017797.451601 tcpserver: ok 2262 0:210.126.176.19:110 :192.168.103.15::63333
+Oct 23 08:36:37 localhost pop3: 1698017797.547543 tcpserver: end 2262 status 256
+Oct 23 08:36:37 localhost pop3: 1698017797.547568 tcpserver: status: 0/255
+Oct 23 08:36:40 localhost qmail: 1698017800.587180 new msg 47842611
+Oct 23 08:36:40 localhost qmail: 1698017800.587203 info msg 47842611: bytes 15166 from <yunkoo@kangnam.co.kr> qp 2268 uid 501
+
+
+디비밸리
+
+엠젠솔루션 김현?
+

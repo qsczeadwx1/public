@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+
+body {
+	height:100%; width:100%; margin: 0px; padding: 0; font-size:12px; font-family: Gulim, Verdana, Arial, Helvetica, sans-serif; color: #787878; line-height: 1.6em;
+	background:url('../image/login/custom/login/bg.png')no-repeat; background-size:100% 100%;
+	}
+html {height:100%;}  
+div, P, ul, li, img, a, table, td, tr, h1, h2, h3, h4, h5, h6, form, input, span, iframe 
+{margin: 0px; padding: 0px; font-weight:normal; }
+body form {margin: 0; padding: 0; height:100%;}
+
+legend{ padding:0; margin:0; height:0px; font-size:0; line-height:0;} 
+label { padding:0; margin:0;}
+fieldset {border:none; padding:0; margin:0;}
+table {font-size:1em;}
+table, th {margin: 0px;	padding: 0px;}
+td {font-weight:normal;} 
+hr {visibility:hidden; margin: 0px; height:0px; display:none;}
+li img { vertical-align: middle;}
+p, div, select {color: #fff;}
+h4,h3 {font-size:1em;}
+
+/*
+table caption {visibility:hidden; height:1px; overflow:hidden;}
+table caption {display:none;}
+*/
+
+img { border: none;vertical-align:middle;}
+ul, li{	list-style : none ;}
+dl, dt, dd {margin:0px; padding:0px; overflow:hidden;}
+
+a{}
+a:link, a:active,
+a:visited {color: #555555; text-decoration: none;}
+a:hover {color: #000; text-decoration: none;}
+
+#loginW {width:100%; height:100%;margin:auto; overflow:hidden; }
+#loginW .nopngBG {margin:120px auto 50px auto; display:block;}
+
+#loginBOXw {width:452px; height:100%; background:url('../image/login/custom/login/bg2.png');}
+#loginBOX { width:100%;}
+.login_top {overflow:hidden; text-align:center;}
+
+.loginFORM {clear:both; width:275px; margin:0 auto;}
+.loginFORM ul li {color:#fff; font-family:tahoma;  margin-bottom:6px;}
+
+.input_login {background-color:#fff;height:34px; border:0px; font-family:tahoma, 굴림; 
+			font-size:13px; color:#454545; vertical-align:middle; width:261px; 
+			padding-left:10px; margin:5px 0 0 0;}
+.select_login {background-color:#fff;height:34px; border:0px; font-family:tahoma, 굴림; 
+			font-size:13px; color:#454545; vertical-align:middle; width:271px; 
+			padding-left:7px; margin:5px 0 0 0;}
+.chromeBox{width:100%;text-align:center; }
+.chromeBox img {margin:70px 0;}
+.copyright {width:275px; margin:0 auto; text-align:center; border-top:1px solid #5e5e5e; padding-top:15px; font-family:tahoma,돋움,dotum; font-size:11px; color:#9d9d9d; letter-spacing:-1px;}
+
+#btn_login {margin:10px 0; color:#f0efef;}
+#login_bgimage {position:absolute; top:0; left:0; width:100%; height:100%; z-index:-1; overflow:hidden}
